@@ -15,6 +15,7 @@ HAVE_LTCG     ?= 0
 HAVE_GENERIC_JIT := 1
 HAVE_GL3      := 0
 FORCE_GLES    := 0
+HAVE_ANGLE	  ?= 0
 STATIC_LINKING:= 0
 HAVE_TEXUPSCALE := 1
 HAVE_OPENMP   := 1
@@ -60,7 +61,7 @@ endif
 UNAME=$(shell uname -a)
 
 LIBRETRO_DIR := .
-
+ANGLE_DIR ?= $(LIBRETRO_DIR)/../ANGLE
 # Cross compile ?
 
 ifeq (,$(ARCH))
@@ -835,7 +836,11 @@ ifeq ($(WITH_DYNAREC), x86)
 	LDFLAGS += -m32
 	CFLAGS += -m32
 endif
-	HAVE_VULKAN = 1
+	ifeq ($(HAVE_ANGLE), 1)
+		FORCE_GLES = 1
+	else
+		HAVE_VULKAN = 1
+	endif
 
 endif
 
@@ -885,8 +890,14 @@ ifeq ($(WITH_DYNAREC), mips)
 endif
 
 ifeq ($(FORCE_GLES),1)
-	GLES = 1
-	GL_LIB := -lGLESv2
+	ifeq ($(HAVE_ANGLE), 1)
+		GLES = 1
+		INCFLAGS += -I$(ANGLE_DIR)/include
+		GL_LIB := -L$(ANGLE_DIR) -lGLESv2
+	else
+		GLES = 1
+		GL_LIB := -lGLESv2
+	endif
 else ifneq (,$(findstring gles,$(platform)))
 	GLES = 1
 	GL_LIB := -lGLESv2
@@ -1021,6 +1032,9 @@ else
 endif
 ifeq ($(platform), win)
 	LDFLAGS_END += -Wl,-Bstatic -lgomp -lwsock32 -lws2_32 -liphlpapi
+	ifeq ($(HAVE_ANGLE), 1)
+		LDFLAGS_END += -Wl,-Bdynamic
+	endif
 endif
 	NEED_CXX11=1
 	NEED_PTHREAD=1
