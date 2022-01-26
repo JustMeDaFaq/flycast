@@ -39,9 +39,9 @@ extern "C" {
 */
 /* RETRO_LANGUAGE_AR */
 
-#define CATEGORY_VIDEO_LABEL_AR NULL
+#define CATEGORY_VIDEO_LABEL_AR "فيديو"
 #define CATEGORY_VIDEO_INFO_0_AR NULL
-#define CATEGORY_INPUT_LABEL_AR NULL
+#define CATEGORY_INPUT_LABEL_AR "الإدخال"
 #define CATEGORY_INPUT_INFO_0_AR NULL
 #define CATEGORY_VMU_LABEL_AR NULL
 #define CATEGORY_VMU_INFO_0_AR NULL
@@ -53,7 +53,7 @@ extern "C" {
 #define CORE_OPTION_NAME_BOOT_TO_BIOS_LABEL_AR NULL
 #define CORE_OPTION_NAME_BOOT_TO_BIOS_INFO_0_AR NULL
 #define CORE_OPTION_NAME_SYSTEM_LABEL_AR NULL
-#define OPTION_VAL_AUTO_AR NULL
+#define OPTION_VAL_AUTO_AR "تلقائي"
 #define OPTION_VAL_DREAMCAST_AR NULL
 #define OPTION_VAL_NAOMI_AR NULL
 #define OPTION_VAL_ATOMISWAVE_AR NULL
@@ -94,7 +94,7 @@ extern "C" {
 #define OPTION_VAL_11520X8640_AR NULL
 #define OPTION_VAL_12160X9120_AR NULL
 #define OPTION_VAL_12800X9600_AR NULL
-#define CORE_OPTION_NAME_SCREEN_ROTATION_LABEL_AR NULL
+#define CORE_OPTION_NAME_SCREEN_ROTATION_LABEL_AR "اتجاه الشاشة"
 #define OPTION_VAL_HORIZONTAL_AR NULL
 #define OPTION_VAL_VERTICAL_AR NULL
 #define CORE_OPTION_NAME_ALPHA_SORTING_LABEL_AR NULL
@@ -111,7 +111,7 @@ extern "C" {
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_LABEL_AR NULL
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_INFO_0_AR NULL
 #define CORE_OPTION_NAME_CABLE_TYPE_LABEL_AR NULL
-#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_AR NULL
+#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_AR "The output signal type. VGA is recommended, but some games might not be compatible with it."
 #define OPTION_VAL_TV_RGB_AR NULL
 #define OPTION_VAL_TV_COMPOSITE_AR NULL
 #define OPTION_VAL_VGA_RGB_AR NULL
@@ -124,18 +124,18 @@ extern "C" {
 #define CORE_OPTION_NAME_FRAMERATE_LABEL_AR NULL
 #define CORE_OPTION_NAME_FRAMERATE_INFO_0_AR NULL
 #define OPTION_VAL_FULLSPEED_AR NULL
-#define OPTION_VAL_NORMAL_AR NULL
-#define CORE_OPTION_NAME_REGION_LABEL_AR NULL
+#define OPTION_VAL_NORMAL_AR "عادي"
+#define CORE_OPTION_NAME_REGION_LABEL_AR "المنطقة"
 #define OPTION_VAL_JAPAN_AR NULL
 #define OPTION_VAL_USA_AR NULL
 #define OPTION_VAL_EUROPE_AR NULL
-#define CORE_OPTION_NAME_LANGUAGE_LABEL_AR NULL
-#define OPTION_VAL_JAPANESE_AR NULL
+#define CORE_OPTION_NAME_LANGUAGE_LABEL_AR "اللّغة"
+#define OPTION_VAL_JAPANESE_AR "Japanese - 日本語"
 #define OPTION_VAL_ENGLISH_AR NULL
-#define OPTION_VAL_GERMAN_AR NULL
-#define OPTION_VAL_FRENCH_AR NULL
-#define OPTION_VAL_SPANISH_AR NULL
-#define OPTION_VAL_ITALIAN_AR NULL
+#define OPTION_VAL_GERMAN_AR "German - Deutsch"
+#define OPTION_VAL_FRENCH_AR "French - Français"
+#define OPTION_VAL_SPANISH_AR "Spanish - Español"
+#define OPTION_VAL_ITALIAN_AR "Italian - Italiano"
 #define CORE_OPTION_NAME_DIV_MATCHING_LABEL_AR NULL
 #define CORE_OPTION_NAME_DIV_MATCHING_INFO_0_AR NULL
 #define CORE_OPTION_NAME_FORCE_WINCE_LABEL_AR NULL
@@ -200,21 +200,21 @@ extern "C" {
 #define CORE_OPTION_NAME_VMU1_SCREEN_SIZE_MULT_LABEL_AR NULL
 #define OPTION_VAL_5X_AR NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_ON_COLOR_LABEL_AR NULL
-#define OPTION_VAL_DEFAULT_OFF_01_AR NULL
 #define OPTION_VAL_DEFAULT_ON_00_AR NULL
+#define OPTION_VAL_DEFAULT_OFF_01_AR NULL
 #define OPTION_VAL_BLACK_02_AR NULL
-#define OPTION_VAL_BLUE_03_AR NULL
+#define OPTION_VAL_BLUE_03_AR "أزرق"
 #define OPTION_VAL_LIGHT_BLUE_04_AR NULL
-#define OPTION_VAL_GREEN_05_AR NULL
+#define OPTION_VAL_GREEN_05_AR "أخضر"
 #define OPTION_VAL_CYAN_06_AR NULL
 #define OPTION_VAL_CYAN_BLUE_07_AR NULL
 #define OPTION_VAL_LIGHT_GREEN_08_AR NULL
 #define OPTION_VAL_CYAN_GREEN_09_AR NULL
 #define OPTION_VAL_LIGHT_CYAN_10_AR NULL
-#define OPTION_VAL_RED_11_AR NULL
+#define OPTION_VAL_RED_11_AR "أحمر"
 #define OPTION_VAL_PURPLE_12_AR NULL
 #define OPTION_VAL_LIGHT_PURPLE_13_AR NULL
-#define OPTION_VAL_YELLOW_14_AR NULL
+#define OPTION_VAL_YELLOW_14_AR "أصفر"
 #define OPTION_VAL_GRAY_15_AR NULL
 #define OPTION_VAL_LIGHT_PURPLE_2_16_AR NULL
 #define OPTION_VAL_LIGHT_GREEN_2_17_AR NULL
@@ -222,12 +222,13 @@ extern "C" {
 #define OPTION_VAL_LIGHT_CYAN_2_19_AR NULL
 #define OPTION_VAL_LIGHT_RED_2_20_AR NULL
 #define OPTION_VAL_MAGENTA_21_AR NULL
-#define OPTION_VAL_LIGHT_ORANGE_22_AR NULL
-#define OPTION_VAL_ORANGE_23_AR NULL
-#define OPTION_VAL_LIGHT_PURPLE_3_24_AR NULL
-#define OPTION_VAL_LIGHT_YELLOW_25_AR NULL
-#define OPTION_VAL_LIGHT_YELLOW_2_26_AR NULL
-#define OPTION_VAL_WHITE_27_AR NULL
+#define OPTION_VAL_LIGHT_PURPLE_3_22_AR NULL
+#define OPTION_VAL_LIGHT_ORANGE_23_AR NULL
+#define OPTION_VAL_ORANGE_24_AR NULL
+#define OPTION_VAL_LIGHT_PURPLE_4_25_AR NULL
+#define OPTION_VAL_LIGHT_YELLOW_26_AR NULL
+#define OPTION_VAL_LIGHT_YELLOW_2_27_AR NULL
+#define OPTION_VAL_WHITE_28_AR NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_OFF_COLOR_LABEL_AR NULL
 #define CORE_OPTION_NAME_VMU1_SCREEN_OPACITY_LABEL_AR NULL
 #define OPTION_VAL_40_AR NULL
@@ -1037,8 +1038,8 @@ struct retro_core_option_v2_definition option_defs_ar[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_AR },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_AR },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_AR },
          { "BLACK 02",          OPTION_VAL_BLACK_02_AR },
          { "BLUE 03",           OPTION_VAL_BLUE_03_AR },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_AR },
@@ -1059,12 +1060,13 @@ struct retro_core_option_v2_definition option_defs_ar[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_AR },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_AR },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_AR },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_AR },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_AR },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_AR },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_AR },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_AR },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_AR },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_AR },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_AR },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_AR },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_AR },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_AR },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_AR },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_AR },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -1099,12 +1101,13 @@ struct retro_core_option_v2_definition option_defs_ar[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_AR },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_AR },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_AR },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_AR },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_AR },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_AR },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_AR },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_AR },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_AR },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_AR },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_AR },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_AR },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_AR },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_AR },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_AR },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_AR },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -1186,8 +1189,8 @@ struct retro_core_option_v2_definition option_defs_ar[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_AR },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_AR },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_AR },
          { "BLACK 02",          OPTION_VAL_BLACK_02_AR },
          { "BLUE 03",           OPTION_VAL_BLUE_03_AR },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_AR },
@@ -1208,12 +1211,13 @@ struct retro_core_option_v2_definition option_defs_ar[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_AR },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_AR },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_AR },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_AR },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_AR },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_AR },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_AR },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_AR },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_AR },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_AR },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_AR },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_AR },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_AR },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_AR },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_AR },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_AR },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -1248,12 +1252,13 @@ struct retro_core_option_v2_definition option_defs_ar[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_AR },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_AR },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_AR },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_AR },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_AR },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_AR },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_AR },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_AR },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_AR },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_AR },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_AR },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_AR },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_AR },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_AR },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_AR },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_AR },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -1335,8 +1340,8 @@ struct retro_core_option_v2_definition option_defs_ar[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_AR },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_AR },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_AR },
          { "BLACK 02",          OPTION_VAL_BLACK_02_AR },
          { "BLUE 03",           OPTION_VAL_BLUE_03_AR },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_AR },
@@ -1357,12 +1362,13 @@ struct retro_core_option_v2_definition option_defs_ar[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_AR },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_AR },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_AR },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_AR },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_AR },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_AR },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_AR },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_AR },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_AR },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_AR },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_AR },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_AR },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_AR },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_AR },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_AR },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_AR },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -1397,12 +1403,13 @@ struct retro_core_option_v2_definition option_defs_ar[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_AR },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_AR },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_AR },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_AR },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_AR },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_AR },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_AR },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_AR },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_AR },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_AR },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_AR },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_AR },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_AR },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_AR },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_AR },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_AR },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -1484,8 +1491,8 @@ struct retro_core_option_v2_definition option_defs_ar[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_AR },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_AR },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_AR },
          { "BLACK 02",          OPTION_VAL_BLACK_02_AR },
          { "BLUE 03",           OPTION_VAL_BLUE_03_AR },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_AR },
@@ -1506,12 +1513,13 @@ struct retro_core_option_v2_definition option_defs_ar[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_AR },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_AR },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_AR },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_AR },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_AR },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_AR },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_AR },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_AR },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_AR },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_AR },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_AR },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_AR },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_AR },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_AR },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_AR },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_AR },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -1546,12 +1554,13 @@ struct retro_core_option_v2_definition option_defs_ar[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_AR },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_AR },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_AR },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_AR },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_AR },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_AR },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_AR },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_AR },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_AR },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_AR },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_AR },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_AR },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_AR },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_AR },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_AR },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_AR },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -1601,7 +1610,7 @@ struct retro_core_option_v2_definition option_defs_ar[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_AR },
+         { "White",    OPTION_VAL_WHITE_28_AR },
          { "Red",      OPTION_VAL_RED_11_AR },
          { "Green",    OPTION_VAL_GREEN_05_AR },
          { "Blue",     OPTION_VAL_BLUE_03_AR },
@@ -1618,7 +1627,7 @@ struct retro_core_option_v2_definition option_defs_ar[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_AR },
+         { "White",    OPTION_VAL_WHITE_28_AR },
          { "Red",      OPTION_VAL_RED_11_AR },
          { "Green",    OPTION_VAL_GREEN_05_AR },
          { "Blue",     OPTION_VAL_BLUE_03_AR },
@@ -1635,7 +1644,7 @@ struct retro_core_option_v2_definition option_defs_ar[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_AR },
+         { "White",    OPTION_VAL_WHITE_28_AR },
          { "Red",      OPTION_VAL_RED_11_AR },
          { "Green",    OPTION_VAL_GREEN_05_AR },
          { "Blue",     OPTION_VAL_BLUE_03_AR },
@@ -1652,7 +1661,7 @@ struct retro_core_option_v2_definition option_defs_ar[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_AR },
+         { "White",    OPTION_VAL_WHITE_28_AR },
          { "Red",      OPTION_VAL_RED_11_AR },
          { "Green",    OPTION_VAL_GREEN_05_AR },
          { "Blue",     OPTION_VAL_BLUE_03_AR },
@@ -1671,10 +1680,10 @@ struct retro_core_options_v2 options_ar = {
 
 #define CATEGORY_VIDEO_LABEL_AST "Videu"
 #define CATEGORY_VIDEO_INFO_0_AST NULL
-#define CATEGORY_INPUT_LABEL_AST NULL
+#define CATEGORY_INPUT_LABEL_AST "Entrada"
 #define CATEGORY_INPUT_INFO_0_AST NULL
 #define CATEGORY_VMU_LABEL_AST NULL
-#define CATEGORY_VMU_INFO_0_AST NULL
+#define CATEGORY_VMU_INFO_0_AST "Configura los axustes rellacionaos coles VMU."
 #define CATEGORY_HACKS_LABEL_AST NULL
 #define CATEGORY_HACKS_INFO_0_AST NULL
 #define CORE_OPTION_NAME_CPU_MODE_LABEL_AST NULL
@@ -1687,7 +1696,7 @@ struct retro_core_options_v2 options_ar = {
 #define OPTION_VAL_DREAMCAST_AST NULL
 #define OPTION_VAL_NAOMI_AST NULL
 #define OPTION_VAL_ATOMISWAVE_AST NULL
-#define CORE_OPTION_NAME_HLE_BIOS_LABEL_AST NULL
+#define CORE_OPTION_NAME_HLE_BIOS_LABEL_AST "BIOS HLE"
 #define CORE_OPTION_NAME_HLE_BIOS_INFO_0_AST NULL
 #define CORE_OPTION_NAME_OIT_ABUFFER_SIZE_LABEL_AST NULL
 #define CORE_OPTION_NAME_OIT_ABUFFER_SIZE_INFO_0_AST NULL
@@ -1696,7 +1705,7 @@ struct retro_core_options_v2 options_ar = {
 #define OPTION_VAL_2GB_AST NULL
 #define OPTION_VAL_4GB_AST NULL
 #define CORE_OPTION_NAME_INTERNAL_RESOLUTION_LABEL_AST NULL
-#define CORE_OPTION_NAME_INTERNAL_RESOLUTION_INFO_0_AST NULL
+#define CORE_OPTION_NAME_INTERNAL_RESOLUTION_INFO_0_AST "Modifica la resolución del renderizáu."
 #define OPTION_VAL_320X240_AST NULL
 #define OPTION_VAL_640X480_AST NULL
 #define OPTION_VAL_800X600_AST NULL
@@ -1732,7 +1741,7 @@ struct retro_core_options_v2 options_ar = {
 #define OPTION_VAL_PER_TRIANGLE_NORMAL_AST NULL
 #define OPTION_VAL_PER_PIXEL_ACCURATE_AST NULL
 #define CORE_OPTION_NAME_GDROM_FAST_LOADING_LABEL_AST NULL
-#define CORE_OPTION_NAME_GDROM_FAST_LOADING_INFO_0_AST NULL
+#define CORE_OPTION_NAME_GDROM_FAST_LOADING_INFO_0_AST "Aumenta la velocidá de carga de los GD-ROMs."
 #define CORE_OPTION_NAME_MIPMAPPING_LABEL_AST NULL
 #define CORE_OPTION_NAME_FOG_LABEL_AST NULL
 #define CORE_OPTION_NAME_VOLUME_MODIFIER_ENABLE_LABEL_AST "Modificador del volume"
@@ -1741,7 +1750,7 @@ struct retro_core_options_v2 options_ar = {
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_LABEL_AST NULL
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_INFO_0_AST NULL
 #define CORE_OPTION_NAME_CABLE_TYPE_LABEL_AST "Tipu de cable"
-#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_AST NULL
+#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_AST "The output signal type. VGA is recommended, but some games might not be compatible with it."
 #define OPTION_VAL_TV_RGB_AST NULL
 #define OPTION_VAL_TV_COMPOSITE_AST "TV (Compuestu)"
 #define OPTION_VAL_VGA_RGB_AST NULL
@@ -1768,8 +1777,8 @@ struct retro_core_options_v2 options_ar = {
 #define OPTION_VAL_ITALIAN_AST "Italianu"
 #define CORE_OPTION_NAME_DIV_MATCHING_LABEL_AST NULL
 #define CORE_OPTION_NAME_DIV_MATCHING_INFO_0_AST NULL
-#define CORE_OPTION_NAME_FORCE_WINCE_LABEL_AST NULL
-#define CORE_OPTION_NAME_FORCE_WINCE_INFO_0_AST NULL
+#define CORE_OPTION_NAME_FORCE_WINCE_LABEL_AST "Forciar el mou de Windows CE"
+#define CORE_OPTION_NAME_FORCE_WINCE_INFO_0_AST "Activa la emulación completa de la unidá de xestión de memoria (MMU) y otros axustes pa los xuegos de Windows CE."
 #define CORE_OPTION_NAME_ANALOG_STICK_DEADZONE_LABEL_AST NULL
 #define OPTION_VAL_0_AST NULL
 #define OPTION_VAL_5_AST NULL
@@ -1780,8 +1789,8 @@ struct retro_core_options_v2 options_ar = {
 #define OPTION_VAL_30_AST NULL
 #define CORE_OPTION_NAME_TRIGGER_DEADZONE_LABEL_AST NULL
 #define CORE_OPTION_NAME_DIGITAL_TRIGGERS_LABEL_AST NULL
-#define CORE_OPTION_NAME_ENABLE_DSP_LABEL_AST NULL
-#define CORE_OPTION_NAME_ENABLE_DSP_INFO_0_AST NULL
+#define CORE_OPTION_NAME_ENABLE_DSP_LABEL_AST "Activar el DSP"
+#define CORE_OPTION_NAME_ENABLE_DSP_INFO_0_AST "Activa la emulación del procesador de señal dixital (DSP) d'audiu de Dreamcast. Ameyora la precisión del soníu xeneráu mas aumenta los requirimientos de rindimientu."
 #define CORE_OPTION_NAME_ANISOTROPIC_FILTERING_LABEL_AST NULL
 #define CORE_OPTION_NAME_ANISOTROPIC_FILTERING_INFO_0_AST NULL
 #define CORE_OPTION_NAME_PVR2_FILTERING_LABEL_AST NULL
@@ -1817,7 +1826,7 @@ struct retro_core_options_v2 options_ar = {
 #define CORE_OPTION_NAME_PER_CONTENT_VMUS_LABEL_CAT_AST NULL
 #define CORE_OPTION_NAME_PER_CONTENT_VMUS_INFO_0_AST NULL
 #define OPTION_VAL_VMU_A1_AST NULL
-#define OPTION_VAL_ALL_VMUS_AST NULL
+#define OPTION_VAL_ALL_VMUS_AST "Toles VMUs"
 #define CORE_OPTION_NAME_SHOW_VMU_SCREEN_SETTINGS_LABEL_AST NULL
 #define CORE_OPTION_NAME_SHOW_VMU_SCREEN_SETTINGS_LABEL_CAT_AST NULL
 #define CORE_OPTION_NAME_SHOW_VMU_SCREEN_SETTINGS_INFO_0_AST NULL
@@ -1830,8 +1839,8 @@ struct retro_core_options_v2 options_ar = {
 #define CORE_OPTION_NAME_VMU1_SCREEN_SIZE_MULT_LABEL_AST NULL
 #define OPTION_VAL_5X_AST NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_ON_COLOR_LABEL_AST NULL
-#define OPTION_VAL_DEFAULT_OFF_01_AST NULL
 #define OPTION_VAL_DEFAULT_ON_00_AST NULL
+#define OPTION_VAL_DEFAULT_OFF_01_AST NULL
 #define OPTION_VAL_BLACK_02_AST "Prietu"
 #define OPTION_VAL_BLUE_03_AST "Azul"
 #define OPTION_VAL_LIGHT_BLUE_04_AST "Azul claro"
@@ -1852,12 +1861,13 @@ struct retro_core_options_v2 options_ar = {
 #define OPTION_VAL_LIGHT_CYAN_2_19_AST NULL
 #define OPTION_VAL_LIGHT_RED_2_20_AST NULL
 #define OPTION_VAL_MAGENTA_21_AST "Maxenta"
-#define OPTION_VAL_LIGHT_ORANGE_22_AST "Naranxa claro"
-#define OPTION_VAL_ORANGE_23_AST "Naranxa"
-#define OPTION_VAL_LIGHT_PURPLE_3_24_AST NULL
-#define OPTION_VAL_LIGHT_YELLOW_25_AST "Mariellu claro"
-#define OPTION_VAL_LIGHT_YELLOW_2_26_AST NULL
-#define OPTION_VAL_WHITE_27_AST "Blancu"
+#define OPTION_VAL_LIGHT_PURPLE_3_22_AST NULL
+#define OPTION_VAL_LIGHT_ORANGE_23_AST NULL
+#define OPTION_VAL_ORANGE_24_AST NULL
+#define OPTION_VAL_LIGHT_PURPLE_4_25_AST NULL
+#define OPTION_VAL_LIGHT_YELLOW_26_AST NULL
+#define OPTION_VAL_LIGHT_YELLOW_2_27_AST NULL
+#define OPTION_VAL_WHITE_28_AST NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_OFF_COLOR_LABEL_AST NULL
 #define CORE_OPTION_NAME_VMU1_SCREEN_OPACITY_LABEL_AST NULL
 #define OPTION_VAL_40_AST NULL
@@ -2667,8 +2677,8 @@ struct retro_core_option_v2_definition option_defs_ast[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_AST },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_AST },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_AST },
          { "BLACK 02",          OPTION_VAL_BLACK_02_AST },
          { "BLUE 03",           OPTION_VAL_BLUE_03_AST },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_AST },
@@ -2689,12 +2699,13 @@ struct retro_core_option_v2_definition option_defs_ast[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_AST },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_AST },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_AST },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_AST },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_AST },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_AST },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_AST },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_AST },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_AST },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_AST },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_AST },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_AST },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_AST },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_AST },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_AST },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_AST },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -2729,12 +2740,13 @@ struct retro_core_option_v2_definition option_defs_ast[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_AST },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_AST },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_AST },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_AST },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_AST },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_AST },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_AST },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_AST },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_AST },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_AST },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_AST },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_AST },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_AST },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_AST },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_AST },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_AST },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -2816,8 +2828,8 @@ struct retro_core_option_v2_definition option_defs_ast[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_AST },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_AST },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_AST },
          { "BLACK 02",          OPTION_VAL_BLACK_02_AST },
          { "BLUE 03",           OPTION_VAL_BLUE_03_AST },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_AST },
@@ -2838,12 +2850,13 @@ struct retro_core_option_v2_definition option_defs_ast[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_AST },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_AST },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_AST },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_AST },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_AST },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_AST },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_AST },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_AST },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_AST },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_AST },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_AST },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_AST },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_AST },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_AST },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_AST },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_AST },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -2878,12 +2891,13 @@ struct retro_core_option_v2_definition option_defs_ast[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_AST },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_AST },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_AST },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_AST },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_AST },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_AST },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_AST },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_AST },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_AST },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_AST },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_AST },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_AST },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_AST },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_AST },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_AST },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_AST },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -2965,8 +2979,8 @@ struct retro_core_option_v2_definition option_defs_ast[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_AST },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_AST },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_AST },
          { "BLACK 02",          OPTION_VAL_BLACK_02_AST },
          { "BLUE 03",           OPTION_VAL_BLUE_03_AST },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_AST },
@@ -2987,12 +3001,13 @@ struct retro_core_option_v2_definition option_defs_ast[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_AST },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_AST },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_AST },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_AST },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_AST },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_AST },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_AST },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_AST },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_AST },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_AST },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_AST },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_AST },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_AST },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_AST },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_AST },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_AST },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -3027,12 +3042,13 @@ struct retro_core_option_v2_definition option_defs_ast[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_AST },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_AST },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_AST },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_AST },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_AST },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_AST },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_AST },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_AST },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_AST },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_AST },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_AST },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_AST },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_AST },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_AST },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_AST },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_AST },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -3114,8 +3130,8 @@ struct retro_core_option_v2_definition option_defs_ast[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_AST },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_AST },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_AST },
          { "BLACK 02",          OPTION_VAL_BLACK_02_AST },
          { "BLUE 03",           OPTION_VAL_BLUE_03_AST },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_AST },
@@ -3136,12 +3152,13 @@ struct retro_core_option_v2_definition option_defs_ast[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_AST },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_AST },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_AST },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_AST },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_AST },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_AST },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_AST },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_AST },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_AST },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_AST },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_AST },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_AST },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_AST },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_AST },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_AST },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_AST },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -3176,12 +3193,13 @@ struct retro_core_option_v2_definition option_defs_ast[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_AST },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_AST },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_AST },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_AST },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_AST },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_AST },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_AST },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_AST },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_AST },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_AST },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_AST },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_AST },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_AST },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_AST },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_AST },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_AST },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -3231,7 +3249,7 @@ struct retro_core_option_v2_definition option_defs_ast[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_AST },
+         { "White",    OPTION_VAL_WHITE_28_AST },
          { "Red",      OPTION_VAL_RED_11_AST },
          { "Green",    OPTION_VAL_GREEN_05_AST },
          { "Blue",     OPTION_VAL_BLUE_03_AST },
@@ -3248,7 +3266,7 @@ struct retro_core_option_v2_definition option_defs_ast[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_AST },
+         { "White",    OPTION_VAL_WHITE_28_AST },
          { "Red",      OPTION_VAL_RED_11_AST },
          { "Green",    OPTION_VAL_GREEN_05_AST },
          { "Blue",     OPTION_VAL_BLUE_03_AST },
@@ -3265,7 +3283,7 @@ struct retro_core_option_v2_definition option_defs_ast[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_AST },
+         { "White",    OPTION_VAL_WHITE_28_AST },
          { "Red",      OPTION_VAL_RED_11_AST },
          { "Green",    OPTION_VAL_GREEN_05_AST },
          { "Blue",     OPTION_VAL_BLUE_03_AST },
@@ -3282,7 +3300,7 @@ struct retro_core_option_v2_definition option_defs_ast[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_AST },
+         { "White",    OPTION_VAL_WHITE_28_AST },
          { "Red",      OPTION_VAL_RED_11_AST },
          { "Green",    OPTION_VAL_GREEN_05_AST },
          { "Blue",     OPTION_VAL_BLUE_03_AST },
@@ -3371,7 +3389,7 @@ struct retro_core_options_v2 options_ast = {
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_LABEL_CA NULL
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_INFO_0_CA NULL
 #define CORE_OPTION_NAME_CABLE_TYPE_LABEL_CA NULL
-#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_CA NULL
+#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_CA "The output signal type. VGA is recommended, but some games might not be compatible with it."
 #define OPTION_VAL_TV_RGB_CA NULL
 #define OPTION_VAL_TV_COMPOSITE_CA NULL
 #define OPTION_VAL_VGA_RGB_CA NULL
@@ -3460,8 +3478,8 @@ struct retro_core_options_v2 options_ast = {
 #define CORE_OPTION_NAME_VMU1_SCREEN_SIZE_MULT_LABEL_CA NULL
 #define OPTION_VAL_5X_CA NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_ON_COLOR_LABEL_CA NULL
-#define OPTION_VAL_DEFAULT_OFF_01_CA NULL
 #define OPTION_VAL_DEFAULT_ON_00_CA NULL
+#define OPTION_VAL_DEFAULT_OFF_01_CA NULL
 #define OPTION_VAL_BLACK_02_CA NULL
 #define OPTION_VAL_BLUE_03_CA NULL
 #define OPTION_VAL_LIGHT_BLUE_04_CA NULL
@@ -3482,12 +3500,13 @@ struct retro_core_options_v2 options_ast = {
 #define OPTION_VAL_LIGHT_CYAN_2_19_CA NULL
 #define OPTION_VAL_LIGHT_RED_2_20_CA NULL
 #define OPTION_VAL_MAGENTA_21_CA NULL
-#define OPTION_VAL_LIGHT_ORANGE_22_CA NULL
-#define OPTION_VAL_ORANGE_23_CA NULL
-#define OPTION_VAL_LIGHT_PURPLE_3_24_CA NULL
-#define OPTION_VAL_LIGHT_YELLOW_25_CA NULL
-#define OPTION_VAL_LIGHT_YELLOW_2_26_CA NULL
-#define OPTION_VAL_WHITE_27_CA NULL
+#define OPTION_VAL_LIGHT_PURPLE_3_22_CA NULL
+#define OPTION_VAL_LIGHT_ORANGE_23_CA NULL
+#define OPTION_VAL_ORANGE_24_CA NULL
+#define OPTION_VAL_LIGHT_PURPLE_4_25_CA NULL
+#define OPTION_VAL_LIGHT_YELLOW_26_CA NULL
+#define OPTION_VAL_LIGHT_YELLOW_2_27_CA NULL
+#define OPTION_VAL_WHITE_28_CA NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_OFF_COLOR_LABEL_CA NULL
 #define CORE_OPTION_NAME_VMU1_SCREEN_OPACITY_LABEL_CA NULL
 #define OPTION_VAL_40_CA NULL
@@ -4297,8 +4316,8 @@ struct retro_core_option_v2_definition option_defs_ca[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_CA },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_CA },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_CA },
          { "BLACK 02",          OPTION_VAL_BLACK_02_CA },
          { "BLUE 03",           OPTION_VAL_BLUE_03_CA },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_CA },
@@ -4319,12 +4338,13 @@ struct retro_core_option_v2_definition option_defs_ca[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_CA },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_CA },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_CA },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_CA },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_CA },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_CA },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_CA },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_CA },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_CA },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_CA },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_CA },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_CA },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_CA },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_CA },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_CA },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_CA },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -4359,12 +4379,13 @@ struct retro_core_option_v2_definition option_defs_ca[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_CA },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_CA },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_CA },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_CA },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_CA },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_CA },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_CA },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_CA },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_CA },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_CA },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_CA },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_CA },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_CA },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_CA },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_CA },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_CA },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -4446,8 +4467,8 @@ struct retro_core_option_v2_definition option_defs_ca[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_CA },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_CA },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_CA },
          { "BLACK 02",          OPTION_VAL_BLACK_02_CA },
          { "BLUE 03",           OPTION_VAL_BLUE_03_CA },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_CA },
@@ -4468,12 +4489,13 @@ struct retro_core_option_v2_definition option_defs_ca[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_CA },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_CA },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_CA },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_CA },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_CA },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_CA },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_CA },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_CA },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_CA },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_CA },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_CA },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_CA },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_CA },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_CA },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_CA },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_CA },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -4508,12 +4530,13 @@ struct retro_core_option_v2_definition option_defs_ca[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_CA },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_CA },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_CA },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_CA },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_CA },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_CA },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_CA },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_CA },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_CA },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_CA },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_CA },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_CA },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_CA },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_CA },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_CA },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_CA },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -4595,8 +4618,8 @@ struct retro_core_option_v2_definition option_defs_ca[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_CA },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_CA },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_CA },
          { "BLACK 02",          OPTION_VAL_BLACK_02_CA },
          { "BLUE 03",           OPTION_VAL_BLUE_03_CA },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_CA },
@@ -4617,12 +4640,13 @@ struct retro_core_option_v2_definition option_defs_ca[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_CA },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_CA },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_CA },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_CA },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_CA },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_CA },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_CA },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_CA },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_CA },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_CA },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_CA },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_CA },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_CA },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_CA },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_CA },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_CA },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -4657,12 +4681,13 @@ struct retro_core_option_v2_definition option_defs_ca[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_CA },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_CA },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_CA },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_CA },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_CA },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_CA },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_CA },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_CA },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_CA },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_CA },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_CA },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_CA },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_CA },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_CA },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_CA },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_CA },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -4744,8 +4769,8 @@ struct retro_core_option_v2_definition option_defs_ca[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_CA },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_CA },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_CA },
          { "BLACK 02",          OPTION_VAL_BLACK_02_CA },
          { "BLUE 03",           OPTION_VAL_BLUE_03_CA },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_CA },
@@ -4766,12 +4791,13 @@ struct retro_core_option_v2_definition option_defs_ca[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_CA },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_CA },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_CA },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_CA },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_CA },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_CA },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_CA },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_CA },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_CA },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_CA },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_CA },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_CA },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_CA },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_CA },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_CA },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_CA },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -4806,12 +4832,13 @@ struct retro_core_option_v2_definition option_defs_ca[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_CA },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_CA },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_CA },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_CA },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_CA },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_CA },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_CA },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_CA },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_CA },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_CA },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_CA },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_CA },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_CA },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_CA },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_CA },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_CA },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -4861,7 +4888,7 @@ struct retro_core_option_v2_definition option_defs_ca[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_CA },
+         { "White",    OPTION_VAL_WHITE_28_CA },
          { "Red",      OPTION_VAL_RED_11_CA },
          { "Green",    OPTION_VAL_GREEN_05_CA },
          { "Blue",     OPTION_VAL_BLUE_03_CA },
@@ -4878,7 +4905,7 @@ struct retro_core_option_v2_definition option_defs_ca[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_CA },
+         { "White",    OPTION_VAL_WHITE_28_CA },
          { "Red",      OPTION_VAL_RED_11_CA },
          { "Green",    OPTION_VAL_GREEN_05_CA },
          { "Blue",     OPTION_VAL_BLUE_03_CA },
@@ -4895,7 +4922,7 @@ struct retro_core_option_v2_definition option_defs_ca[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_CA },
+         { "White",    OPTION_VAL_WHITE_28_CA },
          { "Red",      OPTION_VAL_RED_11_CA },
          { "Green",    OPTION_VAL_GREEN_05_CA },
          { "Blue",     OPTION_VAL_BLUE_03_CA },
@@ -4912,7 +4939,7 @@ struct retro_core_option_v2_definition option_defs_ca[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_CA },
+         { "White",    OPTION_VAL_WHITE_28_CA },
          { "Red",      OPTION_VAL_RED_11_CA },
          { "Green",    OPTION_VAL_GREEN_05_CA },
          { "Blue",     OPTION_VAL_BLUE_03_CA },
@@ -4929,13 +4956,13 @@ struct retro_core_options_v2 options_ca = {
 
 /* RETRO_LANGUAGE_CHS */
 
-#define CATEGORY_VIDEO_LABEL_CHS NULL
+#define CATEGORY_VIDEO_LABEL_CHS "视频"
 #define CATEGORY_VIDEO_INFO_0_CHS NULL
-#define CATEGORY_INPUT_LABEL_CHS NULL
+#define CATEGORY_INPUT_LABEL_CHS "输入"
 #define CATEGORY_INPUT_INFO_0_CHS NULL
 #define CATEGORY_VMU_LABEL_CHS NULL
 #define CATEGORY_VMU_INFO_0_CHS NULL
-#define CATEGORY_HACKS_LABEL_CHS NULL
+#define CATEGORY_HACKS_LABEL_CHS "模拟修改"
 #define CATEGORY_HACKS_INFO_0_CHS NULL
 #define CORE_OPTION_NAME_CPU_MODE_LABEL_CHS NULL
 #define OPTION_VAL_DYNAMIC_RECOMPILER_CHS NULL
@@ -4943,7 +4970,7 @@ struct retro_core_options_v2 options_ca = {
 #define CORE_OPTION_NAME_BOOT_TO_BIOS_LABEL_CHS NULL
 #define CORE_OPTION_NAME_BOOT_TO_BIOS_INFO_0_CHS NULL
 #define CORE_OPTION_NAME_SYSTEM_LABEL_CHS NULL
-#define OPTION_VAL_AUTO_CHS NULL
+#define OPTION_VAL_AUTO_CHS "自动"
 #define OPTION_VAL_DREAMCAST_CHS NULL
 #define OPTION_VAL_NAOMI_CHS NULL
 #define OPTION_VAL_ATOMISWAVE_CHS NULL
@@ -4984,9 +5011,9 @@ struct retro_core_options_v2 options_ca = {
 #define OPTION_VAL_11520X8640_CHS NULL
 #define OPTION_VAL_12160X9120_CHS NULL
 #define OPTION_VAL_12800X9600_CHS NULL
-#define CORE_OPTION_NAME_SCREEN_ROTATION_LABEL_CHS NULL
-#define OPTION_VAL_HORIZONTAL_CHS NULL
-#define OPTION_VAL_VERTICAL_CHS NULL
+#define CORE_OPTION_NAME_SCREEN_ROTATION_LABEL_CHS "屏幕方向"
+#define OPTION_VAL_HORIZONTAL_CHS "水平"
+#define OPTION_VAL_VERTICAL_CHS "垂直"
 #define CORE_OPTION_NAME_ALPHA_SORTING_LABEL_CHS NULL
 #define OPTION_VAL_PER_STRIP_FAST_LEAST_ACCURATE_CHS NULL
 #define OPTION_VAL_PER_TRIANGLE_NORMAL_CHS NULL
@@ -5001,31 +5028,31 @@ struct retro_core_options_v2 options_ca = {
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_LABEL_CHS NULL
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_INFO_0_CHS NULL
 #define CORE_OPTION_NAME_CABLE_TYPE_LABEL_CHS NULL
-#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_CHS NULL
+#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_CHS "The output signal type. VGA is recommended, but some games might not be compatible with it."
 #define OPTION_VAL_TV_RGB_CHS NULL
 #define OPTION_VAL_TV_COMPOSITE_CHS NULL
 #define OPTION_VAL_VGA_RGB_CHS NULL
 #define CORE_OPTION_NAME_BROADCAST_LABEL_CHS NULL
-#define OPTION_VAL_DEFAULT_CHS NULL
+#define OPTION_VAL_DEFAULT_CHS "默认值"
 #define OPTION_VAL_PAL_M_CHS NULL
 #define OPTION_VAL_PAL_N_CHS NULL
 #define OPTION_VAL_NTSC_CHS NULL
 #define OPTION_VAL_PAL_CHS NULL
-#define CORE_OPTION_NAME_FRAMERATE_LABEL_CHS NULL
+#define CORE_OPTION_NAME_FRAMERATE_LABEL_CHS "帧率"
 #define CORE_OPTION_NAME_FRAMERATE_INFO_0_CHS NULL
 #define OPTION_VAL_FULLSPEED_CHS NULL
-#define OPTION_VAL_NORMAL_CHS NULL
-#define CORE_OPTION_NAME_REGION_LABEL_CHS NULL
-#define OPTION_VAL_JAPAN_CHS NULL
+#define OPTION_VAL_NORMAL_CHS "正常"
+#define CORE_OPTION_NAME_REGION_LABEL_CHS "区域"
+#define OPTION_VAL_JAPAN_CHS "日本"
 #define OPTION_VAL_USA_CHS NULL
-#define OPTION_VAL_EUROPE_CHS NULL
-#define CORE_OPTION_NAME_LANGUAGE_LABEL_CHS NULL
-#define OPTION_VAL_JAPANESE_CHS NULL
-#define OPTION_VAL_ENGLISH_CHS NULL
-#define OPTION_VAL_GERMAN_CHS NULL
-#define OPTION_VAL_FRENCH_CHS NULL
-#define OPTION_VAL_SPANISH_CHS NULL
-#define OPTION_VAL_ITALIAN_CHS NULL
+#define OPTION_VAL_EUROPE_CHS "欧洲"
+#define CORE_OPTION_NAME_LANGUAGE_LABEL_CHS "语言"
+#define OPTION_VAL_JAPANESE_CHS "日本历"
+#define OPTION_VAL_ENGLISH_CHS "英语"
+#define OPTION_VAL_GERMAN_CHS "德语"
+#define OPTION_VAL_FRENCH_CHS "法语"
+#define OPTION_VAL_SPANISH_CHS "西班牙语"
+#define OPTION_VAL_ITALIAN_CHS "意大利语"
 #define CORE_OPTION_NAME_DIV_MATCHING_LABEL_CHS NULL
 #define CORE_OPTION_NAME_DIV_MATCHING_INFO_0_CHS NULL
 #define CORE_OPTION_NAME_FORCE_WINCE_LABEL_CHS NULL
@@ -5048,15 +5075,15 @@ struct retro_core_options_v2 options_ca = {
 #define CORE_OPTION_NAME_PVR2_FILTERING_INFO_0_CHS NULL
 #define CORE_OPTION_NAME_TEXUPSCALE_LABEL_CHS NULL
 #define CORE_OPTION_NAME_TEXUPSCALE_INFO_0_CHS NULL
-#define OPTION_VAL_2X_CHS NULL
-#define OPTION_VAL_4X_CHS NULL
+#define OPTION_VAL_2X_CHS "2 倍"
+#define OPTION_VAL_4X_CHS "4 倍"
 #define OPTION_VAL_6X_CHS NULL
 #define CORE_OPTION_NAME_TEXUPSCALE_MAX_FILTERED_TEXTURE_SIZE_LABEL_CHS NULL
 #define CORE_OPTION_NAME_ENABLE_RTTB_LABEL_CHS NULL
 #define CORE_OPTION_NAME_RENDER_TO_TEXTURE_UPSCALING_LABEL_CHS NULL
 #define OPTION_VAL_1X_CHS NULL
 #define OPTION_VAL_3X_CHS NULL
-#define OPTION_VAL_8X_CHS NULL
+#define OPTION_VAL_8X_CHS "8 倍"
 #define CORE_OPTION_NAME_THREADED_RENDERING_LABEL_CHS NULL
 #define CORE_OPTION_NAME_THREADED_RENDERING_INFO_0_CHS NULL
 #define CORE_OPTION_NAME_SYNCHRONOUS_RENDERING_LABEL_CHS NULL
@@ -5090,34 +5117,35 @@ struct retro_core_options_v2 options_ca = {
 #define CORE_OPTION_NAME_VMU1_SCREEN_SIZE_MULT_LABEL_CHS NULL
 #define OPTION_VAL_5X_CHS NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_ON_COLOR_LABEL_CHS NULL
-#define OPTION_VAL_DEFAULT_OFF_01_CHS NULL
 #define OPTION_VAL_DEFAULT_ON_00_CHS NULL
-#define OPTION_VAL_BLACK_02_CHS NULL
-#define OPTION_VAL_BLUE_03_CHS NULL
-#define OPTION_VAL_LIGHT_BLUE_04_CHS NULL
-#define OPTION_VAL_GREEN_05_CHS NULL
-#define OPTION_VAL_CYAN_06_CHS NULL
+#define OPTION_VAL_DEFAULT_OFF_01_CHS NULL
+#define OPTION_VAL_BLACK_02_CHS "浓体 (Black)"
+#define OPTION_VAL_BLUE_03_CHS "蓝色"
+#define OPTION_VAL_LIGHT_BLUE_04_CHS "浅蓝"
+#define OPTION_VAL_GREEN_05_CHS "绿色"
+#define OPTION_VAL_CYAN_06_CHS "青色"
 #define OPTION_VAL_CYAN_BLUE_07_CHS NULL
-#define OPTION_VAL_LIGHT_GREEN_08_CHS NULL
+#define OPTION_VAL_LIGHT_GREEN_08_CHS "浅绿色"
 #define OPTION_VAL_CYAN_GREEN_09_CHS NULL
-#define OPTION_VAL_LIGHT_CYAN_10_CHS NULL
-#define OPTION_VAL_RED_11_CHS NULL
-#define OPTION_VAL_PURPLE_12_CHS NULL
+#define OPTION_VAL_LIGHT_CYAN_10_CHS "浅青色"
+#define OPTION_VAL_RED_11_CHS "红色"
+#define OPTION_VAL_PURPLE_12_CHS "紫色"
 #define OPTION_VAL_LIGHT_PURPLE_13_CHS NULL
-#define OPTION_VAL_YELLOW_14_CHS NULL
-#define OPTION_VAL_GRAY_15_CHS NULL
+#define OPTION_VAL_YELLOW_14_CHS "黄色"
+#define OPTION_VAL_GRAY_15_CHS "灰"
 #define OPTION_VAL_LIGHT_PURPLE_2_16_CHS NULL
 #define OPTION_VAL_LIGHT_GREEN_2_17_CHS NULL
 #define OPTION_VAL_LIGHT_GREEN_3_18_CHS NULL
 #define OPTION_VAL_LIGHT_CYAN_2_19_CHS NULL
 #define OPTION_VAL_LIGHT_RED_2_20_CHS NULL
-#define OPTION_VAL_MAGENTA_21_CHS NULL
-#define OPTION_VAL_LIGHT_ORANGE_22_CHS NULL
-#define OPTION_VAL_ORANGE_23_CHS NULL
-#define OPTION_VAL_LIGHT_PURPLE_3_24_CHS NULL
-#define OPTION_VAL_LIGHT_YELLOW_25_CHS NULL
-#define OPTION_VAL_LIGHT_YELLOW_2_26_CHS NULL
-#define OPTION_VAL_WHITE_27_CHS NULL
+#define OPTION_VAL_MAGENTA_21_CHS "品红"
+#define OPTION_VAL_LIGHT_PURPLE_3_22_CHS NULL
+#define OPTION_VAL_LIGHT_ORANGE_23_CHS NULL
+#define OPTION_VAL_ORANGE_24_CHS NULL
+#define OPTION_VAL_LIGHT_PURPLE_4_25_CHS NULL
+#define OPTION_VAL_LIGHT_YELLOW_26_CHS NULL
+#define OPTION_VAL_LIGHT_YELLOW_2_27_CHS NULL
+#define OPTION_VAL_WHITE_28_CHS NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_OFF_COLOR_LABEL_CHS NULL
 #define CORE_OPTION_NAME_VMU1_SCREEN_OPACITY_LABEL_CHS NULL
 #define OPTION_VAL_40_CHS NULL
@@ -5927,8 +5955,8 @@ struct retro_core_option_v2_definition option_defs_chs[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_CHS },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_CHS },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_CHS },
          { "BLACK 02",          OPTION_VAL_BLACK_02_CHS },
          { "BLUE 03",           OPTION_VAL_BLUE_03_CHS },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_CHS },
@@ -5949,12 +5977,13 @@ struct retro_core_option_v2_definition option_defs_chs[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_CHS },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_CHS },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_CHS },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_CHS },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_CHS },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_CHS },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_CHS },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_CHS },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_CHS },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_CHS },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_CHS },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_CHS },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_CHS },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_CHS },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_CHS },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_CHS },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -5989,12 +6018,13 @@ struct retro_core_option_v2_definition option_defs_chs[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_CHS },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_CHS },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_CHS },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_CHS },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_CHS },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_CHS },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_CHS },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_CHS },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_CHS },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_CHS },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_CHS },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_CHS },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_CHS },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_CHS },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_CHS },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_CHS },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -6076,8 +6106,8 @@ struct retro_core_option_v2_definition option_defs_chs[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_CHS },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_CHS },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_CHS },
          { "BLACK 02",          OPTION_VAL_BLACK_02_CHS },
          { "BLUE 03",           OPTION_VAL_BLUE_03_CHS },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_CHS },
@@ -6098,12 +6128,13 @@ struct retro_core_option_v2_definition option_defs_chs[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_CHS },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_CHS },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_CHS },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_CHS },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_CHS },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_CHS },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_CHS },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_CHS },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_CHS },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_CHS },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_CHS },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_CHS },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_CHS },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_CHS },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_CHS },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_CHS },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -6138,12 +6169,13 @@ struct retro_core_option_v2_definition option_defs_chs[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_CHS },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_CHS },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_CHS },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_CHS },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_CHS },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_CHS },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_CHS },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_CHS },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_CHS },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_CHS },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_CHS },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_CHS },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_CHS },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_CHS },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_CHS },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_CHS },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -6225,8 +6257,8 @@ struct retro_core_option_v2_definition option_defs_chs[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_CHS },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_CHS },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_CHS },
          { "BLACK 02",          OPTION_VAL_BLACK_02_CHS },
          { "BLUE 03",           OPTION_VAL_BLUE_03_CHS },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_CHS },
@@ -6247,12 +6279,13 @@ struct retro_core_option_v2_definition option_defs_chs[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_CHS },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_CHS },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_CHS },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_CHS },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_CHS },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_CHS },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_CHS },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_CHS },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_CHS },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_CHS },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_CHS },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_CHS },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_CHS },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_CHS },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_CHS },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_CHS },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -6287,12 +6320,13 @@ struct retro_core_option_v2_definition option_defs_chs[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_CHS },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_CHS },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_CHS },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_CHS },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_CHS },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_CHS },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_CHS },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_CHS },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_CHS },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_CHS },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_CHS },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_CHS },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_CHS },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_CHS },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_CHS },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_CHS },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -6374,8 +6408,8 @@ struct retro_core_option_v2_definition option_defs_chs[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_CHS },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_CHS },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_CHS },
          { "BLACK 02",          OPTION_VAL_BLACK_02_CHS },
          { "BLUE 03",           OPTION_VAL_BLUE_03_CHS },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_CHS },
@@ -6396,12 +6430,13 @@ struct retro_core_option_v2_definition option_defs_chs[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_CHS },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_CHS },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_CHS },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_CHS },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_CHS },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_CHS },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_CHS },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_CHS },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_CHS },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_CHS },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_CHS },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_CHS },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_CHS },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_CHS },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_CHS },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_CHS },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -6436,12 +6471,13 @@ struct retro_core_option_v2_definition option_defs_chs[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_CHS },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_CHS },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_CHS },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_CHS },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_CHS },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_CHS },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_CHS },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_CHS },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_CHS },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_CHS },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_CHS },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_CHS },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_CHS },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_CHS },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_CHS },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_CHS },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -6491,7 +6527,7 @@ struct retro_core_option_v2_definition option_defs_chs[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_CHS },
+         { "White",    OPTION_VAL_WHITE_28_CHS },
          { "Red",      OPTION_VAL_RED_11_CHS },
          { "Green",    OPTION_VAL_GREEN_05_CHS },
          { "Blue",     OPTION_VAL_BLUE_03_CHS },
@@ -6508,7 +6544,7 @@ struct retro_core_option_v2_definition option_defs_chs[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_CHS },
+         { "White",    OPTION_VAL_WHITE_28_CHS },
          { "Red",      OPTION_VAL_RED_11_CHS },
          { "Green",    OPTION_VAL_GREEN_05_CHS },
          { "Blue",     OPTION_VAL_BLUE_03_CHS },
@@ -6525,7 +6561,7 @@ struct retro_core_option_v2_definition option_defs_chs[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_CHS },
+         { "White",    OPTION_VAL_WHITE_28_CHS },
          { "Red",      OPTION_VAL_RED_11_CHS },
          { "Green",    OPTION_VAL_GREEN_05_CHS },
          { "Blue",     OPTION_VAL_BLUE_03_CHS },
@@ -6542,7 +6578,7 @@ struct retro_core_option_v2_definition option_defs_chs[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_CHS },
+         { "White",    OPTION_VAL_WHITE_28_CHS },
          { "Red",      OPTION_VAL_RED_11_CHS },
          { "Green",    OPTION_VAL_GREEN_05_CHS },
          { "Blue",     OPTION_VAL_BLUE_03_CHS },
@@ -6559,9 +6595,9 @@ struct retro_core_options_v2 options_chs = {
 
 /* RETRO_LANGUAGE_CHT */
 
-#define CATEGORY_VIDEO_LABEL_CHT NULL
+#define CATEGORY_VIDEO_LABEL_CHT "視訊"
 #define CATEGORY_VIDEO_INFO_0_CHT NULL
-#define CATEGORY_INPUT_LABEL_CHT NULL
+#define CATEGORY_INPUT_LABEL_CHT "輸入"
 #define CATEGORY_INPUT_INFO_0_CHT NULL
 #define CATEGORY_VMU_LABEL_CHT NULL
 #define CATEGORY_VMU_INFO_0_CHT NULL
@@ -6573,7 +6609,7 @@ struct retro_core_options_v2 options_chs = {
 #define CORE_OPTION_NAME_BOOT_TO_BIOS_LABEL_CHT NULL
 #define CORE_OPTION_NAME_BOOT_TO_BIOS_INFO_0_CHT NULL
 #define CORE_OPTION_NAME_SYSTEM_LABEL_CHT NULL
-#define OPTION_VAL_AUTO_CHT NULL
+#define OPTION_VAL_AUTO_CHT "自動"
 #define OPTION_VAL_DREAMCAST_CHT NULL
 #define OPTION_VAL_NAOMI_CHT NULL
 #define OPTION_VAL_ATOMISWAVE_CHT NULL
@@ -6614,7 +6650,7 @@ struct retro_core_options_v2 options_chs = {
 #define OPTION_VAL_11520X8640_CHT NULL
 #define OPTION_VAL_12160X9120_CHT NULL
 #define OPTION_VAL_12800X9600_CHT NULL
-#define CORE_OPTION_NAME_SCREEN_ROTATION_LABEL_CHT NULL
+#define CORE_OPTION_NAME_SCREEN_ROTATION_LABEL_CHT "螢幕顯示方向"
 #define OPTION_VAL_HORIZONTAL_CHT NULL
 #define OPTION_VAL_VERTICAL_CHT NULL
 #define CORE_OPTION_NAME_ALPHA_SORTING_LABEL_CHT NULL
@@ -6631,7 +6667,7 @@ struct retro_core_options_v2 options_chs = {
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_LABEL_CHT NULL
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_INFO_0_CHT NULL
 #define CORE_OPTION_NAME_CABLE_TYPE_LABEL_CHT NULL
-#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_CHT NULL
+#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_CHT "The output signal type. VGA is recommended, but some games might not be compatible with it."
 #define OPTION_VAL_TV_RGB_CHT NULL
 #define OPTION_VAL_TV_COMPOSITE_CHT NULL
 #define OPTION_VAL_VGA_RGB_CHT NULL
@@ -6644,18 +6680,18 @@ struct retro_core_options_v2 options_chs = {
 #define CORE_OPTION_NAME_FRAMERATE_LABEL_CHT NULL
 #define CORE_OPTION_NAME_FRAMERATE_INFO_0_CHT NULL
 #define OPTION_VAL_FULLSPEED_CHT NULL
-#define OPTION_VAL_NORMAL_CHT NULL
+#define OPTION_VAL_NORMAL_CHT "正常"
 #define CORE_OPTION_NAME_REGION_LABEL_CHT NULL
 #define OPTION_VAL_JAPAN_CHT NULL
 #define OPTION_VAL_USA_CHT NULL
 #define OPTION_VAL_EUROPE_CHT NULL
-#define CORE_OPTION_NAME_LANGUAGE_LABEL_CHT NULL
-#define OPTION_VAL_JAPANESE_CHT NULL
-#define OPTION_VAL_ENGLISH_CHT NULL
-#define OPTION_VAL_GERMAN_CHT NULL
-#define OPTION_VAL_FRENCH_CHT NULL
-#define OPTION_VAL_SPANISH_CHT NULL
-#define OPTION_VAL_ITALIAN_CHT NULL
+#define CORE_OPTION_NAME_LANGUAGE_LABEL_CHT "語言"
+#define OPTION_VAL_JAPANESE_CHT "日語"
+#define OPTION_VAL_ENGLISH_CHT "英語"
+#define OPTION_VAL_GERMAN_CHT "德語"
+#define OPTION_VAL_FRENCH_CHT "法語"
+#define OPTION_VAL_SPANISH_CHT "西班牙語"
+#define OPTION_VAL_ITALIAN_CHT "意大利語"
 #define CORE_OPTION_NAME_DIV_MATCHING_LABEL_CHT NULL
 #define CORE_OPTION_NAME_DIV_MATCHING_INFO_0_CHT NULL
 #define CORE_OPTION_NAME_FORCE_WINCE_LABEL_CHT NULL
@@ -6720,21 +6756,21 @@ struct retro_core_options_v2 options_chs = {
 #define CORE_OPTION_NAME_VMU1_SCREEN_SIZE_MULT_LABEL_CHT NULL
 #define OPTION_VAL_5X_CHT NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_ON_COLOR_LABEL_CHT NULL
-#define OPTION_VAL_DEFAULT_OFF_01_CHT NULL
 #define OPTION_VAL_DEFAULT_ON_00_CHT NULL
+#define OPTION_VAL_DEFAULT_OFF_01_CHT NULL
 #define OPTION_VAL_BLACK_02_CHT NULL
-#define OPTION_VAL_BLUE_03_CHT NULL
+#define OPTION_VAL_BLUE_03_CHT "藍色"
 #define OPTION_VAL_LIGHT_BLUE_04_CHT NULL
-#define OPTION_VAL_GREEN_05_CHT NULL
+#define OPTION_VAL_GREEN_05_CHT "綠色"
 #define OPTION_VAL_CYAN_06_CHT NULL
 #define OPTION_VAL_CYAN_BLUE_07_CHT NULL
 #define OPTION_VAL_LIGHT_GREEN_08_CHT NULL
 #define OPTION_VAL_CYAN_GREEN_09_CHT NULL
 #define OPTION_VAL_LIGHT_CYAN_10_CHT NULL
-#define OPTION_VAL_RED_11_CHT NULL
+#define OPTION_VAL_RED_11_CHT "紅色"
 #define OPTION_VAL_PURPLE_12_CHT NULL
 #define OPTION_VAL_LIGHT_PURPLE_13_CHT NULL
-#define OPTION_VAL_YELLOW_14_CHT NULL
+#define OPTION_VAL_YELLOW_14_CHT "黃色"
 #define OPTION_VAL_GRAY_15_CHT NULL
 #define OPTION_VAL_LIGHT_PURPLE_2_16_CHT NULL
 #define OPTION_VAL_LIGHT_GREEN_2_17_CHT NULL
@@ -6742,12 +6778,13 @@ struct retro_core_options_v2 options_chs = {
 #define OPTION_VAL_LIGHT_CYAN_2_19_CHT NULL
 #define OPTION_VAL_LIGHT_RED_2_20_CHT NULL
 #define OPTION_VAL_MAGENTA_21_CHT NULL
-#define OPTION_VAL_LIGHT_ORANGE_22_CHT NULL
-#define OPTION_VAL_ORANGE_23_CHT NULL
-#define OPTION_VAL_LIGHT_PURPLE_3_24_CHT NULL
-#define OPTION_VAL_LIGHT_YELLOW_25_CHT NULL
-#define OPTION_VAL_LIGHT_YELLOW_2_26_CHT NULL
-#define OPTION_VAL_WHITE_27_CHT NULL
+#define OPTION_VAL_LIGHT_PURPLE_3_22_CHT NULL
+#define OPTION_VAL_LIGHT_ORANGE_23_CHT NULL
+#define OPTION_VAL_ORANGE_24_CHT NULL
+#define OPTION_VAL_LIGHT_PURPLE_4_25_CHT NULL
+#define OPTION_VAL_LIGHT_YELLOW_26_CHT NULL
+#define OPTION_VAL_LIGHT_YELLOW_2_27_CHT NULL
+#define OPTION_VAL_WHITE_28_CHT NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_OFF_COLOR_LABEL_CHT NULL
 #define CORE_OPTION_NAME_VMU1_SCREEN_OPACITY_LABEL_CHT NULL
 #define OPTION_VAL_40_CHT NULL
@@ -7557,8 +7594,8 @@ struct retro_core_option_v2_definition option_defs_cht[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_CHT },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_CHT },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_CHT },
          { "BLACK 02",          OPTION_VAL_BLACK_02_CHT },
          { "BLUE 03",           OPTION_VAL_BLUE_03_CHT },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_CHT },
@@ -7579,12 +7616,13 @@ struct retro_core_option_v2_definition option_defs_cht[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_CHT },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_CHT },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_CHT },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_CHT },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_CHT },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_CHT },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_CHT },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_CHT },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_CHT },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_CHT },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_CHT },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_CHT },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_CHT },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_CHT },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_CHT },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_CHT },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -7619,12 +7657,13 @@ struct retro_core_option_v2_definition option_defs_cht[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_CHT },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_CHT },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_CHT },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_CHT },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_CHT },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_CHT },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_CHT },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_CHT },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_CHT },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_CHT },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_CHT },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_CHT },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_CHT },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_CHT },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_CHT },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_CHT },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -7706,8 +7745,8 @@ struct retro_core_option_v2_definition option_defs_cht[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_CHT },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_CHT },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_CHT },
          { "BLACK 02",          OPTION_VAL_BLACK_02_CHT },
          { "BLUE 03",           OPTION_VAL_BLUE_03_CHT },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_CHT },
@@ -7728,12 +7767,13 @@ struct retro_core_option_v2_definition option_defs_cht[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_CHT },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_CHT },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_CHT },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_CHT },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_CHT },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_CHT },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_CHT },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_CHT },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_CHT },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_CHT },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_CHT },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_CHT },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_CHT },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_CHT },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_CHT },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_CHT },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -7768,12 +7808,13 @@ struct retro_core_option_v2_definition option_defs_cht[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_CHT },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_CHT },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_CHT },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_CHT },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_CHT },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_CHT },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_CHT },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_CHT },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_CHT },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_CHT },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_CHT },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_CHT },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_CHT },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_CHT },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_CHT },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_CHT },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -7855,8 +7896,8 @@ struct retro_core_option_v2_definition option_defs_cht[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_CHT },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_CHT },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_CHT },
          { "BLACK 02",          OPTION_VAL_BLACK_02_CHT },
          { "BLUE 03",           OPTION_VAL_BLUE_03_CHT },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_CHT },
@@ -7877,12 +7918,13 @@ struct retro_core_option_v2_definition option_defs_cht[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_CHT },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_CHT },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_CHT },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_CHT },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_CHT },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_CHT },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_CHT },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_CHT },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_CHT },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_CHT },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_CHT },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_CHT },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_CHT },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_CHT },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_CHT },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_CHT },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -7917,12 +7959,13 @@ struct retro_core_option_v2_definition option_defs_cht[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_CHT },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_CHT },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_CHT },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_CHT },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_CHT },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_CHT },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_CHT },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_CHT },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_CHT },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_CHT },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_CHT },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_CHT },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_CHT },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_CHT },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_CHT },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_CHT },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -8004,8 +8047,8 @@ struct retro_core_option_v2_definition option_defs_cht[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_CHT },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_CHT },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_CHT },
          { "BLACK 02",          OPTION_VAL_BLACK_02_CHT },
          { "BLUE 03",           OPTION_VAL_BLUE_03_CHT },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_CHT },
@@ -8026,12 +8069,13 @@ struct retro_core_option_v2_definition option_defs_cht[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_CHT },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_CHT },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_CHT },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_CHT },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_CHT },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_CHT },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_CHT },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_CHT },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_CHT },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_CHT },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_CHT },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_CHT },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_CHT },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_CHT },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_CHT },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_CHT },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -8066,12 +8110,13 @@ struct retro_core_option_v2_definition option_defs_cht[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_CHT },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_CHT },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_CHT },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_CHT },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_CHT },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_CHT },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_CHT },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_CHT },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_CHT },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_CHT },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_CHT },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_CHT },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_CHT },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_CHT },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_CHT },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_CHT },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -8121,7 +8166,7 @@ struct retro_core_option_v2_definition option_defs_cht[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_CHT },
+         { "White",    OPTION_VAL_WHITE_28_CHT },
          { "Red",      OPTION_VAL_RED_11_CHT },
          { "Green",    OPTION_VAL_GREEN_05_CHT },
          { "Blue",     OPTION_VAL_BLUE_03_CHT },
@@ -8138,7 +8183,7 @@ struct retro_core_option_v2_definition option_defs_cht[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_CHT },
+         { "White",    OPTION_VAL_WHITE_28_CHT },
          { "Red",      OPTION_VAL_RED_11_CHT },
          { "Green",    OPTION_VAL_GREEN_05_CHT },
          { "Blue",     OPTION_VAL_BLUE_03_CHT },
@@ -8155,7 +8200,7 @@ struct retro_core_option_v2_definition option_defs_cht[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_CHT },
+         { "White",    OPTION_VAL_WHITE_28_CHT },
          { "Red",      OPTION_VAL_RED_11_CHT },
          { "Green",    OPTION_VAL_GREEN_05_CHT },
          { "Blue",     OPTION_VAL_BLUE_03_CHT },
@@ -8172,7 +8217,7 @@ struct retro_core_option_v2_definition option_defs_cht[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_CHT },
+         { "White",    OPTION_VAL_WHITE_28_CHT },
          { "Red",      OPTION_VAL_RED_11_CHT },
          { "Green",    OPTION_VAL_GREEN_05_CHT },
          { "Blue",     OPTION_VAL_BLUE_03_CHT },
@@ -8191,7 +8236,7 @@ struct retro_core_options_v2 options_cht = {
 
 #define CATEGORY_VIDEO_LABEL_CS NULL
 #define CATEGORY_VIDEO_INFO_0_CS NULL
-#define CATEGORY_INPUT_LABEL_CS NULL
+#define CATEGORY_INPUT_LABEL_CS "Vstup"
 #define CATEGORY_INPUT_INFO_0_CS NULL
 #define CATEGORY_VMU_LABEL_CS NULL
 #define CATEGORY_VMU_INFO_0_CS NULL
@@ -8261,7 +8306,7 @@ struct retro_core_options_v2 options_cht = {
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_LABEL_CS NULL
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_INFO_0_CS NULL
 #define CORE_OPTION_NAME_CABLE_TYPE_LABEL_CS NULL
-#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_CS NULL
+#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_CS "The output signal type. VGA is recommended, but some games might not be compatible with it."
 #define OPTION_VAL_TV_RGB_CS NULL
 #define OPTION_VAL_TV_COMPOSITE_CS NULL
 #define OPTION_VAL_VGA_RGB_CS NULL
@@ -8279,7 +8324,7 @@ struct retro_core_options_v2 options_cht = {
 #define OPTION_VAL_JAPAN_CS NULL
 #define OPTION_VAL_USA_CS NULL
 #define OPTION_VAL_EUROPE_CS NULL
-#define CORE_OPTION_NAME_LANGUAGE_LABEL_CS NULL
+#define CORE_OPTION_NAME_LANGUAGE_LABEL_CS "Jazyk"
 #define OPTION_VAL_JAPANESE_CS NULL
 #define OPTION_VAL_ENGLISH_CS NULL
 #define OPTION_VAL_GERMAN_CS NULL
@@ -8350,8 +8395,8 @@ struct retro_core_options_v2 options_cht = {
 #define CORE_OPTION_NAME_VMU1_SCREEN_SIZE_MULT_LABEL_CS NULL
 #define OPTION_VAL_5X_CS NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_ON_COLOR_LABEL_CS NULL
-#define OPTION_VAL_DEFAULT_OFF_01_CS NULL
 #define OPTION_VAL_DEFAULT_ON_00_CS NULL
+#define OPTION_VAL_DEFAULT_OFF_01_CS NULL
 #define OPTION_VAL_BLACK_02_CS NULL
 #define OPTION_VAL_BLUE_03_CS NULL
 #define OPTION_VAL_LIGHT_BLUE_04_CS NULL
@@ -8372,12 +8417,13 @@ struct retro_core_options_v2 options_cht = {
 #define OPTION_VAL_LIGHT_CYAN_2_19_CS NULL
 #define OPTION_VAL_LIGHT_RED_2_20_CS NULL
 #define OPTION_VAL_MAGENTA_21_CS NULL
-#define OPTION_VAL_LIGHT_ORANGE_22_CS NULL
-#define OPTION_VAL_ORANGE_23_CS NULL
-#define OPTION_VAL_LIGHT_PURPLE_3_24_CS NULL
-#define OPTION_VAL_LIGHT_YELLOW_25_CS NULL
-#define OPTION_VAL_LIGHT_YELLOW_2_26_CS NULL
-#define OPTION_VAL_WHITE_27_CS NULL
+#define OPTION_VAL_LIGHT_PURPLE_3_22_CS NULL
+#define OPTION_VAL_LIGHT_ORANGE_23_CS NULL
+#define OPTION_VAL_ORANGE_24_CS NULL
+#define OPTION_VAL_LIGHT_PURPLE_4_25_CS NULL
+#define OPTION_VAL_LIGHT_YELLOW_26_CS NULL
+#define OPTION_VAL_LIGHT_YELLOW_2_27_CS NULL
+#define OPTION_VAL_WHITE_28_CS NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_OFF_COLOR_LABEL_CS NULL
 #define CORE_OPTION_NAME_VMU1_SCREEN_OPACITY_LABEL_CS NULL
 #define OPTION_VAL_40_CS NULL
@@ -9187,8 +9233,8 @@ struct retro_core_option_v2_definition option_defs_cs[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_CS },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_CS },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_CS },
          { "BLACK 02",          OPTION_VAL_BLACK_02_CS },
          { "BLUE 03",           OPTION_VAL_BLUE_03_CS },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_CS },
@@ -9209,12 +9255,13 @@ struct retro_core_option_v2_definition option_defs_cs[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_CS },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_CS },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_CS },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_CS },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_CS },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_CS },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_CS },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_CS },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_CS },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_CS },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_CS },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_CS },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_CS },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_CS },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_CS },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_CS },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -9249,12 +9296,13 @@ struct retro_core_option_v2_definition option_defs_cs[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_CS },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_CS },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_CS },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_CS },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_CS },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_CS },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_CS },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_CS },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_CS },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_CS },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_CS },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_CS },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_CS },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_CS },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_CS },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_CS },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -9336,8 +9384,8 @@ struct retro_core_option_v2_definition option_defs_cs[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_CS },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_CS },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_CS },
          { "BLACK 02",          OPTION_VAL_BLACK_02_CS },
          { "BLUE 03",           OPTION_VAL_BLUE_03_CS },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_CS },
@@ -9358,12 +9406,13 @@ struct retro_core_option_v2_definition option_defs_cs[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_CS },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_CS },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_CS },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_CS },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_CS },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_CS },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_CS },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_CS },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_CS },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_CS },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_CS },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_CS },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_CS },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_CS },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_CS },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_CS },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -9398,12 +9447,13 @@ struct retro_core_option_v2_definition option_defs_cs[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_CS },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_CS },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_CS },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_CS },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_CS },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_CS },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_CS },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_CS },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_CS },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_CS },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_CS },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_CS },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_CS },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_CS },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_CS },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_CS },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -9485,8 +9535,8 @@ struct retro_core_option_v2_definition option_defs_cs[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_CS },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_CS },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_CS },
          { "BLACK 02",          OPTION_VAL_BLACK_02_CS },
          { "BLUE 03",           OPTION_VAL_BLUE_03_CS },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_CS },
@@ -9507,12 +9557,13 @@ struct retro_core_option_v2_definition option_defs_cs[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_CS },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_CS },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_CS },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_CS },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_CS },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_CS },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_CS },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_CS },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_CS },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_CS },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_CS },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_CS },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_CS },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_CS },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_CS },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_CS },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -9547,12 +9598,13 @@ struct retro_core_option_v2_definition option_defs_cs[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_CS },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_CS },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_CS },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_CS },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_CS },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_CS },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_CS },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_CS },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_CS },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_CS },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_CS },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_CS },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_CS },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_CS },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_CS },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_CS },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -9634,8 +9686,8 @@ struct retro_core_option_v2_definition option_defs_cs[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_CS },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_CS },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_CS },
          { "BLACK 02",          OPTION_VAL_BLACK_02_CS },
          { "BLUE 03",           OPTION_VAL_BLUE_03_CS },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_CS },
@@ -9656,12 +9708,13 @@ struct retro_core_option_v2_definition option_defs_cs[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_CS },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_CS },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_CS },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_CS },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_CS },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_CS },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_CS },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_CS },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_CS },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_CS },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_CS },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_CS },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_CS },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_CS },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_CS },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_CS },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -9696,12 +9749,13 @@ struct retro_core_option_v2_definition option_defs_cs[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_CS },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_CS },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_CS },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_CS },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_CS },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_CS },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_CS },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_CS },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_CS },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_CS },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_CS },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_CS },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_CS },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_CS },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_CS },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_CS },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -9751,7 +9805,7 @@ struct retro_core_option_v2_definition option_defs_cs[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_CS },
+         { "White",    OPTION_VAL_WHITE_28_CS },
          { "Red",      OPTION_VAL_RED_11_CS },
          { "Green",    OPTION_VAL_GREEN_05_CS },
          { "Blue",     OPTION_VAL_BLUE_03_CS },
@@ -9768,7 +9822,7 @@ struct retro_core_option_v2_definition option_defs_cs[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_CS },
+         { "White",    OPTION_VAL_WHITE_28_CS },
          { "Red",      OPTION_VAL_RED_11_CS },
          { "Green",    OPTION_VAL_GREEN_05_CS },
          { "Blue",     OPTION_VAL_BLUE_03_CS },
@@ -9785,7 +9839,7 @@ struct retro_core_option_v2_definition option_defs_cs[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_CS },
+         { "White",    OPTION_VAL_WHITE_28_CS },
          { "Red",      OPTION_VAL_RED_11_CS },
          { "Green",    OPTION_VAL_GREEN_05_CS },
          { "Blue",     OPTION_VAL_BLUE_03_CS },
@@ -9802,7 +9856,7 @@ struct retro_core_option_v2_definition option_defs_cs[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_CS },
+         { "White",    OPTION_VAL_WHITE_28_CS },
          { "Red",      OPTION_VAL_RED_11_CS },
          { "Green",    OPTION_VAL_GREEN_05_CS },
          { "Blue",     OPTION_VAL_BLUE_03_CS },
@@ -9821,7 +9875,7 @@ struct retro_core_options_v2 options_cs = {
 
 #define CATEGORY_VIDEO_LABEL_CY NULL
 #define CATEGORY_VIDEO_INFO_0_CY NULL
-#define CATEGORY_INPUT_LABEL_CY NULL
+#define CATEGORY_INPUT_LABEL_CY "Mewnbwn"
 #define CATEGORY_INPUT_INFO_0_CY NULL
 #define CATEGORY_VMU_LABEL_CY NULL
 #define CATEGORY_VMU_INFO_0_CY NULL
@@ -9891,7 +9945,7 @@ struct retro_core_options_v2 options_cs = {
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_LABEL_CY NULL
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_INFO_0_CY NULL
 #define CORE_OPTION_NAME_CABLE_TYPE_LABEL_CY NULL
-#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_CY NULL
+#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_CY "The output signal type. VGA is recommended, but some games might not be compatible with it."
 #define OPTION_VAL_TV_RGB_CY NULL
 #define OPTION_VAL_TV_COMPOSITE_CY NULL
 #define OPTION_VAL_VGA_RGB_CY NULL
@@ -9980,8 +10034,8 @@ struct retro_core_options_v2 options_cs = {
 #define CORE_OPTION_NAME_VMU1_SCREEN_SIZE_MULT_LABEL_CY NULL
 #define OPTION_VAL_5X_CY NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_ON_COLOR_LABEL_CY NULL
-#define OPTION_VAL_DEFAULT_OFF_01_CY NULL
 #define OPTION_VAL_DEFAULT_ON_00_CY NULL
+#define OPTION_VAL_DEFAULT_OFF_01_CY NULL
 #define OPTION_VAL_BLACK_02_CY NULL
 #define OPTION_VAL_BLUE_03_CY NULL
 #define OPTION_VAL_LIGHT_BLUE_04_CY NULL
@@ -9991,7 +10045,7 @@ struct retro_core_options_v2 options_cs = {
 #define OPTION_VAL_LIGHT_GREEN_08_CY NULL
 #define OPTION_VAL_CYAN_GREEN_09_CY NULL
 #define OPTION_VAL_LIGHT_CYAN_10_CY NULL
-#define OPTION_VAL_RED_11_CY NULL
+#define OPTION_VAL_RED_11_CY "Coch"
 #define OPTION_VAL_PURPLE_12_CY NULL
 #define OPTION_VAL_LIGHT_PURPLE_13_CY NULL
 #define OPTION_VAL_YELLOW_14_CY NULL
@@ -10002,12 +10056,13 @@ struct retro_core_options_v2 options_cs = {
 #define OPTION_VAL_LIGHT_CYAN_2_19_CY NULL
 #define OPTION_VAL_LIGHT_RED_2_20_CY NULL
 #define OPTION_VAL_MAGENTA_21_CY NULL
-#define OPTION_VAL_LIGHT_ORANGE_22_CY NULL
-#define OPTION_VAL_ORANGE_23_CY NULL
-#define OPTION_VAL_LIGHT_PURPLE_3_24_CY NULL
-#define OPTION_VAL_LIGHT_YELLOW_25_CY NULL
-#define OPTION_VAL_LIGHT_YELLOW_2_26_CY NULL
-#define OPTION_VAL_WHITE_27_CY NULL
+#define OPTION_VAL_LIGHT_PURPLE_3_22_CY NULL
+#define OPTION_VAL_LIGHT_ORANGE_23_CY NULL
+#define OPTION_VAL_ORANGE_24_CY NULL
+#define OPTION_VAL_LIGHT_PURPLE_4_25_CY NULL
+#define OPTION_VAL_LIGHT_YELLOW_26_CY NULL
+#define OPTION_VAL_LIGHT_YELLOW_2_27_CY NULL
+#define OPTION_VAL_WHITE_28_CY NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_OFF_COLOR_LABEL_CY NULL
 #define CORE_OPTION_NAME_VMU1_SCREEN_OPACITY_LABEL_CY NULL
 #define OPTION_VAL_40_CY NULL
@@ -10817,8 +10872,8 @@ struct retro_core_option_v2_definition option_defs_cy[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_CY },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_CY },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_CY },
          { "BLACK 02",          OPTION_VAL_BLACK_02_CY },
          { "BLUE 03",           OPTION_VAL_BLUE_03_CY },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_CY },
@@ -10839,12 +10894,13 @@ struct retro_core_option_v2_definition option_defs_cy[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_CY },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_CY },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_CY },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_CY },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_CY },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_CY },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_CY },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_CY },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_CY },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_CY },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_CY },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_CY },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_CY },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_CY },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_CY },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_CY },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -10879,12 +10935,13 @@ struct retro_core_option_v2_definition option_defs_cy[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_CY },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_CY },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_CY },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_CY },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_CY },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_CY },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_CY },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_CY },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_CY },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_CY },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_CY },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_CY },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_CY },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_CY },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_CY },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_CY },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -10966,8 +11023,8 @@ struct retro_core_option_v2_definition option_defs_cy[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_CY },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_CY },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_CY },
          { "BLACK 02",          OPTION_VAL_BLACK_02_CY },
          { "BLUE 03",           OPTION_VAL_BLUE_03_CY },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_CY },
@@ -10988,12 +11045,13 @@ struct retro_core_option_v2_definition option_defs_cy[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_CY },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_CY },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_CY },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_CY },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_CY },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_CY },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_CY },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_CY },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_CY },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_CY },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_CY },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_CY },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_CY },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_CY },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_CY },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_CY },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -11028,12 +11086,13 @@ struct retro_core_option_v2_definition option_defs_cy[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_CY },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_CY },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_CY },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_CY },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_CY },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_CY },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_CY },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_CY },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_CY },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_CY },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_CY },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_CY },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_CY },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_CY },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_CY },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_CY },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -11115,8 +11174,8 @@ struct retro_core_option_v2_definition option_defs_cy[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_CY },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_CY },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_CY },
          { "BLACK 02",          OPTION_VAL_BLACK_02_CY },
          { "BLUE 03",           OPTION_VAL_BLUE_03_CY },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_CY },
@@ -11137,12 +11196,13 @@ struct retro_core_option_v2_definition option_defs_cy[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_CY },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_CY },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_CY },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_CY },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_CY },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_CY },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_CY },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_CY },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_CY },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_CY },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_CY },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_CY },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_CY },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_CY },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_CY },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_CY },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -11177,12 +11237,13 @@ struct retro_core_option_v2_definition option_defs_cy[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_CY },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_CY },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_CY },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_CY },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_CY },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_CY },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_CY },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_CY },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_CY },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_CY },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_CY },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_CY },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_CY },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_CY },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_CY },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_CY },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -11264,8 +11325,8 @@ struct retro_core_option_v2_definition option_defs_cy[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_CY },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_CY },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_CY },
          { "BLACK 02",          OPTION_VAL_BLACK_02_CY },
          { "BLUE 03",           OPTION_VAL_BLUE_03_CY },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_CY },
@@ -11286,12 +11347,13 @@ struct retro_core_option_v2_definition option_defs_cy[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_CY },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_CY },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_CY },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_CY },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_CY },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_CY },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_CY },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_CY },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_CY },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_CY },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_CY },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_CY },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_CY },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_CY },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_CY },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_CY },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -11326,12 +11388,13 @@ struct retro_core_option_v2_definition option_defs_cy[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_CY },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_CY },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_CY },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_CY },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_CY },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_CY },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_CY },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_CY },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_CY },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_CY },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_CY },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_CY },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_CY },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_CY },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_CY },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_CY },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -11381,7 +11444,7 @@ struct retro_core_option_v2_definition option_defs_cy[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_CY },
+         { "White",    OPTION_VAL_WHITE_28_CY },
          { "Red",      OPTION_VAL_RED_11_CY },
          { "Green",    OPTION_VAL_GREEN_05_CY },
          { "Blue",     OPTION_VAL_BLUE_03_CY },
@@ -11398,7 +11461,7 @@ struct retro_core_option_v2_definition option_defs_cy[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_CY },
+         { "White",    OPTION_VAL_WHITE_28_CY },
          { "Red",      OPTION_VAL_RED_11_CY },
          { "Green",    OPTION_VAL_GREEN_05_CY },
          { "Blue",     OPTION_VAL_BLUE_03_CY },
@@ -11415,7 +11478,7 @@ struct retro_core_option_v2_definition option_defs_cy[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_CY },
+         { "White",    OPTION_VAL_WHITE_28_CY },
          { "Red",      OPTION_VAL_RED_11_CY },
          { "Green",    OPTION_VAL_GREEN_05_CY },
          { "Blue",     OPTION_VAL_BLUE_03_CY },
@@ -11432,7 +11495,7 @@ struct retro_core_option_v2_definition option_defs_cy[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_CY },
+         { "White",    OPTION_VAL_WHITE_28_CY },
          { "Red",      OPTION_VAL_RED_11_CY },
          { "Green",    OPTION_VAL_GREEN_05_CY },
          { "Blue",     OPTION_VAL_BLUE_03_CY },
@@ -11521,7 +11584,7 @@ struct retro_core_options_v2 options_cy = {
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_LABEL_DA NULL
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_INFO_0_DA NULL
 #define CORE_OPTION_NAME_CABLE_TYPE_LABEL_DA NULL
-#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_DA NULL
+#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_DA "The output signal type. VGA is recommended, but some games might not be compatible with it."
 #define OPTION_VAL_TV_RGB_DA NULL
 #define OPTION_VAL_TV_COMPOSITE_DA NULL
 #define OPTION_VAL_VGA_RGB_DA NULL
@@ -11610,8 +11673,8 @@ struct retro_core_options_v2 options_cy = {
 #define CORE_OPTION_NAME_VMU1_SCREEN_SIZE_MULT_LABEL_DA NULL
 #define OPTION_VAL_5X_DA NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_ON_COLOR_LABEL_DA NULL
-#define OPTION_VAL_DEFAULT_OFF_01_DA NULL
 #define OPTION_VAL_DEFAULT_ON_00_DA NULL
+#define OPTION_VAL_DEFAULT_OFF_01_DA NULL
 #define OPTION_VAL_BLACK_02_DA NULL
 #define OPTION_VAL_BLUE_03_DA NULL
 #define OPTION_VAL_LIGHT_BLUE_04_DA NULL
@@ -11632,12 +11695,13 @@ struct retro_core_options_v2 options_cy = {
 #define OPTION_VAL_LIGHT_CYAN_2_19_DA NULL
 #define OPTION_VAL_LIGHT_RED_2_20_DA NULL
 #define OPTION_VAL_MAGENTA_21_DA NULL
-#define OPTION_VAL_LIGHT_ORANGE_22_DA NULL
-#define OPTION_VAL_ORANGE_23_DA NULL
-#define OPTION_VAL_LIGHT_PURPLE_3_24_DA NULL
-#define OPTION_VAL_LIGHT_YELLOW_25_DA NULL
-#define OPTION_VAL_LIGHT_YELLOW_2_26_DA NULL
-#define OPTION_VAL_WHITE_27_DA NULL
+#define OPTION_VAL_LIGHT_PURPLE_3_22_DA NULL
+#define OPTION_VAL_LIGHT_ORANGE_23_DA NULL
+#define OPTION_VAL_ORANGE_24_DA NULL
+#define OPTION_VAL_LIGHT_PURPLE_4_25_DA NULL
+#define OPTION_VAL_LIGHT_YELLOW_26_DA NULL
+#define OPTION_VAL_LIGHT_YELLOW_2_27_DA NULL
+#define OPTION_VAL_WHITE_28_DA NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_OFF_COLOR_LABEL_DA NULL
 #define CORE_OPTION_NAME_VMU1_SCREEN_OPACITY_LABEL_DA NULL
 #define OPTION_VAL_40_DA NULL
@@ -12447,8 +12511,8 @@ struct retro_core_option_v2_definition option_defs_da[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_DA },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_DA },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_DA },
          { "BLACK 02",          OPTION_VAL_BLACK_02_DA },
          { "BLUE 03",           OPTION_VAL_BLUE_03_DA },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_DA },
@@ -12469,12 +12533,13 @@ struct retro_core_option_v2_definition option_defs_da[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_DA },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_DA },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_DA },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_DA },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_DA },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_DA },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_DA },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_DA },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_DA },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_DA },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_DA },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_DA },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_DA },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_DA },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_DA },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_DA },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -12509,12 +12574,13 @@ struct retro_core_option_v2_definition option_defs_da[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_DA },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_DA },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_DA },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_DA },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_DA },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_DA },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_DA },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_DA },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_DA },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_DA },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_DA },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_DA },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_DA },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_DA },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_DA },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_DA },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -12596,8 +12662,8 @@ struct retro_core_option_v2_definition option_defs_da[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_DA },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_DA },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_DA },
          { "BLACK 02",          OPTION_VAL_BLACK_02_DA },
          { "BLUE 03",           OPTION_VAL_BLUE_03_DA },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_DA },
@@ -12618,12 +12684,13 @@ struct retro_core_option_v2_definition option_defs_da[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_DA },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_DA },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_DA },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_DA },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_DA },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_DA },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_DA },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_DA },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_DA },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_DA },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_DA },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_DA },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_DA },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_DA },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_DA },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_DA },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -12658,12 +12725,13 @@ struct retro_core_option_v2_definition option_defs_da[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_DA },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_DA },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_DA },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_DA },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_DA },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_DA },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_DA },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_DA },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_DA },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_DA },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_DA },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_DA },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_DA },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_DA },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_DA },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_DA },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -12745,8 +12813,8 @@ struct retro_core_option_v2_definition option_defs_da[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_DA },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_DA },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_DA },
          { "BLACK 02",          OPTION_VAL_BLACK_02_DA },
          { "BLUE 03",           OPTION_VAL_BLUE_03_DA },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_DA },
@@ -12767,12 +12835,13 @@ struct retro_core_option_v2_definition option_defs_da[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_DA },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_DA },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_DA },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_DA },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_DA },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_DA },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_DA },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_DA },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_DA },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_DA },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_DA },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_DA },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_DA },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_DA },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_DA },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_DA },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -12807,12 +12876,13 @@ struct retro_core_option_v2_definition option_defs_da[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_DA },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_DA },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_DA },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_DA },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_DA },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_DA },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_DA },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_DA },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_DA },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_DA },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_DA },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_DA },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_DA },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_DA },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_DA },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_DA },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -12894,8 +12964,8 @@ struct retro_core_option_v2_definition option_defs_da[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_DA },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_DA },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_DA },
          { "BLACK 02",          OPTION_VAL_BLACK_02_DA },
          { "BLUE 03",           OPTION_VAL_BLUE_03_DA },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_DA },
@@ -12916,12 +12986,13 @@ struct retro_core_option_v2_definition option_defs_da[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_DA },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_DA },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_DA },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_DA },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_DA },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_DA },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_DA },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_DA },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_DA },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_DA },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_DA },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_DA },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_DA },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_DA },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_DA },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_DA },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -12956,12 +13027,13 @@ struct retro_core_option_v2_definition option_defs_da[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_DA },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_DA },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_DA },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_DA },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_DA },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_DA },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_DA },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_DA },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_DA },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_DA },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_DA },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_DA },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_DA },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_DA },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_DA },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_DA },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -13011,7 +13083,7 @@ struct retro_core_option_v2_definition option_defs_da[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_DA },
+         { "White",    OPTION_VAL_WHITE_28_DA },
          { "Red",      OPTION_VAL_RED_11_DA },
          { "Green",    OPTION_VAL_GREEN_05_DA },
          { "Blue",     OPTION_VAL_BLUE_03_DA },
@@ -13028,7 +13100,7 @@ struct retro_core_option_v2_definition option_defs_da[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_DA },
+         { "White",    OPTION_VAL_WHITE_28_DA },
          { "Red",      OPTION_VAL_RED_11_DA },
          { "Green",    OPTION_VAL_GREEN_05_DA },
          { "Blue",     OPTION_VAL_BLUE_03_DA },
@@ -13045,7 +13117,7 @@ struct retro_core_option_v2_definition option_defs_da[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_DA },
+         { "White",    OPTION_VAL_WHITE_28_DA },
          { "Red",      OPTION_VAL_RED_11_DA },
          { "Green",    OPTION_VAL_GREEN_05_DA },
          { "Blue",     OPTION_VAL_BLUE_03_DA },
@@ -13062,7 +13134,7 @@ struct retro_core_option_v2_definition option_defs_da[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_DA },
+         { "White",    OPTION_VAL_WHITE_28_DA },
          { "Red",      OPTION_VAL_RED_11_DA },
          { "Green",    OPTION_VAL_GREEN_05_DA },
          { "Blue",     OPTION_VAL_BLUE_03_DA },
@@ -13151,7 +13223,7 @@ struct retro_core_options_v2 options_da = {
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_LABEL_DE NULL
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_INFO_0_DE NULL
 #define CORE_OPTION_NAME_CABLE_TYPE_LABEL_DE "Kabeltyp"
-#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_DE NULL
+#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_DE "The output signal type. VGA is recommended, but some games might not be compatible with it."
 #define OPTION_VAL_TV_RGB_DE NULL
 #define OPTION_VAL_TV_COMPOSITE_DE NULL
 #define OPTION_VAL_VGA_RGB_DE NULL
@@ -13240,8 +13312,8 @@ struct retro_core_options_v2 options_da = {
 #define CORE_OPTION_NAME_VMU1_SCREEN_SIZE_MULT_LABEL_DE NULL
 #define OPTION_VAL_5X_DE "5 x"
 #define CORE_OPTION_NAME_VMU1_PIXEL_ON_COLOR_LABEL_DE NULL
-#define OPTION_VAL_DEFAULT_OFF_01_DE "Standard AUS"
 #define OPTION_VAL_DEFAULT_ON_00_DE "Standard EIN"
+#define OPTION_VAL_DEFAULT_OFF_01_DE "Standard AUS"
 #define OPTION_VAL_BLACK_02_DE "Schwarz"
 #define OPTION_VAL_BLUE_03_DE "Blau"
 #define OPTION_VAL_LIGHT_BLUE_04_DE "Hellblau"
@@ -13262,12 +13334,13 @@ struct retro_core_options_v2 options_da = {
 #define OPTION_VAL_LIGHT_CYAN_2_19_DE NULL
 #define OPTION_VAL_LIGHT_RED_2_20_DE "Hellrot (2)"
 #define OPTION_VAL_MAGENTA_21_DE NULL
-#define OPTION_VAL_LIGHT_ORANGE_22_DE NULL
-#define OPTION_VAL_ORANGE_23_DE NULL
-#define OPTION_VAL_LIGHT_PURPLE_3_24_DE NULL
-#define OPTION_VAL_LIGHT_YELLOW_25_DE "Hellgelb"
-#define OPTION_VAL_LIGHT_YELLOW_2_26_DE "Hellgelb (2)"
-#define OPTION_VAL_WHITE_27_DE "Weiß"
+#define OPTION_VAL_LIGHT_PURPLE_3_22_DE NULL
+#define OPTION_VAL_LIGHT_ORANGE_23_DE NULL
+#define OPTION_VAL_ORANGE_24_DE NULL
+#define OPTION_VAL_LIGHT_PURPLE_4_25_DE NULL
+#define OPTION_VAL_LIGHT_YELLOW_26_DE NULL
+#define OPTION_VAL_LIGHT_YELLOW_2_27_DE NULL
+#define OPTION_VAL_WHITE_28_DE NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_OFF_COLOR_LABEL_DE NULL
 #define CORE_OPTION_NAME_VMU1_SCREEN_OPACITY_LABEL_DE NULL
 #define OPTION_VAL_40_DE "40 %"
@@ -14077,8 +14150,8 @@ struct retro_core_option_v2_definition option_defs_de[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_DE },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_DE },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_DE },
          { "BLACK 02",          OPTION_VAL_BLACK_02_DE },
          { "BLUE 03",           OPTION_VAL_BLUE_03_DE },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_DE },
@@ -14099,12 +14172,13 @@ struct retro_core_option_v2_definition option_defs_de[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_DE },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_DE },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_DE },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_DE },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_DE },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_DE },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_DE },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_DE },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_DE },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_DE },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_DE },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_DE },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_DE },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_DE },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_DE },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_DE },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -14139,12 +14213,13 @@ struct retro_core_option_v2_definition option_defs_de[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_DE },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_DE },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_DE },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_DE },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_DE },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_DE },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_DE },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_DE },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_DE },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_DE },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_DE },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_DE },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_DE },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_DE },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_DE },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_DE },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -14226,8 +14301,8 @@ struct retro_core_option_v2_definition option_defs_de[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_DE },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_DE },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_DE },
          { "BLACK 02",          OPTION_VAL_BLACK_02_DE },
          { "BLUE 03",           OPTION_VAL_BLUE_03_DE },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_DE },
@@ -14248,12 +14323,13 @@ struct retro_core_option_v2_definition option_defs_de[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_DE },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_DE },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_DE },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_DE },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_DE },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_DE },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_DE },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_DE },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_DE },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_DE },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_DE },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_DE },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_DE },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_DE },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_DE },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_DE },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -14288,12 +14364,13 @@ struct retro_core_option_v2_definition option_defs_de[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_DE },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_DE },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_DE },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_DE },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_DE },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_DE },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_DE },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_DE },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_DE },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_DE },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_DE },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_DE },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_DE },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_DE },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_DE },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_DE },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -14375,8 +14452,8 @@ struct retro_core_option_v2_definition option_defs_de[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_DE },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_DE },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_DE },
          { "BLACK 02",          OPTION_VAL_BLACK_02_DE },
          { "BLUE 03",           OPTION_VAL_BLUE_03_DE },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_DE },
@@ -14397,12 +14474,13 @@ struct retro_core_option_v2_definition option_defs_de[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_DE },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_DE },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_DE },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_DE },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_DE },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_DE },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_DE },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_DE },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_DE },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_DE },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_DE },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_DE },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_DE },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_DE },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_DE },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_DE },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -14437,12 +14515,13 @@ struct retro_core_option_v2_definition option_defs_de[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_DE },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_DE },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_DE },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_DE },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_DE },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_DE },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_DE },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_DE },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_DE },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_DE },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_DE },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_DE },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_DE },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_DE },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_DE },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_DE },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -14524,8 +14603,8 @@ struct retro_core_option_v2_definition option_defs_de[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_DE },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_DE },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_DE },
          { "BLACK 02",          OPTION_VAL_BLACK_02_DE },
          { "BLUE 03",           OPTION_VAL_BLUE_03_DE },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_DE },
@@ -14546,12 +14625,13 @@ struct retro_core_option_v2_definition option_defs_de[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_DE },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_DE },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_DE },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_DE },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_DE },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_DE },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_DE },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_DE },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_DE },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_DE },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_DE },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_DE },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_DE },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_DE },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_DE },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_DE },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -14586,12 +14666,13 @@ struct retro_core_option_v2_definition option_defs_de[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_DE },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_DE },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_DE },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_DE },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_DE },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_DE },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_DE },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_DE },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_DE },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_DE },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_DE },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_DE },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_DE },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_DE },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_DE },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_DE },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -14641,7 +14722,7 @@ struct retro_core_option_v2_definition option_defs_de[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_DE },
+         { "White",    OPTION_VAL_WHITE_28_DE },
          { "Red",      OPTION_VAL_RED_11_DE },
          { "Green",    OPTION_VAL_GREEN_05_DE },
          { "Blue",     OPTION_VAL_BLUE_03_DE },
@@ -14658,7 +14739,7 @@ struct retro_core_option_v2_definition option_defs_de[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_DE },
+         { "White",    OPTION_VAL_WHITE_28_DE },
          { "Red",      OPTION_VAL_RED_11_DE },
          { "Green",    OPTION_VAL_GREEN_05_DE },
          { "Blue",     OPTION_VAL_BLUE_03_DE },
@@ -14675,7 +14756,7 @@ struct retro_core_option_v2_definition option_defs_de[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_DE },
+         { "White",    OPTION_VAL_WHITE_28_DE },
          { "Red",      OPTION_VAL_RED_11_DE },
          { "Green",    OPTION_VAL_GREEN_05_DE },
          { "Blue",     OPTION_VAL_BLUE_03_DE },
@@ -14692,7 +14773,7 @@ struct retro_core_option_v2_definition option_defs_de[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_DE },
+         { "White",    OPTION_VAL_WHITE_28_DE },
          { "Red",      OPTION_VAL_RED_11_DE },
          { "Green",    OPTION_VAL_GREEN_05_DE },
          { "Blue",     OPTION_VAL_BLUE_03_DE },
@@ -14709,9 +14790,9 @@ struct retro_core_options_v2 options_de = {
 
 /* RETRO_LANGUAGE_EL */
 
-#define CATEGORY_VIDEO_LABEL_EL NULL
+#define CATEGORY_VIDEO_LABEL_EL "Οδηγός Βίντεο"
 #define CATEGORY_VIDEO_INFO_0_EL NULL
-#define CATEGORY_INPUT_LABEL_EL NULL
+#define CATEGORY_INPUT_LABEL_EL "Οδηγός Εισαγωγής"
 #define CATEGORY_INPUT_INFO_0_EL NULL
 #define CATEGORY_VMU_LABEL_EL NULL
 #define CATEGORY_VMU_INFO_0_EL NULL
@@ -14723,7 +14804,7 @@ struct retro_core_options_v2 options_de = {
 #define CORE_OPTION_NAME_BOOT_TO_BIOS_LABEL_EL NULL
 #define CORE_OPTION_NAME_BOOT_TO_BIOS_INFO_0_EL NULL
 #define CORE_OPTION_NAME_SYSTEM_LABEL_EL NULL
-#define OPTION_VAL_AUTO_EL NULL
+#define OPTION_VAL_AUTO_EL "Αυτόματο"
 #define OPTION_VAL_DREAMCAST_EL NULL
 #define OPTION_VAL_NAOMI_EL NULL
 #define OPTION_VAL_ATOMISWAVE_EL NULL
@@ -14764,7 +14845,7 @@ struct retro_core_options_v2 options_de = {
 #define OPTION_VAL_11520X8640_EL NULL
 #define OPTION_VAL_12160X9120_EL NULL
 #define OPTION_VAL_12800X9600_EL NULL
-#define CORE_OPTION_NAME_SCREEN_ROTATION_LABEL_EL NULL
+#define CORE_OPTION_NAME_SCREEN_ROTATION_LABEL_EL "Περιστροφή οθόνης"
 #define OPTION_VAL_HORIZONTAL_EL NULL
 #define OPTION_VAL_VERTICAL_EL NULL
 #define CORE_OPTION_NAME_ALPHA_SORTING_LABEL_EL NULL
@@ -14781,7 +14862,7 @@ struct retro_core_options_v2 options_de = {
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_LABEL_EL NULL
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_INFO_0_EL NULL
 #define CORE_OPTION_NAME_CABLE_TYPE_LABEL_EL NULL
-#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_EL NULL
+#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_EL "The output signal type. VGA is recommended, but some games might not be compatible with it."
 #define OPTION_VAL_TV_RGB_EL NULL
 #define OPTION_VAL_TV_COMPOSITE_EL NULL
 #define OPTION_VAL_VGA_RGB_EL NULL
@@ -14794,18 +14875,18 @@ struct retro_core_options_v2 options_de = {
 #define CORE_OPTION_NAME_FRAMERATE_LABEL_EL NULL
 #define CORE_OPTION_NAME_FRAMERATE_INFO_0_EL NULL
 #define OPTION_VAL_FULLSPEED_EL NULL
-#define OPTION_VAL_NORMAL_EL NULL
-#define CORE_OPTION_NAME_REGION_LABEL_EL NULL
+#define OPTION_VAL_NORMAL_EL "Φυσιολογικά"
+#define CORE_OPTION_NAME_REGION_LABEL_EL "Περιοχή"
 #define OPTION_VAL_JAPAN_EL NULL
 #define OPTION_VAL_USA_EL NULL
 #define OPTION_VAL_EUROPE_EL NULL
-#define CORE_OPTION_NAME_LANGUAGE_LABEL_EL NULL
-#define OPTION_VAL_JAPANESE_EL NULL
-#define OPTION_VAL_ENGLISH_EL NULL
-#define OPTION_VAL_GERMAN_EL NULL
-#define OPTION_VAL_FRENCH_EL NULL
-#define OPTION_VAL_SPANISH_EL NULL
-#define OPTION_VAL_ITALIAN_EL NULL
+#define CORE_OPTION_NAME_LANGUAGE_LABEL_EL "Γλώσσα"
+#define OPTION_VAL_JAPANESE_EL "Ιαπωνικά"
+#define OPTION_VAL_ENGLISH_EL "Αγγλικά"
+#define OPTION_VAL_GERMAN_EL "Γερμανός"
+#define OPTION_VAL_FRENCH_EL "Γαλλική γλώσσα"
+#define OPTION_VAL_SPANISH_EL "Ισπανικά"
+#define OPTION_VAL_ITALIAN_EL "Ιταλικά"
 #define CORE_OPTION_NAME_DIV_MATCHING_LABEL_EL NULL
 #define CORE_OPTION_NAME_DIV_MATCHING_INFO_0_EL NULL
 #define CORE_OPTION_NAME_FORCE_WINCE_LABEL_EL NULL
@@ -14870,21 +14951,21 @@ struct retro_core_options_v2 options_de = {
 #define CORE_OPTION_NAME_VMU1_SCREEN_SIZE_MULT_LABEL_EL NULL
 #define OPTION_VAL_5X_EL NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_ON_COLOR_LABEL_EL NULL
-#define OPTION_VAL_DEFAULT_OFF_01_EL NULL
 #define OPTION_VAL_DEFAULT_ON_00_EL NULL
+#define OPTION_VAL_DEFAULT_OFF_01_EL NULL
 #define OPTION_VAL_BLACK_02_EL NULL
-#define OPTION_VAL_BLUE_03_EL NULL
+#define OPTION_VAL_BLUE_03_EL "Μπλε"
 #define OPTION_VAL_LIGHT_BLUE_04_EL NULL
-#define OPTION_VAL_GREEN_05_EL NULL
+#define OPTION_VAL_GREEN_05_EL "Πράσινο"
 #define OPTION_VAL_CYAN_06_EL NULL
 #define OPTION_VAL_CYAN_BLUE_07_EL NULL
 #define OPTION_VAL_LIGHT_GREEN_08_EL NULL
 #define OPTION_VAL_CYAN_GREEN_09_EL NULL
 #define OPTION_VAL_LIGHT_CYAN_10_EL NULL
-#define OPTION_VAL_RED_11_EL NULL
+#define OPTION_VAL_RED_11_EL "Κόκκινο"
 #define OPTION_VAL_PURPLE_12_EL NULL
 #define OPTION_VAL_LIGHT_PURPLE_13_EL NULL
-#define OPTION_VAL_YELLOW_14_EL NULL
+#define OPTION_VAL_YELLOW_14_EL "Κίτρινο"
 #define OPTION_VAL_GRAY_15_EL NULL
 #define OPTION_VAL_LIGHT_PURPLE_2_16_EL NULL
 #define OPTION_VAL_LIGHT_GREEN_2_17_EL NULL
@@ -14892,19 +14973,20 @@ struct retro_core_options_v2 options_de = {
 #define OPTION_VAL_LIGHT_CYAN_2_19_EL NULL
 #define OPTION_VAL_LIGHT_RED_2_20_EL NULL
 #define OPTION_VAL_MAGENTA_21_EL NULL
-#define OPTION_VAL_LIGHT_ORANGE_22_EL NULL
-#define OPTION_VAL_ORANGE_23_EL NULL
-#define OPTION_VAL_LIGHT_PURPLE_3_24_EL NULL
-#define OPTION_VAL_LIGHT_YELLOW_25_EL NULL
-#define OPTION_VAL_LIGHT_YELLOW_2_26_EL NULL
-#define OPTION_VAL_WHITE_27_EL NULL
+#define OPTION_VAL_LIGHT_PURPLE_3_22_EL NULL
+#define OPTION_VAL_LIGHT_ORANGE_23_EL NULL
+#define OPTION_VAL_ORANGE_24_EL NULL
+#define OPTION_VAL_LIGHT_PURPLE_4_25_EL NULL
+#define OPTION_VAL_LIGHT_YELLOW_26_EL NULL
+#define OPTION_VAL_LIGHT_YELLOW_2_27_EL NULL
+#define OPTION_VAL_WHITE_28_EL NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_OFF_COLOR_LABEL_EL NULL
 #define CORE_OPTION_NAME_VMU1_SCREEN_OPACITY_LABEL_EL NULL
 #define OPTION_VAL_40_EL NULL
 #define OPTION_VAL_50_EL NULL
 #define OPTION_VAL_60_EL NULL
 #define OPTION_VAL_70_EL NULL
-#define OPTION_VAL_80_EL NULL
+#define OPTION_VAL_80_EL "το 80%"
 #define OPTION_VAL_90_EL NULL
 #define OPTION_VAL_100_EL NULL
 #define CORE_OPTION_NAME_VMU2_SCREEN_DISPLAY_LABEL_EL NULL
@@ -15707,8 +15789,8 @@ struct retro_core_option_v2_definition option_defs_el[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_EL },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_EL },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_EL },
          { "BLACK 02",          OPTION_VAL_BLACK_02_EL },
          { "BLUE 03",           OPTION_VAL_BLUE_03_EL },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_EL },
@@ -15729,12 +15811,13 @@ struct retro_core_option_v2_definition option_defs_el[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_EL },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_EL },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_EL },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_EL },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_EL },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_EL },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_EL },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_EL },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_EL },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_EL },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_EL },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_EL },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_EL },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_EL },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_EL },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_EL },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -15769,12 +15852,13 @@ struct retro_core_option_v2_definition option_defs_el[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_EL },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_EL },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_EL },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_EL },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_EL },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_EL },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_EL },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_EL },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_EL },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_EL },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_EL },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_EL },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_EL },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_EL },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_EL },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_EL },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -15856,8 +15940,8 @@ struct retro_core_option_v2_definition option_defs_el[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_EL },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_EL },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_EL },
          { "BLACK 02",          OPTION_VAL_BLACK_02_EL },
          { "BLUE 03",           OPTION_VAL_BLUE_03_EL },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_EL },
@@ -15878,12 +15962,13 @@ struct retro_core_option_v2_definition option_defs_el[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_EL },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_EL },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_EL },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_EL },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_EL },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_EL },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_EL },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_EL },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_EL },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_EL },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_EL },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_EL },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_EL },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_EL },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_EL },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_EL },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -15918,12 +16003,13 @@ struct retro_core_option_v2_definition option_defs_el[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_EL },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_EL },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_EL },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_EL },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_EL },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_EL },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_EL },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_EL },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_EL },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_EL },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_EL },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_EL },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_EL },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_EL },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_EL },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_EL },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -16005,8 +16091,8 @@ struct retro_core_option_v2_definition option_defs_el[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_EL },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_EL },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_EL },
          { "BLACK 02",          OPTION_VAL_BLACK_02_EL },
          { "BLUE 03",           OPTION_VAL_BLUE_03_EL },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_EL },
@@ -16027,12 +16113,13 @@ struct retro_core_option_v2_definition option_defs_el[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_EL },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_EL },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_EL },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_EL },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_EL },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_EL },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_EL },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_EL },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_EL },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_EL },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_EL },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_EL },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_EL },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_EL },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_EL },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_EL },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -16067,12 +16154,13 @@ struct retro_core_option_v2_definition option_defs_el[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_EL },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_EL },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_EL },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_EL },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_EL },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_EL },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_EL },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_EL },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_EL },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_EL },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_EL },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_EL },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_EL },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_EL },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_EL },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_EL },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -16154,8 +16242,8 @@ struct retro_core_option_v2_definition option_defs_el[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_EL },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_EL },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_EL },
          { "BLACK 02",          OPTION_VAL_BLACK_02_EL },
          { "BLUE 03",           OPTION_VAL_BLUE_03_EL },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_EL },
@@ -16176,12 +16264,13 @@ struct retro_core_option_v2_definition option_defs_el[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_EL },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_EL },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_EL },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_EL },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_EL },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_EL },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_EL },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_EL },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_EL },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_EL },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_EL },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_EL },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_EL },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_EL },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_EL },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_EL },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -16216,12 +16305,13 @@ struct retro_core_option_v2_definition option_defs_el[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_EL },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_EL },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_EL },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_EL },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_EL },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_EL },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_EL },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_EL },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_EL },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_EL },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_EL },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_EL },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_EL },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_EL },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_EL },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_EL },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -16271,7 +16361,7 @@ struct retro_core_option_v2_definition option_defs_el[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_EL },
+         { "White",    OPTION_VAL_WHITE_28_EL },
          { "Red",      OPTION_VAL_RED_11_EL },
          { "Green",    OPTION_VAL_GREEN_05_EL },
          { "Blue",     OPTION_VAL_BLUE_03_EL },
@@ -16288,7 +16378,7 @@ struct retro_core_option_v2_definition option_defs_el[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_EL },
+         { "White",    OPTION_VAL_WHITE_28_EL },
          { "Red",      OPTION_VAL_RED_11_EL },
          { "Green",    OPTION_VAL_GREEN_05_EL },
          { "Blue",     OPTION_VAL_BLUE_03_EL },
@@ -16305,7 +16395,7 @@ struct retro_core_option_v2_definition option_defs_el[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_EL },
+         { "White",    OPTION_VAL_WHITE_28_EL },
          { "Red",      OPTION_VAL_RED_11_EL },
          { "Green",    OPTION_VAL_GREEN_05_EL },
          { "Blue",     OPTION_VAL_BLUE_03_EL },
@@ -16322,7 +16412,7 @@ struct retro_core_option_v2_definition option_defs_el[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_EL },
+         { "White",    OPTION_VAL_WHITE_28_EL },
          { "Red",      OPTION_VAL_RED_11_EL },
          { "Green",    OPTION_VAL_GREEN_05_EL },
          { "Blue",     OPTION_VAL_BLUE_03_EL },
@@ -16339,9 +16429,9 @@ struct retro_core_options_v2 options_el = {
 
 /* RETRO_LANGUAGE_EO */
 
-#define CATEGORY_VIDEO_LABEL_EO NULL
+#define CATEGORY_VIDEO_LABEL_EO "Video Driver"
 #define CATEGORY_VIDEO_INFO_0_EO NULL
-#define CATEGORY_INPUT_LABEL_EO NULL
+#define CATEGORY_INPUT_LABEL_EO "Input Driver"
 #define CATEGORY_INPUT_INFO_0_EO NULL
 #define CATEGORY_VMU_LABEL_EO NULL
 #define CATEGORY_VMU_INFO_0_EO NULL
@@ -16411,7 +16501,7 @@ struct retro_core_options_v2 options_el = {
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_LABEL_EO NULL
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_INFO_0_EO NULL
 #define CORE_OPTION_NAME_CABLE_TYPE_LABEL_EO NULL
-#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_EO NULL
+#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_EO "The output signal type. VGA is recommended, but some games might not be compatible with it."
 #define OPTION_VAL_TV_RGB_EO NULL
 #define OPTION_VAL_TV_COMPOSITE_EO NULL
 #define OPTION_VAL_VGA_RGB_EO NULL
@@ -16500,8 +16590,8 @@ struct retro_core_options_v2 options_el = {
 #define CORE_OPTION_NAME_VMU1_SCREEN_SIZE_MULT_LABEL_EO NULL
 #define OPTION_VAL_5X_EO NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_ON_COLOR_LABEL_EO NULL
-#define OPTION_VAL_DEFAULT_OFF_01_EO NULL
 #define OPTION_VAL_DEFAULT_ON_00_EO NULL
+#define OPTION_VAL_DEFAULT_OFF_01_EO NULL
 #define OPTION_VAL_BLACK_02_EO NULL
 #define OPTION_VAL_BLUE_03_EO NULL
 #define OPTION_VAL_LIGHT_BLUE_04_EO NULL
@@ -16522,12 +16612,13 @@ struct retro_core_options_v2 options_el = {
 #define OPTION_VAL_LIGHT_CYAN_2_19_EO NULL
 #define OPTION_VAL_LIGHT_RED_2_20_EO NULL
 #define OPTION_VAL_MAGENTA_21_EO NULL
-#define OPTION_VAL_LIGHT_ORANGE_22_EO NULL
-#define OPTION_VAL_ORANGE_23_EO NULL
-#define OPTION_VAL_LIGHT_PURPLE_3_24_EO NULL
-#define OPTION_VAL_LIGHT_YELLOW_25_EO NULL
-#define OPTION_VAL_LIGHT_YELLOW_2_26_EO NULL
-#define OPTION_VAL_WHITE_27_EO NULL
+#define OPTION_VAL_LIGHT_PURPLE_3_22_EO NULL
+#define OPTION_VAL_LIGHT_ORANGE_23_EO NULL
+#define OPTION_VAL_ORANGE_24_EO NULL
+#define OPTION_VAL_LIGHT_PURPLE_4_25_EO NULL
+#define OPTION_VAL_LIGHT_YELLOW_26_EO NULL
+#define OPTION_VAL_LIGHT_YELLOW_2_27_EO NULL
+#define OPTION_VAL_WHITE_28_EO NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_OFF_COLOR_LABEL_EO NULL
 #define CORE_OPTION_NAME_VMU1_SCREEN_OPACITY_LABEL_EO NULL
 #define OPTION_VAL_40_EO NULL
@@ -17337,8 +17428,8 @@ struct retro_core_option_v2_definition option_defs_eo[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_EO },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_EO },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_EO },
          { "BLACK 02",          OPTION_VAL_BLACK_02_EO },
          { "BLUE 03",           OPTION_VAL_BLUE_03_EO },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_EO },
@@ -17359,12 +17450,13 @@ struct retro_core_option_v2_definition option_defs_eo[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_EO },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_EO },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_EO },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_EO },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_EO },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_EO },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_EO },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_EO },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_EO },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_EO },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_EO },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_EO },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_EO },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_EO },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_EO },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_EO },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -17399,12 +17491,13 @@ struct retro_core_option_v2_definition option_defs_eo[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_EO },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_EO },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_EO },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_EO },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_EO },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_EO },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_EO },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_EO },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_EO },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_EO },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_EO },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_EO },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_EO },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_EO },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_EO },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_EO },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -17486,8 +17579,8 @@ struct retro_core_option_v2_definition option_defs_eo[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_EO },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_EO },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_EO },
          { "BLACK 02",          OPTION_VAL_BLACK_02_EO },
          { "BLUE 03",           OPTION_VAL_BLUE_03_EO },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_EO },
@@ -17508,12 +17601,13 @@ struct retro_core_option_v2_definition option_defs_eo[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_EO },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_EO },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_EO },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_EO },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_EO },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_EO },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_EO },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_EO },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_EO },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_EO },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_EO },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_EO },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_EO },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_EO },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_EO },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_EO },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -17548,12 +17642,13 @@ struct retro_core_option_v2_definition option_defs_eo[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_EO },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_EO },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_EO },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_EO },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_EO },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_EO },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_EO },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_EO },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_EO },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_EO },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_EO },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_EO },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_EO },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_EO },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_EO },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_EO },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -17635,8 +17730,8 @@ struct retro_core_option_v2_definition option_defs_eo[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_EO },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_EO },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_EO },
          { "BLACK 02",          OPTION_VAL_BLACK_02_EO },
          { "BLUE 03",           OPTION_VAL_BLUE_03_EO },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_EO },
@@ -17657,12 +17752,13 @@ struct retro_core_option_v2_definition option_defs_eo[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_EO },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_EO },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_EO },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_EO },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_EO },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_EO },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_EO },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_EO },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_EO },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_EO },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_EO },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_EO },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_EO },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_EO },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_EO },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_EO },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -17697,12 +17793,13 @@ struct retro_core_option_v2_definition option_defs_eo[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_EO },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_EO },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_EO },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_EO },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_EO },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_EO },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_EO },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_EO },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_EO },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_EO },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_EO },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_EO },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_EO },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_EO },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_EO },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_EO },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -17784,8 +17881,8 @@ struct retro_core_option_v2_definition option_defs_eo[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_EO },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_EO },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_EO },
          { "BLACK 02",          OPTION_VAL_BLACK_02_EO },
          { "BLUE 03",           OPTION_VAL_BLUE_03_EO },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_EO },
@@ -17806,12 +17903,13 @@ struct retro_core_option_v2_definition option_defs_eo[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_EO },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_EO },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_EO },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_EO },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_EO },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_EO },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_EO },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_EO },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_EO },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_EO },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_EO },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_EO },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_EO },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_EO },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_EO },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_EO },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -17846,12 +17944,13 @@ struct retro_core_option_v2_definition option_defs_eo[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_EO },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_EO },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_EO },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_EO },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_EO },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_EO },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_EO },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_EO },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_EO },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_EO },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_EO },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_EO },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_EO },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_EO },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_EO },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_EO },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -17901,7 +18000,7 @@ struct retro_core_option_v2_definition option_defs_eo[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_EO },
+         { "White",    OPTION_VAL_WHITE_28_EO },
          { "Red",      OPTION_VAL_RED_11_EO },
          { "Green",    OPTION_VAL_GREEN_05_EO },
          { "Blue",     OPTION_VAL_BLUE_03_EO },
@@ -17918,7 +18017,7 @@ struct retro_core_option_v2_definition option_defs_eo[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_EO },
+         { "White",    OPTION_VAL_WHITE_28_EO },
          { "Red",      OPTION_VAL_RED_11_EO },
          { "Green",    OPTION_VAL_GREEN_05_EO },
          { "Blue",     OPTION_VAL_BLUE_03_EO },
@@ -17935,7 +18034,7 @@ struct retro_core_option_v2_definition option_defs_eo[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_EO },
+         { "White",    OPTION_VAL_WHITE_28_EO },
          { "Red",      OPTION_VAL_RED_11_EO },
          { "Green",    OPTION_VAL_GREEN_05_EO },
          { "Blue",     OPTION_VAL_BLUE_03_EO },
@@ -17952,7 +18051,7 @@ struct retro_core_option_v2_definition option_defs_eo[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_EO },
+         { "White",    OPTION_VAL_WHITE_28_EO },
          { "Red",      OPTION_VAL_RED_11_EO },
          { "Green",    OPTION_VAL_GREEN_05_EO },
          { "Blue",     OPTION_VAL_BLUE_03_EO },
@@ -17972,11 +18071,11 @@ struct retro_core_options_v2 options_eo = {
 #define CATEGORY_VIDEO_LABEL_ES "Vídeo"
 #define CATEGORY_VIDEO_INFO_0_ES "Cambia los ajustes de los búfers y efectos visuales, los parámetros de imagen, la velocidad u omisión de fotogramas y los ajustes de renderizado y texturas."
 #define CATEGORY_INPUT_LABEL_ES "Entrada"
-#define CATEGORY_INPUT_INFO_0_ES "Cambia los ajustes de mandos y «lightguns»."
+#define CATEGORY_INPUT_INFO_0_ES "Cambia los ajustes de los mandos y las pistolas de luz."
 #define CATEGORY_VMU_LABEL_ES NULL
 #define CATEGORY_VMU_INFO_0_ES "Cambia los ajustes relacionados con las Visual Memory (VMU)."
 #define CATEGORY_HACKS_LABEL_ES "Arreglos de emulación"
-#define CATEGORY_HACKS_INFO_0_ES "Configura varios arreglos de la emulación."
+#define CATEGORY_HACKS_INFO_0_ES "Cambia varias alteraciones de la emulación."
 #define CORE_OPTION_NAME_CPU_MODE_LABEL_ES "Modo de CPU (es necesario reiniciar)"
 #define OPTION_VAL_DYNAMIC_RECOMPILER_ES "Recompilador dinámico"
 #define OPTION_VAL_GENERIC_RECOMPILER_ES "Recompilador genérico"
@@ -17988,7 +18087,7 @@ struct retro_core_options_v2 options_eo = {
 #define OPTION_VAL_NAOMI_ES NULL
 #define OPTION_VAL_ATOMISWAVE_ES NULL
 #define CORE_OPTION_NAME_HLE_BIOS_LABEL_ES "BIOS HLE"
-#define CORE_OPTION_NAME_HLE_BIOS_INFO_0_ES "Fuerza una BIOS emulada a alto nivel."
+#define CORE_OPTION_NAME_HLE_BIOS_INFO_0_ES "Fuerza el uso de una BIOS creada con emulación de alto nivel."
 #define CORE_OPTION_NAME_OIT_ABUFFER_SIZE_LABEL_ES "Tamaño del búfer de acumulación de píxeles (es necesario reiniciar)"
 #define CORE_OPTION_NAME_OIT_ABUFFER_SIZE_INFO_0_ES "Es posible que sea necesario un valor alto para que la imagen se muestre bien a resoluciones superiores a la nativa."
 #define OPTION_VAL_512MB_ES "512 MB"
@@ -18028,9 +18127,9 @@ struct retro_core_options_v2 options_eo = {
 #define OPTION_VAL_HORIZONTAL_ES NULL
 #define OPTION_VAL_VERTICAL_ES NULL
 #define CORE_OPTION_NAME_ALPHA_SORTING_LABEL_ES "Ordenación de transparencias"
-#define OPTION_VAL_PER_STRIP_FAST_LEAST_ACCURATE_ES "Por bandas (rápido, menos preciso)"
+#define OPTION_VAL_PER_STRIP_FAST_LEAST_ACCURATE_ES "Por bandas (rápida, menos precisa)"
 #define OPTION_VAL_PER_TRIANGLE_NORMAL_ES "Por triángulos (normal)"
-#define OPTION_VAL_PER_PIXEL_ACCURATE_ES "Por píxeles (preciso, pero lento)"
+#define OPTION_VAL_PER_PIXEL_ACCURATE_ES "Por píxeles (precisa, pero lenta)"
 #define CORE_OPTION_NAME_GDROM_FAST_LOADING_LABEL_ES "Lectura rápida de GD-ROM (inexacta)"
 #define CORE_OPTION_NAME_GDROM_FAST_LOADING_INFO_0_ES "Acelera la carga de los GD-ROM."
 #define CORE_OPTION_NAME_MIPMAPPING_LABEL_ES "«Mipmapping»"
@@ -18104,7 +18203,7 @@ struct retro_core_options_v2 options_eo = {
 #define CORE_OPTION_NAME_DELAY_FRAME_SWAPPING_LABEL_ES "Retrasar cambio de fotogramas"
 #define CORE_OPTION_NAME_DELAY_FRAME_SWAPPING_INFO_0_ES "Sirve para evitar destellos en las imágenes o defectos de vídeo. No se recomienda su uso en plataformas lentas. Nota: este ajuste solo surtirá efecto cuando la opción «Renderizado multihilo» esté activada."
 #define CORE_OPTION_NAME_FRAME_SKIPPING_LABEL_ES "Omisión de fotogramas"
-#define CORE_OPTION_NAME_FRAME_SKIPPING_INFO_0_ES "Establece la cantidad de fotogramas que se omitirán entre cada fotograma que se muestre."
+#define CORE_OPTION_NAME_FRAME_SKIPPING_INFO_0_ES "Establece la cantidad de fotogramas que se omitirán tras cada fotograma que se muestre."
 #define CORE_OPTION_NAME_ENABLE_PURUPURU_LABEL_ES "Puru Puru/Vibration Pack (Vibración)"
 #define CORE_OPTION_NAME_ENABLE_PURUPURU_INFO_0_ES "Activa la vibración del mando."
 #define CORE_OPTION_NAME_ALLOW_SERVICE_BUTTONS_LABEL_ES "Activar botones de servicio de NAOMI"
@@ -18114,10 +18213,10 @@ struct retro_core_options_v2 options_eo = {
 #define CORE_OPTION_NAME_CUSTOM_TEXTURES_LABEL_ES "Cargar texturas personalizadas"
 #define CORE_OPTION_NAME_DUMP_TEXTURES_LABEL_ES "Volcar texturas"
 #define CORE_OPTION_NAME_PER_CONTENT_VMUS_LABEL_ES "Separar Visual Memory (VMU) por juego"
-#define CORE_OPTION_NAME_PER_CONTENT_VMUS_LABEL_CAT_ES "VMU para cada juego"
+#define CORE_OPTION_NAME_PER_CONTENT_VMUS_LABEL_CAT_ES "VMUs individuales para cada juego"
 #define CORE_OPTION_NAME_PER_CONTENT_VMUS_INFO_0_ES "Al desactivar esta opción, todos los juegos compartirán cuatro archivos de guardado de VMU (A1, B1, C1 y D1) que se encontrarán en el directorio del sistema de RetroArch. El ajuste «VMU A1» creará un archivo único de la VMU A1 en el directorio de guardados de RetroArch para cada juego que se ejecute. «Todas las VMU» creará cuatro archivos VMU únicos (A1, B1, C1 y D1) para cada juego que se ejecute."
 #define OPTION_VAL_VMU_A1_ES NULL
-#define OPTION_VAL_ALL_VMUS_ES "Todas las VMU"
+#define OPTION_VAL_ALL_VMUS_ES "Todas las VMUs"
 #define CORE_OPTION_NAME_SHOW_VMU_SCREEN_SETTINGS_LABEL_ES "Mostrar ajustes de visualización de las Visual Memory (VMU)"
 #define CORE_OPTION_NAME_SHOW_VMU_SCREEN_SETTINGS_LABEL_CAT_ES "Mostrar ajustes de visualización de las VMU"
 #define CORE_OPTION_NAME_SHOW_VMU_SCREEN_SETTINGS_INFO_0_ES "Permite configurar la visibilidad, tamaño, posición y color de las pantallas LCD emuladas de las VMU. NOTA: es necesario salir y volver a entrar del menú rápido para que el cambio surta efecto."
@@ -18129,15 +18228,15 @@ struct retro_core_options_v2 options_eo = {
 #define OPTION_VAL_LOWER_RIGHT_ES "Esquina interior derecha"
 #define CORE_OPTION_NAME_VMU1_SCREEN_SIZE_MULT_LABEL_ES "Tamaño de la pantalla de la VMU 1"
 #define OPTION_VAL_5X_ES NULL
-#define CORE_OPTION_NAME_VMU1_PIXEL_ON_COLOR_LABEL_ES "Color de píxeles encendidos de la pantalla de la VMU 1"
-#define OPTION_VAL_DEFAULT_OFF_01_ES "Apagar por defecto"
-#define OPTION_VAL_DEFAULT_ON_00_ES "Encender por defecto"
+#define CORE_OPTION_NAME_VMU1_PIXEL_ON_COLOR_LABEL_ES "Color de píxeles encendidos de la VMU 1"
+#define OPTION_VAL_DEFAULT_ON_00_ES "Predeterminado (encendido)"
+#define OPTION_VAL_DEFAULT_OFF_01_ES "Predeterminado (apagado)"
 #define OPTION_VAL_BLACK_02_ES "Negro"
 #define OPTION_VAL_BLUE_03_ES "Azul"
 #define OPTION_VAL_LIGHT_BLUE_04_ES "Azul claro"
 #define OPTION_VAL_GREEN_05_ES "Verde"
-#define OPTION_VAL_CYAN_06_ES "Turquesa"
-#define OPTION_VAL_CYAN_BLUE_07_ES "Azul cian"
+#define OPTION_VAL_CYAN_06_ES "Cian"
+#define OPTION_VAL_CYAN_BLUE_07_ES "Azul celeste"
 #define OPTION_VAL_LIGHT_GREEN_08_ES "Verde claro"
 #define OPTION_VAL_CYAN_GREEN_09_ES "Verde cian"
 #define OPTION_VAL_LIGHT_CYAN_10_ES "Cian claro"
@@ -18152,13 +18251,14 @@ struct retro_core_options_v2 options_eo = {
 #define OPTION_VAL_LIGHT_CYAN_2_19_ES "Cian claro (2)"
 #define OPTION_VAL_LIGHT_RED_2_20_ES "Rojo claro (2)"
 #define OPTION_VAL_MAGENTA_21_ES NULL
-#define OPTION_VAL_LIGHT_ORANGE_22_ES "Naranja claro"
-#define OPTION_VAL_ORANGE_23_ES "Naranja"
-#define OPTION_VAL_LIGHT_PURPLE_3_24_ES "Violeta claro (3)"
-#define OPTION_VAL_LIGHT_YELLOW_25_ES "Amarillo claro"
-#define OPTION_VAL_LIGHT_YELLOW_2_26_ES "Amarillo claro (2)"
-#define OPTION_VAL_WHITE_27_ES "Blanco"
-#define CORE_OPTION_NAME_VMU1_PIXEL_OFF_COLOR_LABEL_ES "Color de píxeles apagados de la pantalla de la VMU 1"
+#define OPTION_VAL_LIGHT_PURPLE_3_22_ES NULL
+#define OPTION_VAL_LIGHT_ORANGE_23_ES NULL
+#define OPTION_VAL_ORANGE_24_ES NULL
+#define OPTION_VAL_LIGHT_PURPLE_4_25_ES NULL
+#define OPTION_VAL_LIGHT_YELLOW_26_ES NULL
+#define OPTION_VAL_LIGHT_YELLOW_2_27_ES NULL
+#define OPTION_VAL_WHITE_28_ES NULL
+#define CORE_OPTION_NAME_VMU1_PIXEL_OFF_COLOR_LABEL_ES "Color de píxeles apagados de la VMU 1"
 #define CORE_OPTION_NAME_VMU1_SCREEN_OPACITY_LABEL_ES "Opacidad de la pantalla de la VMU 1"
 #define OPTION_VAL_40_ES "40 %"
 #define OPTION_VAL_50_ES "50 %"
@@ -18170,23 +18270,23 @@ struct retro_core_options_v2 options_eo = {
 #define CORE_OPTION_NAME_VMU2_SCREEN_DISPLAY_LABEL_ES "Pantalla de la VMU 2"
 #define CORE_OPTION_NAME_VMU2_SCREEN_POSITION_LABEL_ES "Posición de la pantalla de la VMU 2"
 #define CORE_OPTION_NAME_VMU2_SCREEN_SIZE_MULT_LABEL_ES "Tamaño de la pantalla de la VMU 2"
-#define CORE_OPTION_NAME_VMU2_PIXEL_ON_COLOR_LABEL_ES "Color de píxeles encendidos de la pantalla de la VMU 2"
-#define CORE_OPTION_NAME_VMU2_PIXEL_OFF_COLOR_LABEL_ES "Color de píxeles apagados de la pantalla de la VMU 2"
+#define CORE_OPTION_NAME_VMU2_PIXEL_ON_COLOR_LABEL_ES "Color de píxeles encendidos de la VMU 2"
+#define CORE_OPTION_NAME_VMU2_PIXEL_OFF_COLOR_LABEL_ES "Color de píxeles apagados de la VMU 2"
 #define CORE_OPTION_NAME_VMU2_SCREEN_OPACITY_LABEL_ES "Opacidad de la pantalla de la VMU 2"
 #define CORE_OPTION_NAME_VMU3_SCREEN_DISPLAY_LABEL_ES "Pantalla de la VMU 3"
 #define CORE_OPTION_NAME_VMU3_SCREEN_POSITION_LABEL_ES "Posición de la pantalla de la VMU 3"
 #define CORE_OPTION_NAME_VMU3_SCREEN_SIZE_MULT_LABEL_ES "Tamaño de la pantalla de la VMU 3"
-#define CORE_OPTION_NAME_VMU3_PIXEL_ON_COLOR_LABEL_ES "Color de píxeles encendidos de la pantalla de la VMU 3"
-#define CORE_OPTION_NAME_VMU3_PIXEL_OFF_COLOR_LABEL_ES "Color de píxeles apagados de la pantalla de la VMU 3"
+#define CORE_OPTION_NAME_VMU3_PIXEL_ON_COLOR_LABEL_ES "Color de píxeles encendidos de la VMU 3"
+#define CORE_OPTION_NAME_VMU3_PIXEL_OFF_COLOR_LABEL_ES "Color de píxeles apagados de la VMU 3"
 #define CORE_OPTION_NAME_VMU3_SCREEN_OPACITY_LABEL_ES "Opacidad de la pantalla de la VMU 3"
 #define CORE_OPTION_NAME_VMU4_SCREEN_DISPLAY_LABEL_ES "Pantalla de la VMU 4"
 #define CORE_OPTION_NAME_VMU4_SCREEN_POSITION_LABEL_ES "Posición de la pantalla de la VMU 4"
 #define CORE_OPTION_NAME_VMU4_SCREEN_SIZE_MULT_LABEL_ES "Tamaño de la pantalla de la VMU 4"
-#define CORE_OPTION_NAME_VMU4_PIXEL_ON_COLOR_LABEL_ES "Color de píxeles encendidos de la pantalla de la VMU 4"
-#define CORE_OPTION_NAME_VMU4_PIXEL_OFF_COLOR_LABEL_ES "Color de píxeles apagados de la pantalla de la VMU 4"
+#define CORE_OPTION_NAME_VMU4_PIXEL_ON_COLOR_LABEL_ES "Color de píxeles encendidos de la VMU 4"
+#define CORE_OPTION_NAME_VMU4_PIXEL_OFF_COLOR_LABEL_ES "Color de píxeles apagados de la VMU 4"
 #define CORE_OPTION_NAME_VMU4_SCREEN_OPACITY_LABEL_ES "Opacidad de la pantalla de la VMU 4"
-#define CORE_OPTION_NAME_SHOW_LIGHTGUN_SETTINGS_LABEL_ES "Mostrar ajustes de las «lightgun»"
-#define CORE_OPTION_NAME_SHOW_LIGHTGUN_SETTINGS_INFO_0_ES "Permite configurar los puntos de mira de las «lightgun». NOTA: es necesario salir y volver a entrar del menú rápido para que el cambio surta efecto."
+#define CORE_OPTION_NAME_SHOW_LIGHTGUN_SETTINGS_LABEL_ES "Mostrar ajustes de las pistolas de luz"
+#define CORE_OPTION_NAME_SHOW_LIGHTGUN_SETTINGS_INFO_0_ES "Permite configurar los puntos de mira de las pistolas de luz. NOTA: es necesario salir y volver a entrar del menú rápido para que el cambio surta efecto."
 #define CORE_OPTION_NAME_LIGHTGUN1_CROSSHAIR_LABEL_ES "Mostrar punto de mira del arma 1"
 #define CORE_OPTION_NAME_LIGHTGUN2_CROSSHAIR_LABEL_ES "Mostrar punto de mira del arma 2"
 #define CORE_OPTION_NAME_LIGHTGUN3_CROSSHAIR_LABEL_ES "Mostrar punto de mira del arma 3"
@@ -18967,8 +19067,8 @@ struct retro_core_option_v2_definition option_defs_es[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_ES },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_ES },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_ES },
          { "BLACK 02",          OPTION_VAL_BLACK_02_ES },
          { "BLUE 03",           OPTION_VAL_BLUE_03_ES },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_ES },
@@ -18989,12 +19089,13 @@ struct retro_core_option_v2_definition option_defs_es[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_ES },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_ES },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_ES },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_ES },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_ES },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_ES },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_ES },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_ES },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_ES },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_ES },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_ES },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_ES },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_ES },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_ES },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_ES },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_ES },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -19029,12 +19130,13 @@ struct retro_core_option_v2_definition option_defs_es[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_ES },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_ES },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_ES },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_ES },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_ES },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_ES },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_ES },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_ES },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_ES },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_ES },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_ES },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_ES },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_ES },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_ES },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_ES },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_ES },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -19116,8 +19218,8 @@ struct retro_core_option_v2_definition option_defs_es[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_ES },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_ES },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_ES },
          { "BLACK 02",          OPTION_VAL_BLACK_02_ES },
          { "BLUE 03",           OPTION_VAL_BLUE_03_ES },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_ES },
@@ -19138,12 +19240,13 @@ struct retro_core_option_v2_definition option_defs_es[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_ES },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_ES },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_ES },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_ES },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_ES },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_ES },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_ES },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_ES },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_ES },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_ES },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_ES },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_ES },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_ES },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_ES },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_ES },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_ES },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -19178,12 +19281,13 @@ struct retro_core_option_v2_definition option_defs_es[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_ES },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_ES },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_ES },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_ES },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_ES },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_ES },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_ES },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_ES },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_ES },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_ES },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_ES },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_ES },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_ES },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_ES },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_ES },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_ES },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -19265,8 +19369,8 @@ struct retro_core_option_v2_definition option_defs_es[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_ES },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_ES },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_ES },
          { "BLACK 02",          OPTION_VAL_BLACK_02_ES },
          { "BLUE 03",           OPTION_VAL_BLUE_03_ES },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_ES },
@@ -19287,12 +19391,13 @@ struct retro_core_option_v2_definition option_defs_es[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_ES },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_ES },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_ES },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_ES },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_ES },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_ES },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_ES },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_ES },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_ES },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_ES },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_ES },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_ES },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_ES },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_ES },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_ES },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_ES },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -19327,12 +19432,13 @@ struct retro_core_option_v2_definition option_defs_es[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_ES },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_ES },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_ES },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_ES },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_ES },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_ES },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_ES },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_ES },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_ES },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_ES },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_ES },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_ES },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_ES },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_ES },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_ES },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_ES },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -19414,8 +19520,8 @@ struct retro_core_option_v2_definition option_defs_es[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_ES },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_ES },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_ES },
          { "BLACK 02",          OPTION_VAL_BLACK_02_ES },
          { "BLUE 03",           OPTION_VAL_BLUE_03_ES },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_ES },
@@ -19436,12 +19542,13 @@ struct retro_core_option_v2_definition option_defs_es[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_ES },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_ES },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_ES },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_ES },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_ES },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_ES },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_ES },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_ES },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_ES },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_ES },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_ES },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_ES },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_ES },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_ES },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_ES },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_ES },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -19476,12 +19583,13 @@ struct retro_core_option_v2_definition option_defs_es[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_ES },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_ES },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_ES },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_ES },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_ES },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_ES },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_ES },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_ES },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_ES },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_ES },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_ES },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_ES },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_ES },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_ES },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_ES },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_ES },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -19531,7 +19639,7 @@ struct retro_core_option_v2_definition option_defs_es[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_ES },
+         { "White",    OPTION_VAL_WHITE_28_ES },
          { "Red",      OPTION_VAL_RED_11_ES },
          { "Green",    OPTION_VAL_GREEN_05_ES },
          { "Blue",     OPTION_VAL_BLUE_03_ES },
@@ -19548,7 +19656,7 @@ struct retro_core_option_v2_definition option_defs_es[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_ES },
+         { "White",    OPTION_VAL_WHITE_28_ES },
          { "Red",      OPTION_VAL_RED_11_ES },
          { "Green",    OPTION_VAL_GREEN_05_ES },
          { "Blue",     OPTION_VAL_BLUE_03_ES },
@@ -19565,7 +19673,7 @@ struct retro_core_option_v2_definition option_defs_es[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_ES },
+         { "White",    OPTION_VAL_WHITE_28_ES },
          { "Red",      OPTION_VAL_RED_11_ES },
          { "Green",    OPTION_VAL_GREEN_05_ES },
          { "Blue",     OPTION_VAL_BLUE_03_ES },
@@ -19582,7 +19690,7 @@ struct retro_core_option_v2_definition option_defs_es[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_ES },
+         { "White",    OPTION_VAL_WHITE_28_ES },
          { "Red",      OPTION_VAL_RED_11_ES },
          { "Green",    OPTION_VAL_GREEN_05_ES },
          { "Blue",     OPTION_VAL_BLUE_03_ES },
@@ -19599,9 +19707,9 @@ struct retro_core_options_v2 options_es = {
 
 /* RETRO_LANGUAGE_FA */
 
-#define CATEGORY_VIDEO_LABEL_FA NULL
+#define CATEGORY_VIDEO_LABEL_FA "ویدیو"
 #define CATEGORY_VIDEO_INFO_0_FA NULL
-#define CATEGORY_INPUT_LABEL_FA NULL
+#define CATEGORY_INPUT_LABEL_FA "داده"
 #define CATEGORY_INPUT_INFO_0_FA NULL
 #define CATEGORY_VMU_LABEL_FA NULL
 #define CATEGORY_VMU_INFO_0_FA NULL
@@ -19671,7 +19779,7 @@ struct retro_core_options_v2 options_es = {
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_LABEL_FA NULL
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_INFO_0_FA NULL
 #define CORE_OPTION_NAME_CABLE_TYPE_LABEL_FA NULL
-#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_FA NULL
+#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_FA "The output signal type. VGA is recommended, but some games might not be compatible with it."
 #define OPTION_VAL_TV_RGB_FA NULL
 #define OPTION_VAL_TV_COMPOSITE_FA NULL
 #define OPTION_VAL_VGA_RGB_FA NULL
@@ -19689,7 +19797,7 @@ struct retro_core_options_v2 options_es = {
 #define OPTION_VAL_JAPAN_FA NULL
 #define OPTION_VAL_USA_FA NULL
 #define OPTION_VAL_EUROPE_FA NULL
-#define CORE_OPTION_NAME_LANGUAGE_LABEL_FA NULL
+#define CORE_OPTION_NAME_LANGUAGE_LABEL_FA "زبان"
 #define OPTION_VAL_JAPANESE_FA NULL
 #define OPTION_VAL_ENGLISH_FA NULL
 #define OPTION_VAL_GERMAN_FA NULL
@@ -19760,8 +19868,8 @@ struct retro_core_options_v2 options_es = {
 #define CORE_OPTION_NAME_VMU1_SCREEN_SIZE_MULT_LABEL_FA NULL
 #define OPTION_VAL_5X_FA NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_ON_COLOR_LABEL_FA NULL
-#define OPTION_VAL_DEFAULT_OFF_01_FA NULL
 #define OPTION_VAL_DEFAULT_ON_00_FA NULL
+#define OPTION_VAL_DEFAULT_OFF_01_FA NULL
 #define OPTION_VAL_BLACK_02_FA NULL
 #define OPTION_VAL_BLUE_03_FA NULL
 #define OPTION_VAL_LIGHT_BLUE_04_FA NULL
@@ -19782,12 +19890,13 @@ struct retro_core_options_v2 options_es = {
 #define OPTION_VAL_LIGHT_CYAN_2_19_FA NULL
 #define OPTION_VAL_LIGHT_RED_2_20_FA NULL
 #define OPTION_VAL_MAGENTA_21_FA NULL
-#define OPTION_VAL_LIGHT_ORANGE_22_FA NULL
-#define OPTION_VAL_ORANGE_23_FA NULL
-#define OPTION_VAL_LIGHT_PURPLE_3_24_FA NULL
-#define OPTION_VAL_LIGHT_YELLOW_25_FA NULL
-#define OPTION_VAL_LIGHT_YELLOW_2_26_FA NULL
-#define OPTION_VAL_WHITE_27_FA NULL
+#define OPTION_VAL_LIGHT_PURPLE_3_22_FA NULL
+#define OPTION_VAL_LIGHT_ORANGE_23_FA NULL
+#define OPTION_VAL_ORANGE_24_FA NULL
+#define OPTION_VAL_LIGHT_PURPLE_4_25_FA NULL
+#define OPTION_VAL_LIGHT_YELLOW_26_FA NULL
+#define OPTION_VAL_LIGHT_YELLOW_2_27_FA NULL
+#define OPTION_VAL_WHITE_28_FA NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_OFF_COLOR_LABEL_FA NULL
 #define CORE_OPTION_NAME_VMU1_SCREEN_OPACITY_LABEL_FA NULL
 #define OPTION_VAL_40_FA NULL
@@ -20597,8 +20706,8 @@ struct retro_core_option_v2_definition option_defs_fa[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_FA },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_FA },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_FA },
          { "BLACK 02",          OPTION_VAL_BLACK_02_FA },
          { "BLUE 03",           OPTION_VAL_BLUE_03_FA },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_FA },
@@ -20619,12 +20728,13 @@ struct retro_core_option_v2_definition option_defs_fa[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_FA },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_FA },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_FA },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_FA },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_FA },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_FA },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_FA },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_FA },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_FA },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_FA },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_FA },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_FA },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_FA },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_FA },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_FA },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_FA },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -20659,12 +20769,13 @@ struct retro_core_option_v2_definition option_defs_fa[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_FA },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_FA },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_FA },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_FA },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_FA },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_FA },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_FA },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_FA },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_FA },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_FA },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_FA },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_FA },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_FA },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_FA },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_FA },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_FA },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -20746,8 +20857,8 @@ struct retro_core_option_v2_definition option_defs_fa[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_FA },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_FA },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_FA },
          { "BLACK 02",          OPTION_VAL_BLACK_02_FA },
          { "BLUE 03",           OPTION_VAL_BLUE_03_FA },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_FA },
@@ -20768,12 +20879,13 @@ struct retro_core_option_v2_definition option_defs_fa[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_FA },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_FA },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_FA },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_FA },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_FA },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_FA },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_FA },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_FA },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_FA },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_FA },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_FA },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_FA },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_FA },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_FA },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_FA },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_FA },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -20808,12 +20920,13 @@ struct retro_core_option_v2_definition option_defs_fa[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_FA },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_FA },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_FA },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_FA },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_FA },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_FA },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_FA },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_FA },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_FA },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_FA },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_FA },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_FA },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_FA },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_FA },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_FA },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_FA },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -20895,8 +21008,8 @@ struct retro_core_option_v2_definition option_defs_fa[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_FA },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_FA },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_FA },
          { "BLACK 02",          OPTION_VAL_BLACK_02_FA },
          { "BLUE 03",           OPTION_VAL_BLUE_03_FA },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_FA },
@@ -20917,12 +21030,13 @@ struct retro_core_option_v2_definition option_defs_fa[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_FA },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_FA },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_FA },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_FA },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_FA },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_FA },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_FA },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_FA },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_FA },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_FA },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_FA },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_FA },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_FA },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_FA },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_FA },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_FA },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -20957,12 +21071,13 @@ struct retro_core_option_v2_definition option_defs_fa[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_FA },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_FA },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_FA },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_FA },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_FA },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_FA },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_FA },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_FA },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_FA },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_FA },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_FA },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_FA },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_FA },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_FA },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_FA },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_FA },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -21044,8 +21159,8 @@ struct retro_core_option_v2_definition option_defs_fa[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_FA },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_FA },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_FA },
          { "BLACK 02",          OPTION_VAL_BLACK_02_FA },
          { "BLUE 03",           OPTION_VAL_BLUE_03_FA },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_FA },
@@ -21066,12 +21181,13 @@ struct retro_core_option_v2_definition option_defs_fa[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_FA },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_FA },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_FA },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_FA },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_FA },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_FA },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_FA },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_FA },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_FA },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_FA },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_FA },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_FA },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_FA },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_FA },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_FA },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_FA },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -21106,12 +21222,13 @@ struct retro_core_option_v2_definition option_defs_fa[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_FA },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_FA },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_FA },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_FA },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_FA },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_FA },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_FA },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_FA },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_FA },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_FA },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_FA },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_FA },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_FA },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_FA },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_FA },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_FA },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -21161,7 +21278,7 @@ struct retro_core_option_v2_definition option_defs_fa[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_FA },
+         { "White",    OPTION_VAL_WHITE_28_FA },
          { "Red",      OPTION_VAL_RED_11_FA },
          { "Green",    OPTION_VAL_GREEN_05_FA },
          { "Blue",     OPTION_VAL_BLUE_03_FA },
@@ -21178,7 +21295,7 @@ struct retro_core_option_v2_definition option_defs_fa[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_FA },
+         { "White",    OPTION_VAL_WHITE_28_FA },
          { "Red",      OPTION_VAL_RED_11_FA },
          { "Green",    OPTION_VAL_GREEN_05_FA },
          { "Blue",     OPTION_VAL_BLUE_03_FA },
@@ -21195,7 +21312,7 @@ struct retro_core_option_v2_definition option_defs_fa[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_FA },
+         { "White",    OPTION_VAL_WHITE_28_FA },
          { "Red",      OPTION_VAL_RED_11_FA },
          { "Green",    OPTION_VAL_GREEN_05_FA },
          { "Blue",     OPTION_VAL_BLUE_03_FA },
@@ -21212,7 +21329,7 @@ struct retro_core_option_v2_definition option_defs_fa[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_FA },
+         { "White",    OPTION_VAL_WHITE_28_FA },
          { "Red",      OPTION_VAL_RED_11_FA },
          { "Green",    OPTION_VAL_GREEN_05_FA },
          { "Blue",     OPTION_VAL_BLUE_03_FA },
@@ -21235,7 +21352,7 @@ struct retro_core_options_v2 options_fa = {
 #define CATEGORY_INPUT_INFO_0_FI "Määritä ohjaimen ja valoaseen asetukset."
 #define CATEGORY_VMU_LABEL_FI NULL
 #define CATEGORY_VMU_INFO_0_FI NULL
-#define CATEGORY_HACKS_LABEL_FI NULL
+#define CATEGORY_HACKS_LABEL_FI "Emulointikikat"
 #define CATEGORY_HACKS_INFO_0_FI NULL
 #define CORE_OPTION_NAME_CPU_MODE_LABEL_FI NULL
 #define OPTION_VAL_DYNAMIC_RECOMPILER_FI NULL
@@ -21243,7 +21360,7 @@ struct retro_core_options_v2 options_fa = {
 #define CORE_OPTION_NAME_BOOT_TO_BIOS_LABEL_FI "Käynnistä BIOS:iin (Uudelleenkäynnistys vaaditaan)"
 #define CORE_OPTION_NAME_BOOT_TO_BIOS_INFO_0_FI "Käynnistä suoraan Dreamcastin BIOS-valikkoon."
 #define CORE_OPTION_NAME_SYSTEM_LABEL_FI NULL
-#define OPTION_VAL_AUTO_FI NULL
+#define OPTION_VAL_AUTO_FI "Automaattinen"
 #define OPTION_VAL_DREAMCAST_FI NULL
 #define OPTION_VAL_NAOMI_FI NULL
 #define OPTION_VAL_ATOMISWAVE_FI NULL
@@ -21294,14 +21411,14 @@ struct retro_core_options_v2 options_fa = {
 #define CORE_OPTION_NAME_GDROM_FAST_LOADING_LABEL_FI NULL
 #define CORE_OPTION_NAME_GDROM_FAST_LOADING_INFO_0_FI NULL
 #define CORE_OPTION_NAME_MIPMAPPING_LABEL_FI NULL
-#define CORE_OPTION_NAME_FOG_LABEL_FI NULL
+#define CORE_OPTION_NAME_FOG_LABEL_FI "Sumutehosteet"
 #define CORE_OPTION_NAME_VOLUME_MODIFIER_ENABLE_LABEL_FI NULL
 #define CORE_OPTION_NAME_VOLUME_MODIFIER_ENABLE_INFO_0_FI NULL
 #define CORE_OPTION_NAME_WIDESCREEN_HACK_LABEL_FI NULL
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_LABEL_FI NULL
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_INFO_0_FI NULL
 #define CORE_OPTION_NAME_CABLE_TYPE_LABEL_FI "Kaapelin tyyppi"
-#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_FI NULL
+#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_FI "The output signal type. VGA is recommended, but some games might not be compatible with it."
 #define OPTION_VAL_TV_RGB_FI NULL
 #define OPTION_VAL_TV_COMPOSITE_FI NULL
 #define OPTION_VAL_VGA_RGB_FI NULL
@@ -21314,7 +21431,7 @@ struct retro_core_options_v2 options_fa = {
 #define CORE_OPTION_NAME_FRAMERATE_LABEL_FI NULL
 #define CORE_OPTION_NAME_FRAMERATE_INFO_0_FI NULL
 #define OPTION_VAL_FULLSPEED_FI NULL
-#define OPTION_VAL_NORMAL_FI NULL
+#define OPTION_VAL_NORMAL_FI "Normaali"
 #define CORE_OPTION_NAME_REGION_LABEL_FI "Alue"
 #define OPTION_VAL_JAPAN_FI NULL
 #define OPTION_VAL_USA_FI NULL
@@ -21346,7 +21463,7 @@ struct retro_core_options_v2 options_fa = {
 #define CORE_OPTION_NAME_ANISOTROPIC_FILTERING_INFO_0_FI NULL
 #define CORE_OPTION_NAME_PVR2_FILTERING_LABEL_FI "PowerVR2-jälkikäsittelysuodatin"
 #define CORE_OPTION_NAME_PVR2_FILTERING_INFO_0_FI NULL
-#define CORE_OPTION_NAME_TEXUPSCALE_LABEL_FI NULL
+#define CORE_OPTION_NAME_TEXUPSCALE_LABEL_FI "Tekstuurin yliskaalaus (xBRZ)"
 #define CORE_OPTION_NAME_TEXUPSCALE_INFO_0_FI NULL
 #define OPTION_VAL_2X_FI NULL
 #define OPTION_VAL_4X_FI NULL
@@ -21383,26 +21500,26 @@ struct retro_core_options_v2 options_fa = {
 #define CORE_OPTION_NAME_SHOW_VMU_SCREEN_SETTINGS_INFO_0_FI NULL
 #define CORE_OPTION_NAME_VMU1_SCREEN_DISPLAY_LABEL_FI NULL
 #define CORE_OPTION_NAME_VMU1_SCREEN_POSITION_LABEL_FI NULL
-#define OPTION_VAL_UPPER_LEFT_FI NULL
-#define OPTION_VAL_UPPER_RIGHT_FI NULL
-#define OPTION_VAL_LOWER_LEFT_FI NULL
-#define OPTION_VAL_LOWER_RIGHT_FI NULL
+#define OPTION_VAL_UPPER_LEFT_FI "Ylävasen"
+#define OPTION_VAL_UPPER_RIGHT_FI "Yläoikea"
+#define OPTION_VAL_LOWER_LEFT_FI "Alavasen"
+#define OPTION_VAL_LOWER_RIGHT_FI "Alaoikea"
 #define CORE_OPTION_NAME_VMU1_SCREEN_SIZE_MULT_LABEL_FI NULL
 #define OPTION_VAL_5X_FI NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_ON_COLOR_LABEL_FI NULL
-#define OPTION_VAL_DEFAULT_OFF_01_FI NULL
 #define OPTION_VAL_DEFAULT_ON_00_FI NULL
+#define OPTION_VAL_DEFAULT_OFF_01_FI NULL
 #define OPTION_VAL_BLACK_02_FI "Musta"
 #define OPTION_VAL_BLUE_03_FI "Sininen"
 #define OPTION_VAL_LIGHT_BLUE_04_FI "Vaaleansininen"
 #define OPTION_VAL_GREEN_05_FI "Vihreä"
-#define OPTION_VAL_CYAN_06_FI NULL
-#define OPTION_VAL_CYAN_BLUE_07_FI NULL
+#define OPTION_VAL_CYAN_06_FI "Syaani"
+#define OPTION_VAL_CYAN_BLUE_07_FI "Turkoosi sininen"
 #define OPTION_VAL_LIGHT_GREEN_08_FI "Vaaleanvihreä"
-#define OPTION_VAL_CYAN_GREEN_09_FI NULL
+#define OPTION_VAL_CYAN_GREEN_09_FI "Syaani vihreä"
 #define OPTION_VAL_LIGHT_CYAN_10_FI NULL
 #define OPTION_VAL_RED_11_FI "Punainen"
-#define OPTION_VAL_PURPLE_12_FI NULL
+#define OPTION_VAL_PURPLE_12_FI "Violetti"
 #define OPTION_VAL_LIGHT_PURPLE_13_FI NULL
 #define OPTION_VAL_YELLOW_14_FI "Keltainen"
 #define OPTION_VAL_GRAY_15_FI "Harmaa"
@@ -21412,12 +21529,13 @@ struct retro_core_options_v2 options_fa = {
 #define OPTION_VAL_LIGHT_CYAN_2_19_FI NULL
 #define OPTION_VAL_LIGHT_RED_2_20_FI NULL
 #define OPTION_VAL_MAGENTA_21_FI NULL
-#define OPTION_VAL_LIGHT_ORANGE_22_FI NULL
-#define OPTION_VAL_ORANGE_23_FI "Oranssi"
-#define OPTION_VAL_LIGHT_PURPLE_3_24_FI NULL
-#define OPTION_VAL_LIGHT_YELLOW_25_FI NULL
-#define OPTION_VAL_LIGHT_YELLOW_2_26_FI NULL
-#define OPTION_VAL_WHITE_27_FI "Valkoinen"
+#define OPTION_VAL_LIGHT_PURPLE_3_22_FI NULL
+#define OPTION_VAL_LIGHT_ORANGE_23_FI NULL
+#define OPTION_VAL_ORANGE_24_FI NULL
+#define OPTION_VAL_LIGHT_PURPLE_4_25_FI NULL
+#define OPTION_VAL_LIGHT_YELLOW_26_FI NULL
+#define OPTION_VAL_LIGHT_YELLOW_2_27_FI NULL
+#define OPTION_VAL_WHITE_28_FI NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_OFF_COLOR_LABEL_FI NULL
 #define CORE_OPTION_NAME_VMU1_SCREEN_OPACITY_LABEL_FI NULL
 #define OPTION_VAL_40_FI "40 %"
@@ -22227,8 +22345,8 @@ struct retro_core_option_v2_definition option_defs_fi[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_FI },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_FI },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_FI },
          { "BLACK 02",          OPTION_VAL_BLACK_02_FI },
          { "BLUE 03",           OPTION_VAL_BLUE_03_FI },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_FI },
@@ -22249,12 +22367,13 @@ struct retro_core_option_v2_definition option_defs_fi[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_FI },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_FI },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_FI },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_FI },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_FI },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_FI },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_FI },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_FI },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_FI },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_FI },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_FI },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_FI },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_FI },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_FI },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_FI },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_FI },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -22289,12 +22408,13 @@ struct retro_core_option_v2_definition option_defs_fi[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_FI },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_FI },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_FI },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_FI },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_FI },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_FI },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_FI },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_FI },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_FI },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_FI },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_FI },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_FI },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_FI },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_FI },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_FI },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_FI },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -22376,8 +22496,8 @@ struct retro_core_option_v2_definition option_defs_fi[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_FI },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_FI },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_FI },
          { "BLACK 02",          OPTION_VAL_BLACK_02_FI },
          { "BLUE 03",           OPTION_VAL_BLUE_03_FI },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_FI },
@@ -22398,12 +22518,13 @@ struct retro_core_option_v2_definition option_defs_fi[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_FI },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_FI },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_FI },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_FI },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_FI },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_FI },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_FI },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_FI },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_FI },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_FI },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_FI },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_FI },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_FI },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_FI },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_FI },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_FI },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -22438,12 +22559,13 @@ struct retro_core_option_v2_definition option_defs_fi[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_FI },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_FI },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_FI },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_FI },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_FI },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_FI },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_FI },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_FI },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_FI },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_FI },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_FI },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_FI },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_FI },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_FI },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_FI },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_FI },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -22525,8 +22647,8 @@ struct retro_core_option_v2_definition option_defs_fi[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_FI },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_FI },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_FI },
          { "BLACK 02",          OPTION_VAL_BLACK_02_FI },
          { "BLUE 03",           OPTION_VAL_BLUE_03_FI },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_FI },
@@ -22547,12 +22669,13 @@ struct retro_core_option_v2_definition option_defs_fi[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_FI },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_FI },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_FI },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_FI },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_FI },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_FI },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_FI },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_FI },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_FI },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_FI },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_FI },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_FI },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_FI },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_FI },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_FI },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_FI },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -22587,12 +22710,13 @@ struct retro_core_option_v2_definition option_defs_fi[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_FI },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_FI },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_FI },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_FI },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_FI },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_FI },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_FI },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_FI },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_FI },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_FI },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_FI },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_FI },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_FI },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_FI },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_FI },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_FI },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -22674,8 +22798,8 @@ struct retro_core_option_v2_definition option_defs_fi[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_FI },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_FI },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_FI },
          { "BLACK 02",          OPTION_VAL_BLACK_02_FI },
          { "BLUE 03",           OPTION_VAL_BLUE_03_FI },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_FI },
@@ -22696,12 +22820,13 @@ struct retro_core_option_v2_definition option_defs_fi[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_FI },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_FI },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_FI },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_FI },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_FI },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_FI },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_FI },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_FI },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_FI },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_FI },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_FI },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_FI },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_FI },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_FI },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_FI },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_FI },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -22736,12 +22861,13 @@ struct retro_core_option_v2_definition option_defs_fi[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_FI },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_FI },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_FI },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_FI },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_FI },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_FI },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_FI },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_FI },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_FI },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_FI },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_FI },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_FI },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_FI },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_FI },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_FI },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_FI },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -22791,7 +22917,7 @@ struct retro_core_option_v2_definition option_defs_fi[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_FI },
+         { "White",    OPTION_VAL_WHITE_28_FI },
          { "Red",      OPTION_VAL_RED_11_FI },
          { "Green",    OPTION_VAL_GREEN_05_FI },
          { "Blue",     OPTION_VAL_BLUE_03_FI },
@@ -22808,7 +22934,7 @@ struct retro_core_option_v2_definition option_defs_fi[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_FI },
+         { "White",    OPTION_VAL_WHITE_28_FI },
          { "Red",      OPTION_VAL_RED_11_FI },
          { "Green",    OPTION_VAL_GREEN_05_FI },
          { "Blue",     OPTION_VAL_BLUE_03_FI },
@@ -22825,7 +22951,7 @@ struct retro_core_option_v2_definition option_defs_fi[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_FI },
+         { "White",    OPTION_VAL_WHITE_28_FI },
          { "Red",      OPTION_VAL_RED_11_FI },
          { "Green",    OPTION_VAL_GREEN_05_FI },
          { "Blue",     OPTION_VAL_BLUE_03_FI },
@@ -22842,7 +22968,7 @@ struct retro_core_option_v2_definition option_defs_fi[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_FI },
+         { "White",    OPTION_VAL_WHITE_28_FI },
          { "Red",      OPTION_VAL_RED_11_FI },
          { "Green",    OPTION_VAL_GREEN_05_FI },
          { "Blue",     OPTION_VAL_BLUE_03_FI },
@@ -22870,7 +22996,7 @@ struct retro_core_options_v2 options_fi = {
 #define CORE_OPTION_NAME_CPU_MODE_LABEL_FR "Mode du processeur (Redémarrage requis)"
 #define OPTION_VAL_DYNAMIC_RECOMPILER_FR "Recompilateur dynamique"
 #define OPTION_VAL_GENERIC_RECOMPILER_FR "Recompilateur générique"
-#define CORE_OPTION_NAME_BOOT_TO_BIOS_LABEL_FR "Démarrer sur la BIOS (Redémarrage requis)"
+#define CORE_OPTION_NAME_BOOT_TO_BIOS_LABEL_FR "Démarrer sur le BIOS (Redémarrage requis)"
 #define CORE_OPTION_NAME_BOOT_TO_BIOS_INFO_0_FR "Démarrer directement sur le menu BIOS Dreamcast."
 #define CORE_OPTION_NAME_SYSTEM_LABEL_FR "Type du système (Redémarrage requis)"
 #define OPTION_VAL_AUTO_FR NULL
@@ -22878,7 +23004,7 @@ struct retro_core_options_v2 options_fi = {
 #define OPTION_VAL_NAOMI_FR NULL
 #define OPTION_VAL_ATOMISWAVE_FR NULL
 #define CORE_OPTION_NAME_HLE_BIOS_LABEL_FR "BIOS HLE"
-#define CORE_OPTION_NAME_HLE_BIOS_INFO_0_FR "Forcer l'utilisation d'une BIOS en émulation de haut niveau."
+#define CORE_OPTION_NAME_HLE_BIOS_INFO_0_FR "Forcer l'utilisation d'un BIOS en émulation de haut niveau."
 #define CORE_OPTION_NAME_OIT_ABUFFER_SIZE_LABEL_FR "Taille du tampon des pixels d'accumulation (Redémarrage requis)"
 #define CORE_OPTION_NAME_OIT_ABUFFER_SIZE_INFO_0_FR "Des valeurs plus élevées peuvent être requises pour que les résolutions plus élevées s'affichent correctement."
 #define OPTION_VAL_512MB_FR "512 Mo"
@@ -22899,7 +23025,7 @@ struct retro_core_options_v2 options_fi = {
 #define OPTION_VAL_2560X1920_FR NULL
 #define OPTION_VAL_2880X2160_FR NULL
 #define OPTION_VAL_3200X2400_FR NULL
-#define OPTION_VAL_3840X2880_FR "340x2880"
+#define OPTION_VAL_3840X2880_FR NULL
 #define OPTION_VAL_4480X3360_FR NULL
 #define OPTION_VAL_5120X3840_FR NULL
 #define OPTION_VAL_5760X4320_FR NULL
@@ -22926,7 +23052,7 @@ struct retro_core_options_v2 options_fi = {
 #define CORE_OPTION_NAME_MIPMAPPING_LABEL_FR NULL
 #define CORE_OPTION_NAME_FOG_LABEL_FR "Effets de brouillard"
 #define CORE_OPTION_NAME_VOLUME_MODIFIER_ENABLE_LABEL_FR "Modificateur du volume"
-#define CORE_OPTION_NAME_VOLUME_MODIFIER_ENABLE_INFO_0_FR "Une fonctionnalité du processeur graphique de la Dreamcast qui est généralement utilisée par les jeux pour dessiner les ombres des objets. Cette option devrait normalement être activée — l'impact sur les performances va généralement de minimal à négligeable."
+#define CORE_OPTION_NAME_VOLUME_MODIFIER_ENABLE_INFO_0_FR "Une fonctionnalité du processeur graphique de la Dreamcast qui est généralement utilisée par les jeux pour le rendu des ombres d'objets. Cette option devrait normalement être activée — l'impact sur les performances va généralement de minimal à négligeable."
 #define CORE_OPTION_NAME_WIDESCREEN_HACK_LABEL_FR "Hack d'écran large (Redémarrage requis)"
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_LABEL_FR "Cheats d'écran large (Redémarrage requis)"
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_INFO_0_FR "Active les cheats qui permettent à certains jeux de s'afficher au format écran large."
@@ -22942,7 +23068,7 @@ struct retro_core_options_v2 options_fi = {
 #define OPTION_VAL_NTSC_FR NULL
 #define OPTION_VAL_PAL_FR "PAL (Monde)"
 #define CORE_OPTION_NAME_FRAMERATE_LABEL_FR "Fréquence d'images"
-#define CORE_OPTION_NAME_FRAMERATE_INFO_0_FR "Affecte la façon dont l'émulateur interagit avec le frontend. 'Pleine vitesse' — l'émulateur redonne le contrôle à RetroArch à chaque fois qu'une image a été rendue. 'Normale' — l'émulateur redonne le contrôle à RetroArch à chaque fois qu'une interruption de rafraîchissement vertical est générée. 'Pleine Vitesse' devrait être utilisé dans la plupart des cas. 'Normal' peut améliorer la cadence des images sur certains systèmes, mais peut causer une entrée non réactive lorsque l'écran est statique (durant les écrans de chargement/mise en pause par exemple). Note : Cette option s'applique uniquement lorsque 'Rendu sur plusieurs fils d'exécution' est désactivé."
+#define CORE_OPTION_NAME_FRAMERATE_INFO_0_FR "Affecte la façon dont l'émulateur interagit avec l'interface. 'Pleine vitesse' — l'émulateur redonne le contrôle à RetroArch à chaque fois qu'une image a été rendue. 'Normale' — l'émulateur redonne le contrôle à RetroArch à chaque fois qu'une interruption de rafraîchissement vertical est générée. 'Pleine Vitesse' devrait être utilisé dans la plupart des cas. 'Normal' peut améliorer la cadence d'images sur certains systèmes, mais peut causer une entrée non réactive lorsque l'écran est statique (durant les écrans de chargement/mise en pause par exemple). Remarque : Cette option s'applique uniquement lorsque le 'Rendu sur plusieurs fils d'exécution' est désactivé."
 #define OPTION_VAL_FULLSPEED_FR "Pleine vitesse"
 #define OPTION_VAL_NORMAL_FR "Normale"
 #define CORE_OPTION_NAME_REGION_LABEL_FR "Région"
@@ -22976,13 +23102,13 @@ struct retro_core_options_v2 options_fi = {
 #define CORE_OPTION_NAME_ANISOTROPIC_FILTERING_INFO_0_FR "Améliore la qualité des textures sur les surfaces qui sont à des angles de vue obliques par rapport à la caméra."
 #define CORE_OPTION_NAME_PVR2_FILTERING_LABEL_FR "Filtre de post-traitement PowerVR2"
 #define CORE_OPTION_NAME_PVR2_FILTERING_INFO_0_FR "Post-traitement de l'image rendue pour simuler les effets spécifiques au processeur graphique PowerVR2 et aux signaux vidéo analogiques."
-#define CORE_OPTION_NAME_TEXUPSCALE_LABEL_FR "Agrandissement de textures (xBRZ)"
-#define CORE_OPTION_NAME_TEXUPSCALE_INFO_0_FR "Améliorer les graphismes en pixels 2D dessinés à la main. Doit être utilisé uniquement avec les jeux en 2D pixelisés."
+#define CORE_OPTION_NAME_TEXUPSCALE_LABEL_FR "Agrandissement des textures (xBRZ)"
+#define CORE_OPTION_NAME_TEXUPSCALE_INFO_0_FR "Améliorer les graphismes en pixels 2D dessinés à la main. Devrait être utilisé uniquement avec les jeux en 2D pixelisés."
 #define OPTION_VAL_2X_FR "x2"
 #define OPTION_VAL_4X_FR "x4"
 #define OPTION_VAL_6X_FR "x6"
 #define CORE_OPTION_NAME_TEXUPSCALE_MAX_FILTERED_TEXTURE_SIZE_LABEL_FR "Facteur maximal du filtre d'agrandissement de textures"
-#define CORE_OPTION_NAME_ENABLE_RTTB_LABEL_FR "Activer la mémoire tampon du RTT (rendu vers les texture)"
+#define CORE_OPTION_NAME_ENABLE_RTTB_LABEL_FR "Activer la mémoire tampon du RTT (rendu vers texture)"
 #define CORE_OPTION_NAME_RENDER_TO_TEXTURE_UPSCALING_LABEL_FR "Agrandissement du rendu vers les textures"
 #define OPTION_VAL_1X_FR "x1"
 #define OPTION_VAL_3X_FR "x3"
@@ -22990,9 +23116,9 @@ struct retro_core_options_v2 options_fi = {
 #define CORE_OPTION_NAME_THREADED_RENDERING_LABEL_FR "Rendu sur plusieurs fils d'exécution (Redémarrage requis)"
 #define CORE_OPTION_NAME_THREADED_RENDERING_INFO_0_FR "Fais tourner le processeur graphique et le processeur sur différents fils d'exécution. Fortement recommandé."
 #define CORE_OPTION_NAME_SYNCHRONOUS_RENDERING_LABEL_FR "Rendu synchronisé"
-#define CORE_OPTION_NAME_SYNCHRONOUS_RENDERING_INFO_0_FR "Attend que le processeur graphique termine le rendu de l'image précédente au lieu de supprimer l'image courante. Note : Cette option ne s'applique que lorsque 'Rendu sur plusieurs fils d'exécution' est activé."
+#define CORE_OPTION_NAME_SYNCHRONOUS_RENDERING_INFO_0_FR "Attend que le processeur graphique termine le rendu de l'image précédente au lieu de supprimer l'image courante. Remarque : Cette option ne s'applique que lorsque 'Rendu sur plusieurs fils d'exécution' est activé."
 #define CORE_OPTION_NAME_DELAY_FRAME_SWAPPING_LABEL_FR "Retarder l'échange d'images"
-#define CORE_OPTION_NAME_DELAY_FRAME_SWAPPING_INFO_0_FR "Utile pour éviter les clignotements d'écran ou les vidéos buggées. Non recommandé sur les plates-formes lentes. Note : Cette option ne s'applique que lorsque 'Rendu sur plusieurs fils d'exécution' est activé."
+#define CORE_OPTION_NAME_DELAY_FRAME_SWAPPING_INFO_0_FR "Utile pour éviter les clignotements d'écran ou les vidéos buggées. Non recommandé sur les plates-formes lentes. Remarque : Cette option ne s'applique que lorsque 'Rendu sur plusieurs fils d'exécution' est activé."
 #define CORE_OPTION_NAME_FRAME_SKIPPING_LABEL_FR "Saut d'images"
 #define CORE_OPTION_NAME_FRAME_SKIPPING_INFO_0_FR "Définit le nombre d'images à sauter entre chaque image affichée."
 #define CORE_OPTION_NAME_ENABLE_PURUPURU_LABEL_FR "Pack Puru Puru/vibration"
@@ -23010,18 +23136,18 @@ struct retro_core_options_v2 options_fi = {
 #define OPTION_VAL_ALL_VMUS_FR "Tous les VMU"
 #define CORE_OPTION_NAME_SHOW_VMU_SCREEN_SETTINGS_LABEL_FR "Afficher les réglage d'affichage de l'unité/système de mémoire visuelle (VMU)"
 #define CORE_OPTION_NAME_SHOW_VMU_SCREEN_SETTINGS_LABEL_CAT_FR "Afficher les réglages d'affichage du VMU"
-#define CORE_OPTION_NAME_SHOW_VMU_SCREEN_SETTINGS_INFO_0_FR "Activer la configuration de la visibilité, de la taille, de la position et de la couleur de l'écran du VMU émulé. NOTE : Le menu rapide doit être réouvert pour que ce réglage prenne effet."
-#define CORE_OPTION_NAME_VMU1_SCREEN_DISPLAY_LABEL_FR "Affichage de l'écran 1 du VMU"
-#define CORE_OPTION_NAME_VMU1_SCREEN_POSITION_LABEL_FR "Position de l'écran 1 du VMU"
+#define CORE_OPTION_NAME_SHOW_VMU_SCREEN_SETTINGS_INFO_0_FR "Activer la configuration de la visibilité, de la taille, de la position et de la couleur de l'écran du VMU émulé. REMARQUE : Le menu rapide doit être réouvert pour que ce réglage prenne effet."
+#define CORE_OPTION_NAME_VMU1_SCREEN_DISPLAY_LABEL_FR "Affichage de l'écran du VMU 1"
+#define CORE_OPTION_NAME_VMU1_SCREEN_POSITION_LABEL_FR "Position de l'écran du VMU 1"
 #define OPTION_VAL_UPPER_LEFT_FR "En haut à gauche"
 #define OPTION_VAL_UPPER_RIGHT_FR "En haut à droite"
 #define OPTION_VAL_LOWER_LEFT_FR "En bas à gauche"
 #define OPTION_VAL_LOWER_RIGHT_FR "En bas à droite"
-#define CORE_OPTION_NAME_VMU1_SCREEN_SIZE_MULT_LABEL_FR "Taille de l'écran 1 du VMU"
+#define CORE_OPTION_NAME_VMU1_SCREEN_SIZE_MULT_LABEL_FR "Taille de l'écran du VMU 1"
 #define OPTION_VAL_5X_FR "x5"
-#define CORE_OPTION_NAME_VMU1_PIXEL_ON_COLOR_LABEL_FR "Couleur des pixels allumés de l'écran 1 du VMU"
-#define OPTION_VAL_DEFAULT_OFF_01_FR "Par défaut désactivé"
+#define CORE_OPTION_NAME_VMU1_PIXEL_ON_COLOR_LABEL_FR "Couleur des pixels allumés de l'écran du VMU 1"
 #define OPTION_VAL_DEFAULT_ON_00_FR "Par défaut activé"
+#define OPTION_VAL_DEFAULT_OFF_01_FR "Par défaut désactivé"
 #define OPTION_VAL_BLACK_02_FR "Noire"
 #define OPTION_VAL_BLUE_03_FR "Bleue"
 #define OPTION_VAL_LIGHT_BLUE_04_FR "Bleu clair"
@@ -23042,14 +23168,15 @@ struct retro_core_options_v2 options_fi = {
 #define OPTION_VAL_LIGHT_CYAN_2_19_FR "Cyan clair (2)"
 #define OPTION_VAL_LIGHT_RED_2_20_FR "Rouge clair (2)"
 #define OPTION_VAL_MAGENTA_21_FR NULL
-#define OPTION_VAL_LIGHT_ORANGE_22_FR "Orange clair"
-#define OPTION_VAL_ORANGE_23_FR NULL
-#define OPTION_VAL_LIGHT_PURPLE_3_24_FR "Violet clair (3)"
-#define OPTION_VAL_LIGHT_YELLOW_25_FR "Jaune clair"
-#define OPTION_VAL_LIGHT_YELLOW_2_26_FR "Jaune clair (2)"
-#define OPTION_VAL_WHITE_27_FR "Blanche"
-#define CORE_OPTION_NAME_VMU1_PIXEL_OFF_COLOR_LABEL_FR "Couleur des pixels éteints de l'écran 1 du VMU"
-#define CORE_OPTION_NAME_VMU1_SCREEN_OPACITY_LABEL_FR "Opacité de l'écran 1 du VMU"
+#define OPTION_VAL_LIGHT_PURPLE_3_22_FR NULL
+#define OPTION_VAL_LIGHT_ORANGE_23_FR NULL
+#define OPTION_VAL_ORANGE_24_FR NULL
+#define OPTION_VAL_LIGHT_PURPLE_4_25_FR NULL
+#define OPTION_VAL_LIGHT_YELLOW_26_FR NULL
+#define OPTION_VAL_LIGHT_YELLOW_2_27_FR NULL
+#define OPTION_VAL_WHITE_28_FR NULL
+#define CORE_OPTION_NAME_VMU1_PIXEL_OFF_COLOR_LABEL_FR "Couleur des pixels éteints de l'écran du VMU 1"
+#define CORE_OPTION_NAME_VMU1_SCREEN_OPACITY_LABEL_FR "Opacité de l'écran du VMU 1"
 #define OPTION_VAL_40_FR NULL
 #define OPTION_VAL_50_FR NULL
 #define OPTION_VAL_60_FR NULL
@@ -23057,26 +23184,26 @@ struct retro_core_options_v2 options_fi = {
 #define OPTION_VAL_80_FR NULL
 #define OPTION_VAL_90_FR NULL
 #define OPTION_VAL_100_FR NULL
-#define CORE_OPTION_NAME_VMU2_SCREEN_DISPLAY_LABEL_FR "Affichage de l'écran 2 du VMU"
-#define CORE_OPTION_NAME_VMU2_SCREEN_POSITION_LABEL_FR "Position de l'écran 2 du VMU"
-#define CORE_OPTION_NAME_VMU2_SCREEN_SIZE_MULT_LABEL_FR "Taille de l'écran 2 du VMU"
-#define CORE_OPTION_NAME_VMU2_PIXEL_ON_COLOR_LABEL_FR "Couleur des pixels allumés de l'écran 2 du VMU"
-#define CORE_OPTION_NAME_VMU2_PIXEL_OFF_COLOR_LABEL_FR "Couleur des pixels éteints de l'écran 2 du VMU"
-#define CORE_OPTION_NAME_VMU2_SCREEN_OPACITY_LABEL_FR "Opacité de l'écran 2 du VMU"
-#define CORE_OPTION_NAME_VMU3_SCREEN_DISPLAY_LABEL_FR "Affichage de l'écran 3 du VMU"
-#define CORE_OPTION_NAME_VMU3_SCREEN_POSITION_LABEL_FR "Position de l'écran 3 du VMU"
-#define CORE_OPTION_NAME_VMU3_SCREEN_SIZE_MULT_LABEL_FR "Taille de l'écran 3 du VMU"
-#define CORE_OPTION_NAME_VMU3_PIXEL_ON_COLOR_LABEL_FR "Couleur des pixels allumés de l'écran 3 du VMU"
-#define CORE_OPTION_NAME_VMU3_PIXEL_OFF_COLOR_LABEL_FR "Couleur des pixels éteints de l'écran 3 du VMU"
-#define CORE_OPTION_NAME_VMU3_SCREEN_OPACITY_LABEL_FR "Opacité de l'écran 3 du VMU"
-#define CORE_OPTION_NAME_VMU4_SCREEN_DISPLAY_LABEL_FR "Affichage de l'écran 4 du VMU"
-#define CORE_OPTION_NAME_VMU4_SCREEN_POSITION_LABEL_FR "Position de l'écran 4 du VMU"
-#define CORE_OPTION_NAME_VMU4_SCREEN_SIZE_MULT_LABEL_FR "Taille de l'écran 4 du VMU"
-#define CORE_OPTION_NAME_VMU4_PIXEL_ON_COLOR_LABEL_FR "Couleur des pixels allumés de l'écran 4 du VMU"
-#define CORE_OPTION_NAME_VMU4_PIXEL_OFF_COLOR_LABEL_FR "Couleur des pixels éteints de l'écran 4 du VMU"
-#define CORE_OPTION_NAME_VMU4_SCREEN_OPACITY_LABEL_FR "Opacité de l'écran 4 du VMU"
+#define CORE_OPTION_NAME_VMU2_SCREEN_DISPLAY_LABEL_FR "Affichage de l'écran du VMU 2"
+#define CORE_OPTION_NAME_VMU2_SCREEN_POSITION_LABEL_FR "Position de l'écran du VMU 2"
+#define CORE_OPTION_NAME_VMU2_SCREEN_SIZE_MULT_LABEL_FR "Taille de l'écran du VMU 2"
+#define CORE_OPTION_NAME_VMU2_PIXEL_ON_COLOR_LABEL_FR "Couleur des pixels allumés de l'écran du VMU 2"
+#define CORE_OPTION_NAME_VMU2_PIXEL_OFF_COLOR_LABEL_FR "Couleur des pixels éteints de l'écran du VMU 2"
+#define CORE_OPTION_NAME_VMU2_SCREEN_OPACITY_LABEL_FR "Opacité de l'écran du VMU 2"
+#define CORE_OPTION_NAME_VMU3_SCREEN_DISPLAY_LABEL_FR "Affichage de l'écran du VMU 3"
+#define CORE_OPTION_NAME_VMU3_SCREEN_POSITION_LABEL_FR "Position de l'écran du VMU 3"
+#define CORE_OPTION_NAME_VMU3_SCREEN_SIZE_MULT_LABEL_FR "Taille de l'écran du VMU 3"
+#define CORE_OPTION_NAME_VMU3_PIXEL_ON_COLOR_LABEL_FR "Couleur des pixels allumés de l'écran du VMU 3"
+#define CORE_OPTION_NAME_VMU3_PIXEL_OFF_COLOR_LABEL_FR "Couleur des pixels éteints de l'écran du VMU 3"
+#define CORE_OPTION_NAME_VMU3_SCREEN_OPACITY_LABEL_FR "Opacité de l'écran du VMU 3"
+#define CORE_OPTION_NAME_VMU4_SCREEN_DISPLAY_LABEL_FR "Affichage de l'écran du VMU 4"
+#define CORE_OPTION_NAME_VMU4_SCREEN_POSITION_LABEL_FR "Position de l'écran du VMU 4"
+#define CORE_OPTION_NAME_VMU4_SCREEN_SIZE_MULT_LABEL_FR "Taille de l'écran du VMU 4"
+#define CORE_OPTION_NAME_VMU4_PIXEL_ON_COLOR_LABEL_FR "Couleur des pixels allumés de l'écran du VMU 4"
+#define CORE_OPTION_NAME_VMU4_PIXEL_OFF_COLOR_LABEL_FR "Couleur des pixels éteints de l'écran du VMU 4"
+#define CORE_OPTION_NAME_VMU4_SCREEN_OPACITY_LABEL_FR "Opacité de l'écran du VMU 4"
 #define CORE_OPTION_NAME_SHOW_LIGHTGUN_SETTINGS_LABEL_FR "Afficher les réglages du pistolet"
-#define CORE_OPTION_NAME_SHOW_LIGHTGUN_SETTINGS_INFO_0_FR "Activer la configuration des options d'affichage du viseur des pistolets. NOTE : le menu rapide doit être réouvert pour que ce paramètre prenne effet."
+#define CORE_OPTION_NAME_SHOW_LIGHTGUN_SETTINGS_INFO_0_FR "Activer la configuration des options d'affichage du viseur des pistolets. REMARQUE : le menu rapide doit être réouvert pour que ce paramètre prenne effet."
 #define CORE_OPTION_NAME_LIGHTGUN1_CROSSHAIR_LABEL_FR "Afficher le viseur du pistolet 1"
 #define CORE_OPTION_NAME_LIGHTGUN2_CROSSHAIR_LABEL_FR "Afficher le viseur du pistolet 2"
 #define CORE_OPTION_NAME_LIGHTGUN3_CROSSHAIR_LABEL_FR "Afficher le viseur du pistolet 3"
@@ -23857,8 +23984,8 @@ struct retro_core_option_v2_definition option_defs_fr[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_FR },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_FR },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_FR },
          { "BLACK 02",          OPTION_VAL_BLACK_02_FR },
          { "BLUE 03",           OPTION_VAL_BLUE_03_FR },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_FR },
@@ -23879,12 +24006,13 @@ struct retro_core_option_v2_definition option_defs_fr[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_FR },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_FR },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_FR },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_FR },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_FR },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_FR },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_FR },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_FR },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_FR },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_FR },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_FR },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_FR },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_FR },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_FR },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_FR },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_FR },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -23919,12 +24047,13 @@ struct retro_core_option_v2_definition option_defs_fr[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_FR },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_FR },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_FR },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_FR },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_FR },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_FR },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_FR },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_FR },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_FR },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_FR },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_FR },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_FR },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_FR },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_FR },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_FR },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_FR },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -24006,8 +24135,8 @@ struct retro_core_option_v2_definition option_defs_fr[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_FR },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_FR },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_FR },
          { "BLACK 02",          OPTION_VAL_BLACK_02_FR },
          { "BLUE 03",           OPTION_VAL_BLUE_03_FR },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_FR },
@@ -24028,12 +24157,13 @@ struct retro_core_option_v2_definition option_defs_fr[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_FR },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_FR },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_FR },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_FR },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_FR },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_FR },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_FR },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_FR },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_FR },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_FR },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_FR },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_FR },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_FR },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_FR },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_FR },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_FR },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -24068,12 +24198,13 @@ struct retro_core_option_v2_definition option_defs_fr[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_FR },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_FR },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_FR },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_FR },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_FR },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_FR },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_FR },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_FR },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_FR },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_FR },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_FR },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_FR },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_FR },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_FR },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_FR },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_FR },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -24155,8 +24286,8 @@ struct retro_core_option_v2_definition option_defs_fr[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_FR },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_FR },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_FR },
          { "BLACK 02",          OPTION_VAL_BLACK_02_FR },
          { "BLUE 03",           OPTION_VAL_BLUE_03_FR },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_FR },
@@ -24177,12 +24308,13 @@ struct retro_core_option_v2_definition option_defs_fr[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_FR },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_FR },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_FR },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_FR },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_FR },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_FR },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_FR },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_FR },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_FR },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_FR },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_FR },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_FR },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_FR },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_FR },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_FR },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_FR },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -24217,12 +24349,13 @@ struct retro_core_option_v2_definition option_defs_fr[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_FR },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_FR },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_FR },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_FR },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_FR },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_FR },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_FR },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_FR },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_FR },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_FR },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_FR },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_FR },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_FR },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_FR },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_FR },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_FR },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -24304,8 +24437,8 @@ struct retro_core_option_v2_definition option_defs_fr[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_FR },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_FR },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_FR },
          { "BLACK 02",          OPTION_VAL_BLACK_02_FR },
          { "BLUE 03",           OPTION_VAL_BLUE_03_FR },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_FR },
@@ -24326,12 +24459,13 @@ struct retro_core_option_v2_definition option_defs_fr[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_FR },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_FR },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_FR },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_FR },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_FR },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_FR },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_FR },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_FR },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_FR },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_FR },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_FR },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_FR },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_FR },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_FR },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_FR },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_FR },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -24366,12 +24500,13 @@ struct retro_core_option_v2_definition option_defs_fr[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_FR },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_FR },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_FR },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_FR },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_FR },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_FR },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_FR },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_FR },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_FR },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_FR },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_FR },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_FR },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_FR },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_FR },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_FR },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_FR },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -24421,7 +24556,7 @@ struct retro_core_option_v2_definition option_defs_fr[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_FR },
+         { "White",    OPTION_VAL_WHITE_28_FR },
          { "Red",      OPTION_VAL_RED_11_FR },
          { "Green",    OPTION_VAL_GREEN_05_FR },
          { "Blue",     OPTION_VAL_BLUE_03_FR },
@@ -24438,7 +24573,7 @@ struct retro_core_option_v2_definition option_defs_fr[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_FR },
+         { "White",    OPTION_VAL_WHITE_28_FR },
          { "Red",      OPTION_VAL_RED_11_FR },
          { "Green",    OPTION_VAL_GREEN_05_FR },
          { "Blue",     OPTION_VAL_BLUE_03_FR },
@@ -24455,7 +24590,7 @@ struct retro_core_option_v2_definition option_defs_fr[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_FR },
+         { "White",    OPTION_VAL_WHITE_28_FR },
          { "Red",      OPTION_VAL_RED_11_FR },
          { "Green",    OPTION_VAL_GREEN_05_FR },
          { "Blue",     OPTION_VAL_BLUE_03_FR },
@@ -24472,7 +24607,7 @@ struct retro_core_option_v2_definition option_defs_fr[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_FR },
+         { "White",    OPTION_VAL_WHITE_28_FR },
          { "Red",      OPTION_VAL_RED_11_FR },
          { "Green",    OPTION_VAL_GREEN_05_FR },
          { "Blue",     OPTION_VAL_BLUE_03_FR },
@@ -24489,34 +24624,34 @@ struct retro_core_options_v2 options_fr = {
 
 /* RETRO_LANGUAGE_GL */
 
-#define CATEGORY_VIDEO_LABEL_GL NULL
-#define CATEGORY_VIDEO_INFO_0_GL NULL
-#define CATEGORY_INPUT_LABEL_GL NULL
-#define CATEGORY_INPUT_INFO_0_GL NULL
-#define CATEGORY_VMU_LABEL_GL NULL
-#define CATEGORY_VMU_INFO_0_GL NULL
-#define CATEGORY_HACKS_LABEL_GL NULL
-#define CATEGORY_HACKS_INFO_0_GL NULL
+#define CATEGORY_VIDEO_LABEL_GL "Vídeo"
+#define CATEGORY_VIDEO_INFO_0_GL "Configura os buffers visuais e os efectos, parámetros da pantalla, velocidade de fotogramas / salto de fotogramas e os parámetros de renderizado/textura."
+#define CATEGORY_INPUT_LABEL_GL "Entrada"
+#define CATEGORY_INPUT_INFO_0_GL "Configura o mando e a pistola."
+#define CATEGORY_VMU_LABEL_GL "Memoria visual"
+#define CATEGORY_VMU_INFO_0_GL "Configura os parámetros relacionados coa Unidade/Sistema de Memoria Visual (VMU)."
+#define CATEGORY_HACKS_LABEL_GL "Hacks de emulación"
+#define CATEGORY_HACKS_INFO_0_GL "Configura diferentes hacks de emulación."
 #define CORE_OPTION_NAME_CPU_MODE_LABEL_GL NULL
 #define OPTION_VAL_DYNAMIC_RECOMPILER_GL NULL
 #define OPTION_VAL_GENERIC_RECOMPILER_GL NULL
-#define CORE_OPTION_NAME_BOOT_TO_BIOS_LABEL_GL NULL
-#define CORE_OPTION_NAME_BOOT_TO_BIOS_INFO_0_GL NULL
+#define CORE_OPTION_NAME_BOOT_TO_BIOS_LABEL_GL "Arranca na BIOS (requírese reiniciar)"
+#define CORE_OPTION_NAME_BOOT_TO_BIOS_INFO_0_GL "Arranca directamente no menú da BIOS de Dreamcast."
 #define CORE_OPTION_NAME_SYSTEM_LABEL_GL NULL
 #define OPTION_VAL_AUTO_GL NULL
 #define OPTION_VAL_DREAMCAST_GL NULL
 #define OPTION_VAL_NAOMI_GL NULL
 #define OPTION_VAL_ATOMISWAVE_GL NULL
-#define CORE_OPTION_NAME_HLE_BIOS_LABEL_GL NULL
-#define CORE_OPTION_NAME_HLE_BIOS_INFO_0_GL NULL
-#define CORE_OPTION_NAME_OIT_ABUFFER_SIZE_LABEL_GL NULL
-#define CORE_OPTION_NAME_OIT_ABUFFER_SIZE_INFO_0_GL NULL
+#define CORE_OPTION_NAME_HLE_BIOS_LABEL_GL "BIOS HLE"
+#define CORE_OPTION_NAME_HLE_BIOS_INFO_0_GL "Forza o uso de emulación BIOS de alto nivel."
+#define CORE_OPTION_NAME_OIT_ABUFFER_SIZE_LABEL_GL "Tamaño do buffer de píxeis de acumulación (requírese reiniciar)"
+#define CORE_OPTION_NAME_OIT_ABUFFER_SIZE_INFO_0_GL "É posible que se precisen valores máis altos para que as resolucións máis altas saian correctamente."
 #define OPTION_VAL_512MB_GL NULL
 #define OPTION_VAL_1GB_GL NULL
 #define OPTION_VAL_2GB_GL NULL
 #define OPTION_VAL_4GB_GL NULL
-#define CORE_OPTION_NAME_INTERNAL_RESOLUTION_LABEL_GL NULL
-#define CORE_OPTION_NAME_INTERNAL_RESOLUTION_INFO_0_GL NULL
+#define CORE_OPTION_NAME_INTERNAL_RESOLUTION_LABEL_GL "Resolución interna (requírese reiniciar)"
+#define CORE_OPTION_NAME_INTERNAL_RESOLUTION_INFO_0_GL "Modificar a resolución do renderizado."
 #define OPTION_VAL_320X240_GL NULL
 #define OPTION_VAL_640X480_GL NULL
 #define OPTION_VAL_800X600_GL NULL
@@ -24544,12 +24679,12 @@ struct retro_core_options_v2 options_fr = {
 #define OPTION_VAL_11520X8640_GL NULL
 #define OPTION_VAL_12160X9120_GL NULL
 #define OPTION_VAL_12800X9600_GL NULL
-#define CORE_OPTION_NAME_SCREEN_ROTATION_LABEL_GL NULL
+#define CORE_OPTION_NAME_SCREEN_ROTATION_LABEL_GL "Orientación da Pantalla"
 #define OPTION_VAL_HORIZONTAL_GL NULL
 #define OPTION_VAL_VERTICAL_GL NULL
-#define CORE_OPTION_NAME_ALPHA_SORTING_LABEL_GL NULL
-#define OPTION_VAL_PER_STRIP_FAST_LEAST_ACCURATE_GL NULL
-#define OPTION_VAL_PER_TRIANGLE_NORMAL_GL NULL
+#define CORE_OPTION_NAME_ALPHA_SORTING_LABEL_GL "Clasificación Alpha"
+#define OPTION_VAL_PER_STRIP_FAST_LEAST_ACCURATE_GL "Por franxa (rápido, menos preciso)"
+#define OPTION_VAL_PER_TRIANGLE_NORMAL_GL "Por triángulo (normal)"
 #define OPTION_VAL_PER_PIXEL_ACCURATE_GL NULL
 #define CORE_OPTION_NAME_GDROM_FAST_LOADING_LABEL_GL NULL
 #define CORE_OPTION_NAME_GDROM_FAST_LOADING_INFO_0_GL NULL
@@ -24561,7 +24696,7 @@ struct retro_core_options_v2 options_fr = {
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_LABEL_GL NULL
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_INFO_0_GL NULL
 #define CORE_OPTION_NAME_CABLE_TYPE_LABEL_GL NULL
-#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_GL NULL
+#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_GL "The output signal type. VGA is recommended, but some games might not be compatible with it."
 #define OPTION_VAL_TV_RGB_GL NULL
 #define OPTION_VAL_TV_COMPOSITE_GL NULL
 #define OPTION_VAL_VGA_RGB_GL NULL
@@ -24602,84 +24737,85 @@ struct retro_core_options_v2 options_fr = {
 #define CORE_OPTION_NAME_DIGITAL_TRIGGERS_LABEL_GL NULL
 #define CORE_OPTION_NAME_ENABLE_DSP_LABEL_GL NULL
 #define CORE_OPTION_NAME_ENABLE_DSP_INFO_0_GL NULL
-#define CORE_OPTION_NAME_ANISOTROPIC_FILTERING_LABEL_GL NULL
-#define CORE_OPTION_NAME_ANISOTROPIC_FILTERING_INFO_0_GL NULL
-#define CORE_OPTION_NAME_PVR2_FILTERING_LABEL_GL NULL
-#define CORE_OPTION_NAME_PVR2_FILTERING_INFO_0_GL NULL
-#define CORE_OPTION_NAME_TEXUPSCALE_LABEL_GL NULL
-#define CORE_OPTION_NAME_TEXUPSCALE_INFO_0_GL NULL
+#define CORE_OPTION_NAME_ANISOTROPIC_FILTERING_LABEL_GL "Filtrado anisotrópico"
+#define CORE_OPTION_NAME_ANISOTROPIC_FILTERING_INFO_0_GL "Millora a calidade das texturas nas superficies que se atopan en ángulos de visión oblicuos con respecto á cámara."
+#define CORE_OPTION_NAME_PVR2_FILTERING_LABEL_GL "Filtrado de postprocesado PowerVR2"
+#define CORE_OPTION_NAME_PVR2_FILTERING_INFO_0_GL "Postproceso da imaxe renderizada para simular efectos específicos da PowerVR2 GPU e os sinais analóxicos de vídeo."
+#define CORE_OPTION_NAME_TEXUPSCALE_LABEL_GL "Aumento das texturas (xBRZ)"
+#define CORE_OPTION_NAME_TEXUPSCALE_INFO_0_GL "Millora dos gráficos 2D pixel art debuxados a man. Só se debería usar con xogos pixelados en 2D."
 #define OPTION_VAL_2X_GL NULL
 #define OPTION_VAL_4X_GL NULL
 #define OPTION_VAL_6X_GL NULL
-#define CORE_OPTION_NAME_TEXUPSCALE_MAX_FILTERED_TEXTURE_SIZE_LABEL_GL NULL
-#define CORE_OPTION_NAME_ENABLE_RTTB_LABEL_GL NULL
+#define CORE_OPTION_NAME_TEXUPSCALE_MAX_FILTERED_TEXTURE_SIZE_LABEL_GL "Aumento da escala das texturas. Tamaño filtrado"
+#define CORE_OPTION_NAME_ENABLE_RTTB_LABEL_GL "Activa o buffer RTT (Render To Texture)"
 #define CORE_OPTION_NAME_RENDER_TO_TEXTURE_UPSCALING_LABEL_GL NULL
 #define OPTION_VAL_1X_GL NULL
 #define OPTION_VAL_3X_GL NULL
 #define OPTION_VAL_8X_GL NULL
 #define CORE_OPTION_NAME_THREADED_RENDERING_LABEL_GL NULL
-#define CORE_OPTION_NAME_THREADED_RENDERING_INFO_0_GL NULL
+#define CORE_OPTION_NAME_THREADED_RENDERING_INFO_0_GL "Fai funcionar a GPU e a CPU en fíos diferentes. Altamente recomendado."
 #define CORE_OPTION_NAME_SYNCHRONOUS_RENDERING_LABEL_GL NULL
 #define CORE_OPTION_NAME_SYNCHRONOUS_RENDERING_INFO_0_GL NULL
-#define CORE_OPTION_NAME_DELAY_FRAME_SWAPPING_LABEL_GL NULL
+#define CORE_OPTION_NAME_DELAY_FRAME_SWAPPING_LABEL_GL "Intercambio de fotogramas con retardo"
 #define CORE_OPTION_NAME_DELAY_FRAME_SWAPPING_INFO_0_GL NULL
-#define CORE_OPTION_NAME_FRAME_SKIPPING_LABEL_GL NULL
-#define CORE_OPTION_NAME_FRAME_SKIPPING_INFO_0_GL NULL
-#define CORE_OPTION_NAME_ENABLE_PURUPURU_LABEL_GL NULL
-#define CORE_OPTION_NAME_ENABLE_PURUPURU_INFO_0_GL NULL
-#define CORE_OPTION_NAME_ALLOW_SERVICE_BUTTONS_LABEL_GL NULL
-#define CORE_OPTION_NAME_ALLOW_SERVICE_BUTTONS_INFO_0_GL NULL
+#define CORE_OPTION_NAME_FRAME_SKIPPING_LABEL_GL "Salto de fotogramas"
+#define CORE_OPTION_NAME_FRAME_SKIPPING_INFO_0_GL "Especifica o número de fotogramas para saltar entre cada fotograma que é mostrado."
+#define CORE_OPTION_NAME_ENABLE_PURUPURU_LABEL_GL "Pack Purupuru/Pack de vibración"
+#define CORE_OPTION_NAME_ENABLE_PURUPURU_INFO_0_GL "Activa a retroalimentación de forza do controlador."
+#define CORE_OPTION_NAME_ALLOW_SERVICE_BUTTONS_LABEL_GL "Permite os botóns de servizo Naomi"
+#define CORE_OPTION_NAME_ALLOW_SERVICE_BUTTONS_INFO_0_GL "Activa o botón SERVIZO para NAOMI, para entrar nas opcións da recreativa."
 #define CORE_OPTION_NAME_ENABLE_NAOMI_15KHZ_DIPSWITCH_LABEL_GL NULL
 #define CORE_OPTION_NAME_ENABLE_NAOMI_15KHZ_DIPSWITCH_INFO_0_GL NULL
-#define CORE_OPTION_NAME_CUSTOM_TEXTURES_LABEL_GL NULL
-#define CORE_OPTION_NAME_DUMP_TEXTURES_LABEL_GL NULL
-#define CORE_OPTION_NAME_PER_CONTENT_VMUS_LABEL_GL NULL
-#define CORE_OPTION_NAME_PER_CONTENT_VMUS_LABEL_CAT_GL NULL
-#define CORE_OPTION_NAME_PER_CONTENT_VMUS_INFO_0_GL NULL
+#define CORE_OPTION_NAME_CUSTOM_TEXTURES_LABEL_GL "Carga as texturas personalizadas"
+#define CORE_OPTION_NAME_DUMP_TEXTURES_LABEL_GL "Texturas de volcado"
+#define CORE_OPTION_NAME_PER_CONTENT_VMUS_LABEL_GL "Unidades/sistemas de memoria visual (VMU) por xogo"
+#define CORE_OPTION_NAME_PER_CONTENT_VMUS_LABEL_CAT_GL "VMUs por xogo"
+#define CORE_OPTION_NAME_PER_CONTENT_VMUS_INFO_0_GL "Cando se desactiva, todos os xogos comparten 4 arquivos de gardado VMU (A1, B1, C1, D1) localizados no directorio do sistema de RetroArch. O axuste \"VMU A1\" crea un único arquivo VMU \"A1\" no directorio de gardado de RetroArch para cada xogo que se inicie. A opción \"Todas as VMU\" crea 4 arquivos VMU únicos (A1, B1, C1, D1) para cada xogo que se inicie."
 #define OPTION_VAL_VMU_A1_GL NULL
-#define OPTION_VAL_ALL_VMUS_GL NULL
-#define CORE_OPTION_NAME_SHOW_VMU_SCREEN_SETTINGS_LABEL_GL NULL
-#define CORE_OPTION_NAME_SHOW_VMU_SCREEN_SETTINGS_LABEL_CAT_GL NULL
-#define CORE_OPTION_NAME_SHOW_VMU_SCREEN_SETTINGS_INFO_0_GL NULL
-#define CORE_OPTION_NAME_VMU1_SCREEN_DISPLAY_LABEL_GL NULL
-#define CORE_OPTION_NAME_VMU1_SCREEN_POSITION_LABEL_GL NULL
-#define OPTION_VAL_UPPER_LEFT_GL NULL
-#define OPTION_VAL_UPPER_RIGHT_GL NULL
-#define OPTION_VAL_LOWER_LEFT_GL NULL
-#define OPTION_VAL_LOWER_RIGHT_GL NULL
-#define CORE_OPTION_NAME_VMU1_SCREEN_SIZE_MULT_LABEL_GL NULL
+#define OPTION_VAL_ALL_VMUS_GL "Todas as VMU"
+#define CORE_OPTION_NAME_SHOW_VMU_SCREEN_SETTINGS_LABEL_GL "Amosa as opcións de pantalla da Unidade/Sistema de Memoria visual (VMU)"
+#define CORE_OPTION_NAME_SHOW_VMU_SCREEN_SETTINGS_LABEL_CAT_GL "Amosa as opcións de pantalla da VMU"
+#define CORE_OPTION_NAME_SHOW_VMU_SCREEN_SETTINGS_INFO_0_GL "Permite configurar a visibilidade, o tamaño, a posición e a cor da pantalla LCD da VMU emulada. NOTA: O Menú Rápido debe estar activado para que este axuste teña efecto."
+#define CORE_OPTION_NAME_VMU1_SCREEN_DISPLAY_LABEL_GL "Pantalla 1 da VMU"
+#define CORE_OPTION_NAME_VMU1_SCREEN_POSITION_LABEL_GL "Posición da pantalla 1 VMU"
+#define OPTION_VAL_UPPER_LEFT_GL "Superior esquerda"
+#define OPTION_VAL_UPPER_RIGHT_GL "Superior dereita"
+#define OPTION_VAL_LOWER_LEFT_GL "Inferior esquerda"
+#define OPTION_VAL_LOWER_RIGHT_GL "Inferior dereita"
+#define CORE_OPTION_NAME_VMU1_SCREEN_SIZE_MULT_LABEL_GL "Tamaño da pantalla 1 VMU"
 #define OPTION_VAL_5X_GL NULL
-#define CORE_OPTION_NAME_VMU1_PIXEL_ON_COLOR_LABEL_GL NULL
-#define OPTION_VAL_DEFAULT_OFF_01_GL NULL
-#define OPTION_VAL_DEFAULT_ON_00_GL NULL
-#define OPTION_VAL_BLACK_02_GL NULL
-#define OPTION_VAL_BLUE_03_GL NULL
-#define OPTION_VAL_LIGHT_BLUE_04_GL NULL
-#define OPTION_VAL_GREEN_05_GL NULL
-#define OPTION_VAL_CYAN_06_GL NULL
-#define OPTION_VAL_CYAN_BLUE_07_GL NULL
-#define OPTION_VAL_LIGHT_GREEN_08_GL NULL
-#define OPTION_VAL_CYAN_GREEN_09_GL NULL
-#define OPTION_VAL_LIGHT_CYAN_10_GL NULL
-#define OPTION_VAL_RED_11_GL NULL
-#define OPTION_VAL_PURPLE_12_GL NULL
-#define OPTION_VAL_LIGHT_PURPLE_13_GL NULL
-#define OPTION_VAL_YELLOW_14_GL NULL
-#define OPTION_VAL_GRAY_15_GL NULL
-#define OPTION_VAL_LIGHT_PURPLE_2_16_GL NULL
-#define OPTION_VAL_LIGHT_GREEN_2_17_GL NULL
-#define OPTION_VAL_LIGHT_GREEN_3_18_GL NULL
-#define OPTION_VAL_LIGHT_CYAN_2_19_GL NULL
-#define OPTION_VAL_LIGHT_RED_2_20_GL NULL
-#define OPTION_VAL_MAGENTA_21_GL NULL
-#define OPTION_VAL_LIGHT_ORANGE_22_GL NULL
-#define OPTION_VAL_ORANGE_23_GL NULL
-#define OPTION_VAL_LIGHT_PURPLE_3_24_GL NULL
-#define OPTION_VAL_LIGHT_YELLOW_25_GL NULL
-#define OPTION_VAL_LIGHT_YELLOW_2_26_GL NULL
-#define OPTION_VAL_WHITE_27_GL NULL
-#define CORE_OPTION_NAME_VMU1_PIXEL_OFF_COLOR_LABEL_GL NULL
-#define CORE_OPTION_NAME_VMU1_SCREEN_OPACITY_LABEL_GL NULL
+#define CORE_OPTION_NAME_VMU1_PIXEL_ON_COLOR_LABEL_GL "Activar pixel en cor na pantalla 1 VMU"
+#define OPTION_VAL_DEFAULT_ON_00_GL "Por defecto activado"
+#define OPTION_VAL_DEFAULT_OFF_01_GL "Por defecto desactivado"
+#define OPTION_VAL_BLACK_02_GL "Negro"
+#define OPTION_VAL_BLUE_03_GL "Azul"
+#define OPTION_VAL_LIGHT_BLUE_04_GL "Azul claro"
+#define OPTION_VAL_GREEN_05_GL "Verde"
+#define OPTION_VAL_CYAN_06_GL "Azul ceo"
+#define OPTION_VAL_CYAN_BLUE_07_GL "Cián"
+#define OPTION_VAL_LIGHT_GREEN_08_GL "Verde claro"
+#define OPTION_VAL_CYAN_GREEN_09_GL "Cián Verde"
+#define OPTION_VAL_LIGHT_CYAN_10_GL "Cián claro"
+#define OPTION_VAL_RED_11_GL "Vermello"
+#define OPTION_VAL_PURPLE_12_GL "Malva"
+#define OPTION_VAL_LIGHT_PURPLE_13_GL "Malva claro"
+#define OPTION_VAL_YELLOW_14_GL "Amarelo"
+#define OPTION_VAL_GRAY_15_GL "Gris"
+#define OPTION_VAL_LIGHT_PURPLE_2_16_GL "Malva claro (2)"
+#define OPTION_VAL_LIGHT_GREEN_2_17_GL "Verde claro (2)"
+#define OPTION_VAL_LIGHT_GREEN_3_18_GL "Verde claro (3)"
+#define OPTION_VAL_LIGHT_CYAN_2_19_GL "Cián claro (2)"
+#define OPTION_VAL_LIGHT_RED_2_20_GL "Vermello claro (2)"
+#define OPTION_VAL_MAGENTA_21_GL "Maxenta"
+#define OPTION_VAL_LIGHT_PURPLE_3_22_GL NULL
+#define OPTION_VAL_LIGHT_ORANGE_23_GL NULL
+#define OPTION_VAL_ORANGE_24_GL NULL
+#define OPTION_VAL_LIGHT_PURPLE_4_25_GL NULL
+#define OPTION_VAL_LIGHT_YELLOW_26_GL NULL
+#define OPTION_VAL_LIGHT_YELLOW_2_27_GL NULL
+#define OPTION_VAL_WHITE_28_GL NULL
+#define CORE_OPTION_NAME_VMU1_PIXEL_OFF_COLOR_LABEL_GL "Desactivar píxel en cor na pantalla 1 VMU"
+#define CORE_OPTION_NAME_VMU1_SCREEN_OPACITY_LABEL_GL "Opacidade da pantalla 1 VMU"
 #define OPTION_VAL_40_GL NULL
 #define OPTION_VAL_50_GL NULL
 #define OPTION_VAL_60_GL NULL
@@ -24687,24 +24823,24 @@ struct retro_core_options_v2 options_fr = {
 #define OPTION_VAL_80_GL NULL
 #define OPTION_VAL_90_GL NULL
 #define OPTION_VAL_100_GL NULL
-#define CORE_OPTION_NAME_VMU2_SCREEN_DISPLAY_LABEL_GL NULL
-#define CORE_OPTION_NAME_VMU2_SCREEN_POSITION_LABEL_GL NULL
-#define CORE_OPTION_NAME_VMU2_SCREEN_SIZE_MULT_LABEL_GL NULL
-#define CORE_OPTION_NAME_VMU2_PIXEL_ON_COLOR_LABEL_GL NULL
-#define CORE_OPTION_NAME_VMU2_PIXEL_OFF_COLOR_LABEL_GL NULL
-#define CORE_OPTION_NAME_VMU2_SCREEN_OPACITY_LABEL_GL NULL
-#define CORE_OPTION_NAME_VMU3_SCREEN_DISPLAY_LABEL_GL NULL
-#define CORE_OPTION_NAME_VMU3_SCREEN_POSITION_LABEL_GL NULL
-#define CORE_OPTION_NAME_VMU3_SCREEN_SIZE_MULT_LABEL_GL NULL
-#define CORE_OPTION_NAME_VMU3_PIXEL_ON_COLOR_LABEL_GL NULL
-#define CORE_OPTION_NAME_VMU3_PIXEL_OFF_COLOR_LABEL_GL NULL
-#define CORE_OPTION_NAME_VMU3_SCREEN_OPACITY_LABEL_GL NULL
-#define CORE_OPTION_NAME_VMU4_SCREEN_DISPLAY_LABEL_GL NULL
-#define CORE_OPTION_NAME_VMU4_SCREEN_POSITION_LABEL_GL NULL
-#define CORE_OPTION_NAME_VMU4_SCREEN_SIZE_MULT_LABEL_GL NULL
-#define CORE_OPTION_NAME_VMU4_PIXEL_ON_COLOR_LABEL_GL NULL
-#define CORE_OPTION_NAME_VMU4_PIXEL_OFF_COLOR_LABEL_GL NULL
-#define CORE_OPTION_NAME_VMU4_SCREEN_OPACITY_LABEL_GL NULL
+#define CORE_OPTION_NAME_VMU2_SCREEN_DISPLAY_LABEL_GL "Pantalla 2 da VMU"
+#define CORE_OPTION_NAME_VMU2_SCREEN_POSITION_LABEL_GL "Posición da pantalla 2 VMU"
+#define CORE_OPTION_NAME_VMU2_SCREEN_SIZE_MULT_LABEL_GL "Tamaño da pantalla 2 VMU"
+#define CORE_OPTION_NAME_VMU2_PIXEL_ON_COLOR_LABEL_GL "Activar pixel en cor na pantalla 2 VMU"
+#define CORE_OPTION_NAME_VMU2_PIXEL_OFF_COLOR_LABEL_GL "Desactivar píxel en cor na pantalla 2 VMU"
+#define CORE_OPTION_NAME_VMU2_SCREEN_OPACITY_LABEL_GL "Opacidade da pantalla 2 VMU"
+#define CORE_OPTION_NAME_VMU3_SCREEN_DISPLAY_LABEL_GL "Pantalla 3 da VMU"
+#define CORE_OPTION_NAME_VMU3_SCREEN_POSITION_LABEL_GL "Posición da pantalla 3 VMU"
+#define CORE_OPTION_NAME_VMU3_SCREEN_SIZE_MULT_LABEL_GL "Tamaño da pantalla 3 VMU"
+#define CORE_OPTION_NAME_VMU3_PIXEL_ON_COLOR_LABEL_GL "Activar pixel en cor na pantalla 3 VMU"
+#define CORE_OPTION_NAME_VMU3_PIXEL_OFF_COLOR_LABEL_GL "Desactivar píxel en cor na pantalla 3 VMU"
+#define CORE_OPTION_NAME_VMU3_SCREEN_OPACITY_LABEL_GL "Opacidade da pantalla 3 VMU"
+#define CORE_OPTION_NAME_VMU4_SCREEN_DISPLAY_LABEL_GL "Pantalla 4 da VMU"
+#define CORE_OPTION_NAME_VMU4_SCREEN_POSITION_LABEL_GL "Posición da pantalla 4 VMU"
+#define CORE_OPTION_NAME_VMU4_SCREEN_SIZE_MULT_LABEL_GL "Tamaño da pantalla 4 VMU"
+#define CORE_OPTION_NAME_VMU4_PIXEL_ON_COLOR_LABEL_GL "Activar pixel en cor na pantalla 4 VMU"
+#define CORE_OPTION_NAME_VMU4_PIXEL_OFF_COLOR_LABEL_GL "Desactivar píxel en cor na pantalla 4 VMU"
+#define CORE_OPTION_NAME_VMU4_SCREEN_OPACITY_LABEL_GL "Opacidade da pantalla 4 VMU"
 #define CORE_OPTION_NAME_SHOW_LIGHTGUN_SETTINGS_LABEL_GL NULL
 #define CORE_OPTION_NAME_SHOW_LIGHTGUN_SETTINGS_INFO_0_GL NULL
 #define CORE_OPTION_NAME_LIGHTGUN1_CROSSHAIR_LABEL_GL NULL
@@ -25487,8 +25623,8 @@ struct retro_core_option_v2_definition option_defs_gl[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_GL },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_GL },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_GL },
          { "BLACK 02",          OPTION_VAL_BLACK_02_GL },
          { "BLUE 03",           OPTION_VAL_BLUE_03_GL },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_GL },
@@ -25509,12 +25645,13 @@ struct retro_core_option_v2_definition option_defs_gl[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_GL },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_GL },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_GL },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_GL },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_GL },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_GL },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_GL },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_GL },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_GL },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_GL },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_GL },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_GL },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_GL },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_GL },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_GL },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_GL },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -25549,12 +25686,13 @@ struct retro_core_option_v2_definition option_defs_gl[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_GL },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_GL },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_GL },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_GL },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_GL },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_GL },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_GL },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_GL },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_GL },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_GL },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_GL },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_GL },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_GL },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_GL },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_GL },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_GL },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -25636,8 +25774,8 @@ struct retro_core_option_v2_definition option_defs_gl[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_GL },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_GL },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_GL },
          { "BLACK 02",          OPTION_VAL_BLACK_02_GL },
          { "BLUE 03",           OPTION_VAL_BLUE_03_GL },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_GL },
@@ -25658,12 +25796,13 @@ struct retro_core_option_v2_definition option_defs_gl[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_GL },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_GL },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_GL },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_GL },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_GL },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_GL },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_GL },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_GL },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_GL },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_GL },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_GL },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_GL },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_GL },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_GL },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_GL },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_GL },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -25698,12 +25837,13 @@ struct retro_core_option_v2_definition option_defs_gl[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_GL },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_GL },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_GL },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_GL },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_GL },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_GL },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_GL },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_GL },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_GL },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_GL },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_GL },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_GL },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_GL },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_GL },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_GL },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_GL },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -25785,8 +25925,8 @@ struct retro_core_option_v2_definition option_defs_gl[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_GL },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_GL },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_GL },
          { "BLACK 02",          OPTION_VAL_BLACK_02_GL },
          { "BLUE 03",           OPTION_VAL_BLUE_03_GL },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_GL },
@@ -25807,12 +25947,13 @@ struct retro_core_option_v2_definition option_defs_gl[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_GL },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_GL },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_GL },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_GL },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_GL },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_GL },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_GL },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_GL },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_GL },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_GL },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_GL },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_GL },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_GL },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_GL },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_GL },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_GL },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -25847,12 +25988,13 @@ struct retro_core_option_v2_definition option_defs_gl[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_GL },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_GL },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_GL },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_GL },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_GL },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_GL },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_GL },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_GL },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_GL },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_GL },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_GL },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_GL },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_GL },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_GL },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_GL },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_GL },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -25934,8 +26076,8 @@ struct retro_core_option_v2_definition option_defs_gl[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_GL },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_GL },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_GL },
          { "BLACK 02",          OPTION_VAL_BLACK_02_GL },
          { "BLUE 03",           OPTION_VAL_BLUE_03_GL },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_GL },
@@ -25956,12 +26098,13 @@ struct retro_core_option_v2_definition option_defs_gl[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_GL },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_GL },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_GL },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_GL },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_GL },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_GL },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_GL },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_GL },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_GL },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_GL },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_GL },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_GL },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_GL },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_GL },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_GL },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_GL },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -25996,12 +26139,13 @@ struct retro_core_option_v2_definition option_defs_gl[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_GL },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_GL },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_GL },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_GL },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_GL },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_GL },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_GL },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_GL },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_GL },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_GL },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_GL },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_GL },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_GL },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_GL },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_GL },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_GL },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -26051,7 +26195,7 @@ struct retro_core_option_v2_definition option_defs_gl[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_GL },
+         { "White",    OPTION_VAL_WHITE_28_GL },
          { "Red",      OPTION_VAL_RED_11_GL },
          { "Green",    OPTION_VAL_GREEN_05_GL },
          { "Blue",     OPTION_VAL_BLUE_03_GL },
@@ -26068,7 +26212,7 @@ struct retro_core_option_v2_definition option_defs_gl[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_GL },
+         { "White",    OPTION_VAL_WHITE_28_GL },
          { "Red",      OPTION_VAL_RED_11_GL },
          { "Green",    OPTION_VAL_GREEN_05_GL },
          { "Blue",     OPTION_VAL_BLUE_03_GL },
@@ -26085,7 +26229,7 @@ struct retro_core_option_v2_definition option_defs_gl[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_GL },
+         { "White",    OPTION_VAL_WHITE_28_GL },
          { "Red",      OPTION_VAL_RED_11_GL },
          { "Green",    OPTION_VAL_GREEN_05_GL },
          { "Blue",     OPTION_VAL_BLUE_03_GL },
@@ -26102,7 +26246,7 @@ struct retro_core_option_v2_definition option_defs_gl[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_GL },
+         { "White",    OPTION_VAL_WHITE_28_GL },
          { "Red",      OPTION_VAL_RED_11_GL },
          { "Green",    OPTION_VAL_GREEN_05_GL },
          { "Blue",     OPTION_VAL_BLUE_03_GL },
@@ -26119,9 +26263,9 @@ struct retro_core_options_v2 options_gl = {
 
 /* RETRO_LANGUAGE_HE */
 
-#define CATEGORY_VIDEO_LABEL_HE NULL
+#define CATEGORY_VIDEO_LABEL_HE "וידאו"
 #define CATEGORY_VIDEO_INFO_0_HE NULL
-#define CATEGORY_INPUT_LABEL_HE NULL
+#define CATEGORY_INPUT_LABEL_HE "קלט"
 #define CATEGORY_INPUT_INFO_0_HE NULL
 #define CATEGORY_VMU_LABEL_HE NULL
 #define CATEGORY_VMU_INFO_0_HE NULL
@@ -26191,7 +26335,7 @@ struct retro_core_options_v2 options_gl = {
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_LABEL_HE NULL
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_INFO_0_HE NULL
 #define CORE_OPTION_NAME_CABLE_TYPE_LABEL_HE NULL
-#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_HE NULL
+#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_HE "The output signal type. VGA is recommended, but some games might not be compatible with it."
 #define OPTION_VAL_TV_RGB_HE NULL
 #define OPTION_VAL_TV_COMPOSITE_HE NULL
 #define OPTION_VAL_VGA_RGB_HE NULL
@@ -26280,8 +26424,8 @@ struct retro_core_options_v2 options_gl = {
 #define CORE_OPTION_NAME_VMU1_SCREEN_SIZE_MULT_LABEL_HE NULL
 #define OPTION_VAL_5X_HE NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_ON_COLOR_LABEL_HE NULL
-#define OPTION_VAL_DEFAULT_OFF_01_HE NULL
 #define OPTION_VAL_DEFAULT_ON_00_HE NULL
+#define OPTION_VAL_DEFAULT_OFF_01_HE NULL
 #define OPTION_VAL_BLACK_02_HE NULL
 #define OPTION_VAL_BLUE_03_HE NULL
 #define OPTION_VAL_LIGHT_BLUE_04_HE NULL
@@ -26302,12 +26446,13 @@ struct retro_core_options_v2 options_gl = {
 #define OPTION_VAL_LIGHT_CYAN_2_19_HE NULL
 #define OPTION_VAL_LIGHT_RED_2_20_HE NULL
 #define OPTION_VAL_MAGENTA_21_HE NULL
-#define OPTION_VAL_LIGHT_ORANGE_22_HE NULL
-#define OPTION_VAL_ORANGE_23_HE NULL
-#define OPTION_VAL_LIGHT_PURPLE_3_24_HE NULL
-#define OPTION_VAL_LIGHT_YELLOW_25_HE NULL
-#define OPTION_VAL_LIGHT_YELLOW_2_26_HE NULL
-#define OPTION_VAL_WHITE_27_HE NULL
+#define OPTION_VAL_LIGHT_PURPLE_3_22_HE NULL
+#define OPTION_VAL_LIGHT_ORANGE_23_HE NULL
+#define OPTION_VAL_ORANGE_24_HE NULL
+#define OPTION_VAL_LIGHT_PURPLE_4_25_HE NULL
+#define OPTION_VAL_LIGHT_YELLOW_26_HE NULL
+#define OPTION_VAL_LIGHT_YELLOW_2_27_HE NULL
+#define OPTION_VAL_WHITE_28_HE NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_OFF_COLOR_LABEL_HE NULL
 #define CORE_OPTION_NAME_VMU1_SCREEN_OPACITY_LABEL_HE NULL
 #define OPTION_VAL_40_HE NULL
@@ -27117,8 +27262,8 @@ struct retro_core_option_v2_definition option_defs_he[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_HE },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_HE },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_HE },
          { "BLACK 02",          OPTION_VAL_BLACK_02_HE },
          { "BLUE 03",           OPTION_VAL_BLUE_03_HE },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_HE },
@@ -27139,12 +27284,13 @@ struct retro_core_option_v2_definition option_defs_he[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_HE },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_HE },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_HE },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_HE },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_HE },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_HE },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_HE },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_HE },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_HE },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_HE },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_HE },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_HE },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_HE },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_HE },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_HE },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_HE },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -27179,12 +27325,13 @@ struct retro_core_option_v2_definition option_defs_he[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_HE },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_HE },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_HE },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_HE },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_HE },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_HE },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_HE },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_HE },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_HE },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_HE },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_HE },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_HE },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_HE },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_HE },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_HE },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_HE },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -27266,8 +27413,8 @@ struct retro_core_option_v2_definition option_defs_he[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_HE },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_HE },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_HE },
          { "BLACK 02",          OPTION_VAL_BLACK_02_HE },
          { "BLUE 03",           OPTION_VAL_BLUE_03_HE },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_HE },
@@ -27288,12 +27435,13 @@ struct retro_core_option_v2_definition option_defs_he[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_HE },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_HE },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_HE },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_HE },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_HE },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_HE },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_HE },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_HE },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_HE },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_HE },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_HE },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_HE },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_HE },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_HE },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_HE },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_HE },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -27328,12 +27476,13 @@ struct retro_core_option_v2_definition option_defs_he[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_HE },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_HE },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_HE },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_HE },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_HE },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_HE },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_HE },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_HE },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_HE },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_HE },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_HE },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_HE },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_HE },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_HE },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_HE },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_HE },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -27415,8 +27564,8 @@ struct retro_core_option_v2_definition option_defs_he[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_HE },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_HE },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_HE },
          { "BLACK 02",          OPTION_VAL_BLACK_02_HE },
          { "BLUE 03",           OPTION_VAL_BLUE_03_HE },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_HE },
@@ -27437,12 +27586,13 @@ struct retro_core_option_v2_definition option_defs_he[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_HE },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_HE },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_HE },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_HE },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_HE },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_HE },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_HE },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_HE },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_HE },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_HE },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_HE },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_HE },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_HE },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_HE },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_HE },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_HE },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -27477,12 +27627,13 @@ struct retro_core_option_v2_definition option_defs_he[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_HE },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_HE },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_HE },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_HE },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_HE },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_HE },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_HE },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_HE },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_HE },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_HE },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_HE },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_HE },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_HE },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_HE },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_HE },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_HE },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -27564,8 +27715,8 @@ struct retro_core_option_v2_definition option_defs_he[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_HE },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_HE },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_HE },
          { "BLACK 02",          OPTION_VAL_BLACK_02_HE },
          { "BLUE 03",           OPTION_VAL_BLUE_03_HE },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_HE },
@@ -27586,12 +27737,13 @@ struct retro_core_option_v2_definition option_defs_he[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_HE },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_HE },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_HE },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_HE },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_HE },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_HE },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_HE },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_HE },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_HE },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_HE },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_HE },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_HE },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_HE },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_HE },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_HE },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_HE },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -27626,12 +27778,13 @@ struct retro_core_option_v2_definition option_defs_he[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_HE },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_HE },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_HE },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_HE },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_HE },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_HE },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_HE },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_HE },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_HE },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_HE },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_HE },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_HE },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_HE },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_HE },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_HE },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_HE },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -27681,7 +27834,7 @@ struct retro_core_option_v2_definition option_defs_he[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_HE },
+         { "White",    OPTION_VAL_WHITE_28_HE },
          { "Red",      OPTION_VAL_RED_11_HE },
          { "Green",    OPTION_VAL_GREEN_05_HE },
          { "Blue",     OPTION_VAL_BLUE_03_HE },
@@ -27698,7 +27851,7 @@ struct retro_core_option_v2_definition option_defs_he[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_HE },
+         { "White",    OPTION_VAL_WHITE_28_HE },
          { "Red",      OPTION_VAL_RED_11_HE },
          { "Green",    OPTION_VAL_GREEN_05_HE },
          { "Blue",     OPTION_VAL_BLUE_03_HE },
@@ -27715,7 +27868,7 @@ struct retro_core_option_v2_definition option_defs_he[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_HE },
+         { "White",    OPTION_VAL_WHITE_28_HE },
          { "Red",      OPTION_VAL_RED_11_HE },
          { "Green",    OPTION_VAL_GREEN_05_HE },
          { "Blue",     OPTION_VAL_BLUE_03_HE },
@@ -27732,7 +27885,7 @@ struct retro_core_option_v2_definition option_defs_he[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_HE },
+         { "White",    OPTION_VAL_WHITE_28_HE },
          { "Red",      OPTION_VAL_RED_11_HE },
          { "Green",    OPTION_VAL_GREEN_05_HE },
          { "Blue",     OPTION_VAL_BLUE_03_HE },
@@ -27749,9 +27902,9 @@ struct retro_core_options_v2 options_he = {
 
 /* RETRO_LANGUAGE_HU */
 
-#define CATEGORY_VIDEO_LABEL_HU NULL
+#define CATEGORY_VIDEO_LABEL_HU "Videó"
 #define CATEGORY_VIDEO_INFO_0_HU NULL
-#define CATEGORY_INPUT_LABEL_HU NULL
+#define CATEGORY_INPUT_LABEL_HU "Bevitel"
 #define CATEGORY_INPUT_INFO_0_HU NULL
 #define CATEGORY_VMU_LABEL_HU NULL
 #define CATEGORY_VMU_INFO_0_HU NULL
@@ -27804,7 +27957,7 @@ struct retro_core_options_v2 options_he = {
 #define OPTION_VAL_11520X8640_HU NULL
 #define OPTION_VAL_12160X9120_HU NULL
 #define OPTION_VAL_12800X9600_HU NULL
-#define CORE_OPTION_NAME_SCREEN_ROTATION_LABEL_HU NULL
+#define CORE_OPTION_NAME_SCREEN_ROTATION_LABEL_HU "Képernyő tájolása"
 #define OPTION_VAL_HORIZONTAL_HU NULL
 #define OPTION_VAL_VERTICAL_HU NULL
 #define CORE_OPTION_NAME_ALPHA_SORTING_LABEL_HU NULL
@@ -27821,7 +27974,7 @@ struct retro_core_options_v2 options_he = {
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_LABEL_HU NULL
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_INFO_0_HU NULL
 #define CORE_OPTION_NAME_CABLE_TYPE_LABEL_HU NULL
-#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_HU NULL
+#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_HU "The output signal type. VGA is recommended, but some games might not be compatible with it."
 #define OPTION_VAL_TV_RGB_HU NULL
 #define OPTION_VAL_TV_COMPOSITE_HU NULL
 #define OPTION_VAL_VGA_RGB_HU NULL
@@ -27834,12 +27987,12 @@ struct retro_core_options_v2 options_he = {
 #define CORE_OPTION_NAME_FRAMERATE_LABEL_HU NULL
 #define CORE_OPTION_NAME_FRAMERATE_INFO_0_HU NULL
 #define OPTION_VAL_FULLSPEED_HU NULL
-#define OPTION_VAL_NORMAL_HU NULL
-#define CORE_OPTION_NAME_REGION_LABEL_HU NULL
+#define OPTION_VAL_NORMAL_HU "Normál"
+#define CORE_OPTION_NAME_REGION_LABEL_HU "Terület"
 #define OPTION_VAL_JAPAN_HU NULL
 #define OPTION_VAL_USA_HU NULL
 #define OPTION_VAL_EUROPE_HU NULL
-#define CORE_OPTION_NAME_LANGUAGE_LABEL_HU NULL
+#define CORE_OPTION_NAME_LANGUAGE_LABEL_HU "Nyelv"
 #define OPTION_VAL_JAPANESE_HU NULL
 #define OPTION_VAL_ENGLISH_HU NULL
 #define OPTION_VAL_GERMAN_HU NULL
@@ -27910,8 +28063,8 @@ struct retro_core_options_v2 options_he = {
 #define CORE_OPTION_NAME_VMU1_SCREEN_SIZE_MULT_LABEL_HU NULL
 #define OPTION_VAL_5X_HU NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_ON_COLOR_LABEL_HU NULL
-#define OPTION_VAL_DEFAULT_OFF_01_HU NULL
 #define OPTION_VAL_DEFAULT_ON_00_HU NULL
+#define OPTION_VAL_DEFAULT_OFF_01_HU NULL
 #define OPTION_VAL_BLACK_02_HU NULL
 #define OPTION_VAL_BLUE_03_HU NULL
 #define OPTION_VAL_LIGHT_BLUE_04_HU NULL
@@ -27932,12 +28085,13 @@ struct retro_core_options_v2 options_he = {
 #define OPTION_VAL_LIGHT_CYAN_2_19_HU NULL
 #define OPTION_VAL_LIGHT_RED_2_20_HU NULL
 #define OPTION_VAL_MAGENTA_21_HU NULL
-#define OPTION_VAL_LIGHT_ORANGE_22_HU NULL
-#define OPTION_VAL_ORANGE_23_HU NULL
-#define OPTION_VAL_LIGHT_PURPLE_3_24_HU NULL
-#define OPTION_VAL_LIGHT_YELLOW_25_HU NULL
-#define OPTION_VAL_LIGHT_YELLOW_2_26_HU NULL
-#define OPTION_VAL_WHITE_27_HU NULL
+#define OPTION_VAL_LIGHT_PURPLE_3_22_HU NULL
+#define OPTION_VAL_LIGHT_ORANGE_23_HU NULL
+#define OPTION_VAL_ORANGE_24_HU NULL
+#define OPTION_VAL_LIGHT_PURPLE_4_25_HU NULL
+#define OPTION_VAL_LIGHT_YELLOW_26_HU NULL
+#define OPTION_VAL_LIGHT_YELLOW_2_27_HU NULL
+#define OPTION_VAL_WHITE_28_HU NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_OFF_COLOR_LABEL_HU NULL
 #define CORE_OPTION_NAME_VMU1_SCREEN_OPACITY_LABEL_HU NULL
 #define OPTION_VAL_40_HU NULL
@@ -28747,8 +28901,8 @@ struct retro_core_option_v2_definition option_defs_hu[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_HU },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_HU },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_HU },
          { "BLACK 02",          OPTION_VAL_BLACK_02_HU },
          { "BLUE 03",           OPTION_VAL_BLUE_03_HU },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_HU },
@@ -28769,12 +28923,13 @@ struct retro_core_option_v2_definition option_defs_hu[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_HU },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_HU },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_HU },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_HU },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_HU },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_HU },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_HU },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_HU },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_HU },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_HU },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_HU },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_HU },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_HU },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_HU },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_HU },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_HU },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -28809,12 +28964,13 @@ struct retro_core_option_v2_definition option_defs_hu[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_HU },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_HU },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_HU },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_HU },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_HU },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_HU },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_HU },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_HU },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_HU },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_HU },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_HU },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_HU },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_HU },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_HU },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_HU },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_HU },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -28896,8 +29052,8 @@ struct retro_core_option_v2_definition option_defs_hu[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_HU },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_HU },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_HU },
          { "BLACK 02",          OPTION_VAL_BLACK_02_HU },
          { "BLUE 03",           OPTION_VAL_BLUE_03_HU },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_HU },
@@ -28918,12 +29074,13 @@ struct retro_core_option_v2_definition option_defs_hu[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_HU },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_HU },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_HU },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_HU },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_HU },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_HU },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_HU },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_HU },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_HU },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_HU },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_HU },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_HU },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_HU },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_HU },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_HU },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_HU },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -28958,12 +29115,13 @@ struct retro_core_option_v2_definition option_defs_hu[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_HU },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_HU },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_HU },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_HU },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_HU },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_HU },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_HU },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_HU },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_HU },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_HU },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_HU },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_HU },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_HU },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_HU },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_HU },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_HU },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -29045,8 +29203,8 @@ struct retro_core_option_v2_definition option_defs_hu[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_HU },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_HU },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_HU },
          { "BLACK 02",          OPTION_VAL_BLACK_02_HU },
          { "BLUE 03",           OPTION_VAL_BLUE_03_HU },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_HU },
@@ -29067,12 +29225,13 @@ struct retro_core_option_v2_definition option_defs_hu[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_HU },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_HU },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_HU },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_HU },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_HU },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_HU },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_HU },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_HU },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_HU },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_HU },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_HU },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_HU },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_HU },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_HU },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_HU },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_HU },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -29107,12 +29266,13 @@ struct retro_core_option_v2_definition option_defs_hu[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_HU },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_HU },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_HU },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_HU },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_HU },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_HU },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_HU },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_HU },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_HU },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_HU },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_HU },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_HU },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_HU },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_HU },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_HU },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_HU },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -29194,8 +29354,8 @@ struct retro_core_option_v2_definition option_defs_hu[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_HU },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_HU },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_HU },
          { "BLACK 02",          OPTION_VAL_BLACK_02_HU },
          { "BLUE 03",           OPTION_VAL_BLUE_03_HU },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_HU },
@@ -29216,12 +29376,13 @@ struct retro_core_option_v2_definition option_defs_hu[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_HU },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_HU },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_HU },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_HU },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_HU },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_HU },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_HU },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_HU },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_HU },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_HU },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_HU },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_HU },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_HU },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_HU },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_HU },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_HU },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -29256,12 +29417,13 @@ struct retro_core_option_v2_definition option_defs_hu[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_HU },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_HU },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_HU },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_HU },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_HU },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_HU },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_HU },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_HU },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_HU },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_HU },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_HU },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_HU },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_HU },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_HU },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_HU },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_HU },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -29311,7 +29473,7 @@ struct retro_core_option_v2_definition option_defs_hu[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_HU },
+         { "White",    OPTION_VAL_WHITE_28_HU },
          { "Red",      OPTION_VAL_RED_11_HU },
          { "Green",    OPTION_VAL_GREEN_05_HU },
          { "Blue",     OPTION_VAL_BLUE_03_HU },
@@ -29328,7 +29490,7 @@ struct retro_core_option_v2_definition option_defs_hu[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_HU },
+         { "White",    OPTION_VAL_WHITE_28_HU },
          { "Red",      OPTION_VAL_RED_11_HU },
          { "Green",    OPTION_VAL_GREEN_05_HU },
          { "Blue",     OPTION_VAL_BLUE_03_HU },
@@ -29345,7 +29507,7 @@ struct retro_core_option_v2_definition option_defs_hu[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_HU },
+         { "White",    OPTION_VAL_WHITE_28_HU },
          { "Red",      OPTION_VAL_RED_11_HU },
          { "Green",    OPTION_VAL_GREEN_05_HU },
          { "Blue",     OPTION_VAL_BLUE_03_HU },
@@ -29362,7 +29524,7 @@ struct retro_core_option_v2_definition option_defs_hu[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_HU },
+         { "White",    OPTION_VAL_WHITE_28_HU },
          { "Red",      OPTION_VAL_RED_11_HU },
          { "Green",    OPTION_VAL_GREEN_05_HU },
          { "Blue",     OPTION_VAL_BLUE_03_HU },
@@ -29381,7 +29543,7 @@ struct retro_core_options_v2 options_hu = {
 
 #define CATEGORY_VIDEO_LABEL_ID NULL
 #define CATEGORY_VIDEO_INFO_0_ID NULL
-#define CATEGORY_INPUT_LABEL_ID NULL
+#define CATEGORY_INPUT_LABEL_ID "Masukan"
 #define CATEGORY_INPUT_INFO_0_ID NULL
 #define CATEGORY_VMU_LABEL_ID NULL
 #define CATEGORY_VMU_INFO_0_ID NULL
@@ -29434,7 +29596,7 @@ struct retro_core_options_v2 options_hu = {
 #define OPTION_VAL_11520X8640_ID NULL
 #define OPTION_VAL_12160X9120_ID NULL
 #define OPTION_VAL_12800X9600_ID NULL
-#define CORE_OPTION_NAME_SCREEN_ROTATION_LABEL_ID NULL
+#define CORE_OPTION_NAME_SCREEN_ROTATION_LABEL_ID "Orientasi Layar"
 #define OPTION_VAL_HORIZONTAL_ID NULL
 #define OPTION_VAL_VERTICAL_ID NULL
 #define CORE_OPTION_NAME_ALPHA_SORTING_LABEL_ID NULL
@@ -29451,7 +29613,7 @@ struct retro_core_options_v2 options_hu = {
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_LABEL_ID NULL
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_INFO_0_ID NULL
 #define CORE_OPTION_NAME_CABLE_TYPE_LABEL_ID NULL
-#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_ID NULL
+#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_ID "The output signal type. VGA is recommended, but some games might not be compatible with it."
 #define OPTION_VAL_TV_RGB_ID NULL
 #define OPTION_VAL_TV_COMPOSITE_ID NULL
 #define OPTION_VAL_VGA_RGB_ID NULL
@@ -29540,8 +29702,8 @@ struct retro_core_options_v2 options_hu = {
 #define CORE_OPTION_NAME_VMU1_SCREEN_SIZE_MULT_LABEL_ID NULL
 #define OPTION_VAL_5X_ID NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_ON_COLOR_LABEL_ID NULL
-#define OPTION_VAL_DEFAULT_OFF_01_ID NULL
 #define OPTION_VAL_DEFAULT_ON_00_ID NULL
+#define OPTION_VAL_DEFAULT_OFF_01_ID NULL
 #define OPTION_VAL_BLACK_02_ID NULL
 #define OPTION_VAL_BLUE_03_ID NULL
 #define OPTION_VAL_LIGHT_BLUE_04_ID NULL
@@ -29562,12 +29724,13 @@ struct retro_core_options_v2 options_hu = {
 #define OPTION_VAL_LIGHT_CYAN_2_19_ID NULL
 #define OPTION_VAL_LIGHT_RED_2_20_ID NULL
 #define OPTION_VAL_MAGENTA_21_ID NULL
-#define OPTION_VAL_LIGHT_ORANGE_22_ID NULL
-#define OPTION_VAL_ORANGE_23_ID NULL
-#define OPTION_VAL_LIGHT_PURPLE_3_24_ID NULL
-#define OPTION_VAL_LIGHT_YELLOW_25_ID NULL
-#define OPTION_VAL_LIGHT_YELLOW_2_26_ID NULL
-#define OPTION_VAL_WHITE_27_ID NULL
+#define OPTION_VAL_LIGHT_PURPLE_3_22_ID NULL
+#define OPTION_VAL_LIGHT_ORANGE_23_ID NULL
+#define OPTION_VAL_ORANGE_24_ID NULL
+#define OPTION_VAL_LIGHT_PURPLE_4_25_ID NULL
+#define OPTION_VAL_LIGHT_YELLOW_26_ID NULL
+#define OPTION_VAL_LIGHT_YELLOW_2_27_ID NULL
+#define OPTION_VAL_WHITE_28_ID NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_OFF_COLOR_LABEL_ID NULL
 #define CORE_OPTION_NAME_VMU1_SCREEN_OPACITY_LABEL_ID NULL
 #define OPTION_VAL_40_ID NULL
@@ -30377,8 +30540,8 @@ struct retro_core_option_v2_definition option_defs_id[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_ID },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_ID },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_ID },
          { "BLACK 02",          OPTION_VAL_BLACK_02_ID },
          { "BLUE 03",           OPTION_VAL_BLUE_03_ID },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_ID },
@@ -30399,12 +30562,13 @@ struct retro_core_option_v2_definition option_defs_id[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_ID },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_ID },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_ID },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_ID },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_ID },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_ID },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_ID },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_ID },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_ID },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_ID },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_ID },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_ID },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_ID },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_ID },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_ID },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_ID },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -30439,12 +30603,13 @@ struct retro_core_option_v2_definition option_defs_id[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_ID },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_ID },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_ID },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_ID },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_ID },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_ID },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_ID },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_ID },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_ID },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_ID },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_ID },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_ID },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_ID },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_ID },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_ID },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_ID },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -30526,8 +30691,8 @@ struct retro_core_option_v2_definition option_defs_id[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_ID },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_ID },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_ID },
          { "BLACK 02",          OPTION_VAL_BLACK_02_ID },
          { "BLUE 03",           OPTION_VAL_BLUE_03_ID },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_ID },
@@ -30548,12 +30713,13 @@ struct retro_core_option_v2_definition option_defs_id[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_ID },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_ID },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_ID },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_ID },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_ID },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_ID },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_ID },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_ID },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_ID },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_ID },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_ID },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_ID },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_ID },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_ID },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_ID },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_ID },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -30588,12 +30754,13 @@ struct retro_core_option_v2_definition option_defs_id[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_ID },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_ID },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_ID },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_ID },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_ID },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_ID },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_ID },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_ID },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_ID },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_ID },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_ID },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_ID },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_ID },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_ID },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_ID },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_ID },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -30675,8 +30842,8 @@ struct retro_core_option_v2_definition option_defs_id[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_ID },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_ID },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_ID },
          { "BLACK 02",          OPTION_VAL_BLACK_02_ID },
          { "BLUE 03",           OPTION_VAL_BLUE_03_ID },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_ID },
@@ -30697,12 +30864,13 @@ struct retro_core_option_v2_definition option_defs_id[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_ID },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_ID },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_ID },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_ID },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_ID },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_ID },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_ID },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_ID },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_ID },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_ID },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_ID },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_ID },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_ID },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_ID },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_ID },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_ID },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -30737,12 +30905,13 @@ struct retro_core_option_v2_definition option_defs_id[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_ID },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_ID },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_ID },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_ID },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_ID },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_ID },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_ID },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_ID },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_ID },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_ID },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_ID },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_ID },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_ID },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_ID },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_ID },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_ID },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -30824,8 +30993,8 @@ struct retro_core_option_v2_definition option_defs_id[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_ID },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_ID },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_ID },
          { "BLACK 02",          OPTION_VAL_BLACK_02_ID },
          { "BLUE 03",           OPTION_VAL_BLUE_03_ID },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_ID },
@@ -30846,12 +31015,13 @@ struct retro_core_option_v2_definition option_defs_id[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_ID },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_ID },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_ID },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_ID },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_ID },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_ID },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_ID },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_ID },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_ID },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_ID },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_ID },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_ID },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_ID },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_ID },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_ID },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_ID },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -30886,12 +31056,13 @@ struct retro_core_option_v2_definition option_defs_id[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_ID },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_ID },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_ID },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_ID },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_ID },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_ID },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_ID },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_ID },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_ID },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_ID },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_ID },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_ID },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_ID },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_ID },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_ID },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_ID },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -30941,7 +31112,7 @@ struct retro_core_option_v2_definition option_defs_id[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_ID },
+         { "White",    OPTION_VAL_WHITE_28_ID },
          { "Red",      OPTION_VAL_RED_11_ID },
          { "Green",    OPTION_VAL_GREEN_05_ID },
          { "Blue",     OPTION_VAL_BLUE_03_ID },
@@ -30958,7 +31129,7 @@ struct retro_core_option_v2_definition option_defs_id[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_ID },
+         { "White",    OPTION_VAL_WHITE_28_ID },
          { "Red",      OPTION_VAL_RED_11_ID },
          { "Green",    OPTION_VAL_GREEN_05_ID },
          { "Blue",     OPTION_VAL_BLUE_03_ID },
@@ -30975,7 +31146,7 @@ struct retro_core_option_v2_definition option_defs_id[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_ID },
+         { "White",    OPTION_VAL_WHITE_28_ID },
          { "Red",      OPTION_VAL_RED_11_ID },
          { "Green",    OPTION_VAL_GREEN_05_ID },
          { "Blue",     OPTION_VAL_BLUE_03_ID },
@@ -30992,7 +31163,7 @@ struct retro_core_option_v2_definition option_defs_id[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_ID },
+         { "White",    OPTION_VAL_WHITE_28_ID },
          { "Red",      OPTION_VAL_RED_11_ID },
          { "Green",    OPTION_VAL_GREEN_05_ID },
          { "Blue",     OPTION_VAL_BLUE_03_ID },
@@ -31170,8 +31341,8 @@ struct retro_core_options_v2 options_id = {
 #define CORE_OPTION_NAME_VMU1_SCREEN_SIZE_MULT_LABEL_IT "Dimensione VMU Schermo 1"
 #define OPTION_VAL_5X_IT NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_ON_COLOR_LABEL_IT "Schermo VMU 1 Pixel Su Colore"
-#define OPTION_VAL_DEFAULT_OFF_01_IT "Predefinito OFF"
 #define OPTION_VAL_DEFAULT_ON_00_IT "Predefinito ON"
+#define OPTION_VAL_DEFAULT_OFF_01_IT "Predefinito OFF"
 #define OPTION_VAL_BLACK_02_IT "Nero"
 #define OPTION_VAL_BLUE_03_IT "Blu"
 #define OPTION_VAL_LIGHT_BLUE_04_IT "Azzurro"
@@ -31192,12 +31363,13 @@ struct retro_core_options_v2 options_id = {
 #define OPTION_VAL_LIGHT_CYAN_2_19_IT "Ciano Chiaro (2)"
 #define OPTION_VAL_LIGHT_RED_2_20_IT "Rosso Chiaro (2)"
 #define OPTION_VAL_MAGENTA_21_IT NULL
-#define OPTION_VAL_LIGHT_ORANGE_22_IT "Arancione Chiaro"
-#define OPTION_VAL_ORANGE_23_IT "Arancione"
-#define OPTION_VAL_LIGHT_PURPLE_3_24_IT "Viola Chiaro (3)"
-#define OPTION_VAL_LIGHT_YELLOW_25_IT "Giallo Chiaro"
-#define OPTION_VAL_LIGHT_YELLOW_2_26_IT "Giallo Chiaro (2)"
-#define OPTION_VAL_WHITE_27_IT "Bianco"
+#define OPTION_VAL_LIGHT_PURPLE_3_22_IT NULL
+#define OPTION_VAL_LIGHT_ORANGE_23_IT NULL
+#define OPTION_VAL_ORANGE_24_IT NULL
+#define OPTION_VAL_LIGHT_PURPLE_4_25_IT NULL
+#define OPTION_VAL_LIGHT_YELLOW_26_IT NULL
+#define OPTION_VAL_LIGHT_YELLOW_2_27_IT NULL
+#define OPTION_VAL_WHITE_28_IT NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_OFF_COLOR_LABEL_IT "Colore Vmu Schermo 1 Pixel Off"
 #define CORE_OPTION_NAME_VMU1_SCREEN_OPACITY_LABEL_IT "Opacità VMU Screen 1"
 #define OPTION_VAL_40_IT NULL
@@ -32007,8 +32179,8 @@ struct retro_core_option_v2_definition option_defs_it[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_IT },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_IT },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_IT },
          { "BLACK 02",          OPTION_VAL_BLACK_02_IT },
          { "BLUE 03",           OPTION_VAL_BLUE_03_IT },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_IT },
@@ -32029,12 +32201,13 @@ struct retro_core_option_v2_definition option_defs_it[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_IT },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_IT },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_IT },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_IT },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_IT },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_IT },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_IT },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_IT },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_IT },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_IT },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_IT },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_IT },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_IT },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_IT },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_IT },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_IT },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -32069,12 +32242,13 @@ struct retro_core_option_v2_definition option_defs_it[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_IT },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_IT },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_IT },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_IT },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_IT },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_IT },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_IT },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_IT },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_IT },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_IT },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_IT },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_IT },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_IT },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_IT },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_IT },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_IT },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -32156,8 +32330,8 @@ struct retro_core_option_v2_definition option_defs_it[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_IT },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_IT },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_IT },
          { "BLACK 02",          OPTION_VAL_BLACK_02_IT },
          { "BLUE 03",           OPTION_VAL_BLUE_03_IT },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_IT },
@@ -32178,12 +32352,13 @@ struct retro_core_option_v2_definition option_defs_it[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_IT },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_IT },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_IT },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_IT },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_IT },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_IT },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_IT },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_IT },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_IT },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_IT },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_IT },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_IT },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_IT },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_IT },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_IT },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_IT },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -32218,12 +32393,13 @@ struct retro_core_option_v2_definition option_defs_it[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_IT },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_IT },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_IT },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_IT },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_IT },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_IT },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_IT },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_IT },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_IT },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_IT },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_IT },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_IT },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_IT },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_IT },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_IT },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_IT },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -32305,8 +32481,8 @@ struct retro_core_option_v2_definition option_defs_it[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_IT },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_IT },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_IT },
          { "BLACK 02",          OPTION_VAL_BLACK_02_IT },
          { "BLUE 03",           OPTION_VAL_BLUE_03_IT },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_IT },
@@ -32327,12 +32503,13 @@ struct retro_core_option_v2_definition option_defs_it[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_IT },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_IT },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_IT },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_IT },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_IT },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_IT },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_IT },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_IT },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_IT },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_IT },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_IT },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_IT },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_IT },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_IT },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_IT },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_IT },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -32367,12 +32544,13 @@ struct retro_core_option_v2_definition option_defs_it[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_IT },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_IT },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_IT },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_IT },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_IT },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_IT },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_IT },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_IT },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_IT },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_IT },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_IT },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_IT },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_IT },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_IT },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_IT },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_IT },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -32454,8 +32632,8 @@ struct retro_core_option_v2_definition option_defs_it[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_IT },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_IT },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_IT },
          { "BLACK 02",          OPTION_VAL_BLACK_02_IT },
          { "BLUE 03",           OPTION_VAL_BLUE_03_IT },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_IT },
@@ -32476,12 +32654,13 @@ struct retro_core_option_v2_definition option_defs_it[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_IT },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_IT },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_IT },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_IT },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_IT },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_IT },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_IT },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_IT },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_IT },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_IT },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_IT },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_IT },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_IT },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_IT },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_IT },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_IT },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -32516,12 +32695,13 @@ struct retro_core_option_v2_definition option_defs_it[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_IT },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_IT },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_IT },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_IT },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_IT },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_IT },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_IT },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_IT },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_IT },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_IT },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_IT },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_IT },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_IT },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_IT },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_IT },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_IT },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -32571,7 +32751,7 @@ struct retro_core_option_v2_definition option_defs_it[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_IT },
+         { "White",    OPTION_VAL_WHITE_28_IT },
          { "Red",      OPTION_VAL_RED_11_IT },
          { "Green",    OPTION_VAL_GREEN_05_IT },
          { "Blue",     OPTION_VAL_BLUE_03_IT },
@@ -32588,7 +32768,7 @@ struct retro_core_option_v2_definition option_defs_it[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_IT },
+         { "White",    OPTION_VAL_WHITE_28_IT },
          { "Red",      OPTION_VAL_RED_11_IT },
          { "Green",    OPTION_VAL_GREEN_05_IT },
          { "Blue",     OPTION_VAL_BLUE_03_IT },
@@ -32605,7 +32785,7 @@ struct retro_core_option_v2_definition option_defs_it[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_IT },
+         { "White",    OPTION_VAL_WHITE_28_IT },
          { "Red",      OPTION_VAL_RED_11_IT },
          { "Green",    OPTION_VAL_GREEN_05_IT },
          { "Blue",     OPTION_VAL_BLUE_03_IT },
@@ -32622,7 +32802,7 @@ struct retro_core_option_v2_definition option_defs_it[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_IT },
+         { "White",    OPTION_VAL_WHITE_28_IT },
          { "Red",      OPTION_VAL_RED_11_IT },
          { "Green",    OPTION_VAL_GREEN_05_IT },
          { "Blue",     OPTION_VAL_BLUE_03_IT },
@@ -32639,13 +32819,13 @@ struct retro_core_options_v2 options_it = {
 
 /* RETRO_LANGUAGE_JA */
 
-#define CATEGORY_VIDEO_LABEL_JA NULL
+#define CATEGORY_VIDEO_LABEL_JA "ビデオのドライバ"
 #define CATEGORY_VIDEO_INFO_0_JA NULL
-#define CATEGORY_INPUT_LABEL_JA NULL
+#define CATEGORY_INPUT_LABEL_JA "入力"
 #define CATEGORY_INPUT_INFO_0_JA NULL
 #define CATEGORY_VMU_LABEL_JA NULL
 #define CATEGORY_VMU_INFO_0_JA NULL
-#define CATEGORY_HACKS_LABEL_JA NULL
+#define CATEGORY_HACKS_LABEL_JA "エミュレーションハック"
 #define CATEGORY_HACKS_INFO_0_JA NULL
 #define CORE_OPTION_NAME_CPU_MODE_LABEL_JA NULL
 #define OPTION_VAL_DYNAMIC_RECOMPILER_JA NULL
@@ -32653,7 +32833,7 @@ struct retro_core_options_v2 options_it = {
 #define CORE_OPTION_NAME_BOOT_TO_BIOS_LABEL_JA NULL
 #define CORE_OPTION_NAME_BOOT_TO_BIOS_INFO_0_JA NULL
 #define CORE_OPTION_NAME_SYSTEM_LABEL_JA NULL
-#define OPTION_VAL_AUTO_JA NULL
+#define OPTION_VAL_AUTO_JA "自動"
 #define OPTION_VAL_DREAMCAST_JA NULL
 #define OPTION_VAL_NAOMI_JA NULL
 #define OPTION_VAL_ATOMISWAVE_JA NULL
@@ -32694,7 +32874,7 @@ struct retro_core_options_v2 options_it = {
 #define OPTION_VAL_11520X8640_JA NULL
 #define OPTION_VAL_12160X9120_JA NULL
 #define OPTION_VAL_12800X9600_JA NULL
-#define CORE_OPTION_NAME_SCREEN_ROTATION_LABEL_JA NULL
+#define CORE_OPTION_NAME_SCREEN_ROTATION_LABEL_JA "スクリーンの回転"
 #define OPTION_VAL_HORIZONTAL_JA NULL
 #define OPTION_VAL_VERTICAL_JA NULL
 #define CORE_OPTION_NAME_ALPHA_SORTING_LABEL_JA NULL
@@ -32711,12 +32891,12 @@ struct retro_core_options_v2 options_it = {
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_LABEL_JA NULL
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_INFO_0_JA NULL
 #define CORE_OPTION_NAME_CABLE_TYPE_LABEL_JA NULL
-#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_JA NULL
+#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_JA "The output signal type. VGA is recommended, but some games might not be compatible with it."
 #define OPTION_VAL_TV_RGB_JA NULL
 #define OPTION_VAL_TV_COMPOSITE_JA NULL
 #define OPTION_VAL_VGA_RGB_JA NULL
 #define CORE_OPTION_NAME_BROADCAST_LABEL_JA NULL
-#define OPTION_VAL_DEFAULT_JA NULL
+#define OPTION_VAL_DEFAULT_JA "デフォルト"
 #define OPTION_VAL_PAL_M_JA NULL
 #define OPTION_VAL_PAL_N_JA NULL
 #define OPTION_VAL_NTSC_JA NULL
@@ -32724,18 +32904,18 @@ struct retro_core_options_v2 options_it = {
 #define CORE_OPTION_NAME_FRAMERATE_LABEL_JA NULL
 #define CORE_OPTION_NAME_FRAMERATE_INFO_0_JA NULL
 #define OPTION_VAL_FULLSPEED_JA NULL
-#define OPTION_VAL_NORMAL_JA NULL
-#define CORE_OPTION_NAME_REGION_LABEL_JA NULL
+#define OPTION_VAL_NORMAL_JA "普通"
+#define CORE_OPTION_NAME_REGION_LABEL_JA "地域"
 #define OPTION_VAL_JAPAN_JA NULL
 #define OPTION_VAL_USA_JA NULL
 #define OPTION_VAL_EUROPE_JA NULL
-#define CORE_OPTION_NAME_LANGUAGE_LABEL_JA NULL
-#define OPTION_VAL_JAPANESE_JA NULL
-#define OPTION_VAL_ENGLISH_JA NULL
-#define OPTION_VAL_GERMAN_JA NULL
-#define OPTION_VAL_FRENCH_JA NULL
-#define OPTION_VAL_SPANISH_JA NULL
-#define OPTION_VAL_ITALIAN_JA NULL
+#define CORE_OPTION_NAME_LANGUAGE_LABEL_JA "言語"
+#define OPTION_VAL_JAPANESE_JA "Japanese - 日本語"
+#define OPTION_VAL_ENGLISH_JA "英語"
+#define OPTION_VAL_GERMAN_JA "German - ドイツ語"
+#define OPTION_VAL_FRENCH_JA "French - フランス語"
+#define OPTION_VAL_SPANISH_JA "Spanish - スペイン語"
+#define OPTION_VAL_ITALIAN_JA "Italian - イタリア語"
 #define CORE_OPTION_NAME_DIV_MATCHING_LABEL_JA NULL
 #define CORE_OPTION_NAME_DIV_MATCHING_INFO_0_JA NULL
 #define CORE_OPTION_NAME_FORCE_WINCE_LABEL_JA NULL
@@ -32800,21 +32980,21 @@ struct retro_core_options_v2 options_it = {
 #define CORE_OPTION_NAME_VMU1_SCREEN_SIZE_MULT_LABEL_JA NULL
 #define OPTION_VAL_5X_JA NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_ON_COLOR_LABEL_JA NULL
-#define OPTION_VAL_DEFAULT_OFF_01_JA NULL
 #define OPTION_VAL_DEFAULT_ON_00_JA NULL
+#define OPTION_VAL_DEFAULT_OFF_01_JA NULL
 #define OPTION_VAL_BLACK_02_JA NULL
-#define OPTION_VAL_BLUE_03_JA NULL
+#define OPTION_VAL_BLUE_03_JA "ブルー"
 #define OPTION_VAL_LIGHT_BLUE_04_JA NULL
-#define OPTION_VAL_GREEN_05_JA NULL
+#define OPTION_VAL_GREEN_05_JA "グリーン"
 #define OPTION_VAL_CYAN_06_JA NULL
 #define OPTION_VAL_CYAN_BLUE_07_JA NULL
 #define OPTION_VAL_LIGHT_GREEN_08_JA NULL
 #define OPTION_VAL_CYAN_GREEN_09_JA NULL
 #define OPTION_VAL_LIGHT_CYAN_10_JA NULL
-#define OPTION_VAL_RED_11_JA NULL
+#define OPTION_VAL_RED_11_JA "レッド"
 #define OPTION_VAL_PURPLE_12_JA NULL
 #define OPTION_VAL_LIGHT_PURPLE_13_JA NULL
-#define OPTION_VAL_YELLOW_14_JA NULL
+#define OPTION_VAL_YELLOW_14_JA "イエロー"
 #define OPTION_VAL_GRAY_15_JA NULL
 #define OPTION_VAL_LIGHT_PURPLE_2_16_JA NULL
 #define OPTION_VAL_LIGHT_GREEN_2_17_JA NULL
@@ -32822,12 +33002,13 @@ struct retro_core_options_v2 options_it = {
 #define OPTION_VAL_LIGHT_CYAN_2_19_JA NULL
 #define OPTION_VAL_LIGHT_RED_2_20_JA NULL
 #define OPTION_VAL_MAGENTA_21_JA NULL
-#define OPTION_VAL_LIGHT_ORANGE_22_JA NULL
-#define OPTION_VAL_ORANGE_23_JA NULL
-#define OPTION_VAL_LIGHT_PURPLE_3_24_JA NULL
-#define OPTION_VAL_LIGHT_YELLOW_25_JA NULL
-#define OPTION_VAL_LIGHT_YELLOW_2_26_JA NULL
-#define OPTION_VAL_WHITE_27_JA NULL
+#define OPTION_VAL_LIGHT_PURPLE_3_22_JA NULL
+#define OPTION_VAL_LIGHT_ORANGE_23_JA NULL
+#define OPTION_VAL_ORANGE_24_JA NULL
+#define OPTION_VAL_LIGHT_PURPLE_4_25_JA NULL
+#define OPTION_VAL_LIGHT_YELLOW_26_JA NULL
+#define OPTION_VAL_LIGHT_YELLOW_2_27_JA NULL
+#define OPTION_VAL_WHITE_28_JA NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_OFF_COLOR_LABEL_JA NULL
 #define CORE_OPTION_NAME_VMU1_SCREEN_OPACITY_LABEL_JA NULL
 #define OPTION_VAL_40_JA NULL
@@ -33637,8 +33818,8 @@ struct retro_core_option_v2_definition option_defs_ja[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_JA },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_JA },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_JA },
          { "BLACK 02",          OPTION_VAL_BLACK_02_JA },
          { "BLUE 03",           OPTION_VAL_BLUE_03_JA },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_JA },
@@ -33659,12 +33840,13 @@ struct retro_core_option_v2_definition option_defs_ja[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_JA },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_JA },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_JA },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_JA },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_JA },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_JA },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_JA },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_JA },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_JA },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_JA },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_JA },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_JA },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_JA },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_JA },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_JA },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_JA },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -33699,12 +33881,13 @@ struct retro_core_option_v2_definition option_defs_ja[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_JA },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_JA },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_JA },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_JA },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_JA },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_JA },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_JA },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_JA },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_JA },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_JA },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_JA },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_JA },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_JA },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_JA },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_JA },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_JA },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -33786,8 +33969,8 @@ struct retro_core_option_v2_definition option_defs_ja[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_JA },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_JA },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_JA },
          { "BLACK 02",          OPTION_VAL_BLACK_02_JA },
          { "BLUE 03",           OPTION_VAL_BLUE_03_JA },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_JA },
@@ -33808,12 +33991,13 @@ struct retro_core_option_v2_definition option_defs_ja[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_JA },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_JA },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_JA },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_JA },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_JA },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_JA },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_JA },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_JA },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_JA },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_JA },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_JA },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_JA },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_JA },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_JA },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_JA },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_JA },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -33848,12 +34032,13 @@ struct retro_core_option_v2_definition option_defs_ja[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_JA },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_JA },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_JA },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_JA },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_JA },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_JA },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_JA },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_JA },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_JA },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_JA },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_JA },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_JA },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_JA },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_JA },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_JA },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_JA },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -33935,8 +34120,8 @@ struct retro_core_option_v2_definition option_defs_ja[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_JA },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_JA },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_JA },
          { "BLACK 02",          OPTION_VAL_BLACK_02_JA },
          { "BLUE 03",           OPTION_VAL_BLUE_03_JA },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_JA },
@@ -33957,12 +34142,13 @@ struct retro_core_option_v2_definition option_defs_ja[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_JA },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_JA },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_JA },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_JA },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_JA },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_JA },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_JA },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_JA },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_JA },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_JA },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_JA },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_JA },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_JA },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_JA },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_JA },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_JA },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -33997,12 +34183,13 @@ struct retro_core_option_v2_definition option_defs_ja[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_JA },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_JA },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_JA },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_JA },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_JA },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_JA },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_JA },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_JA },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_JA },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_JA },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_JA },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_JA },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_JA },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_JA },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_JA },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_JA },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -34084,8 +34271,8 @@ struct retro_core_option_v2_definition option_defs_ja[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_JA },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_JA },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_JA },
          { "BLACK 02",          OPTION_VAL_BLACK_02_JA },
          { "BLUE 03",           OPTION_VAL_BLUE_03_JA },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_JA },
@@ -34106,12 +34293,13 @@ struct retro_core_option_v2_definition option_defs_ja[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_JA },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_JA },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_JA },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_JA },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_JA },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_JA },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_JA },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_JA },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_JA },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_JA },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_JA },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_JA },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_JA },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_JA },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_JA },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_JA },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -34146,12 +34334,13 @@ struct retro_core_option_v2_definition option_defs_ja[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_JA },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_JA },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_JA },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_JA },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_JA },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_JA },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_JA },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_JA },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_JA },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_JA },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_JA },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_JA },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_JA },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_JA },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_JA },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_JA },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -34201,7 +34390,7 @@ struct retro_core_option_v2_definition option_defs_ja[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_JA },
+         { "White",    OPTION_VAL_WHITE_28_JA },
          { "Red",      OPTION_VAL_RED_11_JA },
          { "Green",    OPTION_VAL_GREEN_05_JA },
          { "Blue",     OPTION_VAL_BLUE_03_JA },
@@ -34218,7 +34407,7 @@ struct retro_core_option_v2_definition option_defs_ja[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_JA },
+         { "White",    OPTION_VAL_WHITE_28_JA },
          { "Red",      OPTION_VAL_RED_11_JA },
          { "Green",    OPTION_VAL_GREEN_05_JA },
          { "Blue",     OPTION_VAL_BLUE_03_JA },
@@ -34235,7 +34424,7 @@ struct retro_core_option_v2_definition option_defs_ja[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_JA },
+         { "White",    OPTION_VAL_WHITE_28_JA },
          { "Red",      OPTION_VAL_RED_11_JA },
          { "Green",    OPTION_VAL_GREEN_05_JA },
          { "Blue",     OPTION_VAL_BLUE_03_JA },
@@ -34252,7 +34441,7 @@ struct retro_core_option_v2_definition option_defs_ja[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_JA },
+         { "White",    OPTION_VAL_WHITE_28_JA },
          { "Red",      OPTION_VAL_RED_11_JA },
          { "Green",    OPTION_VAL_GREEN_05_JA },
          { "Blue",     OPTION_VAL_BLUE_03_JA },
@@ -34269,13 +34458,13 @@ struct retro_core_options_v2 options_ja = {
 
 /* RETRO_LANGUAGE_KO */
 
-#define CATEGORY_VIDEO_LABEL_KO NULL
+#define CATEGORY_VIDEO_LABEL_KO "비디오"
 #define CATEGORY_VIDEO_INFO_0_KO NULL
-#define CATEGORY_INPUT_LABEL_KO NULL
+#define CATEGORY_INPUT_LABEL_KO "입력"
 #define CATEGORY_INPUT_INFO_0_KO NULL
 #define CATEGORY_VMU_LABEL_KO NULL
 #define CATEGORY_VMU_INFO_0_KO NULL
-#define CATEGORY_HACKS_LABEL_KO NULL
+#define CATEGORY_HACKS_LABEL_KO "에뮬레이션 핵"
 #define CATEGORY_HACKS_INFO_0_KO NULL
 #define CORE_OPTION_NAME_CPU_MODE_LABEL_KO NULL
 #define OPTION_VAL_DYNAMIC_RECOMPILER_KO NULL
@@ -34283,7 +34472,7 @@ struct retro_core_options_v2 options_ja = {
 #define CORE_OPTION_NAME_BOOT_TO_BIOS_LABEL_KO NULL
 #define CORE_OPTION_NAME_BOOT_TO_BIOS_INFO_0_KO NULL
 #define CORE_OPTION_NAME_SYSTEM_LABEL_KO NULL
-#define OPTION_VAL_AUTO_KO NULL
+#define OPTION_VAL_AUTO_KO "자동"
 #define OPTION_VAL_DREAMCAST_KO NULL
 #define OPTION_VAL_NAOMI_KO NULL
 #define OPTION_VAL_ATOMISWAVE_KO NULL
@@ -34324,9 +34513,9 @@ struct retro_core_options_v2 options_ja = {
 #define OPTION_VAL_11520X8640_KO NULL
 #define OPTION_VAL_12160X9120_KO NULL
 #define OPTION_VAL_12800X9600_KO NULL
-#define CORE_OPTION_NAME_SCREEN_ROTATION_LABEL_KO NULL
-#define OPTION_VAL_HORIZONTAL_KO NULL
-#define OPTION_VAL_VERTICAL_KO NULL
+#define CORE_OPTION_NAME_SCREEN_ROTATION_LABEL_KO "화면 방향"
+#define OPTION_VAL_HORIZONTAL_KO "가로"
+#define OPTION_VAL_VERTICAL_KO "세로"
 #define CORE_OPTION_NAME_ALPHA_SORTING_LABEL_KO NULL
 #define OPTION_VAL_PER_STRIP_FAST_LEAST_ACCURATE_KO NULL
 #define OPTION_VAL_PER_TRIANGLE_NORMAL_KO NULL
@@ -34340,32 +34529,32 @@ struct retro_core_options_v2 options_ja = {
 #define CORE_OPTION_NAME_WIDESCREEN_HACK_LABEL_KO NULL
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_LABEL_KO NULL
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_INFO_0_KO NULL
-#define CORE_OPTION_NAME_CABLE_TYPE_LABEL_KO NULL
-#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_KO NULL
+#define CORE_OPTION_NAME_CABLE_TYPE_LABEL_KO "케이블 타입"
+#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_KO "The output signal type. VGA is recommended, but some games might not be compatible with it."
 #define OPTION_VAL_TV_RGB_KO NULL
-#define OPTION_VAL_TV_COMPOSITE_KO NULL
+#define OPTION_VAL_TV_COMPOSITE_KO "TV (컴포지트)"
 #define OPTION_VAL_VGA_RGB_KO NULL
-#define CORE_OPTION_NAME_BROADCAST_LABEL_KO NULL
-#define OPTION_VAL_DEFAULT_KO NULL
-#define OPTION_VAL_PAL_M_KO NULL
-#define OPTION_VAL_PAL_N_KO NULL
+#define CORE_OPTION_NAME_BROADCAST_LABEL_KO "방송 표준"
+#define OPTION_VAL_DEFAULT_KO "기본"
+#define OPTION_VAL_PAL_M_KO "PAL-M (브라질)"
+#define OPTION_VAL_PAL_N_KO "PAL-N (아르헨티나, 파라과이, 우르과이)"
 #define OPTION_VAL_NTSC_KO NULL
-#define OPTION_VAL_PAL_KO NULL
+#define OPTION_VAL_PAL_KO "PAL (국제)"
 #define CORE_OPTION_NAME_FRAMERATE_LABEL_KO NULL
 #define CORE_OPTION_NAME_FRAMERATE_INFO_0_KO NULL
 #define OPTION_VAL_FULLSPEED_KO NULL
-#define OPTION_VAL_NORMAL_KO NULL
-#define CORE_OPTION_NAME_REGION_LABEL_KO NULL
-#define OPTION_VAL_JAPAN_KO NULL
-#define OPTION_VAL_USA_KO NULL
-#define OPTION_VAL_EUROPE_KO NULL
-#define CORE_OPTION_NAME_LANGUAGE_LABEL_KO NULL
-#define OPTION_VAL_JAPANESE_KO NULL
-#define OPTION_VAL_ENGLISH_KO NULL
-#define OPTION_VAL_GERMAN_KO NULL
-#define OPTION_VAL_FRENCH_KO NULL
-#define OPTION_VAL_SPANISH_KO NULL
-#define OPTION_VAL_ITALIAN_KO NULL
+#define OPTION_VAL_NORMAL_KO "보통"
+#define CORE_OPTION_NAME_REGION_LABEL_KO "지역"
+#define OPTION_VAL_JAPAN_KO "일본"
+#define OPTION_VAL_USA_KO "미국"
+#define OPTION_VAL_EUROPE_KO "유럽"
+#define CORE_OPTION_NAME_LANGUAGE_LABEL_KO "언어"
+#define OPTION_VAL_JAPANESE_KO "일본어"
+#define OPTION_VAL_ENGLISH_KO "영어"
+#define OPTION_VAL_GERMAN_KO "독일어"
+#define OPTION_VAL_FRENCH_KO "프랑스어"
+#define OPTION_VAL_SPANISH_KO "스페인어"
+#define OPTION_VAL_ITALIAN_KO "이탈리아어"
 #define CORE_OPTION_NAME_DIV_MATCHING_LABEL_KO NULL
 #define CORE_OPTION_NAME_DIV_MATCHING_INFO_0_KO NULL
 #define CORE_OPTION_NAME_FORCE_WINCE_LABEL_KO NULL
@@ -34390,7 +34579,7 @@ struct retro_core_options_v2 options_ja = {
 #define CORE_OPTION_NAME_TEXUPSCALE_INFO_0_KO NULL
 #define OPTION_VAL_2X_KO NULL
 #define OPTION_VAL_4X_KO NULL
-#define OPTION_VAL_6X_KO NULL
+#define OPTION_VAL_6X_KO "6배"
 #define CORE_OPTION_NAME_TEXUPSCALE_MAX_FILTERED_TEXTURE_SIZE_LABEL_KO NULL
 #define CORE_OPTION_NAME_ENABLE_RTTB_LABEL_KO NULL
 #define CORE_OPTION_NAME_RENDER_TO_TEXTURE_UPSCALING_LABEL_KO NULL
@@ -34412,7 +34601,7 @@ struct retro_core_options_v2 options_ja = {
 #define CORE_OPTION_NAME_ENABLE_NAOMI_15KHZ_DIPSWITCH_LABEL_KO NULL
 #define CORE_OPTION_NAME_ENABLE_NAOMI_15KHZ_DIPSWITCH_INFO_0_KO NULL
 #define CORE_OPTION_NAME_CUSTOM_TEXTURES_LABEL_KO NULL
-#define CORE_OPTION_NAME_DUMP_TEXTURES_LABEL_KO NULL
+#define CORE_OPTION_NAME_DUMP_TEXTURES_LABEL_KO "텍스쳐 덤프하기"
 #define CORE_OPTION_NAME_PER_CONTENT_VMUS_LABEL_KO NULL
 #define CORE_OPTION_NAME_PER_CONTENT_VMUS_LABEL_CAT_KO NULL
 #define CORE_OPTION_NAME_PER_CONTENT_VMUS_INFO_0_KO NULL
@@ -34430,21 +34619,21 @@ struct retro_core_options_v2 options_ja = {
 #define CORE_OPTION_NAME_VMU1_SCREEN_SIZE_MULT_LABEL_KO NULL
 #define OPTION_VAL_5X_KO NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_ON_COLOR_LABEL_KO NULL
-#define OPTION_VAL_DEFAULT_OFF_01_KO NULL
 #define OPTION_VAL_DEFAULT_ON_00_KO NULL
-#define OPTION_VAL_BLACK_02_KO NULL
-#define OPTION_VAL_BLUE_03_KO NULL
+#define OPTION_VAL_DEFAULT_OFF_01_KO NULL
+#define OPTION_VAL_BLACK_02_KO "검정"
+#define OPTION_VAL_BLUE_03_KO "파란색"
 #define OPTION_VAL_LIGHT_BLUE_04_KO NULL
-#define OPTION_VAL_GREEN_05_KO NULL
-#define OPTION_VAL_CYAN_06_KO NULL
+#define OPTION_VAL_GREEN_05_KO "녹색"
+#define OPTION_VAL_CYAN_06_KO "청록"
 #define OPTION_VAL_CYAN_BLUE_07_KO NULL
 #define OPTION_VAL_LIGHT_GREEN_08_KO NULL
 #define OPTION_VAL_CYAN_GREEN_09_KO NULL
 #define OPTION_VAL_LIGHT_CYAN_10_KO NULL
-#define OPTION_VAL_RED_11_KO NULL
-#define OPTION_VAL_PURPLE_12_KO NULL
+#define OPTION_VAL_RED_11_KO "빨간색"
+#define OPTION_VAL_PURPLE_12_KO "보라"
 #define OPTION_VAL_LIGHT_PURPLE_13_KO NULL
-#define OPTION_VAL_YELLOW_14_KO NULL
+#define OPTION_VAL_YELLOW_14_KO "노란색"
 #define OPTION_VAL_GRAY_15_KO NULL
 #define OPTION_VAL_LIGHT_PURPLE_2_16_KO NULL
 #define OPTION_VAL_LIGHT_GREEN_2_17_KO NULL
@@ -34452,12 +34641,13 @@ struct retro_core_options_v2 options_ja = {
 #define OPTION_VAL_LIGHT_CYAN_2_19_KO NULL
 #define OPTION_VAL_LIGHT_RED_2_20_KO NULL
 #define OPTION_VAL_MAGENTA_21_KO NULL
-#define OPTION_VAL_LIGHT_ORANGE_22_KO NULL
-#define OPTION_VAL_ORANGE_23_KO NULL
-#define OPTION_VAL_LIGHT_PURPLE_3_24_KO NULL
-#define OPTION_VAL_LIGHT_YELLOW_25_KO NULL
-#define OPTION_VAL_LIGHT_YELLOW_2_26_KO NULL
-#define OPTION_VAL_WHITE_27_KO NULL
+#define OPTION_VAL_LIGHT_PURPLE_3_22_KO NULL
+#define OPTION_VAL_LIGHT_ORANGE_23_KO NULL
+#define OPTION_VAL_ORANGE_24_KO NULL
+#define OPTION_VAL_LIGHT_PURPLE_4_25_KO NULL
+#define OPTION_VAL_LIGHT_YELLOW_26_KO NULL
+#define OPTION_VAL_LIGHT_YELLOW_2_27_KO NULL
+#define OPTION_VAL_WHITE_28_KO NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_OFF_COLOR_LABEL_KO NULL
 #define CORE_OPTION_NAME_VMU1_SCREEN_OPACITY_LABEL_KO NULL
 #define OPTION_VAL_40_KO NULL
@@ -35267,8 +35457,8 @@ struct retro_core_option_v2_definition option_defs_ko[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_KO },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_KO },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_KO },
          { "BLACK 02",          OPTION_VAL_BLACK_02_KO },
          { "BLUE 03",           OPTION_VAL_BLUE_03_KO },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_KO },
@@ -35289,12 +35479,13 @@ struct retro_core_option_v2_definition option_defs_ko[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_KO },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_KO },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_KO },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_KO },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_KO },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_KO },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_KO },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_KO },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_KO },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_KO },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_KO },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_KO },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_KO },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_KO },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_KO },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_KO },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -35329,12 +35520,13 @@ struct retro_core_option_v2_definition option_defs_ko[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_KO },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_KO },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_KO },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_KO },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_KO },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_KO },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_KO },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_KO },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_KO },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_KO },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_KO },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_KO },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_KO },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_KO },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_KO },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_KO },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -35416,8 +35608,8 @@ struct retro_core_option_v2_definition option_defs_ko[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_KO },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_KO },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_KO },
          { "BLACK 02",          OPTION_VAL_BLACK_02_KO },
          { "BLUE 03",           OPTION_VAL_BLUE_03_KO },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_KO },
@@ -35438,12 +35630,13 @@ struct retro_core_option_v2_definition option_defs_ko[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_KO },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_KO },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_KO },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_KO },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_KO },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_KO },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_KO },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_KO },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_KO },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_KO },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_KO },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_KO },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_KO },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_KO },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_KO },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_KO },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -35478,12 +35671,13 @@ struct retro_core_option_v2_definition option_defs_ko[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_KO },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_KO },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_KO },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_KO },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_KO },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_KO },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_KO },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_KO },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_KO },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_KO },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_KO },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_KO },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_KO },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_KO },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_KO },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_KO },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -35565,8 +35759,8 @@ struct retro_core_option_v2_definition option_defs_ko[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_KO },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_KO },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_KO },
          { "BLACK 02",          OPTION_VAL_BLACK_02_KO },
          { "BLUE 03",           OPTION_VAL_BLUE_03_KO },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_KO },
@@ -35587,12 +35781,13 @@ struct retro_core_option_v2_definition option_defs_ko[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_KO },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_KO },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_KO },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_KO },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_KO },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_KO },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_KO },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_KO },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_KO },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_KO },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_KO },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_KO },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_KO },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_KO },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_KO },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_KO },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -35627,12 +35822,13 @@ struct retro_core_option_v2_definition option_defs_ko[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_KO },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_KO },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_KO },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_KO },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_KO },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_KO },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_KO },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_KO },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_KO },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_KO },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_KO },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_KO },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_KO },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_KO },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_KO },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_KO },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -35714,8 +35910,8 @@ struct retro_core_option_v2_definition option_defs_ko[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_KO },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_KO },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_KO },
          { "BLACK 02",          OPTION_VAL_BLACK_02_KO },
          { "BLUE 03",           OPTION_VAL_BLUE_03_KO },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_KO },
@@ -35736,12 +35932,13 @@ struct retro_core_option_v2_definition option_defs_ko[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_KO },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_KO },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_KO },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_KO },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_KO },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_KO },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_KO },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_KO },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_KO },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_KO },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_KO },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_KO },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_KO },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_KO },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_KO },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_KO },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -35776,12 +35973,13 @@ struct retro_core_option_v2_definition option_defs_ko[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_KO },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_KO },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_KO },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_KO },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_KO },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_KO },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_KO },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_KO },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_KO },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_KO },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_KO },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_KO },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_KO },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_KO },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_KO },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_KO },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -35831,7 +36029,7 @@ struct retro_core_option_v2_definition option_defs_ko[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_KO },
+         { "White",    OPTION_VAL_WHITE_28_KO },
          { "Red",      OPTION_VAL_RED_11_KO },
          { "Green",    OPTION_VAL_GREEN_05_KO },
          { "Blue",     OPTION_VAL_BLUE_03_KO },
@@ -35848,7 +36046,7 @@ struct retro_core_option_v2_definition option_defs_ko[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_KO },
+         { "White",    OPTION_VAL_WHITE_28_KO },
          { "Red",      OPTION_VAL_RED_11_KO },
          { "Green",    OPTION_VAL_GREEN_05_KO },
          { "Blue",     OPTION_VAL_BLUE_03_KO },
@@ -35865,7 +36063,7 @@ struct retro_core_option_v2_definition option_defs_ko[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_KO },
+         { "White",    OPTION_VAL_WHITE_28_KO },
          { "Red",      OPTION_VAL_RED_11_KO },
          { "Green",    OPTION_VAL_GREEN_05_KO },
          { "Blue",     OPTION_VAL_BLUE_03_KO },
@@ -35882,7 +36080,7 @@ struct retro_core_option_v2_definition option_defs_ko[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_KO },
+         { "White",    OPTION_VAL_WHITE_28_KO },
          { "Red",      OPTION_VAL_RED_11_KO },
          { "Green",    OPTION_VAL_GREEN_05_KO },
          { "Blue",     OPTION_VAL_BLUE_03_KO },
@@ -35971,7 +36169,7 @@ struct retro_core_options_v2 options_ko = {
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_LABEL_MT NULL
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_INFO_0_MT NULL
 #define CORE_OPTION_NAME_CABLE_TYPE_LABEL_MT NULL
-#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_MT NULL
+#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_MT "The output signal type. VGA is recommended, but some games might not be compatible with it."
 #define OPTION_VAL_TV_RGB_MT NULL
 #define OPTION_VAL_TV_COMPOSITE_MT NULL
 #define OPTION_VAL_VGA_RGB_MT NULL
@@ -36060,8 +36258,8 @@ struct retro_core_options_v2 options_ko = {
 #define CORE_OPTION_NAME_VMU1_SCREEN_SIZE_MULT_LABEL_MT NULL
 #define OPTION_VAL_5X_MT NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_ON_COLOR_LABEL_MT NULL
-#define OPTION_VAL_DEFAULT_OFF_01_MT NULL
 #define OPTION_VAL_DEFAULT_ON_00_MT NULL
+#define OPTION_VAL_DEFAULT_OFF_01_MT NULL
 #define OPTION_VAL_BLACK_02_MT NULL
 #define OPTION_VAL_BLUE_03_MT NULL
 #define OPTION_VAL_LIGHT_BLUE_04_MT NULL
@@ -36082,12 +36280,13 @@ struct retro_core_options_v2 options_ko = {
 #define OPTION_VAL_LIGHT_CYAN_2_19_MT NULL
 #define OPTION_VAL_LIGHT_RED_2_20_MT NULL
 #define OPTION_VAL_MAGENTA_21_MT NULL
-#define OPTION_VAL_LIGHT_ORANGE_22_MT NULL
-#define OPTION_VAL_ORANGE_23_MT NULL
-#define OPTION_VAL_LIGHT_PURPLE_3_24_MT NULL
-#define OPTION_VAL_LIGHT_YELLOW_25_MT NULL
-#define OPTION_VAL_LIGHT_YELLOW_2_26_MT NULL
-#define OPTION_VAL_WHITE_27_MT NULL
+#define OPTION_VAL_LIGHT_PURPLE_3_22_MT NULL
+#define OPTION_VAL_LIGHT_ORANGE_23_MT NULL
+#define OPTION_VAL_ORANGE_24_MT NULL
+#define OPTION_VAL_LIGHT_PURPLE_4_25_MT NULL
+#define OPTION_VAL_LIGHT_YELLOW_26_MT NULL
+#define OPTION_VAL_LIGHT_YELLOW_2_27_MT NULL
+#define OPTION_VAL_WHITE_28_MT NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_OFF_COLOR_LABEL_MT NULL
 #define CORE_OPTION_NAME_VMU1_SCREEN_OPACITY_LABEL_MT NULL
 #define OPTION_VAL_40_MT NULL
@@ -36897,8 +37096,8 @@ struct retro_core_option_v2_definition option_defs_mt[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_MT },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_MT },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_MT },
          { "BLACK 02",          OPTION_VAL_BLACK_02_MT },
          { "BLUE 03",           OPTION_VAL_BLUE_03_MT },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_MT },
@@ -36919,12 +37118,13 @@ struct retro_core_option_v2_definition option_defs_mt[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_MT },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_MT },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_MT },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_MT },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_MT },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_MT },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_MT },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_MT },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_MT },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_MT },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_MT },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_MT },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_MT },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_MT },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_MT },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_MT },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -36959,12 +37159,13 @@ struct retro_core_option_v2_definition option_defs_mt[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_MT },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_MT },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_MT },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_MT },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_MT },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_MT },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_MT },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_MT },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_MT },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_MT },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_MT },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_MT },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_MT },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_MT },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_MT },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_MT },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -37046,8 +37247,8 @@ struct retro_core_option_v2_definition option_defs_mt[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_MT },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_MT },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_MT },
          { "BLACK 02",          OPTION_VAL_BLACK_02_MT },
          { "BLUE 03",           OPTION_VAL_BLUE_03_MT },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_MT },
@@ -37068,12 +37269,13 @@ struct retro_core_option_v2_definition option_defs_mt[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_MT },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_MT },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_MT },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_MT },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_MT },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_MT },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_MT },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_MT },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_MT },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_MT },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_MT },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_MT },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_MT },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_MT },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_MT },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_MT },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -37108,12 +37310,13 @@ struct retro_core_option_v2_definition option_defs_mt[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_MT },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_MT },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_MT },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_MT },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_MT },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_MT },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_MT },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_MT },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_MT },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_MT },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_MT },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_MT },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_MT },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_MT },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_MT },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_MT },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -37195,8 +37398,8 @@ struct retro_core_option_v2_definition option_defs_mt[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_MT },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_MT },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_MT },
          { "BLACK 02",          OPTION_VAL_BLACK_02_MT },
          { "BLUE 03",           OPTION_VAL_BLUE_03_MT },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_MT },
@@ -37217,12 +37420,13 @@ struct retro_core_option_v2_definition option_defs_mt[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_MT },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_MT },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_MT },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_MT },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_MT },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_MT },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_MT },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_MT },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_MT },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_MT },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_MT },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_MT },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_MT },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_MT },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_MT },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_MT },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -37257,12 +37461,13 @@ struct retro_core_option_v2_definition option_defs_mt[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_MT },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_MT },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_MT },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_MT },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_MT },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_MT },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_MT },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_MT },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_MT },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_MT },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_MT },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_MT },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_MT },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_MT },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_MT },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_MT },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -37344,8 +37549,8 @@ struct retro_core_option_v2_definition option_defs_mt[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_MT },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_MT },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_MT },
          { "BLACK 02",          OPTION_VAL_BLACK_02_MT },
          { "BLUE 03",           OPTION_VAL_BLUE_03_MT },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_MT },
@@ -37366,12 +37571,13 @@ struct retro_core_option_v2_definition option_defs_mt[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_MT },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_MT },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_MT },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_MT },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_MT },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_MT },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_MT },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_MT },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_MT },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_MT },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_MT },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_MT },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_MT },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_MT },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_MT },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_MT },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -37406,12 +37612,13 @@ struct retro_core_option_v2_definition option_defs_mt[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_MT },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_MT },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_MT },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_MT },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_MT },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_MT },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_MT },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_MT },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_MT },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_MT },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_MT },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_MT },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_MT },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_MT },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_MT },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_MT },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -37461,7 +37668,7 @@ struct retro_core_option_v2_definition option_defs_mt[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_MT },
+         { "White",    OPTION_VAL_WHITE_28_MT },
          { "Red",      OPTION_VAL_RED_11_MT },
          { "Green",    OPTION_VAL_GREEN_05_MT },
          { "Blue",     OPTION_VAL_BLUE_03_MT },
@@ -37478,7 +37685,7 @@ struct retro_core_option_v2_definition option_defs_mt[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_MT },
+         { "White",    OPTION_VAL_WHITE_28_MT },
          { "Red",      OPTION_VAL_RED_11_MT },
          { "Green",    OPTION_VAL_GREEN_05_MT },
          { "Blue",     OPTION_VAL_BLUE_03_MT },
@@ -37495,7 +37702,7 @@ struct retro_core_option_v2_definition option_defs_mt[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_MT },
+         { "White",    OPTION_VAL_WHITE_28_MT },
          { "Red",      OPTION_VAL_RED_11_MT },
          { "Green",    OPTION_VAL_GREEN_05_MT },
          { "Blue",     OPTION_VAL_BLUE_03_MT },
@@ -37512,7 +37719,7 @@ struct retro_core_option_v2_definition option_defs_mt[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_MT },
+         { "White",    OPTION_VAL_WHITE_28_MT },
          { "Red",      OPTION_VAL_RED_11_MT },
          { "Green",    OPTION_VAL_GREEN_05_MT },
          { "Blue",     OPTION_VAL_BLUE_03_MT },
@@ -37531,7 +37738,7 @@ struct retro_core_options_v2 options_mt = {
 
 #define CATEGORY_VIDEO_LABEL_NL NULL
 #define CATEGORY_VIDEO_INFO_0_NL NULL
-#define CATEGORY_INPUT_LABEL_NL NULL
+#define CATEGORY_INPUT_LABEL_NL "Invoer"
 #define CATEGORY_INPUT_INFO_0_NL NULL
 #define CATEGORY_VMU_LABEL_NL NULL
 #define CATEGORY_VMU_INFO_0_NL NULL
@@ -37543,7 +37750,7 @@ struct retro_core_options_v2 options_mt = {
 #define CORE_OPTION_NAME_BOOT_TO_BIOS_LABEL_NL NULL
 #define CORE_OPTION_NAME_BOOT_TO_BIOS_INFO_0_NL NULL
 #define CORE_OPTION_NAME_SYSTEM_LABEL_NL NULL
-#define OPTION_VAL_AUTO_NL NULL
+#define OPTION_VAL_AUTO_NL "Automatisch"
 #define OPTION_VAL_DREAMCAST_NL NULL
 #define OPTION_VAL_NAOMI_NL NULL
 #define OPTION_VAL_ATOMISWAVE_NL NULL
@@ -37584,7 +37791,7 @@ struct retro_core_options_v2 options_mt = {
 #define OPTION_VAL_11520X8640_NL NULL
 #define OPTION_VAL_12160X9120_NL NULL
 #define OPTION_VAL_12800X9600_NL NULL
-#define CORE_OPTION_NAME_SCREEN_ROTATION_LABEL_NL NULL
+#define CORE_OPTION_NAME_SCREEN_ROTATION_LABEL_NL "Schermoriëntatie"
 #define OPTION_VAL_HORIZONTAL_NL NULL
 #define OPTION_VAL_VERTICAL_NL NULL
 #define CORE_OPTION_NAME_ALPHA_SORTING_LABEL_NL NULL
@@ -37601,7 +37808,7 @@ struct retro_core_options_v2 options_mt = {
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_LABEL_NL NULL
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_INFO_0_NL NULL
 #define CORE_OPTION_NAME_CABLE_TYPE_LABEL_NL NULL
-#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_NL NULL
+#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_NL "The output signal type. VGA is recommended, but some games might not be compatible with it."
 #define OPTION_VAL_TV_RGB_NL NULL
 #define OPTION_VAL_TV_COMPOSITE_NL NULL
 #define OPTION_VAL_VGA_RGB_NL NULL
@@ -37614,18 +37821,18 @@ struct retro_core_options_v2 options_mt = {
 #define CORE_OPTION_NAME_FRAMERATE_LABEL_NL NULL
 #define CORE_OPTION_NAME_FRAMERATE_INFO_0_NL NULL
 #define OPTION_VAL_FULLSPEED_NL NULL
-#define OPTION_VAL_NORMAL_NL NULL
+#define OPTION_VAL_NORMAL_NL "Normaal"
 #define CORE_OPTION_NAME_REGION_LABEL_NL NULL
 #define OPTION_VAL_JAPAN_NL NULL
 #define OPTION_VAL_USA_NL NULL
 #define OPTION_VAL_EUROPE_NL NULL
-#define CORE_OPTION_NAME_LANGUAGE_LABEL_NL NULL
-#define OPTION_VAL_JAPANESE_NL NULL
-#define OPTION_VAL_ENGLISH_NL NULL
-#define OPTION_VAL_GERMAN_NL NULL
-#define OPTION_VAL_FRENCH_NL NULL
-#define OPTION_VAL_SPANISH_NL NULL
-#define OPTION_VAL_ITALIAN_NL NULL
+#define CORE_OPTION_NAME_LANGUAGE_LABEL_NL "Taal"
+#define OPTION_VAL_JAPANESE_NL "Japans"
+#define OPTION_VAL_ENGLISH_NL "Engels"
+#define OPTION_VAL_GERMAN_NL "Duits"
+#define OPTION_VAL_FRENCH_NL "Frans"
+#define OPTION_VAL_SPANISH_NL "Spaans"
+#define OPTION_VAL_ITALIAN_NL "Italiaans"
 #define CORE_OPTION_NAME_DIV_MATCHING_LABEL_NL NULL
 #define CORE_OPTION_NAME_DIV_MATCHING_INFO_0_NL NULL
 #define CORE_OPTION_NAME_FORCE_WINCE_LABEL_NL NULL
@@ -37690,21 +37897,21 @@ struct retro_core_options_v2 options_mt = {
 #define CORE_OPTION_NAME_VMU1_SCREEN_SIZE_MULT_LABEL_NL NULL
 #define OPTION_VAL_5X_NL NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_ON_COLOR_LABEL_NL NULL
-#define OPTION_VAL_DEFAULT_OFF_01_NL NULL
 #define OPTION_VAL_DEFAULT_ON_00_NL NULL
+#define OPTION_VAL_DEFAULT_OFF_01_NL NULL
 #define OPTION_VAL_BLACK_02_NL NULL
-#define OPTION_VAL_BLUE_03_NL NULL
+#define OPTION_VAL_BLUE_03_NL "Blauw"
 #define OPTION_VAL_LIGHT_BLUE_04_NL NULL
-#define OPTION_VAL_GREEN_05_NL NULL
+#define OPTION_VAL_GREEN_05_NL "Groen"
 #define OPTION_VAL_CYAN_06_NL NULL
 #define OPTION_VAL_CYAN_BLUE_07_NL NULL
 #define OPTION_VAL_LIGHT_GREEN_08_NL NULL
 #define OPTION_VAL_CYAN_GREEN_09_NL NULL
 #define OPTION_VAL_LIGHT_CYAN_10_NL NULL
-#define OPTION_VAL_RED_11_NL NULL
+#define OPTION_VAL_RED_11_NL "Rood"
 #define OPTION_VAL_PURPLE_12_NL NULL
 #define OPTION_VAL_LIGHT_PURPLE_13_NL NULL
-#define OPTION_VAL_YELLOW_14_NL NULL
+#define OPTION_VAL_YELLOW_14_NL "Geel"
 #define OPTION_VAL_GRAY_15_NL NULL
 #define OPTION_VAL_LIGHT_PURPLE_2_16_NL NULL
 #define OPTION_VAL_LIGHT_GREEN_2_17_NL NULL
@@ -37712,12 +37919,13 @@ struct retro_core_options_v2 options_mt = {
 #define OPTION_VAL_LIGHT_CYAN_2_19_NL NULL
 #define OPTION_VAL_LIGHT_RED_2_20_NL NULL
 #define OPTION_VAL_MAGENTA_21_NL NULL
-#define OPTION_VAL_LIGHT_ORANGE_22_NL NULL
-#define OPTION_VAL_ORANGE_23_NL NULL
-#define OPTION_VAL_LIGHT_PURPLE_3_24_NL NULL
-#define OPTION_VAL_LIGHT_YELLOW_25_NL NULL
-#define OPTION_VAL_LIGHT_YELLOW_2_26_NL NULL
-#define OPTION_VAL_WHITE_27_NL NULL
+#define OPTION_VAL_LIGHT_PURPLE_3_22_NL NULL
+#define OPTION_VAL_LIGHT_ORANGE_23_NL NULL
+#define OPTION_VAL_ORANGE_24_NL NULL
+#define OPTION_VAL_LIGHT_PURPLE_4_25_NL NULL
+#define OPTION_VAL_LIGHT_YELLOW_26_NL NULL
+#define OPTION_VAL_LIGHT_YELLOW_2_27_NL NULL
+#define OPTION_VAL_WHITE_28_NL NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_OFF_COLOR_LABEL_NL NULL
 #define CORE_OPTION_NAME_VMU1_SCREEN_OPACITY_LABEL_NL NULL
 #define OPTION_VAL_40_NL NULL
@@ -38527,8 +38735,8 @@ struct retro_core_option_v2_definition option_defs_nl[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_NL },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_NL },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_NL },
          { "BLACK 02",          OPTION_VAL_BLACK_02_NL },
          { "BLUE 03",           OPTION_VAL_BLUE_03_NL },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_NL },
@@ -38549,12 +38757,13 @@ struct retro_core_option_v2_definition option_defs_nl[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_NL },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_NL },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_NL },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_NL },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_NL },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_NL },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_NL },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_NL },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_NL },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_NL },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_NL },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_NL },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_NL },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_NL },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_NL },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_NL },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -38589,12 +38798,13 @@ struct retro_core_option_v2_definition option_defs_nl[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_NL },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_NL },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_NL },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_NL },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_NL },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_NL },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_NL },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_NL },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_NL },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_NL },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_NL },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_NL },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_NL },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_NL },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_NL },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_NL },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -38676,8 +38886,8 @@ struct retro_core_option_v2_definition option_defs_nl[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_NL },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_NL },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_NL },
          { "BLACK 02",          OPTION_VAL_BLACK_02_NL },
          { "BLUE 03",           OPTION_VAL_BLUE_03_NL },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_NL },
@@ -38698,12 +38908,13 @@ struct retro_core_option_v2_definition option_defs_nl[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_NL },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_NL },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_NL },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_NL },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_NL },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_NL },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_NL },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_NL },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_NL },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_NL },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_NL },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_NL },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_NL },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_NL },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_NL },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_NL },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -38738,12 +38949,13 @@ struct retro_core_option_v2_definition option_defs_nl[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_NL },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_NL },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_NL },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_NL },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_NL },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_NL },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_NL },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_NL },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_NL },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_NL },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_NL },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_NL },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_NL },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_NL },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_NL },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_NL },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -38825,8 +39037,8 @@ struct retro_core_option_v2_definition option_defs_nl[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_NL },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_NL },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_NL },
          { "BLACK 02",          OPTION_VAL_BLACK_02_NL },
          { "BLUE 03",           OPTION_VAL_BLUE_03_NL },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_NL },
@@ -38847,12 +39059,13 @@ struct retro_core_option_v2_definition option_defs_nl[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_NL },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_NL },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_NL },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_NL },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_NL },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_NL },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_NL },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_NL },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_NL },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_NL },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_NL },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_NL },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_NL },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_NL },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_NL },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_NL },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -38887,12 +39100,13 @@ struct retro_core_option_v2_definition option_defs_nl[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_NL },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_NL },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_NL },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_NL },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_NL },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_NL },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_NL },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_NL },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_NL },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_NL },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_NL },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_NL },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_NL },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_NL },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_NL },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_NL },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -38974,8 +39188,8 @@ struct retro_core_option_v2_definition option_defs_nl[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_NL },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_NL },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_NL },
          { "BLACK 02",          OPTION_VAL_BLACK_02_NL },
          { "BLUE 03",           OPTION_VAL_BLUE_03_NL },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_NL },
@@ -38996,12 +39210,13 @@ struct retro_core_option_v2_definition option_defs_nl[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_NL },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_NL },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_NL },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_NL },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_NL },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_NL },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_NL },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_NL },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_NL },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_NL },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_NL },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_NL },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_NL },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_NL },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_NL },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_NL },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -39036,12 +39251,13 @@ struct retro_core_option_v2_definition option_defs_nl[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_NL },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_NL },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_NL },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_NL },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_NL },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_NL },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_NL },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_NL },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_NL },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_NL },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_NL },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_NL },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_NL },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_NL },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_NL },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_NL },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -39091,7 +39307,7 @@ struct retro_core_option_v2_definition option_defs_nl[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_NL },
+         { "White",    OPTION_VAL_WHITE_28_NL },
          { "Red",      OPTION_VAL_RED_11_NL },
          { "Green",    OPTION_VAL_GREEN_05_NL },
          { "Blue",     OPTION_VAL_BLUE_03_NL },
@@ -39108,7 +39324,7 @@ struct retro_core_option_v2_definition option_defs_nl[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_NL },
+         { "White",    OPTION_VAL_WHITE_28_NL },
          { "Red",      OPTION_VAL_RED_11_NL },
          { "Green",    OPTION_VAL_GREEN_05_NL },
          { "Blue",     OPTION_VAL_BLUE_03_NL },
@@ -39125,7 +39341,7 @@ struct retro_core_option_v2_definition option_defs_nl[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_NL },
+         { "White",    OPTION_VAL_WHITE_28_NL },
          { "Red",      OPTION_VAL_RED_11_NL },
          { "Green",    OPTION_VAL_GREEN_05_NL },
          { "Blue",     OPTION_VAL_BLUE_03_NL },
@@ -39142,7 +39358,7 @@ struct retro_core_option_v2_definition option_defs_nl[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_NL },
+         { "White",    OPTION_VAL_WHITE_28_NL },
          { "Red",      OPTION_VAL_RED_11_NL },
          { "Green",    OPTION_VAL_GREEN_05_NL },
          { "Blue",     OPTION_VAL_BLUE_03_NL },
@@ -39157,9 +39373,1648 @@ struct retro_core_options_v2 options_nl = {
    option_defs_nl
 };
 
+/* RETRO_LANGUAGE_NO */
+
+#define CATEGORY_VIDEO_LABEL_NO NULL
+#define CATEGORY_VIDEO_INFO_0_NO NULL
+#define CATEGORY_INPUT_LABEL_NO "Inndata"
+#define CATEGORY_INPUT_INFO_0_NO NULL
+#define CATEGORY_VMU_LABEL_NO NULL
+#define CATEGORY_VMU_INFO_0_NO NULL
+#define CATEGORY_HACKS_LABEL_NO NULL
+#define CATEGORY_HACKS_INFO_0_NO NULL
+#define CORE_OPTION_NAME_CPU_MODE_LABEL_NO NULL
+#define OPTION_VAL_DYNAMIC_RECOMPILER_NO NULL
+#define OPTION_VAL_GENERIC_RECOMPILER_NO NULL
+#define CORE_OPTION_NAME_BOOT_TO_BIOS_LABEL_NO NULL
+#define CORE_OPTION_NAME_BOOT_TO_BIOS_INFO_0_NO NULL
+#define CORE_OPTION_NAME_SYSTEM_LABEL_NO NULL
+#define OPTION_VAL_AUTO_NO NULL
+#define OPTION_VAL_DREAMCAST_NO NULL
+#define OPTION_VAL_NAOMI_NO NULL
+#define OPTION_VAL_ATOMISWAVE_NO NULL
+#define CORE_OPTION_NAME_HLE_BIOS_LABEL_NO NULL
+#define CORE_OPTION_NAME_HLE_BIOS_INFO_0_NO NULL
+#define CORE_OPTION_NAME_OIT_ABUFFER_SIZE_LABEL_NO NULL
+#define CORE_OPTION_NAME_OIT_ABUFFER_SIZE_INFO_0_NO NULL
+#define OPTION_VAL_512MB_NO NULL
+#define OPTION_VAL_1GB_NO NULL
+#define OPTION_VAL_2GB_NO NULL
+#define OPTION_VAL_4GB_NO NULL
+#define CORE_OPTION_NAME_INTERNAL_RESOLUTION_LABEL_NO NULL
+#define CORE_OPTION_NAME_INTERNAL_RESOLUTION_INFO_0_NO NULL
+#define OPTION_VAL_320X240_NO NULL
+#define OPTION_VAL_640X480_NO NULL
+#define OPTION_VAL_800X600_NO NULL
+#define OPTION_VAL_960X720_NO NULL
+#define OPTION_VAL_1024X768_NO NULL
+#define OPTION_VAL_1280X960_NO NULL
+#define OPTION_VAL_1440X1080_NO NULL
+#define OPTION_VAL_1600X1200_NO NULL
+#define OPTION_VAL_1920X1440_NO NULL
+#define OPTION_VAL_2560X1920_NO NULL
+#define OPTION_VAL_2880X2160_NO NULL
+#define OPTION_VAL_3200X2400_NO NULL
+#define OPTION_VAL_3840X2880_NO NULL
+#define OPTION_VAL_4480X3360_NO NULL
+#define OPTION_VAL_5120X3840_NO NULL
+#define OPTION_VAL_5760X4320_NO NULL
+#define OPTION_VAL_6400X4800_NO NULL
+#define OPTION_VAL_7040X5280_NO NULL
+#define OPTION_VAL_7680X5760_NO NULL
+#define OPTION_VAL_8320X6240_NO NULL
+#define OPTION_VAL_8960X6720_NO NULL
+#define OPTION_VAL_9600X7200_NO NULL
+#define OPTION_VAL_10240X7680_NO NULL
+#define OPTION_VAL_10880X8160_NO NULL
+#define OPTION_VAL_11520X8640_NO NULL
+#define OPTION_VAL_12160X9120_NO NULL
+#define OPTION_VAL_12800X9600_NO NULL
+#define CORE_OPTION_NAME_SCREEN_ROTATION_LABEL_NO NULL
+#define OPTION_VAL_HORIZONTAL_NO NULL
+#define OPTION_VAL_VERTICAL_NO NULL
+#define CORE_OPTION_NAME_ALPHA_SORTING_LABEL_NO NULL
+#define OPTION_VAL_PER_STRIP_FAST_LEAST_ACCURATE_NO NULL
+#define OPTION_VAL_PER_TRIANGLE_NORMAL_NO NULL
+#define OPTION_VAL_PER_PIXEL_ACCURATE_NO NULL
+#define CORE_OPTION_NAME_GDROM_FAST_LOADING_LABEL_NO NULL
+#define CORE_OPTION_NAME_GDROM_FAST_LOADING_INFO_0_NO NULL
+#define CORE_OPTION_NAME_MIPMAPPING_LABEL_NO NULL
+#define CORE_OPTION_NAME_FOG_LABEL_NO NULL
+#define CORE_OPTION_NAME_VOLUME_MODIFIER_ENABLE_LABEL_NO NULL
+#define CORE_OPTION_NAME_VOLUME_MODIFIER_ENABLE_INFO_0_NO NULL
+#define CORE_OPTION_NAME_WIDESCREEN_HACK_LABEL_NO NULL
+#define CORE_OPTION_NAME_WIDESCREEN_CHEATS_LABEL_NO NULL
+#define CORE_OPTION_NAME_WIDESCREEN_CHEATS_INFO_0_NO NULL
+#define CORE_OPTION_NAME_CABLE_TYPE_LABEL_NO NULL
+#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_NO "The output signal type. VGA is recommended, but some games might not be compatible with it."
+#define OPTION_VAL_TV_RGB_NO NULL
+#define OPTION_VAL_TV_COMPOSITE_NO NULL
+#define OPTION_VAL_VGA_RGB_NO NULL
+#define CORE_OPTION_NAME_BROADCAST_LABEL_NO NULL
+#define OPTION_VAL_DEFAULT_NO NULL
+#define OPTION_VAL_PAL_M_NO NULL
+#define OPTION_VAL_PAL_N_NO NULL
+#define OPTION_VAL_NTSC_NO NULL
+#define OPTION_VAL_PAL_NO NULL
+#define CORE_OPTION_NAME_FRAMERATE_LABEL_NO NULL
+#define CORE_OPTION_NAME_FRAMERATE_INFO_0_NO NULL
+#define OPTION_VAL_FULLSPEED_NO NULL
+#define OPTION_VAL_NORMAL_NO NULL
+#define CORE_OPTION_NAME_REGION_LABEL_NO NULL
+#define OPTION_VAL_JAPAN_NO NULL
+#define OPTION_VAL_USA_NO NULL
+#define OPTION_VAL_EUROPE_NO NULL
+#define CORE_OPTION_NAME_LANGUAGE_LABEL_NO NULL
+#define OPTION_VAL_JAPANESE_NO NULL
+#define OPTION_VAL_ENGLISH_NO NULL
+#define OPTION_VAL_GERMAN_NO NULL
+#define OPTION_VAL_FRENCH_NO NULL
+#define OPTION_VAL_SPANISH_NO NULL
+#define OPTION_VAL_ITALIAN_NO NULL
+#define CORE_OPTION_NAME_DIV_MATCHING_LABEL_NO NULL
+#define CORE_OPTION_NAME_DIV_MATCHING_INFO_0_NO NULL
+#define CORE_OPTION_NAME_FORCE_WINCE_LABEL_NO NULL
+#define CORE_OPTION_NAME_FORCE_WINCE_INFO_0_NO NULL
+#define CORE_OPTION_NAME_ANALOG_STICK_DEADZONE_LABEL_NO NULL
+#define OPTION_VAL_0_NO NULL
+#define OPTION_VAL_5_NO NULL
+#define OPTION_VAL_10_NO NULL
+#define OPTION_VAL_15_NO NULL
+#define OPTION_VAL_20_NO NULL
+#define OPTION_VAL_25_NO NULL
+#define OPTION_VAL_30_NO NULL
+#define CORE_OPTION_NAME_TRIGGER_DEADZONE_LABEL_NO NULL
+#define CORE_OPTION_NAME_DIGITAL_TRIGGERS_LABEL_NO NULL
+#define CORE_OPTION_NAME_ENABLE_DSP_LABEL_NO NULL
+#define CORE_OPTION_NAME_ENABLE_DSP_INFO_0_NO NULL
+#define CORE_OPTION_NAME_ANISOTROPIC_FILTERING_LABEL_NO NULL
+#define CORE_OPTION_NAME_ANISOTROPIC_FILTERING_INFO_0_NO NULL
+#define CORE_OPTION_NAME_PVR2_FILTERING_LABEL_NO NULL
+#define CORE_OPTION_NAME_PVR2_FILTERING_INFO_0_NO NULL
+#define CORE_OPTION_NAME_TEXUPSCALE_LABEL_NO NULL
+#define CORE_OPTION_NAME_TEXUPSCALE_INFO_0_NO NULL
+#define OPTION_VAL_2X_NO NULL
+#define OPTION_VAL_4X_NO NULL
+#define OPTION_VAL_6X_NO NULL
+#define CORE_OPTION_NAME_TEXUPSCALE_MAX_FILTERED_TEXTURE_SIZE_LABEL_NO NULL
+#define CORE_OPTION_NAME_ENABLE_RTTB_LABEL_NO NULL
+#define CORE_OPTION_NAME_RENDER_TO_TEXTURE_UPSCALING_LABEL_NO NULL
+#define OPTION_VAL_1X_NO NULL
+#define OPTION_VAL_3X_NO NULL
+#define OPTION_VAL_8X_NO NULL
+#define CORE_OPTION_NAME_THREADED_RENDERING_LABEL_NO NULL
+#define CORE_OPTION_NAME_THREADED_RENDERING_INFO_0_NO NULL
+#define CORE_OPTION_NAME_SYNCHRONOUS_RENDERING_LABEL_NO NULL
+#define CORE_OPTION_NAME_SYNCHRONOUS_RENDERING_INFO_0_NO NULL
+#define CORE_OPTION_NAME_DELAY_FRAME_SWAPPING_LABEL_NO NULL
+#define CORE_OPTION_NAME_DELAY_FRAME_SWAPPING_INFO_0_NO NULL
+#define CORE_OPTION_NAME_FRAME_SKIPPING_LABEL_NO NULL
+#define CORE_OPTION_NAME_FRAME_SKIPPING_INFO_0_NO NULL
+#define CORE_OPTION_NAME_ENABLE_PURUPURU_LABEL_NO NULL
+#define CORE_OPTION_NAME_ENABLE_PURUPURU_INFO_0_NO NULL
+#define CORE_OPTION_NAME_ALLOW_SERVICE_BUTTONS_LABEL_NO NULL
+#define CORE_OPTION_NAME_ALLOW_SERVICE_BUTTONS_INFO_0_NO NULL
+#define CORE_OPTION_NAME_ENABLE_NAOMI_15KHZ_DIPSWITCH_LABEL_NO NULL
+#define CORE_OPTION_NAME_ENABLE_NAOMI_15KHZ_DIPSWITCH_INFO_0_NO NULL
+#define CORE_OPTION_NAME_CUSTOM_TEXTURES_LABEL_NO NULL
+#define CORE_OPTION_NAME_DUMP_TEXTURES_LABEL_NO NULL
+#define CORE_OPTION_NAME_PER_CONTENT_VMUS_LABEL_NO NULL
+#define CORE_OPTION_NAME_PER_CONTENT_VMUS_LABEL_CAT_NO NULL
+#define CORE_OPTION_NAME_PER_CONTENT_VMUS_INFO_0_NO NULL
+#define OPTION_VAL_VMU_A1_NO NULL
+#define OPTION_VAL_ALL_VMUS_NO NULL
+#define CORE_OPTION_NAME_SHOW_VMU_SCREEN_SETTINGS_LABEL_NO NULL
+#define CORE_OPTION_NAME_SHOW_VMU_SCREEN_SETTINGS_LABEL_CAT_NO NULL
+#define CORE_OPTION_NAME_SHOW_VMU_SCREEN_SETTINGS_INFO_0_NO NULL
+#define CORE_OPTION_NAME_VMU1_SCREEN_DISPLAY_LABEL_NO NULL
+#define CORE_OPTION_NAME_VMU1_SCREEN_POSITION_LABEL_NO NULL
+#define OPTION_VAL_UPPER_LEFT_NO NULL
+#define OPTION_VAL_UPPER_RIGHT_NO NULL
+#define OPTION_VAL_LOWER_LEFT_NO NULL
+#define OPTION_VAL_LOWER_RIGHT_NO NULL
+#define CORE_OPTION_NAME_VMU1_SCREEN_SIZE_MULT_LABEL_NO NULL
+#define OPTION_VAL_5X_NO NULL
+#define CORE_OPTION_NAME_VMU1_PIXEL_ON_COLOR_LABEL_NO NULL
+#define OPTION_VAL_DEFAULT_ON_00_NO NULL
+#define OPTION_VAL_DEFAULT_OFF_01_NO NULL
+#define OPTION_VAL_BLACK_02_NO NULL
+#define OPTION_VAL_BLUE_03_NO NULL
+#define OPTION_VAL_LIGHT_BLUE_04_NO NULL
+#define OPTION_VAL_GREEN_05_NO NULL
+#define OPTION_VAL_CYAN_06_NO NULL
+#define OPTION_VAL_CYAN_BLUE_07_NO NULL
+#define OPTION_VAL_LIGHT_GREEN_08_NO NULL
+#define OPTION_VAL_CYAN_GREEN_09_NO NULL
+#define OPTION_VAL_LIGHT_CYAN_10_NO NULL
+#define OPTION_VAL_RED_11_NO NULL
+#define OPTION_VAL_PURPLE_12_NO NULL
+#define OPTION_VAL_LIGHT_PURPLE_13_NO NULL
+#define OPTION_VAL_YELLOW_14_NO NULL
+#define OPTION_VAL_GRAY_15_NO NULL
+#define OPTION_VAL_LIGHT_PURPLE_2_16_NO NULL
+#define OPTION_VAL_LIGHT_GREEN_2_17_NO NULL
+#define OPTION_VAL_LIGHT_GREEN_3_18_NO NULL
+#define OPTION_VAL_LIGHT_CYAN_2_19_NO NULL
+#define OPTION_VAL_LIGHT_RED_2_20_NO NULL
+#define OPTION_VAL_MAGENTA_21_NO NULL
+#define OPTION_VAL_LIGHT_PURPLE_3_22_NO NULL
+#define OPTION_VAL_LIGHT_ORANGE_23_NO NULL
+#define OPTION_VAL_ORANGE_24_NO NULL
+#define OPTION_VAL_LIGHT_PURPLE_4_25_NO NULL
+#define OPTION_VAL_LIGHT_YELLOW_26_NO NULL
+#define OPTION_VAL_LIGHT_YELLOW_2_27_NO NULL
+#define OPTION_VAL_WHITE_28_NO NULL
+#define CORE_OPTION_NAME_VMU1_PIXEL_OFF_COLOR_LABEL_NO NULL
+#define CORE_OPTION_NAME_VMU1_SCREEN_OPACITY_LABEL_NO NULL
+#define OPTION_VAL_40_NO NULL
+#define OPTION_VAL_50_NO NULL
+#define OPTION_VAL_60_NO NULL
+#define OPTION_VAL_70_NO NULL
+#define OPTION_VAL_80_NO NULL
+#define OPTION_VAL_90_NO NULL
+#define OPTION_VAL_100_NO NULL
+#define CORE_OPTION_NAME_VMU2_SCREEN_DISPLAY_LABEL_NO NULL
+#define CORE_OPTION_NAME_VMU2_SCREEN_POSITION_LABEL_NO NULL
+#define CORE_OPTION_NAME_VMU2_SCREEN_SIZE_MULT_LABEL_NO NULL
+#define CORE_OPTION_NAME_VMU2_PIXEL_ON_COLOR_LABEL_NO NULL
+#define CORE_OPTION_NAME_VMU2_PIXEL_OFF_COLOR_LABEL_NO NULL
+#define CORE_OPTION_NAME_VMU2_SCREEN_OPACITY_LABEL_NO NULL
+#define CORE_OPTION_NAME_VMU3_SCREEN_DISPLAY_LABEL_NO NULL
+#define CORE_OPTION_NAME_VMU3_SCREEN_POSITION_LABEL_NO NULL
+#define CORE_OPTION_NAME_VMU3_SCREEN_SIZE_MULT_LABEL_NO NULL
+#define CORE_OPTION_NAME_VMU3_PIXEL_ON_COLOR_LABEL_NO NULL
+#define CORE_OPTION_NAME_VMU3_PIXEL_OFF_COLOR_LABEL_NO NULL
+#define CORE_OPTION_NAME_VMU3_SCREEN_OPACITY_LABEL_NO NULL
+#define CORE_OPTION_NAME_VMU4_SCREEN_DISPLAY_LABEL_NO NULL
+#define CORE_OPTION_NAME_VMU4_SCREEN_POSITION_LABEL_NO NULL
+#define CORE_OPTION_NAME_VMU4_SCREEN_SIZE_MULT_LABEL_NO NULL
+#define CORE_OPTION_NAME_VMU4_PIXEL_ON_COLOR_LABEL_NO NULL
+#define CORE_OPTION_NAME_VMU4_PIXEL_OFF_COLOR_LABEL_NO NULL
+#define CORE_OPTION_NAME_VMU4_SCREEN_OPACITY_LABEL_NO NULL
+#define CORE_OPTION_NAME_SHOW_LIGHTGUN_SETTINGS_LABEL_NO NULL
+#define CORE_OPTION_NAME_SHOW_LIGHTGUN_SETTINGS_INFO_0_NO NULL
+#define CORE_OPTION_NAME_LIGHTGUN1_CROSSHAIR_LABEL_NO NULL
+#define CORE_OPTION_NAME_LIGHTGUN2_CROSSHAIR_LABEL_NO NULL
+#define CORE_OPTION_NAME_LIGHTGUN3_CROSSHAIR_LABEL_NO NULL
+#define CORE_OPTION_NAME_LIGHTGUN4_CROSSHAIR_LABEL_NO NULL
+
+struct retro_core_option_v2_category option_cats_no[] = {
+   {
+      "video",
+      CATEGORY_VIDEO_LABEL_NO,
+      CATEGORY_VIDEO_INFO_0_NO
+   },
+   {
+      "input",
+      CATEGORY_INPUT_LABEL_NO,
+      CATEGORY_INPUT_INFO_0_NO
+   },
+   {
+      "vmu",
+      CATEGORY_VMU_LABEL_NO,
+      CATEGORY_VMU_INFO_0_NO
+   },
+   {
+      "hacks",
+      CATEGORY_HACKS_LABEL_NO,
+      CATEGORY_HACKS_INFO_0_NO
+   },
+   { NULL, NULL, NULL },
+};
+struct retro_core_option_v2_definition option_defs_no[] = {
+#if ((FEAT_SHREC == DYNAREC_JIT && HOST_CPU == CPU_X86) || (HOST_CPU == CPU_ARM) || (HOST_CPU == CPU_ARM64) || (HOST_CPU == CPU_X64)) && defined(TARGET_NO_JIT)
+   {/* TODO: needs explanation */
+      CORE_OPTION_NAME "_cpu_mode",
+      CORE_OPTION_NAME_CPU_MODE_LABEL_NO,
+      NULL,
+      "",
+      NULL,
+      NULL,
+      {
+#if (FEAT_SHREC == DYNAREC_JIT && HOST_CPU == CPU_X86) || (HOST_CPU == CPU_ARM) || (HOST_CPU == CPU_ARM64) || (HOST_CPU == CPU_X64)
+         { "dynamic_recompiler", OPTION_VAL_DYNAMIC_RECOMPILER_NO },
+#endif
+#ifdef TARGET_NO_JIT
+         { "generic_recompiler", OPTION_VAL_GENERIC_RECOMPILER_NO },
+#endif
+         { NULL, NULL },
+      },
+#if (FEAT_SHREC == DYNAREC_JIT && HOST_CPU == CPU_X86) || (HOST_CPU == CPU_ARM) || (HOST_CPU == CPU_ARM64) || (HOST_CPU == CPU_X64)
+      "dynamic_recompiler",
+#elif defined(TARGET_NO_JIT)
+      "generic_recompiler",
+#endif
+   },
+#endif
+   {
+      CORE_OPTION_NAME "_boot_to_bios",
+      CORE_OPTION_NAME_BOOT_TO_BIOS_LABEL_NO,
+      NULL,
+      CORE_OPTION_NAME_BOOT_TO_BIOS_INFO_0_NO,
+      NULL,
+      NULL,
+      {
+         { "disabled", NULL },
+         { "enabled",  NULL },
+         { NULL, NULL },
+      },
+      "disabled",
+   },
+   {
+      CORE_OPTION_NAME "_system",
+      CORE_OPTION_NAME_SYSTEM_LABEL_NO,
+      NULL,
+      "",
+      NULL,
+      NULL,
+      {
+         { "auto",       OPTION_VAL_AUTO_NO },
+         { "dreamcast",  OPTION_VAL_DREAMCAST_NO },
+         { "naomi",      OPTION_VAL_NAOMI_NO },
+         { "atomiswave", OPTION_VAL_ATOMISWAVE_NO },
+         { NULL, NULL },
+      },
+      "auto",
+   },
+   {
+      CORE_OPTION_NAME "_hle_bios",
+      CORE_OPTION_NAME_HLE_BIOS_LABEL_NO,
+      NULL,
+      CORE_OPTION_NAME_HLE_BIOS_INFO_0_NO,
+      NULL,
+      NULL,
+      {
+         { "disabled",  NULL },
+         { "enabled",  NULL },
+         { NULL, NULL},
+      },
+      "disabled",
+   },
+#if defined(HAVE_OIT) || defined(HAVE_VULKAN)
+   {
+      CORE_OPTION_NAME "_oit_abuffer_size",
+      CORE_OPTION_NAME_OIT_ABUFFER_SIZE_LABEL_NO,
+      NULL,
+      CORE_OPTION_NAME_OIT_ABUFFER_SIZE_INFO_0_NO,
+      NULL,
+      "video",
+      {
+         { "512MB", OPTION_VAL_512MB_NO },
+         { "1GB",   OPTION_VAL_1GB_NO },
+         { "2GB",   OPTION_VAL_2GB_NO },
+         { "4GB",   OPTION_VAL_4GB_NO },
+         { NULL, NULL },
+      },
+      "512MB",
+   },
+#endif
+   {
+      CORE_OPTION_NAME "_internal_resolution",
+      CORE_OPTION_NAME_INTERNAL_RESOLUTION_LABEL_NO,
+      NULL,
+      CORE_OPTION_NAME_INTERNAL_RESOLUTION_INFO_0_NO,
+      NULL,
+      "video",
+      {
+         { "320x240",    OPTION_VAL_320X240_NO },
+         { "640x480",    OPTION_VAL_640X480_NO },
+         { "800x600",    OPTION_VAL_800X600_NO },
+         { "960x720",    OPTION_VAL_960X720_NO },
+         { "1024x768",   OPTION_VAL_1024X768_NO },
+         { "1280x960",   OPTION_VAL_1280X960_NO },
+         { "1440x1080",  OPTION_VAL_1440X1080_NO },
+         { "1600x1200",  OPTION_VAL_1600X1200_NO },
+         { "1920x1440",  OPTION_VAL_1920X1440_NO },
+         { "2560x1920",  OPTION_VAL_2560X1920_NO },
+         { "2880x2160",  OPTION_VAL_2880X2160_NO },
+         { "3200x2400",  OPTION_VAL_3200X2400_NO },
+         { "3840x2880",  OPTION_VAL_3840X2880_NO },
+         { "4480x3360",  OPTION_VAL_4480X3360_NO },
+         { "5120x3840",  OPTION_VAL_5120X3840_NO },
+         { "5760x4320",  OPTION_VAL_5760X4320_NO },
+         { "6400x4800",  OPTION_VAL_6400X4800_NO },
+         { "7040x5280",  OPTION_VAL_7040X5280_NO },
+         { "7680x5760",  OPTION_VAL_7680X5760_NO },
+         { "8320x6240",  OPTION_VAL_8320X6240_NO },
+         { "8960x6720",  OPTION_VAL_8960X6720_NO },
+         { "9600x7200",  OPTION_VAL_9600X7200_NO },
+         { "10240x7680", OPTION_VAL_10240X7680_NO },
+         { "10880x8160", OPTION_VAL_10880X8160_NO },
+         { "11520x8640", OPTION_VAL_11520X8640_NO },
+         { "12160x9120", OPTION_VAL_12160X9120_NO },
+         { "12800x9600", OPTION_VAL_12800X9600_NO },
+         { NULL, NULL },
+      },
+#ifdef LOW_RES
+      "320x240",
+#else
+      "640x480",
+#endif
+   },
+   {
+      CORE_OPTION_NAME "_screen_rotation",
+      CORE_OPTION_NAME_SCREEN_ROTATION_LABEL_NO,
+      NULL,
+      "",
+      NULL,
+      "video",
+      {
+         { "horizontal", OPTION_VAL_HORIZONTAL_NO },
+         { "vertical",   OPTION_VAL_VERTICAL_NO },
+         { NULL, NULL },
+      },
+      "horizontal",
+   },
+   {/* TODO: needs explanation */
+      CORE_OPTION_NAME "_alpha_sorting",
+      CORE_OPTION_NAME_ALPHA_SORTING_LABEL_NO,
+      NULL,
+      "",
+      NULL,
+      NULL,
+      {
+         { "per-strip (fast, least accurate)", OPTION_VAL_PER_STRIP_FAST_LEAST_ACCURATE_NO },
+         { "per-triangle (normal)",            OPTION_VAL_PER_TRIANGLE_NORMAL_NO },
+#if defined(HAVE_OIT) || defined(HAVE_VULKAN)
+         { "per-pixel (accurate)",             OPTION_VAL_PER_PIXEL_ACCURATE_NO },
+#endif
+         { NULL, NULL },
+      },
+#if defined(LOW_END)
+      "per-strip (fast, least accurate)",
+#else
+      "per-triangle (normal)",
+#endif
+   },
+   {
+      CORE_OPTION_NAME "_gdrom_fast_loading",
+      CORE_OPTION_NAME_GDROM_FAST_LOADING_LABEL_NO,
+      NULL,
+      CORE_OPTION_NAME_GDROM_FAST_LOADING_INFO_0_NO,
+      NULL,
+      NULL,
+      {
+         { "disabled", NULL },
+         { "enabled",  NULL },
+         { NULL, NULL },
+      },
+#ifdef LOW_END
+      "enabled",
+#else
+      "disabled",
+#endif
+   },
+   {/* TODO: needs explanation */
+      CORE_OPTION_NAME "_mipmapping",
+      CORE_OPTION_NAME_MIPMAPPING_LABEL_NO,
+      NULL,
+      "",
+      NULL,
+      "video",
+      {
+         { "enabled",  NULL },
+         { "disabled", NULL },
+         { NULL, NULL },
+      },
+      "enabled",
+   },
+   {
+      CORE_OPTION_NAME "_fog",
+      CORE_OPTION_NAME_FOG_LABEL_NO,
+      NULL,
+      "",
+      NULL,
+      "video",
+      {
+         { "enabled",  NULL },
+         { "disabled", NULL },
+         { NULL, NULL },
+      },
+      "enabled",
+   },
+   {
+      CORE_OPTION_NAME "_volume_modifier_enable",
+      CORE_OPTION_NAME_VOLUME_MODIFIER_ENABLE_LABEL_NO,
+      NULL,
+      CORE_OPTION_NAME_VOLUME_MODIFIER_ENABLE_INFO_0_NO,
+      NULL,
+      "video",
+      {
+         { "enabled",  NULL },
+         { "disabled", NULL },
+         { NULL, NULL },
+      },
+      "enabled",
+   },
+   {
+      CORE_OPTION_NAME "_widescreen_hack",
+      CORE_OPTION_NAME_WIDESCREEN_HACK_LABEL_NO,
+      NULL,
+      "",
+      NULL,
+      "hacks",
+      {
+         { "disabled", NULL },
+         { "enabled",  NULL },
+         { NULL, NULL },
+      },
+      "disabled",
+   },
+   {
+      CORE_OPTION_NAME "_widescreen_cheats",
+      CORE_OPTION_NAME_WIDESCREEN_CHEATS_LABEL_NO,
+      NULL,
+      CORE_OPTION_NAME_WIDESCREEN_CHEATS_INFO_0_NO,
+      NULL,
+      "hacks",
+      {
+         { "disabled", NULL },
+         { "enabled",  NULL },
+         { NULL, NULL },
+      },
+      "disabled",
+   },
+   {
+      CORE_OPTION_NAME "_cable_type",
+      CORE_OPTION_NAME_CABLE_TYPE_LABEL_NO,
+      NULL,
+      CORE_OPTION_NAME_CABLE_TYPE_INFO_0_NO,
+      NULL,
+      "video",
+      {
+         { "TV (RGB)",       OPTION_VAL_TV_RGB_NO },
+         { "TV (Composite)", OPTION_VAL_TV_COMPOSITE_NO },
+         { "VGA (RGB)",      OPTION_VAL_VGA_RGB_NO },
+         { NULL, NULL },
+      },
+#ifdef LOW_END
+      "VGA (RGB)",
+#else
+      "TV (Composite)",
+#endif
+   },
+   {
+      CORE_OPTION_NAME "_broadcast",
+      CORE_OPTION_NAME_BROADCAST_LABEL_NO,
+      NULL,
+      "",
+      NULL,
+      "video",
+      {
+         { "Default", OPTION_VAL_DEFAULT_NO },
+         { "PAL_M",   OPTION_VAL_PAL_M_NO },
+         { "PAL_N",   OPTION_VAL_PAL_N_NO },
+         { "NTSC",    OPTION_VAL_NTSC_NO },
+         { "PAL",     OPTION_VAL_PAL_NO },
+         { NULL, NULL },
+      },
+      "Default",
+   },
+   {
+      CORE_OPTION_NAME "_framerate",
+      CORE_OPTION_NAME_FRAMERATE_LABEL_NO,
+      NULL,
+      CORE_OPTION_NAME_FRAMERATE_INFO_0_NO,
+      NULL,
+      "video",
+      {
+         { "fullspeed", OPTION_VAL_FULLSPEED_NO },
+         { "normal",    OPTION_VAL_NORMAL_NO },
+         { NULL, NULL },
+      },
+      "fullspeed",
+   },
+   {
+      CORE_OPTION_NAME "_region",
+      CORE_OPTION_NAME_REGION_LABEL_NO,
+      NULL,
+      "",
+      NULL,
+      NULL,
+      {
+         { "Default", OPTION_VAL_DEFAULT_NO },
+         { "Japan",   OPTION_VAL_JAPAN_NO },
+         { "USA",     OPTION_VAL_USA_NO },
+         { "Europe",  OPTION_VAL_EUROPE_NO },
+         { NULL, NULL },
+      },
+      "Default",
+   },
+   {
+      CORE_OPTION_NAME "_language",
+      CORE_OPTION_NAME_LANGUAGE_LABEL_NO,
+      NULL,
+      "",
+      NULL,
+      NULL,
+      {
+         { "Default",  OPTION_VAL_DEFAULT_NO },
+         { "Japanese", OPTION_VAL_JAPANESE_NO },
+         { "English",  OPTION_VAL_ENGLISH_NO },
+         { "German",   OPTION_VAL_GERMAN_NO },
+         { "French",   OPTION_VAL_FRENCH_NO },
+         { "Spanish",  OPTION_VAL_SPANISH_NO },
+         { "Italian",  OPTION_VAL_ITALIAN_NO },
+         { NULL, NULL },
+      },
+      "Default",
+   },
+   {
+      CORE_OPTION_NAME "_div_matching",
+      CORE_OPTION_NAME_DIV_MATCHING_LABEL_NO,
+      NULL,
+      CORE_OPTION_NAME_DIV_MATCHING_INFO_0_NO,
+      NULL,
+      NULL,
+      {
+         { "disabled", NULL },
+         { "auto",     OPTION_VAL_AUTO_NO },
+         { NULL, NULL },
+      },
+      "auto",
+   },
+   {
+      CORE_OPTION_NAME "_force_wince",
+      CORE_OPTION_NAME_FORCE_WINCE_LABEL_NO,
+      NULL,
+      CORE_OPTION_NAME_FORCE_WINCE_INFO_0_NO,
+      NULL,
+      NULL,
+      {
+         { "disabled", NULL },
+         { "enabled",  NULL },
+         { NULL, NULL },
+      },
+      "disabled",
+   },
+   {
+      CORE_OPTION_NAME "_analog_stick_deadzone",
+      CORE_OPTION_NAME_ANALOG_STICK_DEADZONE_LABEL_NO,
+      NULL,
+      "",
+      NULL,
+      "input",
+      {
+         { "0%",  OPTION_VAL_0_NO },
+         { "5%",  OPTION_VAL_5_NO },
+         { "10%", OPTION_VAL_10_NO },
+         { "15%", OPTION_VAL_15_NO },
+         { "20%", OPTION_VAL_20_NO },
+         { "25%", OPTION_VAL_25_NO },
+         { "30%", OPTION_VAL_30_NO },
+         { NULL, NULL },
+      },
+      "15%",
+   },
+   {
+      CORE_OPTION_NAME "_trigger_deadzone",
+      CORE_OPTION_NAME_TRIGGER_DEADZONE_LABEL_NO,
+      NULL,
+      "",
+      NULL,
+      "input",
+      {
+         { "0%",  OPTION_VAL_0_NO },
+         { "5%",  OPTION_VAL_5_NO },
+         { "10%", OPTION_VAL_10_NO },
+         { "15%", OPTION_VAL_15_NO },
+         { "20%", OPTION_VAL_20_NO },
+         { "25%", OPTION_VAL_25_NO },
+         { "30%", OPTION_VAL_30_NO },
+         { NULL, NULL },
+      },
+      "0%",
+   },
+   {
+      CORE_OPTION_NAME "_digital_triggers",
+      CORE_OPTION_NAME_DIGITAL_TRIGGERS_LABEL_NO,
+      NULL,
+      "",
+      NULL,
+      "input",
+      {
+         { "disabled", NULL },
+         { "enabled",  NULL },
+         { NULL, NULL },
+      },
+      "disabled",
+   },
+   {
+      CORE_OPTION_NAME "_enable_dsp",
+      CORE_OPTION_NAME_ENABLE_DSP_LABEL_NO,
+      NULL,
+      CORE_OPTION_NAME_ENABLE_DSP_INFO_0_NO,
+      NULL,
+      NULL,
+      {
+         { "disabled", NULL },
+         { "enabled",  NULL },
+         { NULL, NULL },
+      },
+#ifdef LOW_END
+      "disabled",
+#else
+      "enabled",
+#endif
+   },
+   {
+      CORE_OPTION_NAME "_anisotropic_filtering",
+      CORE_OPTION_NAME_ANISOTROPIC_FILTERING_LABEL_NO,
+      NULL,
+      CORE_OPTION_NAME_ANISOTROPIC_FILTERING_INFO_0_NO,
+      NULL,
+      "video",
+      {
+         { "disabled", NULL },
+         { "2",  NULL },
+         { "4",  NULL },
+         { "8",  NULL },
+         { "16",  NULL },
+         { NULL, NULL },
+      },
+      "4",
+   },
+   {
+      CORE_OPTION_NAME "_pvr2_filtering",
+      CORE_OPTION_NAME_PVR2_FILTERING_LABEL_NO,
+      NULL,
+      CORE_OPTION_NAME_PVR2_FILTERING_INFO_0_NO,
+      NULL,
+      "video",
+      {
+         { "disabled", NULL },
+         { "enabled",  NULL },
+         { NULL, NULL },
+      },
+      "disabled",
+   },
+#ifdef HAVE_TEXUPSCALE
+   {
+      CORE_OPTION_NAME "_texupscale",
+      CORE_OPTION_NAME_TEXUPSCALE_LABEL_NO,
+      NULL,
+      CORE_OPTION_NAME_TEXUPSCALE_INFO_0_NO,
+      NULL,
+      "video",
+      {
+         { "disabled", NULL },
+         { "2x",  OPTION_VAL_2X_NO },
+         { "4x",  OPTION_VAL_4X_NO },
+         { "6x",  OPTION_VAL_6X_NO },
+         { NULL, NULL },
+      },
+      "disabled",
+   },
+   {/* TODO: needs clarification */
+      CORE_OPTION_NAME "_texupscale_max_filtered_texture_size",
+      CORE_OPTION_NAME_TEXUPSCALE_MAX_FILTERED_TEXTURE_SIZE_LABEL_NO,
+      NULL,
+      "",
+      NULL,
+      "video",
+      {
+         { "256",  NULL },
+         { "512",  NULL },
+         { "1024", NULL },
+         { NULL, NULL },
+      },
+      "256",
+   },
+#endif
+   {/* TODO: needs explanation */
+      CORE_OPTION_NAME "_enable_rttb",
+      CORE_OPTION_NAME_ENABLE_RTTB_LABEL_NO,
+      NULL,
+      "",
+      NULL,
+      "video",
+      {
+         { "disabled", NULL },
+         { "enabled",  NULL },
+         { NULL, NULL },
+      },
+      "disabled",
+   },
+   {
+      CORE_OPTION_NAME "_render_to_texture_upscaling",
+      CORE_OPTION_NAME_RENDER_TO_TEXTURE_UPSCALING_LABEL_NO,
+      NULL,
+      "",
+      NULL,
+      "video",
+      {
+         { "1x", OPTION_VAL_1X_NO },
+         { "2x", OPTION_VAL_2X_NO },
+         { "3x", OPTION_VAL_3X_NO },
+         { "4x", OPTION_VAL_4X_NO },
+         { "8x", OPTION_VAL_8X_NO },
+         { NULL, NULL },
+      },
+      "1x",
+   },
+#if !defined(TARGET_NO_THREADS)
+   {
+      CORE_OPTION_NAME "_threaded_rendering",
+      CORE_OPTION_NAME_THREADED_RENDERING_LABEL_NO,
+      NULL,
+      CORE_OPTION_NAME_THREADED_RENDERING_INFO_0_NO,
+      NULL,
+      NULL,
+      {
+         { "disabled", NULL },
+         { "enabled",  NULL },
+         { NULL, NULL },
+      },
+      "enabled",
+   },
+   {
+      CORE_OPTION_NAME "_synchronous_rendering",
+      CORE_OPTION_NAME_SYNCHRONOUS_RENDERING_LABEL_NO,
+      NULL,
+      CORE_OPTION_NAME_SYNCHRONOUS_RENDERING_INFO_0_NO,
+      NULL,
+      NULL,
+      {
+         { "disabled", NULL },
+         { "enabled",  NULL },
+         { NULL, NULL },
+      },
+#ifdef LOW_END
+      "disabled",
+#else
+      "enabled",
+#endif
+   },
+   {
+      CORE_OPTION_NAME "_delay_frame_swapping",
+      CORE_OPTION_NAME_DELAY_FRAME_SWAPPING_LABEL_NO,
+      NULL,
+      CORE_OPTION_NAME_DELAY_FRAME_SWAPPING_INFO_0_NO,
+      NULL,
+      "video",
+      {
+         { "disabled", NULL },
+         { "enabled",  NULL },
+         { NULL, NULL },
+      },
+      "disabled",
+   },
+#endif
+   {
+      CORE_OPTION_NAME "_frame_skipping",
+      CORE_OPTION_NAME_FRAME_SKIPPING_LABEL_NO,
+      NULL,
+      CORE_OPTION_NAME_FRAME_SKIPPING_INFO_0_NO,
+      NULL,
+      "video",
+      {
+         { "disabled",  NULL },
+         { "1",         NULL },
+         { "2",         NULL },
+         { "3",         NULL },
+         { "4",         NULL },
+         { "5",         NULL },
+         { "6",         NULL },
+         { NULL, NULL },
+      },
+      "disabled",
+   },
+   {
+      CORE_OPTION_NAME "_enable_purupuru",
+      CORE_OPTION_NAME_ENABLE_PURUPURU_LABEL_NO,
+      NULL,
+      CORE_OPTION_NAME_ENABLE_PURUPURU_INFO_0_NO,
+      NULL,
+      "input",
+      {
+         { "disabled", NULL },
+         { "enabled",  NULL },
+         { NULL, NULL },
+      },
+      "enabled",
+   },
+   {
+      CORE_OPTION_NAME "_allow_service_buttons",
+      CORE_OPTION_NAME_ALLOW_SERVICE_BUTTONS_LABEL_NO,
+      NULL,
+      CORE_OPTION_NAME_ALLOW_SERVICE_BUTTONS_INFO_0_NO,
+      NULL,
+      NULL,
+      {
+         { "disabled", NULL },
+         { "enabled",  NULL },
+         { NULL, NULL },
+      },
+      "disabled",
+   },
+   {
+      CORE_OPTION_NAME "_enable_naomi_15khz_dipswitch",
+      CORE_OPTION_NAME_ENABLE_NAOMI_15KHZ_DIPSWITCH_LABEL_NO,
+      NULL,
+      CORE_OPTION_NAME_ENABLE_NAOMI_15KHZ_DIPSWITCH_INFO_0_NO,
+      NULL,
+      NULL,
+      {
+         { "disabled", NULL },
+         { "enabled",  NULL },
+         { NULL, NULL },
+      },
+      "disabled",
+   },
+   {/* TODO: needs explanation */
+      CORE_OPTION_NAME "_custom_textures",
+      CORE_OPTION_NAME_CUSTOM_TEXTURES_LABEL_NO,
+      NULL,
+      "",
+      NULL,
+      "video",
+      {
+         { "disabled", NULL },
+         { "enabled",  NULL },
+         { NULL, NULL },
+      },
+      "disabled",
+   },
+   {/* TODO: probably needs explanation */
+      CORE_OPTION_NAME "_dump_textures",
+      CORE_OPTION_NAME_DUMP_TEXTURES_LABEL_NO,
+      NULL,
+      "",
+      NULL,
+      "video",
+      {
+         { "disabled", NULL },
+         { "enabled",  NULL },
+         { NULL, NULL },
+      },
+      "disabled",
+   },
+   {
+      CORE_OPTION_NAME "_per_content_vmus",
+      CORE_OPTION_NAME_PER_CONTENT_VMUS_LABEL_NO,
+      CORE_OPTION_NAME_PER_CONTENT_VMUS_LABEL_CAT_NO,
+      CORE_OPTION_NAME_PER_CONTENT_VMUS_INFO_0_NO,
+      NULL,
+      "vmu",
+      {
+         { "disabled", NULL },
+         { "VMU A1",   OPTION_VAL_VMU_A1_NO },
+         { "All VMUs", OPTION_VAL_ALL_VMUS_NO },
+         { NULL, NULL},
+      },
+      "disabled",
+   },
+   {
+      CORE_OPTION_NAME "_show_vmu_screen_settings",
+      CORE_OPTION_NAME_SHOW_VMU_SCREEN_SETTINGS_LABEL_NO,
+      CORE_OPTION_NAME_SHOW_VMU_SCREEN_SETTINGS_LABEL_CAT_NO,
+      CORE_OPTION_NAME_SHOW_VMU_SCREEN_SETTINGS_INFO_0_NO,
+      NULL,
+      "vmu",
+      {
+         { "enabled",  NULL },
+         { "disabled", NULL },
+         { NULL, NULL},
+      },
+      "disabled"
+   },
+   {
+      CORE_OPTION_NAME "_vmu1_screen_display",
+      CORE_OPTION_NAME_VMU1_SCREEN_DISPLAY_LABEL_NO,
+      NULL,
+      "",
+      NULL,
+      "vmu",
+      {
+         { "disabled", NULL },
+         { "enabled",  NULL },
+         { NULL, NULL },
+      },
+      "disabled",
+   },
+   {
+      CORE_OPTION_NAME "_vmu1_screen_position",
+      CORE_OPTION_NAME_VMU1_SCREEN_POSITION_LABEL_NO,
+      NULL,
+      "",
+      NULL,
+      "vmu",
+      {
+         { "Upper Left",  OPTION_VAL_UPPER_LEFT_NO },
+         { "Upper Right", OPTION_VAL_UPPER_RIGHT_NO },
+         { "Lower Left",  OPTION_VAL_LOWER_LEFT_NO },
+         { "Lower Right", OPTION_VAL_LOWER_RIGHT_NO },
+         { NULL, NULL },
+      },
+      "Upper Left",
+   },
+   {
+      CORE_OPTION_NAME "_vmu1_screen_size_mult",
+      CORE_OPTION_NAME_VMU1_SCREEN_SIZE_MULT_LABEL_NO,
+      NULL,
+      "",
+      NULL,
+      "vmu",
+      {
+         { "1x", OPTION_VAL_1X_NO },
+         { "2x", OPTION_VAL_2X_NO },
+         { "3x", OPTION_VAL_3X_NO },
+         { "4x", OPTION_VAL_4X_NO },
+         { "5x", OPTION_VAL_5X_NO },
+         { NULL, NULL },
+      },
+      "1x",
+   },
+   {
+      CORE_OPTION_NAME "_vmu1_pixel_on_color",
+      CORE_OPTION_NAME_VMU1_PIXEL_ON_COLOR_LABEL_NO,
+      NULL,
+      "",
+      NULL,
+      "vmu",
+      {
+         { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_NO },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_NO },
+         { "BLACK 02",          OPTION_VAL_BLACK_02_NO },
+         { "BLUE 03",           OPTION_VAL_BLUE_03_NO },
+         { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_NO },
+         { "GREEN 05",          OPTION_VAL_GREEN_05_NO },
+         { "CYAN 06",           OPTION_VAL_CYAN_06_NO },
+         { "CYAN_BLUE 07",      OPTION_VAL_CYAN_BLUE_07_NO },
+         { "LIGHT_GREEN 08",    OPTION_VAL_LIGHT_GREEN_08_NO },
+         { "CYAN_GREEN 09",     OPTION_VAL_CYAN_GREEN_09_NO },
+         { "LIGHT_CYAN 10",     OPTION_VAL_LIGHT_CYAN_10_NO },
+         { "RED 11",            OPTION_VAL_RED_11_NO },
+         { "PURPLE 12",         OPTION_VAL_PURPLE_12_NO },
+         { "LIGHT_PURPLE 13",   OPTION_VAL_LIGHT_PURPLE_13_NO },
+         { "YELLOW 14",         OPTION_VAL_YELLOW_14_NO },
+         { "GRAY 15",           OPTION_VAL_GRAY_15_NO },
+         { "LIGHT_PURPLE_2 16", OPTION_VAL_LIGHT_PURPLE_2_16_NO },
+         { "LIGHT_GREEN_2 17",  OPTION_VAL_LIGHT_GREEN_2_17_NO },
+         { "LIGHT_GREEN_3 18",  OPTION_VAL_LIGHT_GREEN_3_18_NO },
+         { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_NO },
+         { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_NO },
+         { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_NO },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_NO },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_NO },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_NO },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_NO },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_NO },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_NO },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_NO },
+         { NULL, NULL },
+      },
+      "DEFAULT_ON 00",
+   },
+   {
+      CORE_OPTION_NAME "_vmu1_pixel_off_color",
+      CORE_OPTION_NAME_VMU1_PIXEL_OFF_COLOR_LABEL_NO,
+      NULL,
+      "",
+      NULL,
+      "vmu",
+      {
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_NO },
+         { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_NO },
+         { "BLACK 02",          OPTION_VAL_BLACK_02_NO },
+         { "BLUE 03",           OPTION_VAL_BLUE_03_NO },
+         { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_NO },
+         { "GREEN 05",          OPTION_VAL_GREEN_05_NO },
+         { "CYAN 06",           OPTION_VAL_CYAN_06_NO },
+         { "CYAN_BLUE 07",      OPTION_VAL_CYAN_BLUE_07_NO },
+         { "LIGHT_GREEN 08",    OPTION_VAL_LIGHT_GREEN_08_NO },
+         { "CYAN_GREEN 09",     OPTION_VAL_CYAN_GREEN_09_NO },
+         { "LIGHT_CYAN 10",     OPTION_VAL_LIGHT_CYAN_10_NO },
+         { "RED 11",            OPTION_VAL_RED_11_NO },
+         { "PURPLE 12",         OPTION_VAL_PURPLE_12_NO },
+         { "LIGHT_PURPLE 13",   OPTION_VAL_LIGHT_PURPLE_13_NO },
+         { "YELLOW 14",         OPTION_VAL_YELLOW_14_NO },
+         { "GRAY 15",           OPTION_VAL_GRAY_15_NO },
+         { "LIGHT_PURPLE_2 16", OPTION_VAL_LIGHT_PURPLE_2_16_NO },
+         { "LIGHT_GREEN_2 17",  OPTION_VAL_LIGHT_GREEN_2_17_NO },
+         { "LIGHT_GREEN_3 18",  OPTION_VAL_LIGHT_GREEN_3_18_NO },
+         { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_NO },
+         { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_NO },
+         { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_NO },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_NO },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_NO },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_NO },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_NO },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_NO },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_NO },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_NO },
+         { NULL, NULL },
+      },
+      "DEFAULT_OFF 01",
+   },
+   {
+      CORE_OPTION_NAME "_vmu1_screen_opacity",
+      CORE_OPTION_NAME_VMU1_SCREEN_OPACITY_LABEL_NO,
+      NULL,
+      "",
+      NULL,
+      "vmu",
+      {
+         { "10%",  OPTION_VAL_10_NO },
+         { "20%",  OPTION_VAL_20_NO },
+         { "30%",  OPTION_VAL_30_NO },
+         { "40%",  OPTION_VAL_40_NO },
+         { "50%",  OPTION_VAL_50_NO },
+         { "60%",  OPTION_VAL_60_NO },
+         { "70%",  OPTION_VAL_70_NO },
+         { "80%",  OPTION_VAL_80_NO },
+         { "90%",  OPTION_VAL_90_NO },
+         { "100%", OPTION_VAL_100_NO },
+         { NULL,   NULL },
+      },
+      "100%",
+   },
+   {
+      CORE_OPTION_NAME "_vmu2_screen_display",
+      CORE_OPTION_NAME_VMU2_SCREEN_DISPLAY_LABEL_NO,
+      NULL,
+      "",
+      NULL,
+      "vmu",
+      {
+         { "disabled", NULL },
+         { "enabled",  NULL },
+         { NULL, NULL },
+      },
+      "disabled",
+   },
+   {
+      CORE_OPTION_NAME "_vmu2_screen_position",
+      CORE_OPTION_NAME_VMU2_SCREEN_POSITION_LABEL_NO,
+      NULL,
+      "",
+      NULL,
+      "vmu",
+      {
+         { "Upper Left",  OPTION_VAL_UPPER_LEFT_NO },
+         { "Upper Right", OPTION_VAL_UPPER_RIGHT_NO },
+         { "Lower Left",  OPTION_VAL_LOWER_LEFT_NO },
+         { "Lower Right", OPTION_VAL_LOWER_RIGHT_NO },
+         { NULL, NULL },
+      },
+      "Upper Left",
+   },
+   {
+      CORE_OPTION_NAME "_vmu2_screen_size_mult",
+      CORE_OPTION_NAME_VMU2_SCREEN_SIZE_MULT_LABEL_NO,
+      NULL,
+      "",
+      NULL,
+      "vmu",
+      {
+         { "1x", OPTION_VAL_1X_NO },
+         { "2x", OPTION_VAL_2X_NO },
+         { "3x", OPTION_VAL_3X_NO },
+         { "4x", OPTION_VAL_4X_NO },
+         { "5x", OPTION_VAL_5X_NO },
+         { NULL, NULL },
+      },
+      "1x",
+   },
+   {
+      CORE_OPTION_NAME "_vmu2_pixel_on_color",
+      CORE_OPTION_NAME_VMU2_PIXEL_ON_COLOR_LABEL_NO,
+      NULL,
+      "",
+      NULL,
+      "vmu",
+      {
+         { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_NO },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_NO },
+         { "BLACK 02",          OPTION_VAL_BLACK_02_NO },
+         { "BLUE 03",           OPTION_VAL_BLUE_03_NO },
+         { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_NO },
+         { "GREEN 05",          OPTION_VAL_GREEN_05_NO },
+         { "CYAN 06",           OPTION_VAL_CYAN_06_NO },
+         { "CYAN_BLUE 07",      OPTION_VAL_CYAN_BLUE_07_NO },
+         { "LIGHT_GREEN 08",    OPTION_VAL_LIGHT_GREEN_08_NO },
+         { "CYAN_GREEN 09",     OPTION_VAL_CYAN_GREEN_09_NO },
+         { "LIGHT_CYAN 10",     OPTION_VAL_LIGHT_CYAN_10_NO },
+         { "RED 11",            OPTION_VAL_RED_11_NO },
+         { "PURPLE 12",         OPTION_VAL_PURPLE_12_NO },
+         { "LIGHT_PURPLE 13",   OPTION_VAL_LIGHT_PURPLE_13_NO },
+         { "YELLOW 14",         OPTION_VAL_YELLOW_14_NO },
+         { "GRAY 15",           OPTION_VAL_GRAY_15_NO },
+         { "LIGHT_PURPLE_2 16", OPTION_VAL_LIGHT_PURPLE_2_16_NO },
+         { "LIGHT_GREEN_2 17",  OPTION_VAL_LIGHT_GREEN_2_17_NO },
+         { "LIGHT_GREEN_3 18",  OPTION_VAL_LIGHT_GREEN_3_18_NO },
+         { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_NO },
+         { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_NO },
+         { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_NO },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_NO },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_NO },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_NO },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_NO },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_NO },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_NO },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_NO },
+         { NULL, NULL },
+      },
+      "DEFAULT_ON 00",
+   },
+   {
+      CORE_OPTION_NAME "_vmu2_pixel_off_color",
+      CORE_OPTION_NAME_VMU2_PIXEL_OFF_COLOR_LABEL_NO,
+      NULL,
+      "",
+      NULL,
+      "vmu",
+      {
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_NO },
+         { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_NO },
+         { "BLACK 02",          OPTION_VAL_BLACK_02_NO },
+         { "BLUE 03",           OPTION_VAL_BLUE_03_NO },
+         { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_NO },
+         { "GREEN 05",          OPTION_VAL_GREEN_05_NO },
+         { "CYAN 06",           OPTION_VAL_CYAN_06_NO },
+         { "CYAN_BLUE 07",      OPTION_VAL_CYAN_BLUE_07_NO },
+         { "LIGHT_GREEN 08",    OPTION_VAL_LIGHT_GREEN_08_NO },
+         { "CYAN_GREEN 09",     OPTION_VAL_CYAN_GREEN_09_NO },
+         { "LIGHT_CYAN 10",     OPTION_VAL_LIGHT_CYAN_10_NO },
+         { "RED 11",            OPTION_VAL_RED_11_NO },
+         { "PURPLE 12",         OPTION_VAL_PURPLE_12_NO },
+         { "LIGHT_PURPLE 13",   OPTION_VAL_LIGHT_PURPLE_13_NO },
+         { "YELLOW 14",         OPTION_VAL_YELLOW_14_NO },
+         { "GRAY 15",           OPTION_VAL_GRAY_15_NO },
+         { "LIGHT_PURPLE_2 16", OPTION_VAL_LIGHT_PURPLE_2_16_NO },
+         { "LIGHT_GREEN_2 17",  OPTION_VAL_LIGHT_GREEN_2_17_NO },
+         { "LIGHT_GREEN_3 18",  OPTION_VAL_LIGHT_GREEN_3_18_NO },
+         { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_NO },
+         { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_NO },
+         { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_NO },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_NO },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_NO },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_NO },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_NO },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_NO },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_NO },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_NO },
+         { NULL, NULL },
+      },
+      "DEFAULT_OFF 01",
+   },
+   {
+      CORE_OPTION_NAME "_vmu2_screen_opacity",
+      CORE_OPTION_NAME_VMU2_SCREEN_OPACITY_LABEL_NO,
+      NULL,
+      "",
+      NULL,
+      "vmu",
+      {
+         { "10%",  OPTION_VAL_10_NO },
+         { "20%",  OPTION_VAL_20_NO },
+         { "30%",  OPTION_VAL_30_NO },
+         { "40%",  OPTION_VAL_40_NO },
+         { "50%",  OPTION_VAL_50_NO },
+         { "60%",  OPTION_VAL_60_NO },
+         { "70%",  OPTION_VAL_70_NO },
+         { "80%",  OPTION_VAL_80_NO },
+         { "90%",  OPTION_VAL_90_NO },
+         { "100%", OPTION_VAL_100_NO },
+         { NULL,   NULL },
+      },
+      "100%",
+   },
+   {
+      CORE_OPTION_NAME "_vmu3_screen_display",
+      CORE_OPTION_NAME_VMU3_SCREEN_DISPLAY_LABEL_NO,
+      NULL,
+      "",
+      NULL,
+      "vmu",
+      {
+         { "disabled", NULL },
+         { "enabled",  NULL },
+         { NULL, NULL },
+      },
+      "disabled",
+   },
+   {
+      CORE_OPTION_NAME "_vmu3_screen_position",
+      CORE_OPTION_NAME_VMU3_SCREEN_POSITION_LABEL_NO,
+      NULL,
+      "",
+      NULL,
+      "vmu",
+      {
+         { "Upper Left",  OPTION_VAL_UPPER_LEFT_NO },
+         { "Upper Right", OPTION_VAL_UPPER_RIGHT_NO },
+         { "Lower Left",  OPTION_VAL_LOWER_LEFT_NO },
+         { "Lower Right", OPTION_VAL_LOWER_RIGHT_NO },
+         { NULL, NULL },
+      },
+      "Upper Left",
+   },
+   {
+      CORE_OPTION_NAME "_vmu3_screen_size_mult",
+      CORE_OPTION_NAME_VMU3_SCREEN_SIZE_MULT_LABEL_NO,
+      NULL,
+      "",
+      NULL,
+      "vmu",
+      {
+         { "1x", OPTION_VAL_1X_NO },
+         { "2x", OPTION_VAL_2X_NO },
+         { "3x", OPTION_VAL_3X_NO },
+         { "4x", OPTION_VAL_4X_NO },
+         { "5x", OPTION_VAL_5X_NO },
+         { NULL, NULL },
+      },
+      "1x",
+   },
+   {
+      CORE_OPTION_NAME "_vmu3_pixel_on_color",
+      CORE_OPTION_NAME_VMU3_PIXEL_ON_COLOR_LABEL_NO,
+      NULL,
+      "",
+      NULL,
+      "vmu",
+      {
+         { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_NO },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_NO },
+         { "BLACK 02",          OPTION_VAL_BLACK_02_NO },
+         { "BLUE 03",           OPTION_VAL_BLUE_03_NO },
+         { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_NO },
+         { "GREEN 05",          OPTION_VAL_GREEN_05_NO },
+         { "CYAN 06",           OPTION_VAL_CYAN_06_NO },
+         { "CYAN_BLUE 07",      OPTION_VAL_CYAN_BLUE_07_NO },
+         { "LIGHT_GREEN 08",    OPTION_VAL_LIGHT_GREEN_08_NO },
+         { "CYAN_GREEN 09",     OPTION_VAL_CYAN_GREEN_09_NO },
+         { "LIGHT_CYAN 10",     OPTION_VAL_LIGHT_CYAN_10_NO },
+         { "RED 11",            OPTION_VAL_RED_11_NO },
+         { "PURPLE 12",         OPTION_VAL_PURPLE_12_NO },
+         { "LIGHT_PURPLE 13",   OPTION_VAL_LIGHT_PURPLE_13_NO },
+         { "YELLOW 14",         OPTION_VAL_YELLOW_14_NO },
+         { "GRAY 15",           OPTION_VAL_GRAY_15_NO },
+         { "LIGHT_PURPLE_2 16", OPTION_VAL_LIGHT_PURPLE_2_16_NO },
+         { "LIGHT_GREEN_2 17",  OPTION_VAL_LIGHT_GREEN_2_17_NO },
+         { "LIGHT_GREEN_3 18",  OPTION_VAL_LIGHT_GREEN_3_18_NO },
+         { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_NO },
+         { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_NO },
+         { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_NO },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_NO },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_NO },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_NO },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_NO },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_NO },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_NO },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_NO },
+         { NULL, NULL },
+      },
+      "DEFAULT_ON 00",
+   },
+   {
+      CORE_OPTION_NAME "_vmu3_pixel_off_color",
+      CORE_OPTION_NAME_VMU3_PIXEL_OFF_COLOR_LABEL_NO,
+      NULL,
+      "",
+      NULL,
+      "vmu",
+      {
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_NO },
+         { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_NO },
+         { "BLACK 02",          OPTION_VAL_BLACK_02_NO },
+         { "BLUE 03",           OPTION_VAL_BLUE_03_NO },
+         { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_NO },
+         { "GREEN 05",          OPTION_VAL_GREEN_05_NO },
+         { "CYAN 06",           OPTION_VAL_CYAN_06_NO },
+         { "CYAN_BLUE 07",      OPTION_VAL_CYAN_BLUE_07_NO },
+         { "LIGHT_GREEN 08",    OPTION_VAL_LIGHT_GREEN_08_NO },
+         { "CYAN_GREEN 09",     OPTION_VAL_CYAN_GREEN_09_NO },
+         { "LIGHT_CYAN 10",     OPTION_VAL_LIGHT_CYAN_10_NO },
+         { "RED 11",            OPTION_VAL_RED_11_NO },
+         { "PURPLE 12",         OPTION_VAL_PURPLE_12_NO },
+         { "LIGHT_PURPLE 13",   OPTION_VAL_LIGHT_PURPLE_13_NO },
+         { "YELLOW 14",         OPTION_VAL_YELLOW_14_NO },
+         { "GRAY 15",           OPTION_VAL_GRAY_15_NO },
+         { "LIGHT_PURPLE_2 16", OPTION_VAL_LIGHT_PURPLE_2_16_NO },
+         { "LIGHT_GREEN_2 17",  OPTION_VAL_LIGHT_GREEN_2_17_NO },
+         { "LIGHT_GREEN_3 18",  OPTION_VAL_LIGHT_GREEN_3_18_NO },
+         { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_NO },
+         { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_NO },
+         { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_NO },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_NO },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_NO },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_NO },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_NO },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_NO },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_NO },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_NO },
+         { NULL, NULL },
+      },
+      "DEFAULT_OFF 01",
+   },
+   {
+      CORE_OPTION_NAME "_vmu3_screen_opacity",
+      CORE_OPTION_NAME_VMU3_SCREEN_OPACITY_LABEL_NO,
+      NULL,
+      "",
+      NULL,
+      "vmu",
+      {
+         { "10%",  OPTION_VAL_10_NO },
+         { "20%",  OPTION_VAL_20_NO },
+         { "30%",  OPTION_VAL_30_NO },
+         { "40%",  OPTION_VAL_40_NO },
+         { "50%",  OPTION_VAL_50_NO },
+         { "60%",  OPTION_VAL_60_NO },
+         { "70%",  OPTION_VAL_70_NO },
+         { "80%",  OPTION_VAL_80_NO },
+         { "90%",  OPTION_VAL_90_NO },
+         { "100%", OPTION_VAL_100_NO },
+         { NULL,   NULL },
+      },
+      "100%",
+   },
+   {
+      CORE_OPTION_NAME "_vmu4_screen_display",
+      CORE_OPTION_NAME_VMU4_SCREEN_DISPLAY_LABEL_NO,
+      NULL,
+      "",
+      NULL,
+      "vmu",
+      {
+         { "disabled", NULL },
+         { "enabled",  NULL },
+         { NULL, NULL },
+      },
+      "disabled",
+   },
+   {
+      CORE_OPTION_NAME "_vmu4_screen_position",
+      CORE_OPTION_NAME_VMU4_SCREEN_POSITION_LABEL_NO,
+      NULL,
+      "",
+      NULL,
+      "vmu",
+      {
+         { "Upper Left",  OPTION_VAL_UPPER_LEFT_NO },
+         { "Upper Right", OPTION_VAL_UPPER_RIGHT_NO },
+         { "Lower Left",  OPTION_VAL_LOWER_LEFT_NO },
+         { "Lower Right", OPTION_VAL_LOWER_RIGHT_NO },
+         { NULL, NULL },
+      },
+      "Upper Left",
+   },
+   {
+      CORE_OPTION_NAME "_vmu4_screen_size_mult",
+      CORE_OPTION_NAME_VMU4_SCREEN_SIZE_MULT_LABEL_NO,
+      NULL,
+      "",
+      NULL,
+      "vmu",
+      {
+         { "1x", OPTION_VAL_1X_NO },
+         { "2x", OPTION_VAL_2X_NO },
+         { "3x", OPTION_VAL_3X_NO },
+         { "4x", OPTION_VAL_4X_NO },
+         { "5x", OPTION_VAL_5X_NO },
+         { NULL, NULL },
+      },
+      "1x",
+   },
+   {
+      CORE_OPTION_NAME "_vmu4_pixel_on_color",
+      CORE_OPTION_NAME_VMU4_PIXEL_ON_COLOR_LABEL_NO,
+      NULL,
+      "",
+      NULL,
+      "vmu",
+      {
+         { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_NO },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_NO },
+         { "BLACK 02",          OPTION_VAL_BLACK_02_NO },
+         { "BLUE 03",           OPTION_VAL_BLUE_03_NO },
+         { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_NO },
+         { "GREEN 05",          OPTION_VAL_GREEN_05_NO },
+         { "CYAN 06",           OPTION_VAL_CYAN_06_NO },
+         { "CYAN_BLUE 07",      OPTION_VAL_CYAN_BLUE_07_NO },
+         { "LIGHT_GREEN 08",    OPTION_VAL_LIGHT_GREEN_08_NO },
+         { "CYAN_GREEN 09",     OPTION_VAL_CYAN_GREEN_09_NO },
+         { "LIGHT_CYAN 10",     OPTION_VAL_LIGHT_CYAN_10_NO },
+         { "RED 11",            OPTION_VAL_RED_11_NO },
+         { "PURPLE 12",         OPTION_VAL_PURPLE_12_NO },
+         { "LIGHT_PURPLE 13",   OPTION_VAL_LIGHT_PURPLE_13_NO },
+         { "YELLOW 14",         OPTION_VAL_YELLOW_14_NO },
+         { "GRAY 15",           OPTION_VAL_GRAY_15_NO },
+         { "LIGHT_PURPLE_2 16", OPTION_VAL_LIGHT_PURPLE_2_16_NO },
+         { "LIGHT_GREEN_2 17",  OPTION_VAL_LIGHT_GREEN_2_17_NO },
+         { "LIGHT_GREEN_3 18",  OPTION_VAL_LIGHT_GREEN_3_18_NO },
+         { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_NO },
+         { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_NO },
+         { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_NO },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_NO },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_NO },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_NO },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_NO },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_NO },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_NO },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_NO },
+         { NULL, NULL },
+      },
+      "DEFAULT_ON 00",
+   },
+   {
+      CORE_OPTION_NAME "_vmu4_pixel_off_color",
+      CORE_OPTION_NAME_VMU4_PIXEL_OFF_COLOR_LABEL_NO,
+      NULL,
+      "",
+      NULL,
+      "vmu",
+      {
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_NO },
+         { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_NO },
+         { "BLACK 02",          OPTION_VAL_BLACK_02_NO },
+         { "BLUE 03",           OPTION_VAL_BLUE_03_NO },
+         { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_NO },
+         { "GREEN 05",          OPTION_VAL_GREEN_05_NO },
+         { "CYAN 06",           OPTION_VAL_CYAN_06_NO },
+         { "CYAN_BLUE 07",      OPTION_VAL_CYAN_BLUE_07_NO },
+         { "LIGHT_GREEN 08",    OPTION_VAL_LIGHT_GREEN_08_NO },
+         { "CYAN_GREEN 09",     OPTION_VAL_CYAN_GREEN_09_NO },
+         { "LIGHT_CYAN 10",     OPTION_VAL_LIGHT_CYAN_10_NO },
+         { "RED 11",            OPTION_VAL_RED_11_NO },
+         { "PURPLE 12",         OPTION_VAL_PURPLE_12_NO },
+         { "LIGHT_PURPLE 13",   OPTION_VAL_LIGHT_PURPLE_13_NO },
+         { "YELLOW 14",         OPTION_VAL_YELLOW_14_NO },
+         { "GRAY 15",           OPTION_VAL_GRAY_15_NO },
+         { "LIGHT_PURPLE_2 16", OPTION_VAL_LIGHT_PURPLE_2_16_NO },
+         { "LIGHT_GREEN_2 17",  OPTION_VAL_LIGHT_GREEN_2_17_NO },
+         { "LIGHT_GREEN_3 18",  OPTION_VAL_LIGHT_GREEN_3_18_NO },
+         { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_NO },
+         { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_NO },
+         { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_NO },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_NO },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_NO },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_NO },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_NO },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_NO },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_NO },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_NO },
+         { NULL, NULL },
+      },
+      "DEFAULT_OFF 01",
+   },
+   {
+      CORE_OPTION_NAME "_vmu4_screen_opacity",
+      CORE_OPTION_NAME_VMU4_SCREEN_OPACITY_LABEL_NO,
+      NULL,
+      "",
+      NULL,
+      "vmu",
+      {
+         { "10%",  OPTION_VAL_10_NO },
+         { "20%",  OPTION_VAL_20_NO },
+         { "30%",  OPTION_VAL_30_NO },
+         { "40%",  OPTION_VAL_40_NO },
+         { "50%",  OPTION_VAL_50_NO },
+         { "60%",  OPTION_VAL_60_NO },
+         { "70%",  OPTION_VAL_70_NO },
+         { "80%",  OPTION_VAL_80_NO },
+         { "90%",  OPTION_VAL_90_NO },
+         { "100%", OPTION_VAL_100_NO },
+         { NULL,   NULL },
+      },
+      "100%",
+   },
+   {
+      CORE_OPTION_NAME "_show_lightgun_settings",
+      CORE_OPTION_NAME_SHOW_LIGHTGUN_SETTINGS_LABEL_NO,
+      NULL,
+      CORE_OPTION_NAME_SHOW_LIGHTGUN_SETTINGS_INFO_0_NO,
+      NULL,
+      "input",
+      {
+         { "enabled",  NULL },
+         { "disabled", NULL },
+         { NULL, NULL},
+      },
+      "disabled"
+   },
+   {
+      CORE_OPTION_NAME "_lightgun1_crosshair",
+      CORE_OPTION_NAME_LIGHTGUN1_CROSSHAIR_LABEL_NO,
+      NULL,
+      "",
+      NULL,
+      "input",
+      {
+         { "disabled", NULL },
+         { "White",    OPTION_VAL_WHITE_28_NO },
+         { "Red",      OPTION_VAL_RED_11_NO },
+         { "Green",    OPTION_VAL_GREEN_05_NO },
+         { "Blue",     OPTION_VAL_BLUE_03_NO },
+         { NULL,       NULL },
+      },
+      "disabled",
+   },
+   {
+      CORE_OPTION_NAME "_lightgun2_crosshair",
+      CORE_OPTION_NAME_LIGHTGUN2_CROSSHAIR_LABEL_NO,
+      NULL,
+      "",
+      NULL,
+      "input",
+      {
+         { "disabled", NULL },
+         { "White",    OPTION_VAL_WHITE_28_NO },
+         { "Red",      OPTION_VAL_RED_11_NO },
+         { "Green",    OPTION_VAL_GREEN_05_NO },
+         { "Blue",     OPTION_VAL_BLUE_03_NO },
+         { NULL,       NULL },
+      },
+      "disabled",
+   },
+   {
+      CORE_OPTION_NAME "_lightgun3_crosshair",
+      CORE_OPTION_NAME_LIGHTGUN3_CROSSHAIR_LABEL_NO,
+      NULL,
+      "",
+      NULL,
+      "input",
+      {
+         { "disabled", NULL },
+         { "White",    OPTION_VAL_WHITE_28_NO },
+         { "Red",      OPTION_VAL_RED_11_NO },
+         { "Green",    OPTION_VAL_GREEN_05_NO },
+         { "Blue",     OPTION_VAL_BLUE_03_NO },
+         { NULL,       NULL },
+      },
+      "disabled",
+   },
+   {
+      CORE_OPTION_NAME "_lightgun4_crosshair",
+      CORE_OPTION_NAME_LIGHTGUN4_CROSSHAIR_LABEL_NO,
+      NULL,
+      "",
+      NULL,
+      "input",
+      {
+         { "disabled", NULL },
+         { "White",    OPTION_VAL_WHITE_28_NO },
+         { "Red",      OPTION_VAL_RED_11_NO },
+         { "Green",    OPTION_VAL_GREEN_05_NO },
+         { "Blue",     OPTION_VAL_BLUE_03_NO },
+         { NULL,       NULL },
+      },
+      "disabled",
+   },
+   { NULL, NULL, NULL, NULL, NULL, NULL, {{0}}, NULL },
+};
+struct retro_core_options_v2 options_no = {
+   option_cats_no,
+   option_defs_no
+};
+
 /* RETRO_LANGUAGE_OC */
 
-#define CATEGORY_VIDEO_LABEL_OC NULL
+#define CATEGORY_VIDEO_LABEL_OC "Vidèo"
 #define CATEGORY_VIDEO_INFO_0_OC NULL
 #define CATEGORY_INPUT_LABEL_OC NULL
 #define CATEGORY_INPUT_INFO_0_OC NULL
@@ -39231,7 +41086,7 @@ struct retro_core_options_v2 options_nl = {
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_LABEL_OC NULL
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_INFO_0_OC NULL
 #define CORE_OPTION_NAME_CABLE_TYPE_LABEL_OC NULL
-#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_OC NULL
+#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_OC "The output signal type. VGA is recommended, but some games might not be compatible with it."
 #define OPTION_VAL_TV_RGB_OC NULL
 #define OPTION_VAL_TV_COMPOSITE_OC NULL
 #define OPTION_VAL_VGA_RGB_OC NULL
@@ -39320,8 +41175,8 @@ struct retro_core_options_v2 options_nl = {
 #define CORE_OPTION_NAME_VMU1_SCREEN_SIZE_MULT_LABEL_OC NULL
 #define OPTION_VAL_5X_OC NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_ON_COLOR_LABEL_OC NULL
-#define OPTION_VAL_DEFAULT_OFF_01_OC NULL
 #define OPTION_VAL_DEFAULT_ON_00_OC NULL
+#define OPTION_VAL_DEFAULT_OFF_01_OC NULL
 #define OPTION_VAL_BLACK_02_OC NULL
 #define OPTION_VAL_BLUE_03_OC NULL
 #define OPTION_VAL_LIGHT_BLUE_04_OC NULL
@@ -39342,12 +41197,13 @@ struct retro_core_options_v2 options_nl = {
 #define OPTION_VAL_LIGHT_CYAN_2_19_OC NULL
 #define OPTION_VAL_LIGHT_RED_2_20_OC NULL
 #define OPTION_VAL_MAGENTA_21_OC NULL
-#define OPTION_VAL_LIGHT_ORANGE_22_OC NULL
-#define OPTION_VAL_ORANGE_23_OC NULL
-#define OPTION_VAL_LIGHT_PURPLE_3_24_OC NULL
-#define OPTION_VAL_LIGHT_YELLOW_25_OC NULL
-#define OPTION_VAL_LIGHT_YELLOW_2_26_OC NULL
-#define OPTION_VAL_WHITE_27_OC NULL
+#define OPTION_VAL_LIGHT_PURPLE_3_22_OC NULL
+#define OPTION_VAL_LIGHT_ORANGE_23_OC NULL
+#define OPTION_VAL_ORANGE_24_OC NULL
+#define OPTION_VAL_LIGHT_PURPLE_4_25_OC NULL
+#define OPTION_VAL_LIGHT_YELLOW_26_OC NULL
+#define OPTION_VAL_LIGHT_YELLOW_2_27_OC NULL
+#define OPTION_VAL_WHITE_28_OC NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_OFF_COLOR_LABEL_OC NULL
 #define CORE_OPTION_NAME_VMU1_SCREEN_OPACITY_LABEL_OC NULL
 #define OPTION_VAL_40_OC NULL
@@ -40157,8 +42013,8 @@ struct retro_core_option_v2_definition option_defs_oc[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_OC },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_OC },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_OC },
          { "BLACK 02",          OPTION_VAL_BLACK_02_OC },
          { "BLUE 03",           OPTION_VAL_BLUE_03_OC },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_OC },
@@ -40179,12 +42035,13 @@ struct retro_core_option_v2_definition option_defs_oc[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_OC },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_OC },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_OC },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_OC },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_OC },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_OC },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_OC },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_OC },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_OC },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_OC },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_OC },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_OC },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_OC },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_OC },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_OC },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_OC },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -40219,12 +42076,13 @@ struct retro_core_option_v2_definition option_defs_oc[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_OC },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_OC },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_OC },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_OC },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_OC },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_OC },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_OC },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_OC },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_OC },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_OC },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_OC },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_OC },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_OC },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_OC },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_OC },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_OC },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -40306,8 +42164,8 @@ struct retro_core_option_v2_definition option_defs_oc[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_OC },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_OC },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_OC },
          { "BLACK 02",          OPTION_VAL_BLACK_02_OC },
          { "BLUE 03",           OPTION_VAL_BLUE_03_OC },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_OC },
@@ -40328,12 +42186,13 @@ struct retro_core_option_v2_definition option_defs_oc[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_OC },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_OC },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_OC },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_OC },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_OC },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_OC },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_OC },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_OC },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_OC },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_OC },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_OC },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_OC },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_OC },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_OC },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_OC },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_OC },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -40368,12 +42227,13 @@ struct retro_core_option_v2_definition option_defs_oc[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_OC },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_OC },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_OC },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_OC },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_OC },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_OC },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_OC },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_OC },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_OC },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_OC },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_OC },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_OC },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_OC },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_OC },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_OC },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_OC },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -40455,8 +42315,8 @@ struct retro_core_option_v2_definition option_defs_oc[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_OC },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_OC },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_OC },
          { "BLACK 02",          OPTION_VAL_BLACK_02_OC },
          { "BLUE 03",           OPTION_VAL_BLUE_03_OC },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_OC },
@@ -40477,12 +42337,13 @@ struct retro_core_option_v2_definition option_defs_oc[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_OC },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_OC },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_OC },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_OC },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_OC },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_OC },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_OC },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_OC },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_OC },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_OC },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_OC },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_OC },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_OC },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_OC },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_OC },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_OC },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -40517,12 +42378,13 @@ struct retro_core_option_v2_definition option_defs_oc[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_OC },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_OC },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_OC },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_OC },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_OC },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_OC },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_OC },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_OC },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_OC },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_OC },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_OC },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_OC },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_OC },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_OC },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_OC },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_OC },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -40604,8 +42466,8 @@ struct retro_core_option_v2_definition option_defs_oc[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_OC },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_OC },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_OC },
          { "BLACK 02",          OPTION_VAL_BLACK_02_OC },
          { "BLUE 03",           OPTION_VAL_BLUE_03_OC },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_OC },
@@ -40626,12 +42488,13 @@ struct retro_core_option_v2_definition option_defs_oc[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_OC },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_OC },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_OC },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_OC },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_OC },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_OC },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_OC },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_OC },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_OC },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_OC },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_OC },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_OC },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_OC },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_OC },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_OC },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_OC },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -40666,12 +42529,13 @@ struct retro_core_option_v2_definition option_defs_oc[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_OC },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_OC },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_OC },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_OC },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_OC },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_OC },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_OC },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_OC },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_OC },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_OC },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_OC },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_OC },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_OC },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_OC },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_OC },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_OC },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -40721,7 +42585,7 @@ struct retro_core_option_v2_definition option_defs_oc[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_OC },
+         { "White",    OPTION_VAL_WHITE_28_OC },
          { "Red",      OPTION_VAL_RED_11_OC },
          { "Green",    OPTION_VAL_GREEN_05_OC },
          { "Blue",     OPTION_VAL_BLUE_03_OC },
@@ -40738,7 +42602,7 @@ struct retro_core_option_v2_definition option_defs_oc[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_OC },
+         { "White",    OPTION_VAL_WHITE_28_OC },
          { "Red",      OPTION_VAL_RED_11_OC },
          { "Green",    OPTION_VAL_GREEN_05_OC },
          { "Blue",     OPTION_VAL_BLUE_03_OC },
@@ -40755,7 +42619,7 @@ struct retro_core_option_v2_definition option_defs_oc[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_OC },
+         { "White",    OPTION_VAL_WHITE_28_OC },
          { "Red",      OPTION_VAL_RED_11_OC },
          { "Green",    OPTION_VAL_GREEN_05_OC },
          { "Blue",     OPTION_VAL_BLUE_03_OC },
@@ -40772,7 +42636,7 @@ struct retro_core_option_v2_definition option_defs_oc[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_OC },
+         { "White",    OPTION_VAL_WHITE_28_OC },
          { "Red",      OPTION_VAL_RED_11_OC },
          { "Green",    OPTION_VAL_GREEN_05_OC },
          { "Blue",     OPTION_VAL_BLUE_03_OC },
@@ -40789,13 +42653,13 @@ struct retro_core_options_v2 options_oc = {
 
 /* RETRO_LANGUAGE_PL */
 
-#define CATEGORY_VIDEO_LABEL_PL NULL
+#define CATEGORY_VIDEO_LABEL_PL "Wideo"
 #define CATEGORY_VIDEO_INFO_0_PL NULL
-#define CATEGORY_INPUT_LABEL_PL NULL
+#define CATEGORY_INPUT_LABEL_PL "Wejście"
 #define CATEGORY_INPUT_INFO_0_PL NULL
 #define CATEGORY_VMU_LABEL_PL NULL
 #define CATEGORY_VMU_INFO_0_PL NULL
-#define CATEGORY_HACKS_LABEL_PL NULL
+#define CATEGORY_HACKS_LABEL_PL "Hacki emulacyjne"
 #define CATEGORY_HACKS_INFO_0_PL NULL
 #define CORE_OPTION_NAME_CPU_MODE_LABEL_PL NULL
 #define OPTION_VAL_DYNAMIC_RECOMPILER_PL NULL
@@ -40844,7 +42708,7 @@ struct retro_core_options_v2 options_oc = {
 #define OPTION_VAL_11520X8640_PL NULL
 #define OPTION_VAL_12160X9120_PL NULL
 #define OPTION_VAL_12800X9600_PL NULL
-#define CORE_OPTION_NAME_SCREEN_ROTATION_LABEL_PL NULL
+#define CORE_OPTION_NAME_SCREEN_ROTATION_LABEL_PL "Orientacja ekranu"
 #define OPTION_VAL_HORIZONTAL_PL NULL
 #define OPTION_VAL_VERTICAL_PL NULL
 #define CORE_OPTION_NAME_ALPHA_SORTING_LABEL_PL NULL
@@ -40861,12 +42725,12 @@ struct retro_core_options_v2 options_oc = {
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_LABEL_PL NULL
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_INFO_0_PL NULL
 #define CORE_OPTION_NAME_CABLE_TYPE_LABEL_PL NULL
-#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_PL NULL
+#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_PL "The output signal type. VGA is recommended, but some games might not be compatible with it."
 #define OPTION_VAL_TV_RGB_PL NULL
 #define OPTION_VAL_TV_COMPOSITE_PL NULL
 #define OPTION_VAL_VGA_RGB_PL NULL
 #define CORE_OPTION_NAME_BROADCAST_LABEL_PL NULL
-#define OPTION_VAL_DEFAULT_PL NULL
+#define OPTION_VAL_DEFAULT_PL "Domyślny"
 #define OPTION_VAL_PAL_M_PL NULL
 #define OPTION_VAL_PAL_N_PL NULL
 #define OPTION_VAL_NTSC_PL NULL
@@ -40874,18 +42738,18 @@ struct retro_core_options_v2 options_oc = {
 #define CORE_OPTION_NAME_FRAMERATE_LABEL_PL NULL
 #define CORE_OPTION_NAME_FRAMERATE_INFO_0_PL NULL
 #define OPTION_VAL_FULLSPEED_PL NULL
-#define OPTION_VAL_NORMAL_PL NULL
+#define OPTION_VAL_NORMAL_PL "Normalny"
 #define CORE_OPTION_NAME_REGION_LABEL_PL NULL
 #define OPTION_VAL_JAPAN_PL NULL
 #define OPTION_VAL_USA_PL NULL
 #define OPTION_VAL_EUROPE_PL NULL
-#define CORE_OPTION_NAME_LANGUAGE_LABEL_PL NULL
-#define OPTION_VAL_JAPANESE_PL NULL
-#define OPTION_VAL_ENGLISH_PL NULL
-#define OPTION_VAL_GERMAN_PL NULL
-#define OPTION_VAL_FRENCH_PL NULL
-#define OPTION_VAL_SPANISH_PL NULL
-#define OPTION_VAL_ITALIAN_PL NULL
+#define CORE_OPTION_NAME_LANGUAGE_LABEL_PL "Język"
+#define OPTION_VAL_JAPANESE_PL "japoński"
+#define OPTION_VAL_ENGLISH_PL "angielski"
+#define OPTION_VAL_GERMAN_PL "niemiecki"
+#define OPTION_VAL_FRENCH_PL "francuski"
+#define OPTION_VAL_SPANISH_PL "hiszpański"
+#define OPTION_VAL_ITALIAN_PL "włoski"
 #define CORE_OPTION_NAME_DIV_MATCHING_LABEL_PL NULL
 #define CORE_OPTION_NAME_DIV_MATCHING_INFO_0_PL NULL
 #define CORE_OPTION_NAME_FORCE_WINCE_LABEL_PL NULL
@@ -40897,7 +42761,7 @@ struct retro_core_options_v2 options_oc = {
 #define OPTION_VAL_15_PL NULL
 #define OPTION_VAL_20_PL NULL
 #define OPTION_VAL_25_PL NULL
-#define OPTION_VAL_30_PL NULL
+#define OPTION_VAL_30_PL "30 %"
 #define CORE_OPTION_NAME_TRIGGER_DEADZONE_LABEL_PL NULL
 #define CORE_OPTION_NAME_DIGITAL_TRIGGERS_LABEL_PL NULL
 #define CORE_OPTION_NAME_ENABLE_DSP_LABEL_PL NULL
@@ -40950,21 +42814,21 @@ struct retro_core_options_v2 options_oc = {
 #define CORE_OPTION_NAME_VMU1_SCREEN_SIZE_MULT_LABEL_PL NULL
 #define OPTION_VAL_5X_PL NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_ON_COLOR_LABEL_PL NULL
-#define OPTION_VAL_DEFAULT_OFF_01_PL NULL
 #define OPTION_VAL_DEFAULT_ON_00_PL NULL
+#define OPTION_VAL_DEFAULT_OFF_01_PL NULL
 #define OPTION_VAL_BLACK_02_PL NULL
-#define OPTION_VAL_BLUE_03_PL NULL
+#define OPTION_VAL_BLUE_03_PL "Niebieski"
 #define OPTION_VAL_LIGHT_BLUE_04_PL NULL
-#define OPTION_VAL_GREEN_05_PL NULL
+#define OPTION_VAL_GREEN_05_PL "Zielony"
 #define OPTION_VAL_CYAN_06_PL NULL
 #define OPTION_VAL_CYAN_BLUE_07_PL NULL
 #define OPTION_VAL_LIGHT_GREEN_08_PL NULL
 #define OPTION_VAL_CYAN_GREEN_09_PL NULL
 #define OPTION_VAL_LIGHT_CYAN_10_PL NULL
-#define OPTION_VAL_RED_11_PL NULL
+#define OPTION_VAL_RED_11_PL "Czerwony"
 #define OPTION_VAL_PURPLE_12_PL NULL
 #define OPTION_VAL_LIGHT_PURPLE_13_PL NULL
-#define OPTION_VAL_YELLOW_14_PL NULL
+#define OPTION_VAL_YELLOW_14_PL "Żółty"
 #define OPTION_VAL_GRAY_15_PL NULL
 #define OPTION_VAL_LIGHT_PURPLE_2_16_PL NULL
 #define OPTION_VAL_LIGHT_GREEN_2_17_PL NULL
@@ -40972,19 +42836,20 @@ struct retro_core_options_v2 options_oc = {
 #define OPTION_VAL_LIGHT_CYAN_2_19_PL NULL
 #define OPTION_VAL_LIGHT_RED_2_20_PL NULL
 #define OPTION_VAL_MAGENTA_21_PL NULL
-#define OPTION_VAL_LIGHT_ORANGE_22_PL NULL
-#define OPTION_VAL_ORANGE_23_PL NULL
-#define OPTION_VAL_LIGHT_PURPLE_3_24_PL NULL
-#define OPTION_VAL_LIGHT_YELLOW_25_PL NULL
-#define OPTION_VAL_LIGHT_YELLOW_2_26_PL NULL
-#define OPTION_VAL_WHITE_27_PL NULL
+#define OPTION_VAL_LIGHT_PURPLE_3_22_PL NULL
+#define OPTION_VAL_LIGHT_ORANGE_23_PL NULL
+#define OPTION_VAL_ORANGE_24_PL NULL
+#define OPTION_VAL_LIGHT_PURPLE_4_25_PL NULL
+#define OPTION_VAL_LIGHT_YELLOW_26_PL NULL
+#define OPTION_VAL_LIGHT_YELLOW_2_27_PL NULL
+#define OPTION_VAL_WHITE_28_PL NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_OFF_COLOR_LABEL_PL NULL
 #define CORE_OPTION_NAME_VMU1_SCREEN_OPACITY_LABEL_PL NULL
 #define OPTION_VAL_40_PL NULL
-#define OPTION_VAL_50_PL NULL
-#define OPTION_VAL_60_PL NULL
+#define OPTION_VAL_50_PL "50 %"
+#define OPTION_VAL_60_PL "60 %"
 #define OPTION_VAL_70_PL NULL
-#define OPTION_VAL_80_PL NULL
+#define OPTION_VAL_80_PL "80 %"
 #define OPTION_VAL_90_PL NULL
 #define OPTION_VAL_100_PL NULL
 #define CORE_OPTION_NAME_VMU2_SCREEN_DISPLAY_LABEL_PL NULL
@@ -41787,8 +43652,8 @@ struct retro_core_option_v2_definition option_defs_pl[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_PL },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_PL },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_PL },
          { "BLACK 02",          OPTION_VAL_BLACK_02_PL },
          { "BLUE 03",           OPTION_VAL_BLUE_03_PL },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_PL },
@@ -41809,12 +43674,13 @@ struct retro_core_option_v2_definition option_defs_pl[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_PL },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_PL },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_PL },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_PL },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_PL },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_PL },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_PL },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_PL },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_PL },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_PL },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_PL },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_PL },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_PL },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_PL },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_PL },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_PL },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -41849,12 +43715,13 @@ struct retro_core_option_v2_definition option_defs_pl[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_PL },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_PL },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_PL },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_PL },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_PL },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_PL },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_PL },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_PL },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_PL },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_PL },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_PL },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_PL },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_PL },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_PL },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_PL },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_PL },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -41936,8 +43803,8 @@ struct retro_core_option_v2_definition option_defs_pl[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_PL },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_PL },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_PL },
          { "BLACK 02",          OPTION_VAL_BLACK_02_PL },
          { "BLUE 03",           OPTION_VAL_BLUE_03_PL },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_PL },
@@ -41958,12 +43825,13 @@ struct retro_core_option_v2_definition option_defs_pl[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_PL },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_PL },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_PL },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_PL },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_PL },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_PL },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_PL },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_PL },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_PL },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_PL },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_PL },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_PL },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_PL },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_PL },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_PL },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_PL },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -41998,12 +43866,13 @@ struct retro_core_option_v2_definition option_defs_pl[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_PL },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_PL },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_PL },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_PL },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_PL },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_PL },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_PL },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_PL },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_PL },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_PL },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_PL },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_PL },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_PL },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_PL },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_PL },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_PL },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -42085,8 +43954,8 @@ struct retro_core_option_v2_definition option_defs_pl[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_PL },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_PL },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_PL },
          { "BLACK 02",          OPTION_VAL_BLACK_02_PL },
          { "BLUE 03",           OPTION_VAL_BLUE_03_PL },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_PL },
@@ -42107,12 +43976,13 @@ struct retro_core_option_v2_definition option_defs_pl[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_PL },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_PL },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_PL },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_PL },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_PL },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_PL },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_PL },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_PL },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_PL },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_PL },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_PL },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_PL },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_PL },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_PL },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_PL },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_PL },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -42147,12 +44017,13 @@ struct retro_core_option_v2_definition option_defs_pl[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_PL },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_PL },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_PL },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_PL },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_PL },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_PL },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_PL },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_PL },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_PL },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_PL },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_PL },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_PL },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_PL },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_PL },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_PL },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_PL },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -42234,8 +44105,8 @@ struct retro_core_option_v2_definition option_defs_pl[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_PL },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_PL },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_PL },
          { "BLACK 02",          OPTION_VAL_BLACK_02_PL },
          { "BLUE 03",           OPTION_VAL_BLUE_03_PL },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_PL },
@@ -42256,12 +44127,13 @@ struct retro_core_option_v2_definition option_defs_pl[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_PL },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_PL },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_PL },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_PL },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_PL },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_PL },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_PL },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_PL },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_PL },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_PL },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_PL },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_PL },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_PL },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_PL },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_PL },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_PL },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -42296,12 +44168,13 @@ struct retro_core_option_v2_definition option_defs_pl[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_PL },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_PL },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_PL },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_PL },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_PL },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_PL },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_PL },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_PL },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_PL },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_PL },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_PL },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_PL },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_PL },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_PL },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_PL },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_PL },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -42351,7 +44224,7 @@ struct retro_core_option_v2_definition option_defs_pl[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_PL },
+         { "White",    OPTION_VAL_WHITE_28_PL },
          { "Red",      OPTION_VAL_RED_11_PL },
          { "Green",    OPTION_VAL_GREEN_05_PL },
          { "Blue",     OPTION_VAL_BLUE_03_PL },
@@ -42368,7 +44241,7 @@ struct retro_core_option_v2_definition option_defs_pl[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_PL },
+         { "White",    OPTION_VAL_WHITE_28_PL },
          { "Red",      OPTION_VAL_RED_11_PL },
          { "Green",    OPTION_VAL_GREEN_05_PL },
          { "Blue",     OPTION_VAL_BLUE_03_PL },
@@ -42385,7 +44258,7 @@ struct retro_core_option_v2_definition option_defs_pl[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_PL },
+         { "White",    OPTION_VAL_WHITE_28_PL },
          { "Red",      OPTION_VAL_RED_11_PL },
          { "Green",    OPTION_VAL_GREEN_05_PL },
          { "Blue",     OPTION_VAL_BLUE_03_PL },
@@ -42402,7 +44275,7 @@ struct retro_core_option_v2_definition option_defs_pl[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_PL },
+         { "White",    OPTION_VAL_WHITE_28_PL },
          { "Red",      OPTION_VAL_RED_11_PL },
          { "Green",    OPTION_VAL_GREEN_05_PL },
          { "Blue",     OPTION_VAL_BLUE_03_PL },
@@ -42420,33 +44293,33 @@ struct retro_core_options_v2 options_pl = {
 /* RETRO_LANGUAGE_PT_BR */
 
 #define CATEGORY_VIDEO_LABEL_PT_BR "Vídeo"
-#define CATEGORY_VIDEO_INFO_0_PT_BR NULL
+#define CATEGORY_VIDEO_INFO_0_PT_BR "Configura os parâmetros dos buffers e efeitos visuais, os parâmetros de imagem, a taxa ou pulo de quadros e de renderização e textura."
 #define CATEGORY_INPUT_LABEL_PT_BR "Entrada"
-#define CATEGORY_INPUT_INFO_0_PT_BR "Configurar controle e pistola de luz."
+#define CATEGORY_INPUT_INFO_0_PT_BR "Configura os ajustes de controle e pistola de luz."
 #define CATEGORY_VMU_LABEL_PT_BR NULL
-#define CATEGORY_VMU_INFO_0_PT_BR NULL
+#define CATEGORY_VMU_INFO_0_PT_BR "Altera as configurações relacionadas com as Visual Memory (VMU)."
 #define CATEGORY_HACKS_LABEL_PT_BR "Hacks de emulação"
-#define CATEGORY_HACKS_INFO_0_PT_BR NULL
-#define CORE_OPTION_NAME_CPU_MODE_LABEL_PT_BR NULL
-#define OPTION_VAL_DYNAMIC_RECOMPILER_PT_BR NULL
-#define OPTION_VAL_GENERIC_RECOMPILER_PT_BR NULL
-#define CORE_OPTION_NAME_BOOT_TO_BIOS_LABEL_PT_BR NULL
-#define CORE_OPTION_NAME_BOOT_TO_BIOS_INFO_0_PT_BR NULL
-#define CORE_OPTION_NAME_SYSTEM_LABEL_PT_BR NULL
-#define OPTION_VAL_AUTO_PT_BR NULL
+#define CATEGORY_HACKS_INFO_0_PT_BR "Configura diferentes hacks da emulação."
+#define CORE_OPTION_NAME_CPU_MODE_LABEL_PT_BR "Modo de CPU (requer reinício)"
+#define OPTION_VAL_DYNAMIC_RECOMPILER_PT_BR "Recompilador dinâmico"
+#define OPTION_VAL_GENERIC_RECOMPILER_PT_BR "Recompilador genérico"
+#define CORE_OPTION_NAME_BOOT_TO_BIOS_LABEL_PT_BR "Inicialização a partir da BIOS (requer reinício)"
+#define CORE_OPTION_NAME_BOOT_TO_BIOS_INFO_0_PT_BR "Inicializa diretamente no menu da BIOS do Dreamcast."
+#define CORE_OPTION_NAME_SYSTEM_LABEL_PT_BR "Tipo de sistema (requer reinício)"
+#define OPTION_VAL_AUTO_PT_BR "Automática"
 #define OPTION_VAL_DREAMCAST_PT_BR NULL
 #define OPTION_VAL_NAOMI_PT_BR NULL
 #define OPTION_VAL_ATOMISWAVE_PT_BR NULL
-#define CORE_OPTION_NAME_HLE_BIOS_LABEL_PT_BR NULL
-#define CORE_OPTION_NAME_HLE_BIOS_INFO_0_PT_BR NULL
-#define CORE_OPTION_NAME_OIT_ABUFFER_SIZE_LABEL_PT_BR NULL
-#define CORE_OPTION_NAME_OIT_ABUFFER_SIZE_INFO_0_PT_BR NULL
+#define CORE_OPTION_NAME_HLE_BIOS_LABEL_PT_BR "BIOS HLE"
+#define CORE_OPTION_NAME_HLE_BIOS_INFO_0_PT_BR "Força o uso de uma BIOS criada com emulação de alto nível."
+#define CORE_OPTION_NAME_OIT_ABUFFER_SIZE_LABEL_PT_BR "Tamanho do buffer de acumulação de pixel (requer reinício)"
+#define CORE_OPTION_NAME_OIT_ABUFFER_SIZE_INFO_0_PT_BR "Um alto valor pode ser necessário para que a imagem seja bem exibida em resoluções superiores às nativas."
 #define OPTION_VAL_512MB_PT_BR NULL
 #define OPTION_VAL_1GB_PT_BR NULL
 #define OPTION_VAL_2GB_PT_BR NULL
 #define OPTION_VAL_4GB_PT_BR NULL
-#define CORE_OPTION_NAME_INTERNAL_RESOLUTION_LABEL_PT_BR NULL
-#define CORE_OPTION_NAME_INTERNAL_RESOLUTION_INFO_0_PT_BR NULL
+#define CORE_OPTION_NAME_INTERNAL_RESOLUTION_LABEL_PT_BR "Resolução interna (requer reinício)"
+#define CORE_OPTION_NAME_INTERNAL_RESOLUTION_INFO_0_PT_BR "Modificar resolução de renderização."
 #define OPTION_VAL_320X240_PT_BR NULL
 #define OPTION_VAL_640X480_PT_BR NULL
 #define OPTION_VAL_800X600_PT_BR NULL
@@ -42474,53 +44347,53 @@ struct retro_core_options_v2 options_pl = {
 #define OPTION_VAL_11520X8640_PT_BR NULL
 #define OPTION_VAL_12160X9120_PT_BR NULL
 #define OPTION_VAL_12800X9600_PT_BR NULL
-#define CORE_OPTION_NAME_SCREEN_ROTATION_LABEL_PT_BR NULL
+#define CORE_OPTION_NAME_SCREEN_ROTATION_LABEL_PT_BR "Orientação da tela"
 #define OPTION_VAL_HORIZONTAL_PT_BR NULL
 #define OPTION_VAL_VERTICAL_PT_BR NULL
-#define CORE_OPTION_NAME_ALPHA_SORTING_LABEL_PT_BR NULL
-#define OPTION_VAL_PER_STRIP_FAST_LEAST_ACCURATE_PT_BR NULL
-#define OPTION_VAL_PER_TRIANGLE_NORMAL_PT_BR NULL
-#define OPTION_VAL_PER_PIXEL_ACCURATE_PT_BR NULL
-#define CORE_OPTION_NAME_GDROM_FAST_LOADING_LABEL_PT_BR NULL
-#define CORE_OPTION_NAME_GDROM_FAST_LOADING_INFO_0_PT_BR NULL
+#define CORE_OPTION_NAME_ALPHA_SORTING_LABEL_PT_BR "Classificação de transparências"
+#define OPTION_VAL_PER_STRIP_FAST_LEAST_ACCURATE_PT_BR "Por faixa (rápido, menos preciso)"
+#define OPTION_VAL_PER_TRIANGLE_NORMAL_PT_BR "Por triângulo (normal)"
+#define OPTION_VAL_PER_PIXEL_ACCURATE_PT_BR "Por pixel (preciso, mas lento)"
+#define CORE_OPTION_NAME_GDROM_FAST_LOADING_LABEL_PT_BR "Carregamento rápido do GD-ROM (impreciso)"
+#define CORE_OPTION_NAME_GDROM_FAST_LOADING_INFO_0_PT_BR "Acelera o carregamento do GD-ROM."
 #define CORE_OPTION_NAME_MIPMAPPING_LABEL_PT_BR NULL
-#define CORE_OPTION_NAME_FOG_LABEL_PT_BR NULL
-#define CORE_OPTION_NAME_VOLUME_MODIFIER_ENABLE_LABEL_PT_BR NULL
-#define CORE_OPTION_NAME_VOLUME_MODIFIER_ENABLE_INFO_0_PT_BR NULL
-#define CORE_OPTION_NAME_WIDESCREEN_HACK_LABEL_PT_BR NULL
-#define CORE_OPTION_NAME_WIDESCREEN_CHEATS_LABEL_PT_BR NULL
-#define CORE_OPTION_NAME_WIDESCREEN_CHEATS_INFO_0_PT_BR NULL
-#define CORE_OPTION_NAME_CABLE_TYPE_LABEL_PT_BR NULL
-#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_PT_BR NULL
+#define CORE_OPTION_NAME_FOG_LABEL_PT_BR "Efeitos de nevoeiro"
+#define CORE_OPTION_NAME_VOLUME_MODIFIER_ENABLE_LABEL_PT_BR "Modificador de volume"
+#define CORE_OPTION_NAME_VOLUME_MODIFIER_ENABLE_INFO_0_PT_BR "Uma característica da GPU do Dreamcast que é frequentemente usada por jogos para desenhar sombras em objetos. Esta opção deve geralmente ser ativada; tem pouco efeito sobre o desempenho."
+#define CORE_OPTION_NAME_WIDESCREEN_HACK_LABEL_PT_BR "Hack de widescreen (requer reinício)"
+#define CORE_OPTION_NAME_WIDESCREEN_CHEATS_LABEL_PT_BR "Hack de trapaças (requer reinício)"
+#define CORE_OPTION_NAME_WIDESCREEN_CHEATS_INFO_0_PT_BR "Ativa trapaças que permitem a exibição de certos jogos em formato widescreen."
+#define CORE_OPTION_NAME_CABLE_TYPE_LABEL_PT_BR "Tipo de cabo"
+#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_PT_BR "Selecione o tipo de sinal de saída da imagem. É recomendado usar VGA, mas alguns jogos não são suportados."
 #define OPTION_VAL_TV_RGB_PT_BR NULL
-#define OPTION_VAL_TV_COMPOSITE_PT_BR NULL
+#define OPTION_VAL_TV_COMPOSITE_PT_BR "TV (Composto)"
 #define OPTION_VAL_VGA_RGB_PT_BR NULL
-#define CORE_OPTION_NAME_BROADCAST_LABEL_PT_BR NULL
-#define OPTION_VAL_DEFAULT_PT_BR NULL
-#define OPTION_VAL_PAL_M_PT_BR NULL
-#define OPTION_VAL_PAL_N_PT_BR NULL
+#define CORE_OPTION_NAME_BROADCAST_LABEL_PT_BR "Padrão de transmissão"
+#define OPTION_VAL_DEFAULT_PT_BR "Padrão"
+#define OPTION_VAL_PAL_M_PT_BR "PAL-M (Brasil)"
+#define OPTION_VAL_PAL_N_PT_BR "PAL-N (Argentina, Paraguai, Uruguai)"
 #define OPTION_VAL_NTSC_PT_BR NULL
-#define OPTION_VAL_PAL_PT_BR NULL
-#define CORE_OPTION_NAME_FRAMERATE_LABEL_PT_BR NULL
+#define OPTION_VAL_PAL_PT_BR "PAL (Resto do mundo)"
+#define CORE_OPTION_NAME_FRAMERATE_LABEL_PT_BR "Taxa de quadros"
 #define CORE_OPTION_NAME_FRAMERATE_INFO_0_PT_BR "Afeta como o emulador interage com a interface. 'Velocidade total' dará o controle ao RetroArch toda vez que um quadro for renderizado. 'Normal' dará o controle ao RetroArch toda vez que for gerada uma interrupção V-blank. É recomendado usar 'Velocidade total' na maioria dos casos. 'Normal' pode melhorar o ritmo dos quadros em alguns sistemas, mas também pode fazer com que os controles não respondam quando a imagem está estática (ex: durante uma tela de carregamento ou pausa). Nota: Esta configuração só será aplicada quando a 'Renderização multi-thread' estiver desativada."
-#define OPTION_VAL_FULLSPEED_PT_BR NULL
+#define OPTION_VAL_FULLSPEED_PT_BR "Velocidade máxima"
 #define OPTION_VAL_NORMAL_PT_BR NULL
-#define CORE_OPTION_NAME_REGION_LABEL_PT_BR NULL
-#define OPTION_VAL_JAPAN_PT_BR NULL
-#define OPTION_VAL_USA_PT_BR NULL
-#define OPTION_VAL_EUROPE_PT_BR NULL
-#define CORE_OPTION_NAME_LANGUAGE_LABEL_PT_BR NULL
-#define OPTION_VAL_JAPANESE_PT_BR NULL
-#define OPTION_VAL_ENGLISH_PT_BR NULL
-#define OPTION_VAL_GERMAN_PT_BR NULL
-#define OPTION_VAL_FRENCH_PT_BR NULL
-#define OPTION_VAL_SPANISH_PT_BR NULL
-#define OPTION_VAL_ITALIAN_PT_BR NULL
-#define CORE_OPTION_NAME_DIV_MATCHING_LABEL_PT_BR NULL
-#define CORE_OPTION_NAME_DIV_MATCHING_INFO_0_PT_BR NULL
-#define CORE_OPTION_NAME_FORCE_WINCE_LABEL_PT_BR NULL
-#define CORE_OPTION_NAME_FORCE_WINCE_INFO_0_PT_BR NULL
-#define CORE_OPTION_NAME_ANALOG_STICK_DEADZONE_LABEL_PT_BR NULL
+#define CORE_OPTION_NAME_REGION_LABEL_PT_BR "Região"
+#define OPTION_VAL_JAPAN_PT_BR "Japão"
+#define OPTION_VAL_USA_PT_BR "EUA"
+#define OPTION_VAL_EUROPE_PT_BR "Europa"
+#define CORE_OPTION_NAME_LANGUAGE_LABEL_PT_BR "Idioma"
+#define OPTION_VAL_JAPANESE_PT_BR "Japonês"
+#define OPTION_VAL_ENGLISH_PT_BR "Inglês"
+#define OPTION_VAL_GERMAN_PT_BR "Alemão"
+#define OPTION_VAL_FRENCH_PT_BR "Francês"
+#define OPTION_VAL_SPANISH_PT_BR "Espanhol"
+#define OPTION_VAL_ITALIAN_PT_BR "Italiano"
+#define CORE_OPTION_NAME_DIV_MATCHING_LABEL_PT_BR "Unificar instruções DIV"
+#define CORE_OPTION_NAME_DIV_MATCHING_INFO_0_PT_BR "Otimizar divisão de inteiros"
+#define CORE_OPTION_NAME_FORCE_WINCE_LABEL_PT_BR "Forçar o modo Windows CE"
+#define CORE_OPTION_NAME_FORCE_WINCE_INFO_0_PT_BR "Ativa a emulação completa da MMU (Unidade de Gerenciamento de Memória) e outras configurações para jogos compatíveis com o Windows CE."
+#define CORE_OPTION_NAME_ANALOG_STICK_DEADZONE_LABEL_PT_BR "Zona morta do direcional analógico"
 #define OPTION_VAL_0_PT_BR NULL
 #define OPTION_VAL_5_PT_BR NULL
 #define OPTION_VAL_10_PT_BR NULL
@@ -42528,88 +44401,89 @@ struct retro_core_options_v2 options_pl = {
 #define OPTION_VAL_20_PT_BR NULL
 #define OPTION_VAL_25_PT_BR NULL
 #define OPTION_VAL_30_PT_BR NULL
-#define CORE_OPTION_NAME_TRIGGER_DEADZONE_LABEL_PT_BR NULL
-#define CORE_OPTION_NAME_DIGITAL_TRIGGERS_LABEL_PT_BR NULL
-#define CORE_OPTION_NAME_ENABLE_DSP_LABEL_PT_BR NULL
-#define CORE_OPTION_NAME_ENABLE_DSP_INFO_0_PT_BR NULL
-#define CORE_OPTION_NAME_ANISOTROPIC_FILTERING_LABEL_PT_BR NULL
-#define CORE_OPTION_NAME_ANISOTROPIC_FILTERING_INFO_0_PT_BR NULL
-#define CORE_OPTION_NAME_PVR2_FILTERING_LABEL_PT_BR NULL
-#define CORE_OPTION_NAME_PVR2_FILTERING_INFO_0_PT_BR NULL
-#define CORE_OPTION_NAME_TEXUPSCALE_LABEL_PT_BR NULL
-#define CORE_OPTION_NAME_TEXUPSCALE_INFO_0_PT_BR NULL
+#define CORE_OPTION_NAME_TRIGGER_DEADZONE_LABEL_PT_BR "Zona morta dos gatilhos"
+#define CORE_OPTION_NAME_DIGITAL_TRIGGERS_LABEL_PT_BR "Gatilhos digitais"
+#define CORE_OPTION_NAME_ENABLE_DSP_LABEL_PT_BR "Ativar DSP"
+#define CORE_OPTION_NAME_ENABLE_DSP_INFO_0_PT_BR "Ativa a emulação Dreamcast do DSP (processador de sinal digital) de áudio. Melhora a precisão do som gerado ao custo de requisitos maiores."
+#define CORE_OPTION_NAME_ANISOTROPIC_FILTERING_LABEL_PT_BR "Filtro anisotrópico"
+#define CORE_OPTION_NAME_ANISOTROPIC_FILTERING_INFO_0_PT_BR "Melhora a qualidade das texturas em superfícies que estão em um ângulo oblíquo em relação à câmera."
+#define CORE_OPTION_NAME_PVR2_FILTERING_LABEL_PT_BR "Filtro de pós-processamento do PowerVR2"
+#define CORE_OPTION_NAME_PVR2_FILTERING_INFO_0_PT_BR "Pós-processa a imagem renderizada para simular efeitos específicos da GPU PowerVR2 e os sinais de vídeo analógicos."
+#define CORE_OPTION_NAME_TEXUPSCALE_LABEL_PT_BR "Redimensionamento de textura (xBRZ)"
+#define CORE_OPTION_NAME_TEXUPSCALE_INFO_0_PT_BR "Melhora os gráficos 2D de 'pixel arte' desenhados à mão. Usar somente com jogos em 2D pixelado."
 #define OPTION_VAL_2X_PT_BR NULL
 #define OPTION_VAL_4X_PT_BR NULL
 #define OPTION_VAL_6X_PT_BR NULL
-#define CORE_OPTION_NAME_TEXUPSCALE_MAX_FILTERED_TEXTURE_SIZE_LABEL_PT_BR NULL
-#define CORE_OPTION_NAME_ENABLE_RTTB_LABEL_PT_BR NULL
-#define CORE_OPTION_NAME_RENDER_TO_TEXTURE_UPSCALING_LABEL_PT_BR NULL
+#define CORE_OPTION_NAME_TEXUPSCALE_MAX_FILTERED_TEXTURE_SIZE_LABEL_PT_BR "Tamanho máximo do redimensionamento de texturas"
+#define CORE_OPTION_NAME_ENABLE_RTTB_LABEL_PT_BR "Ativar o buffer RTT (renderização para texturas)"
+#define CORE_OPTION_NAME_RENDER_TO_TEXTURE_UPSCALING_LABEL_PT_BR "Redimensionamento da RTT"
 #define OPTION_VAL_1X_PT_BR NULL
 #define OPTION_VAL_3X_PT_BR NULL
 #define OPTION_VAL_8X_PT_BR NULL
 #define CORE_OPTION_NAME_THREADED_RENDERING_LABEL_PT_BR "Renderização multi-thread (requer reinício)"
 #define CORE_OPTION_NAME_THREADED_RENDERING_INFO_0_PT_BR "Executa a GPU e a CPU em diferentes threads. Altamente recomendado."
-#define CORE_OPTION_NAME_SYNCHRONOUS_RENDERING_LABEL_PT_BR NULL
+#define CORE_OPTION_NAME_SYNCHRONOUS_RENDERING_LABEL_PT_BR "Renderização síncrona"
 #define CORE_OPTION_NAME_SYNCHRONOUS_RENDERING_INFO_0_PT_BR "Espera que a GPU termine de renderizar o quadro anterior em vez de jogar o atual. Nota: Esta configuração só será aplicada quando a 'Renderização multi-thread' estiver ativada."
-#define CORE_OPTION_NAME_DELAY_FRAME_SWAPPING_LABEL_PT_BR NULL
+#define CORE_OPTION_NAME_DELAY_FRAME_SWAPPING_LABEL_PT_BR "Atrasar troca de quadro"
 #define CORE_OPTION_NAME_DELAY_FRAME_SWAPPING_INFO_0_PT_BR "Útil para evitar tremulações da imagem ou defeitos de vídeo. Não recomendado para uso em plataformas lentas. Esta configuração só será aplicada quando a 'Renderização multi-thread' estiver ativada."
-#define CORE_OPTION_NAME_FRAME_SKIPPING_LABEL_PT_BR NULL
-#define CORE_OPTION_NAME_FRAME_SKIPPING_INFO_0_PT_BR NULL
-#define CORE_OPTION_NAME_ENABLE_PURUPURU_LABEL_PT_BR NULL
-#define CORE_OPTION_NAME_ENABLE_PURUPURU_INFO_0_PT_BR NULL
-#define CORE_OPTION_NAME_ALLOW_SERVICE_BUTTONS_LABEL_PT_BR NULL
-#define CORE_OPTION_NAME_ALLOW_SERVICE_BUTTONS_INFO_0_PT_BR NULL
-#define CORE_OPTION_NAME_ENABLE_NAOMI_15KHZ_DIPSWITCH_LABEL_PT_BR NULL
-#define CORE_OPTION_NAME_ENABLE_NAOMI_15KHZ_DIPSWITCH_INFO_0_PT_BR NULL
-#define CORE_OPTION_NAME_CUSTOM_TEXTURES_LABEL_PT_BR NULL
-#define CORE_OPTION_NAME_DUMP_TEXTURES_LABEL_PT_BR NULL
-#define CORE_OPTION_NAME_PER_CONTENT_VMUS_LABEL_PT_BR NULL
+#define CORE_OPTION_NAME_FRAME_SKIPPING_LABEL_PT_BR "Pulo de quadro"
+#define CORE_OPTION_NAME_FRAME_SKIPPING_INFO_0_PT_BR "Define o número de quadros a serem pulados após cada quadro ser exibido."
+#define CORE_OPTION_NAME_ENABLE_PURUPURU_LABEL_PT_BR "Purupuru Pack (vibração)"
+#define CORE_OPTION_NAME_ENABLE_PURUPURU_INFO_0_PT_BR "Habilita a vibração do controle."
+#define CORE_OPTION_NAME_ALLOW_SERVICE_BUTTONS_LABEL_PT_BR "Ativar botões de serviço da NAOMI"
+#define CORE_OPTION_NAME_ALLOW_SERVICE_BUTTONS_INFO_0_PT_BR "Ativa o botão SERVICE da placa NAOMI para acessar a configuração do gabinete."
+#define CORE_OPTION_NAME_ENABLE_NAOMI_15KHZ_DIPSWITCH_LABEL_PT_BR "Habilita o interruptor DIP de 15 kHz da NAOMI"
+#define CORE_OPTION_NAME_ENABLE_NAOMI_15KHZ_DIPSWITCH_INFO_0_PT_BR "Esta opção pode forçar a imagem a ser exibida em 240p, 480i ou não ter efeito algum, dependendo do jogo."
+#define CORE_OPTION_NAME_CUSTOM_TEXTURES_LABEL_PT_BR "Carregar texturas personalizadas"
+#define CORE_OPTION_NAME_DUMP_TEXTURES_LABEL_PT_BR "Despejo de texturas"
+#define CORE_OPTION_NAME_PER_CONTENT_VMUS_LABEL_PT_BR "Separar Visual Memory (VMU) por jogo"
 #define CORE_OPTION_NAME_PER_CONTENT_VMUS_LABEL_CAT_PT_BR "VMUs por jogo"
-#define CORE_OPTION_NAME_PER_CONTENT_VMUS_INFO_0_PT_BR NULL
+#define CORE_OPTION_NAME_PER_CONTENT_VMUS_INFO_0_PT_BR "Ao desativar esta opção, todos os jogos compartilharão quatro arquivos de salvamento da VMU (A1, B1, C1, D1) que serão localizados no diretório de sistema do RetroArch. A configuração 'VMU A1' criará um arquivo único da VMU A1 no diretório de salvamento do RetroArch para cada jogo que for executado. A configuração 'Todas as VMUs' criará quatro arquivos únicos VMU (A1, B1, C1, D1) para cada jogo que for executado."
 #define OPTION_VAL_VMU_A1_PT_BR NULL
-#define OPTION_VAL_ALL_VMUS_PT_BR NULL
-#define CORE_OPTION_NAME_SHOW_VMU_SCREEN_SETTINGS_LABEL_PT_BR NULL
+#define OPTION_VAL_ALL_VMUS_PT_BR "Todas as VMUs"
+#define CORE_OPTION_NAME_SHOW_VMU_SCREEN_SETTINGS_LABEL_PT_BR "Mostrar configurações de visualização das Visual Memory (VMU)"
 #define CORE_OPTION_NAME_SHOW_VMU_SCREEN_SETTINGS_LABEL_CAT_PT_BR "Mostrar configurações da exibição da VMU"
-#define CORE_OPTION_NAME_SHOW_VMU_SCREEN_SETTINGS_INFO_0_PT_BR NULL
-#define CORE_OPTION_NAME_VMU1_SCREEN_DISPLAY_LABEL_PT_BR NULL
-#define CORE_OPTION_NAME_VMU1_SCREEN_POSITION_LABEL_PT_BR NULL
-#define OPTION_VAL_UPPER_LEFT_PT_BR NULL
-#define OPTION_VAL_UPPER_RIGHT_PT_BR NULL
-#define OPTION_VAL_LOWER_LEFT_PT_BR NULL
-#define OPTION_VAL_LOWER_RIGHT_PT_BR NULL
-#define CORE_OPTION_NAME_VMU1_SCREEN_SIZE_MULT_LABEL_PT_BR NULL
+#define CORE_OPTION_NAME_SHOW_VMU_SCREEN_SETTINGS_INFO_0_PT_BR "Ativa a configuração de visibilidade, tamanho, posição e cor das telas de LCD emulados da VMU. NOTA: É necessário sair e entrar novamente no 'Menu rápido' para que as mudanças tenham efeito."
+#define CORE_OPTION_NAME_VMU1_SCREEN_DISPLAY_LABEL_PT_BR "Tela da VMU 1"
+#define CORE_OPTION_NAME_VMU1_SCREEN_POSITION_LABEL_PT_BR "Posição da tela da VMU 1"
+#define OPTION_VAL_UPPER_LEFT_PT_BR "Canto superior esquerdo"
+#define OPTION_VAL_UPPER_RIGHT_PT_BR "Canto superior direito"
+#define OPTION_VAL_LOWER_LEFT_PT_BR "Canto inferior esquerdo"
+#define OPTION_VAL_LOWER_RIGHT_PT_BR "Canto inferior direito"
+#define CORE_OPTION_NAME_VMU1_SCREEN_SIZE_MULT_LABEL_PT_BR "Tamanho da tela da VMU 1"
 #define OPTION_VAL_5X_PT_BR NULL
-#define CORE_OPTION_NAME_VMU1_PIXEL_ON_COLOR_LABEL_PT_BR NULL
-#define OPTION_VAL_DEFAULT_OFF_01_PT_BR NULL
-#define OPTION_VAL_DEFAULT_ON_00_PT_BR NULL
-#define OPTION_VAL_BLACK_02_PT_BR NULL
-#define OPTION_VAL_BLUE_03_PT_BR NULL
-#define OPTION_VAL_LIGHT_BLUE_04_PT_BR NULL
-#define OPTION_VAL_GREEN_05_PT_BR NULL
-#define OPTION_VAL_CYAN_06_PT_BR NULL
-#define OPTION_VAL_CYAN_BLUE_07_PT_BR NULL
-#define OPTION_VAL_LIGHT_GREEN_08_PT_BR NULL
-#define OPTION_VAL_CYAN_GREEN_09_PT_BR NULL
-#define OPTION_VAL_LIGHT_CYAN_10_PT_BR NULL
-#define OPTION_VAL_RED_11_PT_BR NULL
-#define OPTION_VAL_PURPLE_12_PT_BR NULL
-#define OPTION_VAL_LIGHT_PURPLE_13_PT_BR NULL
-#define OPTION_VAL_YELLOW_14_PT_BR NULL
-#define OPTION_VAL_GRAY_15_PT_BR NULL
-#define OPTION_VAL_LIGHT_PURPLE_2_16_PT_BR NULL
-#define OPTION_VAL_LIGHT_GREEN_2_17_PT_BR NULL
-#define OPTION_VAL_LIGHT_GREEN_3_18_PT_BR NULL
-#define OPTION_VAL_LIGHT_CYAN_2_19_PT_BR NULL
-#define OPTION_VAL_LIGHT_RED_2_20_PT_BR NULL
+#define CORE_OPTION_NAME_VMU1_PIXEL_ON_COLOR_LABEL_PT_BR "Cor dos pixels acesos da VMU 1"
+#define OPTION_VAL_DEFAULT_ON_00_PT_BR "Ligar por padrão"
+#define OPTION_VAL_DEFAULT_OFF_01_PT_BR "Desligar por padrão"
+#define OPTION_VAL_BLACK_02_PT_BR "Preta"
+#define OPTION_VAL_BLUE_03_PT_BR "Azul"
+#define OPTION_VAL_LIGHT_BLUE_04_PT_BR "Azul claro"
+#define OPTION_VAL_GREEN_05_PT_BR "Verde"
+#define OPTION_VAL_CYAN_06_PT_BR "Azul-marinho"
+#define OPTION_VAL_CYAN_BLUE_07_PT_BR "Azul ciano"
+#define OPTION_VAL_LIGHT_GREEN_08_PT_BR "Verde claro"
+#define OPTION_VAL_CYAN_GREEN_09_PT_BR "Verde ciano"
+#define OPTION_VAL_LIGHT_CYAN_10_PT_BR "Ciano claro"
+#define OPTION_VAL_RED_11_PT_BR "Vermelho"
+#define OPTION_VAL_PURPLE_12_PT_BR "Violeta"
+#define OPTION_VAL_LIGHT_PURPLE_13_PT_BR "Roxo claro"
+#define OPTION_VAL_YELLOW_14_PT_BR "Amarelo"
+#define OPTION_VAL_GRAY_15_PT_BR "Cinza"
+#define OPTION_VAL_LIGHT_PURPLE_2_16_PT_BR "Roxo claro (2)"
+#define OPTION_VAL_LIGHT_GREEN_2_17_PT_BR "Verde claro (2)"
+#define OPTION_VAL_LIGHT_GREEN_3_18_PT_BR "Verde claro (3)"
+#define OPTION_VAL_LIGHT_CYAN_2_19_PT_BR "Ciano claro (2)"
+#define OPTION_VAL_LIGHT_RED_2_20_PT_BR "Vermelho claro (2)"
 #define OPTION_VAL_MAGENTA_21_PT_BR NULL
-#define OPTION_VAL_LIGHT_ORANGE_22_PT_BR NULL
-#define OPTION_VAL_ORANGE_23_PT_BR NULL
-#define OPTION_VAL_LIGHT_PURPLE_3_24_PT_BR NULL
-#define OPTION_VAL_LIGHT_YELLOW_25_PT_BR NULL
-#define OPTION_VAL_LIGHT_YELLOW_2_26_PT_BR NULL
-#define OPTION_VAL_WHITE_27_PT_BR NULL
-#define CORE_OPTION_NAME_VMU1_PIXEL_OFF_COLOR_LABEL_PT_BR NULL
-#define CORE_OPTION_NAME_VMU1_SCREEN_OPACITY_LABEL_PT_BR NULL
+#define OPTION_VAL_LIGHT_PURPLE_3_22_PT_BR NULL
+#define OPTION_VAL_LIGHT_ORANGE_23_PT_BR NULL
+#define OPTION_VAL_ORANGE_24_PT_BR NULL
+#define OPTION_VAL_LIGHT_PURPLE_4_25_PT_BR NULL
+#define OPTION_VAL_LIGHT_YELLOW_26_PT_BR NULL
+#define OPTION_VAL_LIGHT_YELLOW_2_27_PT_BR NULL
+#define OPTION_VAL_WHITE_28_PT_BR NULL
+#define CORE_OPTION_NAME_VMU1_PIXEL_OFF_COLOR_LABEL_PT_BR "Cor dos pixels apagados da VMU 1"
+#define CORE_OPTION_NAME_VMU1_SCREEN_OPACITY_LABEL_PT_BR "Opacidade da tela da VMU 1"
 #define OPTION_VAL_40_PT_BR NULL
 #define OPTION_VAL_50_PT_BR NULL
 #define OPTION_VAL_60_PT_BR NULL
@@ -42617,30 +44491,30 @@ struct retro_core_options_v2 options_pl = {
 #define OPTION_VAL_80_PT_BR NULL
 #define OPTION_VAL_90_PT_BR NULL
 #define OPTION_VAL_100_PT_BR NULL
-#define CORE_OPTION_NAME_VMU2_SCREEN_DISPLAY_LABEL_PT_BR NULL
-#define CORE_OPTION_NAME_VMU2_SCREEN_POSITION_LABEL_PT_BR NULL
-#define CORE_OPTION_NAME_VMU2_SCREEN_SIZE_MULT_LABEL_PT_BR NULL
-#define CORE_OPTION_NAME_VMU2_PIXEL_ON_COLOR_LABEL_PT_BR NULL
-#define CORE_OPTION_NAME_VMU2_PIXEL_OFF_COLOR_LABEL_PT_BR NULL
-#define CORE_OPTION_NAME_VMU2_SCREEN_OPACITY_LABEL_PT_BR NULL
-#define CORE_OPTION_NAME_VMU3_SCREEN_DISPLAY_LABEL_PT_BR NULL
-#define CORE_OPTION_NAME_VMU3_SCREEN_POSITION_LABEL_PT_BR NULL
-#define CORE_OPTION_NAME_VMU3_SCREEN_SIZE_MULT_LABEL_PT_BR NULL
-#define CORE_OPTION_NAME_VMU3_PIXEL_ON_COLOR_LABEL_PT_BR NULL
-#define CORE_OPTION_NAME_VMU3_PIXEL_OFF_COLOR_LABEL_PT_BR NULL
-#define CORE_OPTION_NAME_VMU3_SCREEN_OPACITY_LABEL_PT_BR NULL
-#define CORE_OPTION_NAME_VMU4_SCREEN_DISPLAY_LABEL_PT_BR NULL
-#define CORE_OPTION_NAME_VMU4_SCREEN_POSITION_LABEL_PT_BR NULL
-#define CORE_OPTION_NAME_VMU4_SCREEN_SIZE_MULT_LABEL_PT_BR NULL
-#define CORE_OPTION_NAME_VMU4_PIXEL_ON_COLOR_LABEL_PT_BR NULL
-#define CORE_OPTION_NAME_VMU4_PIXEL_OFF_COLOR_LABEL_PT_BR NULL
-#define CORE_OPTION_NAME_VMU4_SCREEN_OPACITY_LABEL_PT_BR NULL
-#define CORE_OPTION_NAME_SHOW_LIGHTGUN_SETTINGS_LABEL_PT_BR NULL
-#define CORE_OPTION_NAME_SHOW_LIGHTGUN_SETTINGS_INFO_0_PT_BR NULL
-#define CORE_OPTION_NAME_LIGHTGUN1_CROSSHAIR_LABEL_PT_BR NULL
-#define CORE_OPTION_NAME_LIGHTGUN2_CROSSHAIR_LABEL_PT_BR NULL
-#define CORE_OPTION_NAME_LIGHTGUN3_CROSSHAIR_LABEL_PT_BR NULL
-#define CORE_OPTION_NAME_LIGHTGUN4_CROSSHAIR_LABEL_PT_BR NULL
+#define CORE_OPTION_NAME_VMU2_SCREEN_DISPLAY_LABEL_PT_BR "Tela da VMU 2"
+#define CORE_OPTION_NAME_VMU2_SCREEN_POSITION_LABEL_PT_BR "Posição da tela da VMU 2"
+#define CORE_OPTION_NAME_VMU2_SCREEN_SIZE_MULT_LABEL_PT_BR "Tamanho da tela da VMU 2"
+#define CORE_OPTION_NAME_VMU2_PIXEL_ON_COLOR_LABEL_PT_BR "Cor dos pixels acesos da VMU 2"
+#define CORE_OPTION_NAME_VMU2_PIXEL_OFF_COLOR_LABEL_PT_BR "Cor dos pixels apagados da VMU 2"
+#define CORE_OPTION_NAME_VMU2_SCREEN_OPACITY_LABEL_PT_BR "Opacidade da tela da VMU 2"
+#define CORE_OPTION_NAME_VMU3_SCREEN_DISPLAY_LABEL_PT_BR "Tela da VMU 3"
+#define CORE_OPTION_NAME_VMU3_SCREEN_POSITION_LABEL_PT_BR "Posição da tela da VMU 3"
+#define CORE_OPTION_NAME_VMU3_SCREEN_SIZE_MULT_LABEL_PT_BR "Tamanho da tela da VMU 3"
+#define CORE_OPTION_NAME_VMU3_PIXEL_ON_COLOR_LABEL_PT_BR "Cor dos pixels acesos da VMU 3"
+#define CORE_OPTION_NAME_VMU3_PIXEL_OFF_COLOR_LABEL_PT_BR "Cor dos pixels apagados da VMU 3"
+#define CORE_OPTION_NAME_VMU3_SCREEN_OPACITY_LABEL_PT_BR "Opacidade da tela da VMU 3"
+#define CORE_OPTION_NAME_VMU4_SCREEN_DISPLAY_LABEL_PT_BR "Tela da VMU 4"
+#define CORE_OPTION_NAME_VMU4_SCREEN_POSITION_LABEL_PT_BR "Posição da tela da VMU 4"
+#define CORE_OPTION_NAME_VMU4_SCREEN_SIZE_MULT_LABEL_PT_BR "Tamanho da tela da VMU 4"
+#define CORE_OPTION_NAME_VMU4_PIXEL_ON_COLOR_LABEL_PT_BR "Cor dos pixels acesos da VMU 4"
+#define CORE_OPTION_NAME_VMU4_PIXEL_OFF_COLOR_LABEL_PT_BR "Cor dos pixels apagados da VMU 4"
+#define CORE_OPTION_NAME_VMU4_SCREEN_OPACITY_LABEL_PT_BR "Opacidade da tela da VMU 4"
+#define CORE_OPTION_NAME_SHOW_LIGHTGUN_SETTINGS_LABEL_PT_BR "Mostrar configurações das pistolas de luz"
+#define CORE_OPTION_NAME_SHOW_LIGHTGUN_SETTINGS_INFO_0_PT_BR "Ativa a configuração dos pontos de mira das pistolas de luz. NOTA: É necessário sair e entrar novamente no 'Menu rápido' para que a mudança tenha efeito."
+#define CORE_OPTION_NAME_LIGHTGUN1_CROSSHAIR_LABEL_PT_BR "Mostrar ponto de mira da arma 1"
+#define CORE_OPTION_NAME_LIGHTGUN2_CROSSHAIR_LABEL_PT_BR "Mostrar ponto de mira da arma 2"
+#define CORE_OPTION_NAME_LIGHTGUN3_CROSSHAIR_LABEL_PT_BR "Mostrar ponto de mira da arma 3"
+#define CORE_OPTION_NAME_LIGHTGUN4_CROSSHAIR_LABEL_PT_BR "Mostrar ponto de mira da arma 4"
 
 struct retro_core_option_v2_category option_cats_pt_br[] = {
    {
@@ -43417,8 +45291,8 @@ struct retro_core_option_v2_definition option_defs_pt_br[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_PT_BR },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_PT_BR },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_PT_BR },
          { "BLACK 02",          OPTION_VAL_BLACK_02_PT_BR },
          { "BLUE 03",           OPTION_VAL_BLUE_03_PT_BR },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_PT_BR },
@@ -43439,12 +45313,13 @@ struct retro_core_option_v2_definition option_defs_pt_br[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_PT_BR },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_PT_BR },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_PT_BR },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_PT_BR },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_PT_BR },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_PT_BR },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_PT_BR },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_PT_BR },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_PT_BR },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_PT_BR },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_PT_BR },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_PT_BR },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_PT_BR },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_PT_BR },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_PT_BR },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_PT_BR },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -43479,12 +45354,13 @@ struct retro_core_option_v2_definition option_defs_pt_br[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_PT_BR },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_PT_BR },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_PT_BR },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_PT_BR },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_PT_BR },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_PT_BR },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_PT_BR },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_PT_BR },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_PT_BR },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_PT_BR },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_PT_BR },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_PT_BR },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_PT_BR },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_PT_BR },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_PT_BR },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_PT_BR },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -43566,8 +45442,8 @@ struct retro_core_option_v2_definition option_defs_pt_br[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_PT_BR },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_PT_BR },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_PT_BR },
          { "BLACK 02",          OPTION_VAL_BLACK_02_PT_BR },
          { "BLUE 03",           OPTION_VAL_BLUE_03_PT_BR },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_PT_BR },
@@ -43588,12 +45464,13 @@ struct retro_core_option_v2_definition option_defs_pt_br[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_PT_BR },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_PT_BR },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_PT_BR },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_PT_BR },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_PT_BR },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_PT_BR },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_PT_BR },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_PT_BR },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_PT_BR },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_PT_BR },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_PT_BR },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_PT_BR },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_PT_BR },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_PT_BR },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_PT_BR },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_PT_BR },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -43628,12 +45505,13 @@ struct retro_core_option_v2_definition option_defs_pt_br[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_PT_BR },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_PT_BR },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_PT_BR },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_PT_BR },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_PT_BR },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_PT_BR },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_PT_BR },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_PT_BR },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_PT_BR },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_PT_BR },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_PT_BR },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_PT_BR },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_PT_BR },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_PT_BR },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_PT_BR },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_PT_BR },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -43715,8 +45593,8 @@ struct retro_core_option_v2_definition option_defs_pt_br[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_PT_BR },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_PT_BR },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_PT_BR },
          { "BLACK 02",          OPTION_VAL_BLACK_02_PT_BR },
          { "BLUE 03",           OPTION_VAL_BLUE_03_PT_BR },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_PT_BR },
@@ -43737,12 +45615,13 @@ struct retro_core_option_v2_definition option_defs_pt_br[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_PT_BR },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_PT_BR },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_PT_BR },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_PT_BR },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_PT_BR },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_PT_BR },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_PT_BR },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_PT_BR },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_PT_BR },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_PT_BR },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_PT_BR },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_PT_BR },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_PT_BR },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_PT_BR },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_PT_BR },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_PT_BR },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -43777,12 +45656,13 @@ struct retro_core_option_v2_definition option_defs_pt_br[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_PT_BR },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_PT_BR },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_PT_BR },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_PT_BR },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_PT_BR },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_PT_BR },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_PT_BR },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_PT_BR },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_PT_BR },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_PT_BR },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_PT_BR },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_PT_BR },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_PT_BR },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_PT_BR },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_PT_BR },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_PT_BR },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -43864,8 +45744,8 @@ struct retro_core_option_v2_definition option_defs_pt_br[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_PT_BR },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_PT_BR },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_PT_BR },
          { "BLACK 02",          OPTION_VAL_BLACK_02_PT_BR },
          { "BLUE 03",           OPTION_VAL_BLUE_03_PT_BR },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_PT_BR },
@@ -43886,12 +45766,13 @@ struct retro_core_option_v2_definition option_defs_pt_br[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_PT_BR },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_PT_BR },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_PT_BR },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_PT_BR },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_PT_BR },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_PT_BR },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_PT_BR },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_PT_BR },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_PT_BR },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_PT_BR },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_PT_BR },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_PT_BR },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_PT_BR },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_PT_BR },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_PT_BR },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_PT_BR },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -43926,12 +45807,13 @@ struct retro_core_option_v2_definition option_defs_pt_br[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_PT_BR },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_PT_BR },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_PT_BR },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_PT_BR },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_PT_BR },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_PT_BR },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_PT_BR },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_PT_BR },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_PT_BR },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_PT_BR },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_PT_BR },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_PT_BR },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_PT_BR },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_PT_BR },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_PT_BR },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_PT_BR },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -43981,7 +45863,7 @@ struct retro_core_option_v2_definition option_defs_pt_br[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_PT_BR },
+         { "White",    OPTION_VAL_WHITE_28_PT_BR },
          { "Red",      OPTION_VAL_RED_11_PT_BR },
          { "Green",    OPTION_VAL_GREEN_05_PT_BR },
          { "Blue",     OPTION_VAL_BLUE_03_PT_BR },
@@ -43998,7 +45880,7 @@ struct retro_core_option_v2_definition option_defs_pt_br[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_PT_BR },
+         { "White",    OPTION_VAL_WHITE_28_PT_BR },
          { "Red",      OPTION_VAL_RED_11_PT_BR },
          { "Green",    OPTION_VAL_GREEN_05_PT_BR },
          { "Blue",     OPTION_VAL_BLUE_03_PT_BR },
@@ -44015,7 +45897,7 @@ struct retro_core_option_v2_definition option_defs_pt_br[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_PT_BR },
+         { "White",    OPTION_VAL_WHITE_28_PT_BR },
          { "Red",      OPTION_VAL_RED_11_PT_BR },
          { "Green",    OPTION_VAL_GREEN_05_PT_BR },
          { "Blue",     OPTION_VAL_BLUE_03_PT_BR },
@@ -44032,7 +45914,7 @@ struct retro_core_option_v2_definition option_defs_pt_br[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_PT_BR },
+         { "White",    OPTION_VAL_WHITE_28_PT_BR },
          { "Red",      OPTION_VAL_RED_11_PT_BR },
          { "Green",    OPTION_VAL_GREEN_05_PT_BR },
          { "Blue",     OPTION_VAL_BLUE_03_PT_BR },
@@ -44049,9 +45931,9 @@ struct retro_core_options_v2 options_pt_br = {
 
 /* RETRO_LANGUAGE_PT_PT */
 
-#define CATEGORY_VIDEO_LABEL_PT_PT NULL
+#define CATEGORY_VIDEO_LABEL_PT_PT "Vídeo"
 #define CATEGORY_VIDEO_INFO_0_PT_PT NULL
-#define CATEGORY_INPUT_LABEL_PT_PT NULL
+#define CATEGORY_INPUT_LABEL_PT_PT "Entrada"
 #define CATEGORY_INPUT_INFO_0_PT_PT NULL
 #define CATEGORY_VMU_LABEL_PT_PT NULL
 #define CATEGORY_VMU_INFO_0_PT_PT NULL
@@ -44104,7 +45986,7 @@ struct retro_core_options_v2 options_pt_br = {
 #define OPTION_VAL_11520X8640_PT_PT NULL
 #define OPTION_VAL_12160X9120_PT_PT NULL
 #define OPTION_VAL_12800X9600_PT_PT NULL
-#define CORE_OPTION_NAME_SCREEN_ROTATION_LABEL_PT_PT NULL
+#define CORE_OPTION_NAME_SCREEN_ROTATION_LABEL_PT_PT "Orientação do ecrã"
 #define OPTION_VAL_HORIZONTAL_PT_PT NULL
 #define OPTION_VAL_VERTICAL_PT_PT NULL
 #define CORE_OPTION_NAME_ALPHA_SORTING_LABEL_PT_PT NULL
@@ -44121,7 +46003,7 @@ struct retro_core_options_v2 options_pt_br = {
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_LABEL_PT_PT NULL
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_INFO_0_PT_PT NULL
 #define CORE_OPTION_NAME_CABLE_TYPE_LABEL_PT_PT NULL
-#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_PT_PT NULL
+#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_PT_PT "The output signal type. VGA is recommended, but some games might not be compatible with it."
 #define OPTION_VAL_TV_RGB_PT_PT NULL
 #define OPTION_VAL_TV_COMPOSITE_PT_PT NULL
 #define OPTION_VAL_VGA_RGB_PT_PT NULL
@@ -44139,13 +46021,13 @@ struct retro_core_options_v2 options_pt_br = {
 #define OPTION_VAL_JAPAN_PT_PT NULL
 #define OPTION_VAL_USA_PT_PT NULL
 #define OPTION_VAL_EUROPE_PT_PT NULL
-#define CORE_OPTION_NAME_LANGUAGE_LABEL_PT_PT NULL
-#define OPTION_VAL_JAPANESE_PT_PT NULL
-#define OPTION_VAL_ENGLISH_PT_PT NULL
-#define OPTION_VAL_GERMAN_PT_PT NULL
-#define OPTION_VAL_FRENCH_PT_PT NULL
-#define OPTION_VAL_SPANISH_PT_PT NULL
-#define OPTION_VAL_ITALIAN_PT_PT NULL
+#define CORE_OPTION_NAME_LANGUAGE_LABEL_PT_PT "Idioma"
+#define OPTION_VAL_JAPANESE_PT_PT "Japonês"
+#define OPTION_VAL_ENGLISH_PT_PT "Inglês"
+#define OPTION_VAL_GERMAN_PT_PT "Alemão"
+#define OPTION_VAL_FRENCH_PT_PT "Francês"
+#define OPTION_VAL_SPANISH_PT_PT "Espanhol"
+#define OPTION_VAL_ITALIAN_PT_PT "Italiano"
 #define CORE_OPTION_NAME_DIV_MATCHING_LABEL_PT_PT NULL
 #define CORE_OPTION_NAME_DIV_MATCHING_INFO_0_PT_PT NULL
 #define CORE_OPTION_NAME_FORCE_WINCE_LABEL_PT_PT NULL
@@ -44210,21 +46092,21 @@ struct retro_core_options_v2 options_pt_br = {
 #define CORE_OPTION_NAME_VMU1_SCREEN_SIZE_MULT_LABEL_PT_PT NULL
 #define OPTION_VAL_5X_PT_PT NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_ON_COLOR_LABEL_PT_PT NULL
-#define OPTION_VAL_DEFAULT_OFF_01_PT_PT NULL
 #define OPTION_VAL_DEFAULT_ON_00_PT_PT NULL
+#define OPTION_VAL_DEFAULT_OFF_01_PT_PT NULL
 #define OPTION_VAL_BLACK_02_PT_PT NULL
-#define OPTION_VAL_BLUE_03_PT_PT NULL
+#define OPTION_VAL_BLUE_03_PT_PT "Azul"
 #define OPTION_VAL_LIGHT_BLUE_04_PT_PT NULL
-#define OPTION_VAL_GREEN_05_PT_PT NULL
+#define OPTION_VAL_GREEN_05_PT_PT "Verde"
 #define OPTION_VAL_CYAN_06_PT_PT NULL
 #define OPTION_VAL_CYAN_BLUE_07_PT_PT NULL
 #define OPTION_VAL_LIGHT_GREEN_08_PT_PT NULL
 #define OPTION_VAL_CYAN_GREEN_09_PT_PT NULL
 #define OPTION_VAL_LIGHT_CYAN_10_PT_PT NULL
-#define OPTION_VAL_RED_11_PT_PT NULL
+#define OPTION_VAL_RED_11_PT_PT "Vermelho"
 #define OPTION_VAL_PURPLE_12_PT_PT NULL
 #define OPTION_VAL_LIGHT_PURPLE_13_PT_PT NULL
-#define OPTION_VAL_YELLOW_14_PT_PT NULL
+#define OPTION_VAL_YELLOW_14_PT_PT "Amarelo"
 #define OPTION_VAL_GRAY_15_PT_PT NULL
 #define OPTION_VAL_LIGHT_PURPLE_2_16_PT_PT NULL
 #define OPTION_VAL_LIGHT_GREEN_2_17_PT_PT NULL
@@ -44232,12 +46114,13 @@ struct retro_core_options_v2 options_pt_br = {
 #define OPTION_VAL_LIGHT_CYAN_2_19_PT_PT NULL
 #define OPTION_VAL_LIGHT_RED_2_20_PT_PT NULL
 #define OPTION_VAL_MAGENTA_21_PT_PT NULL
-#define OPTION_VAL_LIGHT_ORANGE_22_PT_PT NULL
-#define OPTION_VAL_ORANGE_23_PT_PT NULL
-#define OPTION_VAL_LIGHT_PURPLE_3_24_PT_PT NULL
-#define OPTION_VAL_LIGHT_YELLOW_25_PT_PT NULL
-#define OPTION_VAL_LIGHT_YELLOW_2_26_PT_PT NULL
-#define OPTION_VAL_WHITE_27_PT_PT NULL
+#define OPTION_VAL_LIGHT_PURPLE_3_22_PT_PT NULL
+#define OPTION_VAL_LIGHT_ORANGE_23_PT_PT NULL
+#define OPTION_VAL_ORANGE_24_PT_PT NULL
+#define OPTION_VAL_LIGHT_PURPLE_4_25_PT_PT NULL
+#define OPTION_VAL_LIGHT_YELLOW_26_PT_PT NULL
+#define OPTION_VAL_LIGHT_YELLOW_2_27_PT_PT NULL
+#define OPTION_VAL_WHITE_28_PT_PT NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_OFF_COLOR_LABEL_PT_PT NULL
 #define CORE_OPTION_NAME_VMU1_SCREEN_OPACITY_LABEL_PT_PT NULL
 #define OPTION_VAL_40_PT_PT NULL
@@ -45047,8 +46930,8 @@ struct retro_core_option_v2_definition option_defs_pt_pt[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_PT_PT },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_PT_PT },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_PT_PT },
          { "BLACK 02",          OPTION_VAL_BLACK_02_PT_PT },
          { "BLUE 03",           OPTION_VAL_BLUE_03_PT_PT },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_PT_PT },
@@ -45069,12 +46952,13 @@ struct retro_core_option_v2_definition option_defs_pt_pt[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_PT_PT },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_PT_PT },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_PT_PT },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_PT_PT },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_PT_PT },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_PT_PT },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_PT_PT },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_PT_PT },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_PT_PT },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_PT_PT },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_PT_PT },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_PT_PT },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_PT_PT },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_PT_PT },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_PT_PT },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_PT_PT },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -45109,12 +46993,13 @@ struct retro_core_option_v2_definition option_defs_pt_pt[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_PT_PT },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_PT_PT },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_PT_PT },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_PT_PT },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_PT_PT },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_PT_PT },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_PT_PT },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_PT_PT },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_PT_PT },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_PT_PT },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_PT_PT },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_PT_PT },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_PT_PT },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_PT_PT },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_PT_PT },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_PT_PT },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -45196,8 +47081,8 @@ struct retro_core_option_v2_definition option_defs_pt_pt[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_PT_PT },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_PT_PT },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_PT_PT },
          { "BLACK 02",          OPTION_VAL_BLACK_02_PT_PT },
          { "BLUE 03",           OPTION_VAL_BLUE_03_PT_PT },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_PT_PT },
@@ -45218,12 +47103,13 @@ struct retro_core_option_v2_definition option_defs_pt_pt[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_PT_PT },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_PT_PT },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_PT_PT },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_PT_PT },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_PT_PT },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_PT_PT },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_PT_PT },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_PT_PT },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_PT_PT },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_PT_PT },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_PT_PT },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_PT_PT },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_PT_PT },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_PT_PT },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_PT_PT },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_PT_PT },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -45258,12 +47144,13 @@ struct retro_core_option_v2_definition option_defs_pt_pt[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_PT_PT },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_PT_PT },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_PT_PT },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_PT_PT },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_PT_PT },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_PT_PT },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_PT_PT },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_PT_PT },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_PT_PT },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_PT_PT },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_PT_PT },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_PT_PT },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_PT_PT },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_PT_PT },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_PT_PT },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_PT_PT },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -45345,8 +47232,8 @@ struct retro_core_option_v2_definition option_defs_pt_pt[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_PT_PT },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_PT_PT },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_PT_PT },
          { "BLACK 02",          OPTION_VAL_BLACK_02_PT_PT },
          { "BLUE 03",           OPTION_VAL_BLUE_03_PT_PT },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_PT_PT },
@@ -45367,12 +47254,13 @@ struct retro_core_option_v2_definition option_defs_pt_pt[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_PT_PT },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_PT_PT },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_PT_PT },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_PT_PT },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_PT_PT },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_PT_PT },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_PT_PT },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_PT_PT },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_PT_PT },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_PT_PT },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_PT_PT },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_PT_PT },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_PT_PT },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_PT_PT },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_PT_PT },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_PT_PT },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -45407,12 +47295,13 @@ struct retro_core_option_v2_definition option_defs_pt_pt[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_PT_PT },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_PT_PT },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_PT_PT },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_PT_PT },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_PT_PT },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_PT_PT },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_PT_PT },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_PT_PT },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_PT_PT },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_PT_PT },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_PT_PT },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_PT_PT },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_PT_PT },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_PT_PT },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_PT_PT },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_PT_PT },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -45494,8 +47383,8 @@ struct retro_core_option_v2_definition option_defs_pt_pt[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_PT_PT },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_PT_PT },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_PT_PT },
          { "BLACK 02",          OPTION_VAL_BLACK_02_PT_PT },
          { "BLUE 03",           OPTION_VAL_BLUE_03_PT_PT },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_PT_PT },
@@ -45516,12 +47405,13 @@ struct retro_core_option_v2_definition option_defs_pt_pt[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_PT_PT },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_PT_PT },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_PT_PT },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_PT_PT },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_PT_PT },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_PT_PT },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_PT_PT },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_PT_PT },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_PT_PT },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_PT_PT },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_PT_PT },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_PT_PT },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_PT_PT },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_PT_PT },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_PT_PT },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_PT_PT },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -45556,12 +47446,13 @@ struct retro_core_option_v2_definition option_defs_pt_pt[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_PT_PT },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_PT_PT },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_PT_PT },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_PT_PT },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_PT_PT },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_PT_PT },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_PT_PT },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_PT_PT },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_PT_PT },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_PT_PT },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_PT_PT },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_PT_PT },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_PT_PT },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_PT_PT },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_PT_PT },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_PT_PT },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -45611,7 +47502,7 @@ struct retro_core_option_v2_definition option_defs_pt_pt[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_PT_PT },
+         { "White",    OPTION_VAL_WHITE_28_PT_PT },
          { "Red",      OPTION_VAL_RED_11_PT_PT },
          { "Green",    OPTION_VAL_GREEN_05_PT_PT },
          { "Blue",     OPTION_VAL_BLUE_03_PT_PT },
@@ -45628,7 +47519,7 @@ struct retro_core_option_v2_definition option_defs_pt_pt[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_PT_PT },
+         { "White",    OPTION_VAL_WHITE_28_PT_PT },
          { "Red",      OPTION_VAL_RED_11_PT_PT },
          { "Green",    OPTION_VAL_GREEN_05_PT_PT },
          { "Blue",     OPTION_VAL_BLUE_03_PT_PT },
@@ -45645,7 +47536,7 @@ struct retro_core_option_v2_definition option_defs_pt_pt[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_PT_PT },
+         { "White",    OPTION_VAL_WHITE_28_PT_PT },
          { "Red",      OPTION_VAL_RED_11_PT_PT },
          { "Green",    OPTION_VAL_GREEN_05_PT_PT },
          { "Blue",     OPTION_VAL_BLUE_03_PT_PT },
@@ -45662,7 +47553,7 @@ struct retro_core_option_v2_definition option_defs_pt_pt[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_PT_PT },
+         { "White",    OPTION_VAL_WHITE_28_PT_PT },
          { "Red",      OPTION_VAL_RED_11_PT_PT },
          { "Green",    OPTION_VAL_GREEN_05_PT_PT },
          { "Blue",     OPTION_VAL_BLUE_03_PT_PT },
@@ -45751,7 +47642,7 @@ struct retro_core_options_v2 options_pt_pt = {
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_LABEL_RO NULL
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_INFO_0_RO NULL
 #define CORE_OPTION_NAME_CABLE_TYPE_LABEL_RO NULL
-#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_RO NULL
+#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_RO "The output signal type. VGA is recommended, but some games might not be compatible with it."
 #define OPTION_VAL_TV_RGB_RO NULL
 #define OPTION_VAL_TV_COMPOSITE_RO NULL
 #define OPTION_VAL_VGA_RGB_RO NULL
@@ -45840,8 +47731,8 @@ struct retro_core_options_v2 options_pt_pt = {
 #define CORE_OPTION_NAME_VMU1_SCREEN_SIZE_MULT_LABEL_RO NULL
 #define OPTION_VAL_5X_RO NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_ON_COLOR_LABEL_RO NULL
-#define OPTION_VAL_DEFAULT_OFF_01_RO NULL
 #define OPTION_VAL_DEFAULT_ON_00_RO NULL
+#define OPTION_VAL_DEFAULT_OFF_01_RO NULL
 #define OPTION_VAL_BLACK_02_RO NULL
 #define OPTION_VAL_BLUE_03_RO NULL
 #define OPTION_VAL_LIGHT_BLUE_04_RO NULL
@@ -45862,12 +47753,13 @@ struct retro_core_options_v2 options_pt_pt = {
 #define OPTION_VAL_LIGHT_CYAN_2_19_RO NULL
 #define OPTION_VAL_LIGHT_RED_2_20_RO NULL
 #define OPTION_VAL_MAGENTA_21_RO NULL
-#define OPTION_VAL_LIGHT_ORANGE_22_RO NULL
-#define OPTION_VAL_ORANGE_23_RO NULL
-#define OPTION_VAL_LIGHT_PURPLE_3_24_RO NULL
-#define OPTION_VAL_LIGHT_YELLOW_25_RO NULL
-#define OPTION_VAL_LIGHT_YELLOW_2_26_RO NULL
-#define OPTION_VAL_WHITE_27_RO NULL
+#define OPTION_VAL_LIGHT_PURPLE_3_22_RO NULL
+#define OPTION_VAL_LIGHT_ORANGE_23_RO NULL
+#define OPTION_VAL_ORANGE_24_RO NULL
+#define OPTION_VAL_LIGHT_PURPLE_4_25_RO NULL
+#define OPTION_VAL_LIGHT_YELLOW_26_RO NULL
+#define OPTION_VAL_LIGHT_YELLOW_2_27_RO NULL
+#define OPTION_VAL_WHITE_28_RO NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_OFF_COLOR_LABEL_RO NULL
 #define CORE_OPTION_NAME_VMU1_SCREEN_OPACITY_LABEL_RO NULL
 #define OPTION_VAL_40_RO NULL
@@ -46677,8 +48569,8 @@ struct retro_core_option_v2_definition option_defs_ro[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_RO },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_RO },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_RO },
          { "BLACK 02",          OPTION_VAL_BLACK_02_RO },
          { "BLUE 03",           OPTION_VAL_BLUE_03_RO },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_RO },
@@ -46699,12 +48591,13 @@ struct retro_core_option_v2_definition option_defs_ro[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_RO },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_RO },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_RO },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_RO },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_RO },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_RO },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_RO },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_RO },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_RO },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_RO },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_RO },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_RO },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_RO },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_RO },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_RO },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_RO },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -46739,12 +48632,13 @@ struct retro_core_option_v2_definition option_defs_ro[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_RO },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_RO },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_RO },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_RO },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_RO },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_RO },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_RO },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_RO },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_RO },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_RO },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_RO },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_RO },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_RO },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_RO },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_RO },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_RO },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -46826,8 +48720,8 @@ struct retro_core_option_v2_definition option_defs_ro[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_RO },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_RO },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_RO },
          { "BLACK 02",          OPTION_VAL_BLACK_02_RO },
          { "BLUE 03",           OPTION_VAL_BLUE_03_RO },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_RO },
@@ -46848,12 +48742,13 @@ struct retro_core_option_v2_definition option_defs_ro[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_RO },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_RO },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_RO },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_RO },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_RO },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_RO },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_RO },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_RO },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_RO },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_RO },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_RO },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_RO },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_RO },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_RO },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_RO },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_RO },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -46888,12 +48783,13 @@ struct retro_core_option_v2_definition option_defs_ro[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_RO },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_RO },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_RO },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_RO },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_RO },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_RO },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_RO },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_RO },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_RO },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_RO },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_RO },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_RO },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_RO },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_RO },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_RO },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_RO },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -46975,8 +48871,8 @@ struct retro_core_option_v2_definition option_defs_ro[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_RO },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_RO },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_RO },
          { "BLACK 02",          OPTION_VAL_BLACK_02_RO },
          { "BLUE 03",           OPTION_VAL_BLUE_03_RO },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_RO },
@@ -46997,12 +48893,13 @@ struct retro_core_option_v2_definition option_defs_ro[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_RO },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_RO },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_RO },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_RO },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_RO },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_RO },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_RO },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_RO },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_RO },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_RO },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_RO },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_RO },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_RO },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_RO },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_RO },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_RO },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -47037,12 +48934,13 @@ struct retro_core_option_v2_definition option_defs_ro[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_RO },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_RO },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_RO },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_RO },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_RO },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_RO },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_RO },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_RO },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_RO },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_RO },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_RO },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_RO },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_RO },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_RO },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_RO },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_RO },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -47124,8 +49022,8 @@ struct retro_core_option_v2_definition option_defs_ro[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_RO },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_RO },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_RO },
          { "BLACK 02",          OPTION_VAL_BLACK_02_RO },
          { "BLUE 03",           OPTION_VAL_BLUE_03_RO },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_RO },
@@ -47146,12 +49044,13 @@ struct retro_core_option_v2_definition option_defs_ro[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_RO },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_RO },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_RO },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_RO },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_RO },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_RO },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_RO },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_RO },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_RO },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_RO },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_RO },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_RO },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_RO },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_RO },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_RO },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_RO },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -47186,12 +49085,13 @@ struct retro_core_option_v2_definition option_defs_ro[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_RO },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_RO },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_RO },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_RO },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_RO },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_RO },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_RO },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_RO },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_RO },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_RO },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_RO },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_RO },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_RO },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_RO },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_RO },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_RO },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -47241,7 +49141,7 @@ struct retro_core_option_v2_definition option_defs_ro[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_RO },
+         { "White",    OPTION_VAL_WHITE_28_RO },
          { "Red",      OPTION_VAL_RED_11_RO },
          { "Green",    OPTION_VAL_GREEN_05_RO },
          { "Blue",     OPTION_VAL_BLUE_03_RO },
@@ -47258,7 +49158,7 @@ struct retro_core_option_v2_definition option_defs_ro[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_RO },
+         { "White",    OPTION_VAL_WHITE_28_RO },
          { "Red",      OPTION_VAL_RED_11_RO },
          { "Green",    OPTION_VAL_GREEN_05_RO },
          { "Blue",     OPTION_VAL_BLUE_03_RO },
@@ -47275,7 +49175,7 @@ struct retro_core_option_v2_definition option_defs_ro[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_RO },
+         { "White",    OPTION_VAL_WHITE_28_RO },
          { "Red",      OPTION_VAL_RED_11_RO },
          { "Green",    OPTION_VAL_GREEN_05_RO },
          { "Blue",     OPTION_VAL_BLUE_03_RO },
@@ -47292,7 +49192,7 @@ struct retro_core_option_v2_definition option_defs_ro[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_RO },
+         { "White",    OPTION_VAL_WHITE_28_RO },
          { "Red",      OPTION_VAL_RED_11_RO },
          { "Green",    OPTION_VAL_GREEN_05_RO },
          { "Blue",     OPTION_VAL_BLUE_03_RO },
@@ -47309,34 +49209,34 @@ struct retro_core_options_v2 options_ro = {
 
 /* RETRO_LANGUAGE_RU */
 
-#define CATEGORY_VIDEO_LABEL_RU NULL
-#define CATEGORY_VIDEO_INFO_0_RU NULL
-#define CATEGORY_INPUT_LABEL_RU NULL
-#define CATEGORY_INPUT_INFO_0_RU NULL
+#define CATEGORY_VIDEO_LABEL_RU "Видео"
+#define CATEGORY_VIDEO_INFO_0_RU "Настройка визуальных буферов и эффектов, параметров отображения, частоты/пропуска кадров и параметров рендеринга/текстур."
+#define CATEGORY_INPUT_LABEL_RU "Ввод"
+#define CATEGORY_INPUT_INFO_0_RU "Настройки контроллера и светового пистолета."
 #define CATEGORY_VMU_LABEL_RU "Визуальная память"
 #define CATEGORY_VMU_INFO_0_RU "Настройка параметров блоков визуальной памяти (VMU)."
 #define CATEGORY_HACKS_LABEL_RU "Хаки эмуляции"
-#define CATEGORY_HACKS_INFO_0_RU NULL
-#define CORE_OPTION_NAME_CPU_MODE_LABEL_RU NULL
-#define OPTION_VAL_DYNAMIC_RECOMPILER_RU NULL
-#define OPTION_VAL_GENERIC_RECOMPILER_RU NULL
-#define CORE_OPTION_NAME_BOOT_TO_BIOS_LABEL_RU NULL
-#define CORE_OPTION_NAME_BOOT_TO_BIOS_INFO_0_RU NULL
-#define CORE_OPTION_NAME_SYSTEM_LABEL_RU NULL
-#define OPTION_VAL_AUTO_RU NULL
+#define CATEGORY_HACKS_INFO_0_RU "Настройки различных хаков эмуляции."
+#define CORE_OPTION_NAME_CPU_MODE_LABEL_RU "Режим CPU (требуется перезапуск)"
+#define OPTION_VAL_DYNAMIC_RECOMPILER_RU "Динамический рекомпилятор"
+#define OPTION_VAL_GENERIC_RECOMPILER_RU "Типовой рекомпилятор"
+#define CORE_OPTION_NAME_BOOT_TO_BIOS_LABEL_RU "Загружаться в BIOS (требуется перезапуск)"
+#define CORE_OPTION_NAME_BOOT_TO_BIOS_INFO_0_RU "Загружаться непосредственно в меню Dreamcast BIOS."
+#define CORE_OPTION_NAME_SYSTEM_LABEL_RU "Тип системы (требуется перезапуск)"
+#define OPTION_VAL_AUTO_RU "Авто"
 #define OPTION_VAL_DREAMCAST_RU NULL
 #define OPTION_VAL_NAOMI_RU NULL
 #define OPTION_VAL_ATOMISWAVE_RU NULL
 #define CORE_OPTION_NAME_HLE_BIOS_LABEL_RU NULL
-#define CORE_OPTION_NAME_HLE_BIOS_INFO_0_RU NULL
-#define CORE_OPTION_NAME_OIT_ABUFFER_SIZE_LABEL_RU NULL
+#define CORE_OPTION_NAME_HLE_BIOS_INFO_0_RU "Принудительное использование высокоуровневой эмуляции BIOS."
+#define CORE_OPTION_NAME_OIT_ABUFFER_SIZE_LABEL_RU "Размер накопительного буфера (требуется перезапуск)"
 #define CORE_OPTION_NAME_OIT_ABUFFER_SIZE_INFO_0_RU "Большие значения могут требоваться для правильного отображения высоких разрешений."
-#define OPTION_VAL_512MB_RU NULL
-#define OPTION_VAL_1GB_RU NULL
-#define OPTION_VAL_2GB_RU NULL
-#define OPTION_VAL_4GB_RU NULL
-#define CORE_OPTION_NAME_INTERNAL_RESOLUTION_LABEL_RU NULL
-#define CORE_OPTION_NAME_INTERNAL_RESOLUTION_INFO_0_RU NULL
+#define OPTION_VAL_512MB_RU "512 МБ"
+#define OPTION_VAL_1GB_RU "1 Гб"
+#define OPTION_VAL_2GB_RU "2 Гб"
+#define OPTION_VAL_4GB_RU "4 Гб"
+#define CORE_OPTION_NAME_INTERNAL_RESOLUTION_LABEL_RU "Внутреннее разрешение (требуется перезапуск)"
+#define CORE_OPTION_NAME_INTERNAL_RESOLUTION_INFO_0_RU "Настройка разрешения рендеринга."
 #define OPTION_VAL_320X240_RU NULL
 #define OPTION_VAL_640X480_RU NULL
 #define OPTION_VAL_800X600_RU NULL
@@ -47364,53 +49264,53 @@ struct retro_core_options_v2 options_ro = {
 #define OPTION_VAL_11520X8640_RU NULL
 #define OPTION_VAL_12160X9120_RU NULL
 #define OPTION_VAL_12800X9600_RU NULL
-#define CORE_OPTION_NAME_SCREEN_ROTATION_LABEL_RU NULL
-#define OPTION_VAL_HORIZONTAL_RU NULL
-#define OPTION_VAL_VERTICAL_RU NULL
-#define CORE_OPTION_NAME_ALPHA_SORTING_LABEL_RU NULL
+#define CORE_OPTION_NAME_SCREEN_ROTATION_LABEL_RU "Положение экрана"
+#define OPTION_VAL_HORIZONTAL_RU "Горизонтальная"
+#define OPTION_VAL_VERTICAL_RU "Вертикальная"
+#define CORE_OPTION_NAME_ALPHA_SORTING_LABEL_RU "Альфа-сортировка"
 #define OPTION_VAL_PER_STRIP_FAST_LEAST_ACCURATE_RU NULL
 #define OPTION_VAL_PER_TRIANGLE_NORMAL_RU NULL
 #define OPTION_VAL_PER_PIXEL_ACCURATE_RU NULL
-#define CORE_OPTION_NAME_GDROM_FAST_LOADING_LABEL_RU NULL
-#define CORE_OPTION_NAME_GDROM_FAST_LOADING_INFO_0_RU NULL
-#define CORE_OPTION_NAME_MIPMAPPING_LABEL_RU NULL
-#define CORE_OPTION_NAME_FOG_LABEL_RU NULL
+#define CORE_OPTION_NAME_GDROM_FAST_LOADING_LABEL_RU "Быстрая загрузка GD-ROM (неточно)"
+#define CORE_OPTION_NAME_GDROM_FAST_LOADING_INFO_0_RU "Ускоряет загрузку GD-ROM."
+#define CORE_OPTION_NAME_MIPMAPPING_LABEL_RU "MIP-текстурирование"
+#define CORE_OPTION_NAME_FOG_LABEL_RU "Эффекты тумана"
 #define CORE_OPTION_NAME_VOLUME_MODIFIER_ENABLE_LABEL_RU NULL
 #define CORE_OPTION_NAME_VOLUME_MODIFIER_ENABLE_INFO_0_RU NULL
 #define CORE_OPTION_NAME_WIDESCREEN_HACK_LABEL_RU NULL
-#define CORE_OPTION_NAME_WIDESCREEN_CHEATS_LABEL_RU NULL
-#define CORE_OPTION_NAME_WIDESCREEN_CHEATS_INFO_0_RU NULL
-#define CORE_OPTION_NAME_CABLE_TYPE_LABEL_RU NULL
+#define CORE_OPTION_NAME_WIDESCREEN_CHEATS_LABEL_RU "Широкоэкранные чит-коды (требуется перезапуск)"
+#define CORE_OPTION_NAME_WIDESCREEN_CHEATS_INFO_0_RU "Активирует чит-коды, которые позволяют отображать некоторые игры в широкоэкранном формате."
+#define CORE_OPTION_NAME_CABLE_TYPE_LABEL_RU "Тип кабеля"
 #define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_RU "Тип выходного сигнала. Рекомендуется устанавливать VGA, но часть игр может быть несовместима с этим режимом."
-#define OPTION_VAL_TV_RGB_RU NULL
-#define OPTION_VAL_TV_COMPOSITE_RU NULL
+#define OPTION_VAL_TV_RGB_RU "ТВ (RGB)"
+#define OPTION_VAL_TV_COMPOSITE_RU "ТВ (композитный)"
 #define OPTION_VAL_VGA_RGB_RU NULL
 #define CORE_OPTION_NAME_BROADCAST_LABEL_RU "Стандарт вещания"
-#define OPTION_VAL_DEFAULT_RU NULL
-#define OPTION_VAL_PAL_M_RU NULL
-#define OPTION_VAL_PAL_N_RU NULL
+#define OPTION_VAL_DEFAULT_RU "Стандартный"
+#define OPTION_VAL_PAL_M_RU "PAL-M (Бразилия)"
+#define OPTION_VAL_PAL_N_RU "PAL-N (Аргентина, Парагвай, Уругвай)"
 #define OPTION_VAL_NTSC_RU NULL
-#define OPTION_VAL_PAL_RU NULL
-#define CORE_OPTION_NAME_FRAMERATE_LABEL_RU NULL
-#define CORE_OPTION_NAME_FRAMERATE_INFO_0_RU NULL
-#define OPTION_VAL_FULLSPEED_RU NULL
-#define OPTION_VAL_NORMAL_RU NULL
-#define CORE_OPTION_NAME_REGION_LABEL_RU NULL
-#define OPTION_VAL_JAPAN_RU NULL
-#define OPTION_VAL_USA_RU NULL
-#define OPTION_VAL_EUROPE_RU NULL
-#define CORE_OPTION_NAME_LANGUAGE_LABEL_RU NULL
-#define OPTION_VAL_JAPANESE_RU NULL
-#define OPTION_VAL_ENGLISH_RU NULL
-#define OPTION_VAL_GERMAN_RU NULL
-#define OPTION_VAL_FRENCH_RU NULL
-#define OPTION_VAL_SPANISH_RU NULL
-#define OPTION_VAL_ITALIAN_RU NULL
-#define CORE_OPTION_NAME_DIV_MATCHING_LABEL_RU NULL
-#define CORE_OPTION_NAME_DIV_MATCHING_INFO_0_RU NULL
-#define CORE_OPTION_NAME_FORCE_WINCE_LABEL_RU NULL
+#define OPTION_VAL_PAL_RU "PAL (Мир)"
+#define CORE_OPTION_NAME_FRAMERATE_LABEL_RU "Частота кадров"
+#define CORE_OPTION_NAME_FRAMERATE_INFO_0_RU "Влияет на взаимодействие эмулятора с фронтендом. 'Полная скорость' - эмулятор возвращает управление RetroArch после рендеринга каждого кадра. 'Нормально' - эмулятор возвращает управление RetroArch при каждом прерывании интервала вертикального гашения. В большинстве случаев следует использовать режим 'Полная скорость'. 'Нормально' на некоторых системах может улучшать распределение кадров, но на статичных экранах (напр. при загрузке/паузе) может делать управление неотзывчивым. Примечание: работает только при откл. опции 'Рендеринг в отдельном потоке'."
+#define OPTION_VAL_FULLSPEED_RU "Полная скорость"
+#define OPTION_VAL_NORMAL_RU "Нормальный"
+#define CORE_OPTION_NAME_REGION_LABEL_RU "Регион"
+#define OPTION_VAL_JAPAN_RU "Япония"
+#define OPTION_VAL_USA_RU "США"
+#define OPTION_VAL_EUROPE_RU "Европа"
+#define CORE_OPTION_NAME_LANGUAGE_LABEL_RU "Язык"
+#define OPTION_VAL_JAPANESE_RU "Японский"
+#define OPTION_VAL_ENGLISH_RU "Английский"
+#define OPTION_VAL_GERMAN_RU "Немецкий"
+#define OPTION_VAL_FRENCH_RU "Французский"
+#define OPTION_VAL_SPANISH_RU "Испанский"
+#define OPTION_VAL_ITALIAN_RU "Итальянский"
+#define CORE_OPTION_NAME_DIV_MATCHING_LABEL_RU "DIV-совпадение"
+#define CORE_OPTION_NAME_DIV_MATCHING_INFO_0_RU "Оптимизация целочисленного деления."
+#define CORE_OPTION_NAME_FORCE_WINCE_LABEL_RU "Принудительный режим Windows CE"
 #define CORE_OPTION_NAME_FORCE_WINCE_INFO_0_RU "Включает полную эмуляцию MMU (блока управления памятью) и другие настройки для игр Windows CE."
-#define CORE_OPTION_NAME_ANALOG_STICK_DEADZONE_LABEL_RU NULL
+#define CORE_OPTION_NAME_ANALOG_STICK_DEADZONE_LABEL_RU "Мёртвая зона аналогового стика"
 #define OPTION_VAL_0_RU NULL
 #define OPTION_VAL_5_RU NULL
 #define OPTION_VAL_10_RU NULL
@@ -47418,12 +49318,12 @@ struct retro_core_options_v2 options_ro = {
 #define OPTION_VAL_20_RU NULL
 #define OPTION_VAL_25_RU NULL
 #define OPTION_VAL_30_RU NULL
-#define CORE_OPTION_NAME_TRIGGER_DEADZONE_LABEL_RU NULL
-#define CORE_OPTION_NAME_DIGITAL_TRIGGERS_LABEL_RU NULL
-#define CORE_OPTION_NAME_ENABLE_DSP_LABEL_RU NULL
-#define CORE_OPTION_NAME_ENABLE_DSP_INFO_0_RU NULL
-#define CORE_OPTION_NAME_ANISOTROPIC_FILTERING_LABEL_RU NULL
-#define CORE_OPTION_NAME_ANISOTROPIC_FILTERING_INFO_0_RU NULL
+#define CORE_OPTION_NAME_TRIGGER_DEADZONE_LABEL_RU "Мёртвая зона триггеров"
+#define CORE_OPTION_NAME_DIGITAL_TRIGGERS_LABEL_RU "Цифровые триггеры"
+#define CORE_OPTION_NAME_ENABLE_DSP_LABEL_RU "Включить DSP"
+#define CORE_OPTION_NAME_ENABLE_DSP_INFO_0_RU "Включить эмуляцию звукового DSP (цифрового сигнального процессора) Dreamcast. Улучшает точность генерируемого звука, но повышает системные требования."
+#define CORE_OPTION_NAME_ANISOTROPIC_FILTERING_LABEL_RU "Анизотропная фильтрация"
+#define CORE_OPTION_NAME_ANISOTROPIC_FILTERING_INFO_0_RU "Улучшает качество текстур на поверхностях, расположенных под непрямым углом к камере."
 #define CORE_OPTION_NAME_PVR2_FILTERING_LABEL_RU NULL
 #define CORE_OPTION_NAME_PVR2_FILTERING_INFO_0_RU NULL
 #define CORE_OPTION_NAME_TEXUPSCALE_LABEL_RU NULL
@@ -47452,7 +49352,7 @@ struct retro_core_options_v2 options_ro = {
 #define CORE_OPTION_NAME_ENABLE_NAOMI_15KHZ_DIPSWITCH_LABEL_RU NULL
 #define CORE_OPTION_NAME_ENABLE_NAOMI_15KHZ_DIPSWITCH_INFO_0_RU NULL
 #define CORE_OPTION_NAME_CUSTOM_TEXTURES_LABEL_RU NULL
-#define CORE_OPTION_NAME_DUMP_TEXTURES_LABEL_RU NULL
+#define CORE_OPTION_NAME_DUMP_TEXTURES_LABEL_RU "Дамп текстур"
 #define CORE_OPTION_NAME_PER_CONTENT_VMUS_LABEL_RU "Отдельные блоки визуальной памяти (VMU) для игр"
 #define CORE_OPTION_NAME_PER_CONTENT_VMUS_LABEL_CAT_RU "VMU для каждой игры"
 #define CORE_OPTION_NAME_PER_CONTENT_VMUS_INFO_0_RU NULL
@@ -47461,30 +49361,30 @@ struct retro_core_options_v2 options_ro = {
 #define CORE_OPTION_NAME_SHOW_VMU_SCREEN_SETTINGS_LABEL_RU "Показывать настройки отображения блока визуальной памяти (VMU)"
 #define CORE_OPTION_NAME_SHOW_VMU_SCREEN_SETTINGS_LABEL_CAT_RU "Показывать настройки отображения VMU"
 #define CORE_OPTION_NAME_SHOW_VMU_SCREEN_SETTINGS_INFO_0_RU NULL
-#define CORE_OPTION_NAME_VMU1_SCREEN_DISPLAY_LABEL_RU NULL
-#define CORE_OPTION_NAME_VMU1_SCREEN_POSITION_LABEL_RU NULL
-#define OPTION_VAL_UPPER_LEFT_RU NULL
-#define OPTION_VAL_UPPER_RIGHT_RU NULL
-#define OPTION_VAL_LOWER_LEFT_RU NULL
-#define OPTION_VAL_LOWER_RIGHT_RU NULL
-#define CORE_OPTION_NAME_VMU1_SCREEN_SIZE_MULT_LABEL_RU NULL
+#define CORE_OPTION_NAME_VMU1_SCREEN_DISPLAY_LABEL_RU "Показывать экран VMU 1"
+#define CORE_OPTION_NAME_VMU1_SCREEN_POSITION_LABEL_RU "Положение экрана VMU 1"
+#define OPTION_VAL_UPPER_LEFT_RU "Вверху слева"
+#define OPTION_VAL_UPPER_RIGHT_RU "Вверху справа"
+#define OPTION_VAL_LOWER_LEFT_RU "Внизу слева"
+#define OPTION_VAL_LOWER_RIGHT_RU "Внизу справа"
+#define CORE_OPTION_NAME_VMU1_SCREEN_SIZE_MULT_LABEL_RU "Размер экрана VMU 1"
 #define OPTION_VAL_5X_RU NULL
-#define CORE_OPTION_NAME_VMU1_PIXEL_ON_COLOR_LABEL_RU NULL
-#define OPTION_VAL_DEFAULT_OFF_01_RU NULL
-#define OPTION_VAL_DEFAULT_ON_00_RU NULL
-#define OPTION_VAL_BLACK_02_RU NULL
-#define OPTION_VAL_BLUE_03_RU NULL
-#define OPTION_VAL_LIGHT_BLUE_04_RU NULL
-#define OPTION_VAL_GREEN_05_RU NULL
-#define OPTION_VAL_CYAN_06_RU NULL
-#define OPTION_VAL_CYAN_BLUE_07_RU NULL
-#define OPTION_VAL_LIGHT_GREEN_08_RU NULL
-#define OPTION_VAL_CYAN_GREEN_09_RU NULL
-#define OPTION_VAL_LIGHT_CYAN_10_RU NULL
-#define OPTION_VAL_RED_11_RU NULL
-#define OPTION_VAL_PURPLE_12_RU NULL
+#define CORE_OPTION_NAME_VMU1_PIXEL_ON_COLOR_LABEL_RU "Цвет вкл. пикселей VMU 1"
+#define OPTION_VAL_DEFAULT_ON_00_RU "По умолчанию ВКЛ"
+#define OPTION_VAL_DEFAULT_OFF_01_RU "По умолчанию ВЫКЛ"
+#define OPTION_VAL_BLACK_02_RU "Чёрный"
+#define OPTION_VAL_BLUE_03_RU "Голубая"
+#define OPTION_VAL_LIGHT_BLUE_04_RU "Светло-синий"
+#define OPTION_VAL_GREEN_05_RU "Зелёная"
+#define OPTION_VAL_CYAN_06_RU "Сине-зелёный"
+#define OPTION_VAL_CYAN_BLUE_07_RU "Голубовато-синий"
+#define OPTION_VAL_LIGHT_GREEN_08_RU "Светло-зелёный"
+#define OPTION_VAL_CYAN_GREEN_09_RU "Голубовато-зелёный"
+#define OPTION_VAL_LIGHT_CYAN_10_RU "Светло-голубой"
+#define OPTION_VAL_RED_11_RU "Красная"
+#define OPTION_VAL_PURPLE_12_RU "Фиолетовый"
 #define OPTION_VAL_LIGHT_PURPLE_13_RU NULL
-#define OPTION_VAL_YELLOW_14_RU NULL
+#define OPTION_VAL_YELLOW_14_RU "Жёлтая"
 #define OPTION_VAL_GRAY_15_RU NULL
 #define OPTION_VAL_LIGHT_PURPLE_2_16_RU NULL
 #define OPTION_VAL_LIGHT_GREEN_2_17_RU NULL
@@ -47492,14 +49392,15 @@ struct retro_core_options_v2 options_ro = {
 #define OPTION_VAL_LIGHT_CYAN_2_19_RU NULL
 #define OPTION_VAL_LIGHT_RED_2_20_RU NULL
 #define OPTION_VAL_MAGENTA_21_RU NULL
-#define OPTION_VAL_LIGHT_ORANGE_22_RU NULL
-#define OPTION_VAL_ORANGE_23_RU NULL
-#define OPTION_VAL_LIGHT_PURPLE_3_24_RU NULL
-#define OPTION_VAL_LIGHT_YELLOW_25_RU NULL
-#define OPTION_VAL_LIGHT_YELLOW_2_26_RU NULL
-#define OPTION_VAL_WHITE_27_RU NULL
-#define CORE_OPTION_NAME_VMU1_PIXEL_OFF_COLOR_LABEL_RU NULL
-#define CORE_OPTION_NAME_VMU1_SCREEN_OPACITY_LABEL_RU NULL
+#define OPTION_VAL_LIGHT_PURPLE_3_22_RU NULL
+#define OPTION_VAL_LIGHT_ORANGE_23_RU NULL
+#define OPTION_VAL_ORANGE_24_RU NULL
+#define OPTION_VAL_LIGHT_PURPLE_4_25_RU NULL
+#define OPTION_VAL_LIGHT_YELLOW_26_RU NULL
+#define OPTION_VAL_LIGHT_YELLOW_2_27_RU NULL
+#define OPTION_VAL_WHITE_28_RU NULL
+#define CORE_OPTION_NAME_VMU1_PIXEL_OFF_COLOR_LABEL_RU "Цвет откл. пикселей VMU 1"
+#define CORE_OPTION_NAME_VMU1_SCREEN_OPACITY_LABEL_RU "Видимость экрана VMU 1"
 #define OPTION_VAL_40_RU NULL
 #define OPTION_VAL_50_RU NULL
 #define OPTION_VAL_60_RU NULL
@@ -47507,24 +49408,24 @@ struct retro_core_options_v2 options_ro = {
 #define OPTION_VAL_80_RU NULL
 #define OPTION_VAL_90_RU NULL
 #define OPTION_VAL_100_RU NULL
-#define CORE_OPTION_NAME_VMU2_SCREEN_DISPLAY_LABEL_RU NULL
-#define CORE_OPTION_NAME_VMU2_SCREEN_POSITION_LABEL_RU NULL
-#define CORE_OPTION_NAME_VMU2_SCREEN_SIZE_MULT_LABEL_RU NULL
-#define CORE_OPTION_NAME_VMU2_PIXEL_ON_COLOR_LABEL_RU NULL
-#define CORE_OPTION_NAME_VMU2_PIXEL_OFF_COLOR_LABEL_RU NULL
-#define CORE_OPTION_NAME_VMU2_SCREEN_OPACITY_LABEL_RU NULL
-#define CORE_OPTION_NAME_VMU3_SCREEN_DISPLAY_LABEL_RU NULL
-#define CORE_OPTION_NAME_VMU3_SCREEN_POSITION_LABEL_RU NULL
-#define CORE_OPTION_NAME_VMU3_SCREEN_SIZE_MULT_LABEL_RU NULL
-#define CORE_OPTION_NAME_VMU3_PIXEL_ON_COLOR_LABEL_RU NULL
-#define CORE_OPTION_NAME_VMU3_PIXEL_OFF_COLOR_LABEL_RU NULL
-#define CORE_OPTION_NAME_VMU3_SCREEN_OPACITY_LABEL_RU NULL
-#define CORE_OPTION_NAME_VMU4_SCREEN_DISPLAY_LABEL_RU NULL
-#define CORE_OPTION_NAME_VMU4_SCREEN_POSITION_LABEL_RU NULL
-#define CORE_OPTION_NAME_VMU4_SCREEN_SIZE_MULT_LABEL_RU NULL
-#define CORE_OPTION_NAME_VMU4_PIXEL_ON_COLOR_LABEL_RU NULL
-#define CORE_OPTION_NAME_VMU4_PIXEL_OFF_COLOR_LABEL_RU NULL
-#define CORE_OPTION_NAME_VMU4_SCREEN_OPACITY_LABEL_RU NULL
+#define CORE_OPTION_NAME_VMU2_SCREEN_DISPLAY_LABEL_RU "Показывать экран VMU 2"
+#define CORE_OPTION_NAME_VMU2_SCREEN_POSITION_LABEL_RU "Положение экрана VMU 2"
+#define CORE_OPTION_NAME_VMU2_SCREEN_SIZE_MULT_LABEL_RU "Размер экрана VMU 2"
+#define CORE_OPTION_NAME_VMU2_PIXEL_ON_COLOR_LABEL_RU "Цвет вкл. пикселей VMU 2"
+#define CORE_OPTION_NAME_VMU2_PIXEL_OFF_COLOR_LABEL_RU "Цвет выкл. пикселей VMU 2"
+#define CORE_OPTION_NAME_VMU2_SCREEN_OPACITY_LABEL_RU "Видимость экрана VMU 2"
+#define CORE_OPTION_NAME_VMU3_SCREEN_DISPLAY_LABEL_RU "Показывать экран VMU 3"
+#define CORE_OPTION_NAME_VMU3_SCREEN_POSITION_LABEL_RU "Положение экрана VMU 3"
+#define CORE_OPTION_NAME_VMU3_SCREEN_SIZE_MULT_LABEL_RU "Размер экрана VMU 3"
+#define CORE_OPTION_NAME_VMU3_PIXEL_ON_COLOR_LABEL_RU "Цвет вкл. пикселей VMU 3"
+#define CORE_OPTION_NAME_VMU3_PIXEL_OFF_COLOR_LABEL_RU "Цвет выкл. пикселей VMU 3"
+#define CORE_OPTION_NAME_VMU3_SCREEN_OPACITY_LABEL_RU "Видимость экрана VMU 3"
+#define CORE_OPTION_NAME_VMU4_SCREEN_DISPLAY_LABEL_RU "Показывать экран VMU 4"
+#define CORE_OPTION_NAME_VMU4_SCREEN_POSITION_LABEL_RU "Положение экрана VMU 4"
+#define CORE_OPTION_NAME_VMU4_SCREEN_SIZE_MULT_LABEL_RU "Размер экрана VMU 4"
+#define CORE_OPTION_NAME_VMU4_PIXEL_ON_COLOR_LABEL_RU "Цвет вкл. пикселей VMU 4"
+#define CORE_OPTION_NAME_VMU4_PIXEL_OFF_COLOR_LABEL_RU "Цвет выкл. пикселей VMU 4"
+#define CORE_OPTION_NAME_VMU4_SCREEN_OPACITY_LABEL_RU "Видимость экрана VMU 4"
 #define CORE_OPTION_NAME_SHOW_LIGHTGUN_SETTINGS_LABEL_RU NULL
 #define CORE_OPTION_NAME_SHOW_LIGHTGUN_SETTINGS_INFO_0_RU NULL
 #define CORE_OPTION_NAME_LIGHTGUN1_CROSSHAIR_LABEL_RU NULL
@@ -48307,8 +50208,8 @@ struct retro_core_option_v2_definition option_defs_ru[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_RU },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_RU },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_RU },
          { "BLACK 02",          OPTION_VAL_BLACK_02_RU },
          { "BLUE 03",           OPTION_VAL_BLUE_03_RU },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_RU },
@@ -48329,12 +50230,13 @@ struct retro_core_option_v2_definition option_defs_ru[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_RU },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_RU },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_RU },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_RU },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_RU },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_RU },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_RU },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_RU },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_RU },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_RU },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_RU },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_RU },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_RU },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_RU },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_RU },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_RU },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -48369,12 +50271,13 @@ struct retro_core_option_v2_definition option_defs_ru[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_RU },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_RU },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_RU },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_RU },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_RU },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_RU },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_RU },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_RU },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_RU },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_RU },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_RU },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_RU },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_RU },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_RU },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_RU },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_RU },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -48456,8 +50359,8 @@ struct retro_core_option_v2_definition option_defs_ru[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_RU },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_RU },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_RU },
          { "BLACK 02",          OPTION_VAL_BLACK_02_RU },
          { "BLUE 03",           OPTION_VAL_BLUE_03_RU },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_RU },
@@ -48478,12 +50381,13 @@ struct retro_core_option_v2_definition option_defs_ru[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_RU },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_RU },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_RU },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_RU },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_RU },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_RU },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_RU },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_RU },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_RU },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_RU },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_RU },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_RU },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_RU },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_RU },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_RU },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_RU },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -48518,12 +50422,13 @@ struct retro_core_option_v2_definition option_defs_ru[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_RU },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_RU },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_RU },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_RU },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_RU },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_RU },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_RU },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_RU },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_RU },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_RU },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_RU },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_RU },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_RU },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_RU },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_RU },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_RU },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -48605,8 +50510,8 @@ struct retro_core_option_v2_definition option_defs_ru[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_RU },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_RU },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_RU },
          { "BLACK 02",          OPTION_VAL_BLACK_02_RU },
          { "BLUE 03",           OPTION_VAL_BLUE_03_RU },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_RU },
@@ -48627,12 +50532,13 @@ struct retro_core_option_v2_definition option_defs_ru[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_RU },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_RU },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_RU },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_RU },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_RU },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_RU },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_RU },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_RU },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_RU },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_RU },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_RU },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_RU },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_RU },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_RU },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_RU },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_RU },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -48667,12 +50573,13 @@ struct retro_core_option_v2_definition option_defs_ru[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_RU },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_RU },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_RU },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_RU },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_RU },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_RU },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_RU },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_RU },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_RU },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_RU },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_RU },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_RU },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_RU },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_RU },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_RU },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_RU },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -48754,8 +50661,8 @@ struct retro_core_option_v2_definition option_defs_ru[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_RU },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_RU },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_RU },
          { "BLACK 02",          OPTION_VAL_BLACK_02_RU },
          { "BLUE 03",           OPTION_VAL_BLUE_03_RU },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_RU },
@@ -48776,12 +50683,13 @@ struct retro_core_option_v2_definition option_defs_ru[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_RU },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_RU },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_RU },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_RU },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_RU },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_RU },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_RU },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_RU },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_RU },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_RU },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_RU },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_RU },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_RU },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_RU },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_RU },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_RU },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -48816,12 +50724,13 @@ struct retro_core_option_v2_definition option_defs_ru[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_RU },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_RU },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_RU },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_RU },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_RU },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_RU },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_RU },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_RU },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_RU },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_RU },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_RU },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_RU },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_RU },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_RU },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_RU },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_RU },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -48871,7 +50780,7 @@ struct retro_core_option_v2_definition option_defs_ru[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_RU },
+         { "White",    OPTION_VAL_WHITE_28_RU },
          { "Red",      OPTION_VAL_RED_11_RU },
          { "Green",    OPTION_VAL_GREEN_05_RU },
          { "Blue",     OPTION_VAL_BLUE_03_RU },
@@ -48888,7 +50797,7 @@ struct retro_core_option_v2_definition option_defs_ru[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_RU },
+         { "White",    OPTION_VAL_WHITE_28_RU },
          { "Red",      OPTION_VAL_RED_11_RU },
          { "Green",    OPTION_VAL_GREEN_05_RU },
          { "Blue",     OPTION_VAL_BLUE_03_RU },
@@ -48905,7 +50814,7 @@ struct retro_core_option_v2_definition option_defs_ru[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_RU },
+         { "White",    OPTION_VAL_WHITE_28_RU },
          { "Red",      OPTION_VAL_RED_11_RU },
          { "Green",    OPTION_VAL_GREEN_05_RU },
          { "Blue",     OPTION_VAL_BLUE_03_RU },
@@ -48922,7 +50831,7 @@ struct retro_core_option_v2_definition option_defs_ru[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_RU },
+         { "White",    OPTION_VAL_WHITE_28_RU },
          { "Red",      OPTION_VAL_RED_11_RU },
          { "Green",    OPTION_VAL_GREEN_05_RU },
          { "Blue",     OPTION_VAL_BLUE_03_RU },
@@ -49011,7 +50920,7 @@ struct retro_core_options_v2 options_ru = {
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_LABEL_SI NULL
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_INFO_0_SI NULL
 #define CORE_OPTION_NAME_CABLE_TYPE_LABEL_SI NULL
-#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_SI NULL
+#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_SI "The output signal type. VGA is recommended, but some games might not be compatible with it."
 #define OPTION_VAL_TV_RGB_SI NULL
 #define OPTION_VAL_TV_COMPOSITE_SI NULL
 #define OPTION_VAL_VGA_RGB_SI NULL
@@ -49100,8 +51009,8 @@ struct retro_core_options_v2 options_ru = {
 #define CORE_OPTION_NAME_VMU1_SCREEN_SIZE_MULT_LABEL_SI NULL
 #define OPTION_VAL_5X_SI NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_ON_COLOR_LABEL_SI NULL
-#define OPTION_VAL_DEFAULT_OFF_01_SI NULL
 #define OPTION_VAL_DEFAULT_ON_00_SI NULL
+#define OPTION_VAL_DEFAULT_OFF_01_SI NULL
 #define OPTION_VAL_BLACK_02_SI NULL
 #define OPTION_VAL_BLUE_03_SI NULL
 #define OPTION_VAL_LIGHT_BLUE_04_SI NULL
@@ -49122,12 +51031,13 @@ struct retro_core_options_v2 options_ru = {
 #define OPTION_VAL_LIGHT_CYAN_2_19_SI NULL
 #define OPTION_VAL_LIGHT_RED_2_20_SI NULL
 #define OPTION_VAL_MAGENTA_21_SI NULL
-#define OPTION_VAL_LIGHT_ORANGE_22_SI NULL
-#define OPTION_VAL_ORANGE_23_SI NULL
-#define OPTION_VAL_LIGHT_PURPLE_3_24_SI NULL
-#define OPTION_VAL_LIGHT_YELLOW_25_SI NULL
-#define OPTION_VAL_LIGHT_YELLOW_2_26_SI NULL
-#define OPTION_VAL_WHITE_27_SI NULL
+#define OPTION_VAL_LIGHT_PURPLE_3_22_SI NULL
+#define OPTION_VAL_LIGHT_ORANGE_23_SI NULL
+#define OPTION_VAL_ORANGE_24_SI NULL
+#define OPTION_VAL_LIGHT_PURPLE_4_25_SI NULL
+#define OPTION_VAL_LIGHT_YELLOW_26_SI NULL
+#define OPTION_VAL_LIGHT_YELLOW_2_27_SI NULL
+#define OPTION_VAL_WHITE_28_SI NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_OFF_COLOR_LABEL_SI NULL
 #define CORE_OPTION_NAME_VMU1_SCREEN_OPACITY_LABEL_SI NULL
 #define OPTION_VAL_40_SI NULL
@@ -49937,8 +51847,8 @@ struct retro_core_option_v2_definition option_defs_si[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_SI },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_SI },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_SI },
          { "BLACK 02",          OPTION_VAL_BLACK_02_SI },
          { "BLUE 03",           OPTION_VAL_BLUE_03_SI },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_SI },
@@ -49959,12 +51869,13 @@ struct retro_core_option_v2_definition option_defs_si[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_SI },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_SI },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_SI },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_SI },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_SI },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_SI },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_SI },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_SI },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_SI },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_SI },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_SI },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_SI },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_SI },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_SI },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_SI },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_SI },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -49999,12 +51910,13 @@ struct retro_core_option_v2_definition option_defs_si[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_SI },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_SI },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_SI },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_SI },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_SI },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_SI },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_SI },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_SI },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_SI },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_SI },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_SI },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_SI },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_SI },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_SI },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_SI },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_SI },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -50086,8 +51998,8 @@ struct retro_core_option_v2_definition option_defs_si[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_SI },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_SI },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_SI },
          { "BLACK 02",          OPTION_VAL_BLACK_02_SI },
          { "BLUE 03",           OPTION_VAL_BLUE_03_SI },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_SI },
@@ -50108,12 +52020,13 @@ struct retro_core_option_v2_definition option_defs_si[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_SI },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_SI },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_SI },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_SI },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_SI },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_SI },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_SI },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_SI },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_SI },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_SI },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_SI },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_SI },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_SI },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_SI },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_SI },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_SI },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -50148,12 +52061,13 @@ struct retro_core_option_v2_definition option_defs_si[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_SI },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_SI },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_SI },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_SI },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_SI },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_SI },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_SI },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_SI },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_SI },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_SI },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_SI },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_SI },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_SI },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_SI },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_SI },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_SI },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -50235,8 +52149,8 @@ struct retro_core_option_v2_definition option_defs_si[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_SI },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_SI },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_SI },
          { "BLACK 02",          OPTION_VAL_BLACK_02_SI },
          { "BLUE 03",           OPTION_VAL_BLUE_03_SI },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_SI },
@@ -50257,12 +52171,13 @@ struct retro_core_option_v2_definition option_defs_si[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_SI },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_SI },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_SI },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_SI },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_SI },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_SI },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_SI },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_SI },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_SI },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_SI },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_SI },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_SI },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_SI },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_SI },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_SI },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_SI },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -50297,12 +52212,13 @@ struct retro_core_option_v2_definition option_defs_si[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_SI },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_SI },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_SI },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_SI },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_SI },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_SI },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_SI },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_SI },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_SI },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_SI },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_SI },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_SI },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_SI },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_SI },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_SI },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_SI },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -50384,8 +52300,8 @@ struct retro_core_option_v2_definition option_defs_si[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_SI },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_SI },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_SI },
          { "BLACK 02",          OPTION_VAL_BLACK_02_SI },
          { "BLUE 03",           OPTION_VAL_BLUE_03_SI },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_SI },
@@ -50406,12 +52322,13 @@ struct retro_core_option_v2_definition option_defs_si[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_SI },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_SI },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_SI },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_SI },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_SI },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_SI },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_SI },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_SI },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_SI },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_SI },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_SI },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_SI },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_SI },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_SI },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_SI },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_SI },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -50446,12 +52363,13 @@ struct retro_core_option_v2_definition option_defs_si[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_SI },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_SI },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_SI },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_SI },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_SI },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_SI },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_SI },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_SI },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_SI },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_SI },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_SI },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_SI },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_SI },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_SI },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_SI },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_SI },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -50501,7 +52419,7 @@ struct retro_core_option_v2_definition option_defs_si[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_SI },
+         { "White",    OPTION_VAL_WHITE_28_SI },
          { "Red",      OPTION_VAL_RED_11_SI },
          { "Green",    OPTION_VAL_GREEN_05_SI },
          { "Blue",     OPTION_VAL_BLUE_03_SI },
@@ -50518,7 +52436,7 @@ struct retro_core_option_v2_definition option_defs_si[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_SI },
+         { "White",    OPTION_VAL_WHITE_28_SI },
          { "Red",      OPTION_VAL_RED_11_SI },
          { "Green",    OPTION_VAL_GREEN_05_SI },
          { "Blue",     OPTION_VAL_BLUE_03_SI },
@@ -50535,7 +52453,7 @@ struct retro_core_option_v2_definition option_defs_si[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_SI },
+         { "White",    OPTION_VAL_WHITE_28_SI },
          { "Red",      OPTION_VAL_RED_11_SI },
          { "Green",    OPTION_VAL_GREEN_05_SI },
          { "Blue",     OPTION_VAL_BLUE_03_SI },
@@ -50552,7 +52470,7 @@ struct retro_core_option_v2_definition option_defs_si[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_SI },
+         { "White",    OPTION_VAL_WHITE_28_SI },
          { "Red",      OPTION_VAL_RED_11_SI },
          { "Green",    OPTION_VAL_GREEN_05_SI },
          { "Blue",     OPTION_VAL_BLUE_03_SI },
@@ -50571,7 +52489,7 @@ struct retro_core_options_v2 options_si = {
 
 #define CATEGORY_VIDEO_LABEL_SK NULL
 #define CATEGORY_VIDEO_INFO_0_SK NULL
-#define CATEGORY_INPUT_LABEL_SK NULL
+#define CATEGORY_INPUT_LABEL_SK "Vstup"
 #define CATEGORY_INPUT_INFO_0_SK NULL
 #define CATEGORY_VMU_LABEL_SK NULL
 #define CATEGORY_VMU_INFO_0_SK NULL
@@ -50624,7 +52542,7 @@ struct retro_core_options_v2 options_si = {
 #define OPTION_VAL_11520X8640_SK NULL
 #define OPTION_VAL_12160X9120_SK NULL
 #define OPTION_VAL_12800X9600_SK NULL
-#define CORE_OPTION_NAME_SCREEN_ROTATION_LABEL_SK NULL
+#define CORE_OPTION_NAME_SCREEN_ROTATION_LABEL_SK "Orientácia Obrazovky"
 #define OPTION_VAL_HORIZONTAL_SK NULL
 #define OPTION_VAL_VERTICAL_SK NULL
 #define CORE_OPTION_NAME_ALPHA_SORTING_LABEL_SK NULL
@@ -50641,7 +52559,7 @@ struct retro_core_options_v2 options_si = {
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_LABEL_SK NULL
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_INFO_0_SK NULL
 #define CORE_OPTION_NAME_CABLE_TYPE_LABEL_SK NULL
-#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_SK NULL
+#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_SK "The output signal type. VGA is recommended, but some games might not be compatible with it."
 #define OPTION_VAL_TV_RGB_SK NULL
 #define OPTION_VAL_TV_COMPOSITE_SK NULL
 #define OPTION_VAL_VGA_RGB_SK NULL
@@ -50654,18 +52572,18 @@ struct retro_core_options_v2 options_si = {
 #define CORE_OPTION_NAME_FRAMERATE_LABEL_SK NULL
 #define CORE_OPTION_NAME_FRAMERATE_INFO_0_SK NULL
 #define OPTION_VAL_FULLSPEED_SK NULL
-#define OPTION_VAL_NORMAL_SK NULL
+#define OPTION_VAL_NORMAL_SK "Normálne"
 #define CORE_OPTION_NAME_REGION_LABEL_SK NULL
 #define OPTION_VAL_JAPAN_SK NULL
 #define OPTION_VAL_USA_SK NULL
 #define OPTION_VAL_EUROPE_SK NULL
 #define CORE_OPTION_NAME_LANGUAGE_LABEL_SK NULL
-#define OPTION_VAL_JAPANESE_SK NULL
+#define OPTION_VAL_JAPANESE_SK "Japončina"
 #define OPTION_VAL_ENGLISH_SK NULL
-#define OPTION_VAL_GERMAN_SK NULL
-#define OPTION_VAL_FRENCH_SK NULL
-#define OPTION_VAL_SPANISH_SK NULL
-#define OPTION_VAL_ITALIAN_SK NULL
+#define OPTION_VAL_GERMAN_SK "Nemčina"
+#define OPTION_VAL_FRENCH_SK "Francúzština"
+#define OPTION_VAL_SPANISH_SK "Španielčina"
+#define OPTION_VAL_ITALIAN_SK "Taliančina"
 #define CORE_OPTION_NAME_DIV_MATCHING_LABEL_SK NULL
 #define CORE_OPTION_NAME_DIV_MATCHING_INFO_0_SK NULL
 #define CORE_OPTION_NAME_FORCE_WINCE_LABEL_SK NULL
@@ -50730,18 +52648,18 @@ struct retro_core_options_v2 options_si = {
 #define CORE_OPTION_NAME_VMU1_SCREEN_SIZE_MULT_LABEL_SK NULL
 #define OPTION_VAL_5X_SK NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_ON_COLOR_LABEL_SK NULL
-#define OPTION_VAL_DEFAULT_OFF_01_SK NULL
 #define OPTION_VAL_DEFAULT_ON_00_SK NULL
+#define OPTION_VAL_DEFAULT_OFF_01_SK NULL
 #define OPTION_VAL_BLACK_02_SK NULL
-#define OPTION_VAL_BLUE_03_SK NULL
+#define OPTION_VAL_BLUE_03_SK "Modrá"
 #define OPTION_VAL_LIGHT_BLUE_04_SK NULL
-#define OPTION_VAL_GREEN_05_SK NULL
+#define OPTION_VAL_GREEN_05_SK "Zelená"
 #define OPTION_VAL_CYAN_06_SK NULL
 #define OPTION_VAL_CYAN_BLUE_07_SK NULL
 #define OPTION_VAL_LIGHT_GREEN_08_SK NULL
 #define OPTION_VAL_CYAN_GREEN_09_SK NULL
 #define OPTION_VAL_LIGHT_CYAN_10_SK NULL
-#define OPTION_VAL_RED_11_SK NULL
+#define OPTION_VAL_RED_11_SK "Červená"
 #define OPTION_VAL_PURPLE_12_SK NULL
 #define OPTION_VAL_LIGHT_PURPLE_13_SK NULL
 #define OPTION_VAL_YELLOW_14_SK NULL
@@ -50752,12 +52670,13 @@ struct retro_core_options_v2 options_si = {
 #define OPTION_VAL_LIGHT_CYAN_2_19_SK NULL
 #define OPTION_VAL_LIGHT_RED_2_20_SK NULL
 #define OPTION_VAL_MAGENTA_21_SK NULL
-#define OPTION_VAL_LIGHT_ORANGE_22_SK NULL
-#define OPTION_VAL_ORANGE_23_SK NULL
-#define OPTION_VAL_LIGHT_PURPLE_3_24_SK NULL
-#define OPTION_VAL_LIGHT_YELLOW_25_SK NULL
-#define OPTION_VAL_LIGHT_YELLOW_2_26_SK NULL
-#define OPTION_VAL_WHITE_27_SK NULL
+#define OPTION_VAL_LIGHT_PURPLE_3_22_SK NULL
+#define OPTION_VAL_LIGHT_ORANGE_23_SK NULL
+#define OPTION_VAL_ORANGE_24_SK NULL
+#define OPTION_VAL_LIGHT_PURPLE_4_25_SK NULL
+#define OPTION_VAL_LIGHT_YELLOW_26_SK NULL
+#define OPTION_VAL_LIGHT_YELLOW_2_27_SK NULL
+#define OPTION_VAL_WHITE_28_SK NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_OFF_COLOR_LABEL_SK NULL
 #define CORE_OPTION_NAME_VMU1_SCREEN_OPACITY_LABEL_SK NULL
 #define OPTION_VAL_40_SK NULL
@@ -51567,8 +53486,8 @@ struct retro_core_option_v2_definition option_defs_sk[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_SK },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_SK },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_SK },
          { "BLACK 02",          OPTION_VAL_BLACK_02_SK },
          { "BLUE 03",           OPTION_VAL_BLUE_03_SK },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_SK },
@@ -51589,12 +53508,13 @@ struct retro_core_option_v2_definition option_defs_sk[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_SK },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_SK },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_SK },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_SK },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_SK },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_SK },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_SK },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_SK },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_SK },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_SK },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_SK },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_SK },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_SK },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_SK },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_SK },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_SK },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -51629,12 +53549,13 @@ struct retro_core_option_v2_definition option_defs_sk[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_SK },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_SK },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_SK },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_SK },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_SK },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_SK },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_SK },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_SK },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_SK },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_SK },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_SK },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_SK },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_SK },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_SK },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_SK },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_SK },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -51716,8 +53637,8 @@ struct retro_core_option_v2_definition option_defs_sk[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_SK },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_SK },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_SK },
          { "BLACK 02",          OPTION_VAL_BLACK_02_SK },
          { "BLUE 03",           OPTION_VAL_BLUE_03_SK },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_SK },
@@ -51738,12 +53659,13 @@ struct retro_core_option_v2_definition option_defs_sk[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_SK },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_SK },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_SK },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_SK },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_SK },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_SK },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_SK },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_SK },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_SK },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_SK },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_SK },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_SK },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_SK },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_SK },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_SK },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_SK },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -51778,12 +53700,13 @@ struct retro_core_option_v2_definition option_defs_sk[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_SK },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_SK },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_SK },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_SK },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_SK },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_SK },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_SK },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_SK },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_SK },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_SK },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_SK },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_SK },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_SK },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_SK },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_SK },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_SK },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -51865,8 +53788,8 @@ struct retro_core_option_v2_definition option_defs_sk[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_SK },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_SK },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_SK },
          { "BLACK 02",          OPTION_VAL_BLACK_02_SK },
          { "BLUE 03",           OPTION_VAL_BLUE_03_SK },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_SK },
@@ -51887,12 +53810,13 @@ struct retro_core_option_v2_definition option_defs_sk[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_SK },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_SK },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_SK },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_SK },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_SK },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_SK },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_SK },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_SK },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_SK },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_SK },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_SK },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_SK },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_SK },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_SK },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_SK },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_SK },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -51927,12 +53851,13 @@ struct retro_core_option_v2_definition option_defs_sk[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_SK },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_SK },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_SK },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_SK },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_SK },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_SK },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_SK },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_SK },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_SK },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_SK },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_SK },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_SK },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_SK },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_SK },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_SK },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_SK },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -52014,8 +53939,8 @@ struct retro_core_option_v2_definition option_defs_sk[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_SK },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_SK },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_SK },
          { "BLACK 02",          OPTION_VAL_BLACK_02_SK },
          { "BLUE 03",           OPTION_VAL_BLUE_03_SK },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_SK },
@@ -52036,12 +53961,13 @@ struct retro_core_option_v2_definition option_defs_sk[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_SK },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_SK },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_SK },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_SK },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_SK },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_SK },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_SK },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_SK },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_SK },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_SK },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_SK },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_SK },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_SK },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_SK },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_SK },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_SK },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -52076,12 +54002,13 @@ struct retro_core_option_v2_definition option_defs_sk[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_SK },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_SK },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_SK },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_SK },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_SK },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_SK },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_SK },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_SK },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_SK },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_SK },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_SK },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_SK },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_SK },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_SK },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_SK },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_SK },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -52131,7 +54058,7 @@ struct retro_core_option_v2_definition option_defs_sk[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_SK },
+         { "White",    OPTION_VAL_WHITE_28_SK },
          { "Red",      OPTION_VAL_RED_11_SK },
          { "Green",    OPTION_VAL_GREEN_05_SK },
          { "Blue",     OPTION_VAL_BLUE_03_SK },
@@ -52148,7 +54075,7 @@ struct retro_core_option_v2_definition option_defs_sk[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_SK },
+         { "White",    OPTION_VAL_WHITE_28_SK },
          { "Red",      OPTION_VAL_RED_11_SK },
          { "Green",    OPTION_VAL_GREEN_05_SK },
          { "Blue",     OPTION_VAL_BLUE_03_SK },
@@ -52165,7 +54092,7 @@ struct retro_core_option_v2_definition option_defs_sk[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_SK },
+         { "White",    OPTION_VAL_WHITE_28_SK },
          { "Red",      OPTION_VAL_RED_11_SK },
          { "Green",    OPTION_VAL_GREEN_05_SK },
          { "Blue",     OPTION_VAL_BLUE_03_SK },
@@ -52182,7 +54109,7 @@ struct retro_core_option_v2_definition option_defs_sk[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_SK },
+         { "White",    OPTION_VAL_WHITE_28_SK },
          { "Red",      OPTION_VAL_RED_11_SK },
          { "Green",    OPTION_VAL_GREEN_05_SK },
          { "Blue",     OPTION_VAL_BLUE_03_SK },
@@ -52201,7 +54128,7 @@ struct retro_core_options_v2 options_sk = {
 
 #define CATEGORY_VIDEO_LABEL_SR NULL
 #define CATEGORY_VIDEO_INFO_0_SR NULL
-#define CATEGORY_INPUT_LABEL_SR NULL
+#define CATEGORY_INPUT_LABEL_SR "Ulaz"
 #define CATEGORY_INPUT_INFO_0_SR NULL
 #define CATEGORY_VMU_LABEL_SR NULL
 #define CATEGORY_VMU_INFO_0_SR NULL
@@ -52254,7 +54181,7 @@ struct retro_core_options_v2 options_sk = {
 #define OPTION_VAL_11520X8640_SR NULL
 #define OPTION_VAL_12160X9120_SR NULL
 #define OPTION_VAL_12800X9600_SR NULL
-#define CORE_OPTION_NAME_SCREEN_ROTATION_LABEL_SR NULL
+#define CORE_OPTION_NAME_SCREEN_ROTATION_LABEL_SR "Orijentacija ekrana"
 #define OPTION_VAL_HORIZONTAL_SR NULL
 #define OPTION_VAL_VERTICAL_SR NULL
 #define CORE_OPTION_NAME_ALPHA_SORTING_LABEL_SR NULL
@@ -52271,7 +54198,7 @@ struct retro_core_options_v2 options_sk = {
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_LABEL_SR NULL
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_INFO_0_SR NULL
 #define CORE_OPTION_NAME_CABLE_TYPE_LABEL_SR NULL
-#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_SR NULL
+#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_SR "The output signal type. VGA is recommended, but some games might not be compatible with it."
 #define OPTION_VAL_TV_RGB_SR NULL
 #define OPTION_VAL_TV_COMPOSITE_SR NULL
 #define OPTION_VAL_VGA_RGB_SR NULL
@@ -52360,8 +54287,8 @@ struct retro_core_options_v2 options_sk = {
 #define CORE_OPTION_NAME_VMU1_SCREEN_SIZE_MULT_LABEL_SR NULL
 #define OPTION_VAL_5X_SR NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_ON_COLOR_LABEL_SR NULL
-#define OPTION_VAL_DEFAULT_OFF_01_SR NULL
 #define OPTION_VAL_DEFAULT_ON_00_SR NULL
+#define OPTION_VAL_DEFAULT_OFF_01_SR NULL
 #define OPTION_VAL_BLACK_02_SR NULL
 #define OPTION_VAL_BLUE_03_SR NULL
 #define OPTION_VAL_LIGHT_BLUE_04_SR NULL
@@ -52382,12 +54309,13 @@ struct retro_core_options_v2 options_sk = {
 #define OPTION_VAL_LIGHT_CYAN_2_19_SR NULL
 #define OPTION_VAL_LIGHT_RED_2_20_SR NULL
 #define OPTION_VAL_MAGENTA_21_SR NULL
-#define OPTION_VAL_LIGHT_ORANGE_22_SR NULL
-#define OPTION_VAL_ORANGE_23_SR NULL
-#define OPTION_VAL_LIGHT_PURPLE_3_24_SR NULL
-#define OPTION_VAL_LIGHT_YELLOW_25_SR NULL
-#define OPTION_VAL_LIGHT_YELLOW_2_26_SR NULL
-#define OPTION_VAL_WHITE_27_SR NULL
+#define OPTION_VAL_LIGHT_PURPLE_3_22_SR NULL
+#define OPTION_VAL_LIGHT_ORANGE_23_SR NULL
+#define OPTION_VAL_ORANGE_24_SR NULL
+#define OPTION_VAL_LIGHT_PURPLE_4_25_SR NULL
+#define OPTION_VAL_LIGHT_YELLOW_26_SR NULL
+#define OPTION_VAL_LIGHT_YELLOW_2_27_SR NULL
+#define OPTION_VAL_WHITE_28_SR NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_OFF_COLOR_LABEL_SR NULL
 #define CORE_OPTION_NAME_VMU1_SCREEN_OPACITY_LABEL_SR NULL
 #define OPTION_VAL_40_SR NULL
@@ -53197,8 +55125,8 @@ struct retro_core_option_v2_definition option_defs_sr[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_SR },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_SR },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_SR },
          { "BLACK 02",          OPTION_VAL_BLACK_02_SR },
          { "BLUE 03",           OPTION_VAL_BLUE_03_SR },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_SR },
@@ -53219,12 +55147,13 @@ struct retro_core_option_v2_definition option_defs_sr[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_SR },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_SR },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_SR },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_SR },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_SR },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_SR },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_SR },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_SR },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_SR },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_SR },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_SR },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_SR },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_SR },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_SR },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_SR },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_SR },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -53259,12 +55188,13 @@ struct retro_core_option_v2_definition option_defs_sr[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_SR },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_SR },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_SR },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_SR },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_SR },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_SR },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_SR },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_SR },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_SR },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_SR },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_SR },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_SR },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_SR },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_SR },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_SR },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_SR },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -53346,8 +55276,8 @@ struct retro_core_option_v2_definition option_defs_sr[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_SR },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_SR },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_SR },
          { "BLACK 02",          OPTION_VAL_BLACK_02_SR },
          { "BLUE 03",           OPTION_VAL_BLUE_03_SR },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_SR },
@@ -53368,12 +55298,13 @@ struct retro_core_option_v2_definition option_defs_sr[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_SR },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_SR },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_SR },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_SR },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_SR },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_SR },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_SR },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_SR },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_SR },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_SR },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_SR },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_SR },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_SR },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_SR },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_SR },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_SR },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -53408,12 +55339,13 @@ struct retro_core_option_v2_definition option_defs_sr[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_SR },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_SR },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_SR },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_SR },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_SR },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_SR },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_SR },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_SR },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_SR },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_SR },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_SR },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_SR },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_SR },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_SR },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_SR },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_SR },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -53495,8 +55427,8 @@ struct retro_core_option_v2_definition option_defs_sr[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_SR },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_SR },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_SR },
          { "BLACK 02",          OPTION_VAL_BLACK_02_SR },
          { "BLUE 03",           OPTION_VAL_BLUE_03_SR },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_SR },
@@ -53517,12 +55449,13 @@ struct retro_core_option_v2_definition option_defs_sr[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_SR },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_SR },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_SR },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_SR },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_SR },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_SR },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_SR },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_SR },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_SR },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_SR },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_SR },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_SR },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_SR },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_SR },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_SR },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_SR },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -53557,12 +55490,13 @@ struct retro_core_option_v2_definition option_defs_sr[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_SR },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_SR },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_SR },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_SR },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_SR },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_SR },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_SR },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_SR },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_SR },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_SR },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_SR },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_SR },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_SR },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_SR },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_SR },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_SR },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -53644,8 +55578,8 @@ struct retro_core_option_v2_definition option_defs_sr[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_SR },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_SR },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_SR },
          { "BLACK 02",          OPTION_VAL_BLACK_02_SR },
          { "BLUE 03",           OPTION_VAL_BLUE_03_SR },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_SR },
@@ -53666,12 +55600,13 @@ struct retro_core_option_v2_definition option_defs_sr[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_SR },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_SR },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_SR },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_SR },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_SR },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_SR },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_SR },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_SR },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_SR },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_SR },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_SR },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_SR },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_SR },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_SR },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_SR },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_SR },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -53706,12 +55641,13 @@ struct retro_core_option_v2_definition option_defs_sr[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_SR },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_SR },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_SR },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_SR },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_SR },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_SR },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_SR },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_SR },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_SR },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_SR },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_SR },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_SR },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_SR },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_SR },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_SR },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_SR },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -53761,7 +55697,7 @@ struct retro_core_option_v2_definition option_defs_sr[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_SR },
+         { "White",    OPTION_VAL_WHITE_28_SR },
          { "Red",      OPTION_VAL_RED_11_SR },
          { "Green",    OPTION_VAL_GREEN_05_SR },
          { "Blue",     OPTION_VAL_BLUE_03_SR },
@@ -53778,7 +55714,7 @@ struct retro_core_option_v2_definition option_defs_sr[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_SR },
+         { "White",    OPTION_VAL_WHITE_28_SR },
          { "Red",      OPTION_VAL_RED_11_SR },
          { "Green",    OPTION_VAL_GREEN_05_SR },
          { "Blue",     OPTION_VAL_BLUE_03_SR },
@@ -53795,7 +55731,7 @@ struct retro_core_option_v2_definition option_defs_sr[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_SR },
+         { "White",    OPTION_VAL_WHITE_28_SR },
          { "Red",      OPTION_VAL_RED_11_SR },
          { "Green",    OPTION_VAL_GREEN_05_SR },
          { "Blue",     OPTION_VAL_BLUE_03_SR },
@@ -53812,7 +55748,7 @@ struct retro_core_option_v2_definition option_defs_sr[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_SR },
+         { "White",    OPTION_VAL_WHITE_28_SR },
          { "Red",      OPTION_VAL_RED_11_SR },
          { "Green",    OPTION_VAL_GREEN_05_SR },
          { "Blue",     OPTION_VAL_BLUE_03_SR },
@@ -53829,9 +55765,9 @@ struct retro_core_options_v2 options_sr = {
 
 /* RETRO_LANGUAGE_SV */
 
-#define CATEGORY_VIDEO_LABEL_SV NULL
+#define CATEGORY_VIDEO_LABEL_SV "Bild"
 #define CATEGORY_VIDEO_INFO_0_SV NULL
-#define CATEGORY_INPUT_LABEL_SV NULL
+#define CATEGORY_INPUT_LABEL_SV "Inmatning"
 #define CATEGORY_INPUT_INFO_0_SV NULL
 #define CATEGORY_VMU_LABEL_SV NULL
 #define CATEGORY_VMU_INFO_0_SV NULL
@@ -53843,7 +55779,7 @@ struct retro_core_options_v2 options_sr = {
 #define CORE_OPTION_NAME_BOOT_TO_BIOS_LABEL_SV NULL
 #define CORE_OPTION_NAME_BOOT_TO_BIOS_INFO_0_SV NULL
 #define CORE_OPTION_NAME_SYSTEM_LABEL_SV NULL
-#define OPTION_VAL_AUTO_SV NULL
+#define OPTION_VAL_AUTO_SV "Automatiskt"
 #define OPTION_VAL_DREAMCAST_SV NULL
 #define OPTION_VAL_NAOMI_SV NULL
 #define OPTION_VAL_ATOMISWAVE_SV NULL
@@ -53884,8 +55820,8 @@ struct retro_core_options_v2 options_sr = {
 #define OPTION_VAL_11520X8640_SV NULL
 #define OPTION_VAL_12160X9120_SV NULL
 #define OPTION_VAL_12800X9600_SV NULL
-#define CORE_OPTION_NAME_SCREEN_ROTATION_LABEL_SV NULL
-#define OPTION_VAL_HORIZONTAL_SV NULL
+#define CORE_OPTION_NAME_SCREEN_ROTATION_LABEL_SV "Skärmorientering"
+#define OPTION_VAL_HORIZONTAL_SV "Horisontell"
 #define OPTION_VAL_VERTICAL_SV NULL
 #define CORE_OPTION_NAME_ALPHA_SORTING_LABEL_SV NULL
 #define OPTION_VAL_PER_STRIP_FAST_LEAST_ACCURATE_SV NULL
@@ -53894,14 +55830,14 @@ struct retro_core_options_v2 options_sr = {
 #define CORE_OPTION_NAME_GDROM_FAST_LOADING_LABEL_SV NULL
 #define CORE_OPTION_NAME_GDROM_FAST_LOADING_INFO_0_SV NULL
 #define CORE_OPTION_NAME_MIPMAPPING_LABEL_SV NULL
-#define CORE_OPTION_NAME_FOG_LABEL_SV NULL
+#define CORE_OPTION_NAME_FOG_LABEL_SV "Dimeffekter"
 #define CORE_OPTION_NAME_VOLUME_MODIFIER_ENABLE_LABEL_SV NULL
 #define CORE_OPTION_NAME_VOLUME_MODIFIER_ENABLE_INFO_0_SV NULL
 #define CORE_OPTION_NAME_WIDESCREEN_HACK_LABEL_SV NULL
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_LABEL_SV NULL
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_INFO_0_SV NULL
-#define CORE_OPTION_NAME_CABLE_TYPE_LABEL_SV NULL
-#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_SV NULL
+#define CORE_OPTION_NAME_CABLE_TYPE_LABEL_SV "Kabeltyp"
+#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_SV "The output signal type. VGA is recommended, but some games might not be compatible with it."
 #define OPTION_VAL_TV_RGB_SV NULL
 #define OPTION_VAL_TV_COMPOSITE_SV NULL
 #define OPTION_VAL_VGA_RGB_SV NULL
@@ -53918,14 +55854,14 @@ struct retro_core_options_v2 options_sr = {
 #define CORE_OPTION_NAME_REGION_LABEL_SV NULL
 #define OPTION_VAL_JAPAN_SV NULL
 #define OPTION_VAL_USA_SV NULL
-#define OPTION_VAL_EUROPE_SV NULL
-#define CORE_OPTION_NAME_LANGUAGE_LABEL_SV NULL
-#define OPTION_VAL_JAPANESE_SV NULL
-#define OPTION_VAL_ENGLISH_SV NULL
-#define OPTION_VAL_GERMAN_SV NULL
-#define OPTION_VAL_FRENCH_SV NULL
-#define OPTION_VAL_SPANISH_SV NULL
-#define OPTION_VAL_ITALIAN_SV NULL
+#define OPTION_VAL_EUROPE_SV "Europa"
+#define CORE_OPTION_NAME_LANGUAGE_LABEL_SV "Språk"
+#define OPTION_VAL_JAPANESE_SV "Japanska"
+#define OPTION_VAL_ENGLISH_SV "Engelska"
+#define OPTION_VAL_GERMAN_SV "Tyska"
+#define OPTION_VAL_FRENCH_SV "Franska"
+#define OPTION_VAL_SPANISH_SV "Spanska"
+#define OPTION_VAL_ITALIAN_SV "Italienska"
 #define CORE_OPTION_NAME_DIV_MATCHING_LABEL_SV NULL
 #define CORE_OPTION_NAME_DIV_MATCHING_INFO_0_SV NULL
 #define CORE_OPTION_NAME_FORCE_WINCE_LABEL_SV NULL
@@ -53940,7 +55876,7 @@ struct retro_core_options_v2 options_sr = {
 #define OPTION_VAL_30_SV NULL
 #define CORE_OPTION_NAME_TRIGGER_DEADZONE_LABEL_SV NULL
 #define CORE_OPTION_NAME_DIGITAL_TRIGGERS_LABEL_SV NULL
-#define CORE_OPTION_NAME_ENABLE_DSP_LABEL_SV NULL
+#define CORE_OPTION_NAME_ENABLE_DSP_LABEL_SV "Aktivera DSP"
 #define CORE_OPTION_NAME_ENABLE_DSP_INFO_0_SV NULL
 #define CORE_OPTION_NAME_ANISOTROPIC_FILTERING_LABEL_SV NULL
 #define CORE_OPTION_NAME_ANISOTROPIC_FILTERING_INFO_0_SV NULL
@@ -53972,12 +55908,12 @@ struct retro_core_options_v2 options_sr = {
 #define CORE_OPTION_NAME_ENABLE_NAOMI_15KHZ_DIPSWITCH_LABEL_SV NULL
 #define CORE_OPTION_NAME_ENABLE_NAOMI_15KHZ_DIPSWITCH_INFO_0_SV NULL
 #define CORE_OPTION_NAME_CUSTOM_TEXTURES_LABEL_SV NULL
-#define CORE_OPTION_NAME_DUMP_TEXTURES_LABEL_SV NULL
+#define CORE_OPTION_NAME_DUMP_TEXTURES_LABEL_SV "Dumpa texturer"
 #define CORE_OPTION_NAME_PER_CONTENT_VMUS_LABEL_SV NULL
 #define CORE_OPTION_NAME_PER_CONTENT_VMUS_LABEL_CAT_SV NULL
 #define CORE_OPTION_NAME_PER_CONTENT_VMUS_INFO_0_SV NULL
 #define OPTION_VAL_VMU_A1_SV NULL
-#define OPTION_VAL_ALL_VMUS_SV NULL
+#define OPTION_VAL_ALL_VMUS_SV "Alla VMU:er"
 #define CORE_OPTION_NAME_SHOW_VMU_SCREEN_SETTINGS_LABEL_SV NULL
 #define CORE_OPTION_NAME_SHOW_VMU_SCREEN_SETTINGS_LABEL_CAT_SV NULL
 #define CORE_OPTION_NAME_SHOW_VMU_SCREEN_SETTINGS_INFO_0_SV NULL
@@ -53990,34 +55926,35 @@ struct retro_core_options_v2 options_sr = {
 #define CORE_OPTION_NAME_VMU1_SCREEN_SIZE_MULT_LABEL_SV NULL
 #define OPTION_VAL_5X_SV NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_ON_COLOR_LABEL_SV NULL
-#define OPTION_VAL_DEFAULT_OFF_01_SV NULL
 #define OPTION_VAL_DEFAULT_ON_00_SV NULL
-#define OPTION_VAL_BLACK_02_SV NULL
-#define OPTION_VAL_BLUE_03_SV NULL
-#define OPTION_VAL_LIGHT_BLUE_04_SV NULL
-#define OPTION_VAL_GREEN_05_SV NULL
+#define OPTION_VAL_DEFAULT_OFF_01_SV NULL
+#define OPTION_VAL_BLACK_02_SV "Svart"
+#define OPTION_VAL_BLUE_03_SV "Blå"
+#define OPTION_VAL_LIGHT_BLUE_04_SV "Ljusblå"
+#define OPTION_VAL_GREEN_05_SV "Grön"
 #define OPTION_VAL_CYAN_06_SV NULL
 #define OPTION_VAL_CYAN_BLUE_07_SV NULL
-#define OPTION_VAL_LIGHT_GREEN_08_SV NULL
+#define OPTION_VAL_LIGHT_GREEN_08_SV "Ljusgrön"
 #define OPTION_VAL_CYAN_GREEN_09_SV NULL
 #define OPTION_VAL_LIGHT_CYAN_10_SV NULL
-#define OPTION_VAL_RED_11_SV NULL
-#define OPTION_VAL_PURPLE_12_SV NULL
-#define OPTION_VAL_LIGHT_PURPLE_13_SV NULL
-#define OPTION_VAL_YELLOW_14_SV NULL
-#define OPTION_VAL_GRAY_15_SV NULL
-#define OPTION_VAL_LIGHT_PURPLE_2_16_SV NULL
-#define OPTION_VAL_LIGHT_GREEN_2_17_SV NULL
-#define OPTION_VAL_LIGHT_GREEN_3_18_SV NULL
+#define OPTION_VAL_RED_11_SV "Röd"
+#define OPTION_VAL_PURPLE_12_SV "Lila"
+#define OPTION_VAL_LIGHT_PURPLE_13_SV "Ljuslila"
+#define OPTION_VAL_YELLOW_14_SV "Gul"
+#define OPTION_VAL_GRAY_15_SV "Grå"
+#define OPTION_VAL_LIGHT_PURPLE_2_16_SV "Ljuslila (2)"
+#define OPTION_VAL_LIGHT_GREEN_2_17_SV "Ljusgrön (2)"
+#define OPTION_VAL_LIGHT_GREEN_3_18_SV "Ljusgrön (3)"
 #define OPTION_VAL_LIGHT_CYAN_2_19_SV NULL
 #define OPTION_VAL_LIGHT_RED_2_20_SV NULL
 #define OPTION_VAL_MAGENTA_21_SV NULL
-#define OPTION_VAL_LIGHT_ORANGE_22_SV NULL
-#define OPTION_VAL_ORANGE_23_SV NULL
-#define OPTION_VAL_LIGHT_PURPLE_3_24_SV NULL
-#define OPTION_VAL_LIGHT_YELLOW_25_SV NULL
-#define OPTION_VAL_LIGHT_YELLOW_2_26_SV NULL
-#define OPTION_VAL_WHITE_27_SV NULL
+#define OPTION_VAL_LIGHT_PURPLE_3_22_SV NULL
+#define OPTION_VAL_LIGHT_ORANGE_23_SV NULL
+#define OPTION_VAL_ORANGE_24_SV NULL
+#define OPTION_VAL_LIGHT_PURPLE_4_25_SV NULL
+#define OPTION_VAL_LIGHT_YELLOW_26_SV NULL
+#define OPTION_VAL_LIGHT_YELLOW_2_27_SV NULL
+#define OPTION_VAL_WHITE_28_SV NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_OFF_COLOR_LABEL_SV NULL
 #define CORE_OPTION_NAME_VMU1_SCREEN_OPACITY_LABEL_SV NULL
 #define OPTION_VAL_40_SV NULL
@@ -54827,8 +56764,8 @@ struct retro_core_option_v2_definition option_defs_sv[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_SV },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_SV },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_SV },
          { "BLACK 02",          OPTION_VAL_BLACK_02_SV },
          { "BLUE 03",           OPTION_VAL_BLUE_03_SV },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_SV },
@@ -54849,12 +56786,13 @@ struct retro_core_option_v2_definition option_defs_sv[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_SV },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_SV },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_SV },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_SV },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_SV },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_SV },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_SV },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_SV },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_SV },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_SV },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_SV },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_SV },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_SV },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_SV },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_SV },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_SV },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -54889,12 +56827,13 @@ struct retro_core_option_v2_definition option_defs_sv[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_SV },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_SV },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_SV },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_SV },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_SV },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_SV },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_SV },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_SV },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_SV },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_SV },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_SV },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_SV },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_SV },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_SV },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_SV },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_SV },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -54976,8 +56915,8 @@ struct retro_core_option_v2_definition option_defs_sv[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_SV },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_SV },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_SV },
          { "BLACK 02",          OPTION_VAL_BLACK_02_SV },
          { "BLUE 03",           OPTION_VAL_BLUE_03_SV },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_SV },
@@ -54998,12 +56937,13 @@ struct retro_core_option_v2_definition option_defs_sv[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_SV },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_SV },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_SV },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_SV },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_SV },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_SV },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_SV },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_SV },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_SV },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_SV },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_SV },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_SV },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_SV },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_SV },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_SV },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_SV },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -55038,12 +56978,13 @@ struct retro_core_option_v2_definition option_defs_sv[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_SV },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_SV },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_SV },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_SV },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_SV },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_SV },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_SV },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_SV },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_SV },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_SV },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_SV },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_SV },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_SV },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_SV },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_SV },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_SV },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -55125,8 +57066,8 @@ struct retro_core_option_v2_definition option_defs_sv[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_SV },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_SV },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_SV },
          { "BLACK 02",          OPTION_VAL_BLACK_02_SV },
          { "BLUE 03",           OPTION_VAL_BLUE_03_SV },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_SV },
@@ -55147,12 +57088,13 @@ struct retro_core_option_v2_definition option_defs_sv[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_SV },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_SV },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_SV },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_SV },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_SV },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_SV },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_SV },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_SV },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_SV },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_SV },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_SV },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_SV },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_SV },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_SV },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_SV },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_SV },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -55187,12 +57129,13 @@ struct retro_core_option_v2_definition option_defs_sv[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_SV },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_SV },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_SV },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_SV },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_SV },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_SV },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_SV },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_SV },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_SV },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_SV },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_SV },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_SV },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_SV },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_SV },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_SV },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_SV },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -55274,8 +57217,8 @@ struct retro_core_option_v2_definition option_defs_sv[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_SV },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_SV },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_SV },
          { "BLACK 02",          OPTION_VAL_BLACK_02_SV },
          { "BLUE 03",           OPTION_VAL_BLUE_03_SV },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_SV },
@@ -55296,12 +57239,13 @@ struct retro_core_option_v2_definition option_defs_sv[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_SV },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_SV },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_SV },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_SV },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_SV },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_SV },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_SV },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_SV },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_SV },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_SV },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_SV },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_SV },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_SV },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_SV },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_SV },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_SV },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -55336,12 +57280,13 @@ struct retro_core_option_v2_definition option_defs_sv[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_SV },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_SV },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_SV },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_SV },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_SV },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_SV },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_SV },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_SV },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_SV },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_SV },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_SV },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_SV },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_SV },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_SV },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_SV },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_SV },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -55391,7 +57336,7 @@ struct retro_core_option_v2_definition option_defs_sv[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_SV },
+         { "White",    OPTION_VAL_WHITE_28_SV },
          { "Red",      OPTION_VAL_RED_11_SV },
          { "Green",    OPTION_VAL_GREEN_05_SV },
          { "Blue",     OPTION_VAL_BLUE_03_SV },
@@ -55408,7 +57353,7 @@ struct retro_core_option_v2_definition option_defs_sv[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_SV },
+         { "White",    OPTION_VAL_WHITE_28_SV },
          { "Red",      OPTION_VAL_RED_11_SV },
          { "Green",    OPTION_VAL_GREEN_05_SV },
          { "Blue",     OPTION_VAL_BLUE_03_SV },
@@ -55425,7 +57370,7 @@ struct retro_core_option_v2_definition option_defs_sv[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_SV },
+         { "White",    OPTION_VAL_WHITE_28_SV },
          { "Red",      OPTION_VAL_RED_11_SV },
          { "Green",    OPTION_VAL_GREEN_05_SV },
          { "Blue",     OPTION_VAL_BLUE_03_SV },
@@ -55442,7 +57387,7 @@ struct retro_core_option_v2_definition option_defs_sv[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_SV },
+         { "White",    OPTION_VAL_WHITE_28_SV },
          { "Red",      OPTION_VAL_RED_11_SV },
          { "Green",    OPTION_VAL_GREEN_05_SV },
          { "Blue",     OPTION_VAL_BLUE_03_SV },
@@ -55460,27 +57405,27 @@ struct retro_core_options_v2 options_sv = {
 /* RETRO_LANGUAGE_TR */
 
 #define CATEGORY_VIDEO_LABEL_TR NULL
-#define CATEGORY_VIDEO_INFO_0_TR NULL
+#define CATEGORY_VIDEO_INFO_0_TR "Görsel arabellek ve efektleri, görüntüleme parametrelerini, kare hızı/-atlama ve işleme/doku parametrelerini yapılandırın."
 #define CATEGORY_INPUT_LABEL_TR "Girdi"
-#define CATEGORY_INPUT_INFO_0_TR NULL
-#define CATEGORY_VMU_LABEL_TR NULL
-#define CATEGORY_VMU_INFO_0_TR NULL
-#define CATEGORY_HACKS_LABEL_TR NULL
-#define CATEGORY_HACKS_INFO_0_TR NULL
-#define CORE_OPTION_NAME_CPU_MODE_LABEL_TR "CPU Modu (Yeniden Başlatma Gerektirir)"
+#define CATEGORY_INPUT_INFO_0_TR "Kontrolcü ve light gun ayarlarını yapılandırın."
+#define CATEGORY_VMU_LABEL_TR "Görsel Bellek"
+#define CATEGORY_VMU_INFO_0_TR "Görsel Bellek Birimleri/Sistemleri (VMU) ile ilgili ayarları yapılandırın."
+#define CATEGORY_HACKS_LABEL_TR "Emülatör Geliştirmeleri"
+#define CATEGORY_HACKS_INFO_0_TR "Farklı emülatör hilelerini yapılandırın."
+#define CORE_OPTION_NAME_CPU_MODE_LABEL_TR "CPU Kipi (Yeniden Başlatılmalı)"
 #define OPTION_VAL_DYNAMIC_RECOMPILER_TR "Dinamik Yeniden Derleyici"
 #define OPTION_VAL_GENERIC_RECOMPILER_TR "Jenerik Yeniden Derleyici"
-#define CORE_OPTION_NAME_BOOT_TO_BIOS_LABEL_TR "BIOS'a önyükleme (Yeniden Başlatma Gerektirir)"
+#define CORE_OPTION_NAME_BOOT_TO_BIOS_LABEL_TR "BIOS Önyükleme (Yeniden Başlatılmalı)"
 #define CORE_OPTION_NAME_BOOT_TO_BIOS_INFO_0_TR "Doğrudan Dreamcast BIOS menüsüne önyükleme yapın."
-#define CORE_OPTION_NAME_SYSTEM_LABEL_TR "Sistem Tipi (Yeniden Başlatma Gerektirir)"
+#define CORE_OPTION_NAME_SYSTEM_LABEL_TR "Sistem Türü (Yeniden Başlatılmalı)"
 #define OPTION_VAL_AUTO_TR "Otomatik"
 #define OPTION_VAL_DREAMCAST_TR NULL
 #define OPTION_VAL_NAOMI_TR NULL
 #define OPTION_VAL_ATOMISWAVE_TR NULL
 #define CORE_OPTION_NAME_HLE_BIOS_LABEL_TR NULL
-#define CORE_OPTION_NAME_HLE_BIOS_INFO_0_TR "Üst düzey öykünmüş BIOS(HLE) kullanımını zorla."
-#define CORE_OPTION_NAME_OIT_ABUFFER_SIZE_LABEL_TR "Birikim Piksel Arabellek Boyutu (Yeniden Başlatma Gerektirir)"
-#define CORE_OPTION_NAME_OIT_ABUFFER_SIZE_INFO_0_TR NULL
+#define CORE_OPTION_NAME_HLE_BIOS_INFO_0_TR "Yüksek seviyeli taklit BIOS kullanımını zorunlu kılın."
+#define CORE_OPTION_NAME_OIT_ABUFFER_SIZE_LABEL_TR "Yığın Piksel Arabellek Boyutu (Yeniden Başlatılmalı)"
+#define CORE_OPTION_NAME_OIT_ABUFFER_SIZE_INFO_0_TR "Daha yüksek çözünürlüklerin doğru çıktı alması için daha yüksek değerler gerekebilir."
 #define OPTION_VAL_512MB_TR NULL
 #define OPTION_VAL_1GB_TR NULL
 #define OPTION_VAL_2GB_TR NULL
@@ -55517,21 +57462,21 @@ struct retro_core_options_v2 options_sv = {
 #define CORE_OPTION_NAME_SCREEN_ROTATION_LABEL_TR "Ekran Yönü"
 #define OPTION_VAL_HORIZONTAL_TR "Yatay"
 #define OPTION_VAL_VERTICAL_TR "Dikey"
-#define CORE_OPTION_NAME_ALPHA_SORTING_LABEL_TR "Alfa Sıralama"
+#define CORE_OPTION_NAME_ALPHA_SORTING_LABEL_TR "Alfabetik Sıralama"
 #define OPTION_VAL_PER_STRIP_FAST_LEAST_ACCURATE_TR "Şerit Başına (hızlı, en az doğru)"
 #define OPTION_VAL_PER_TRIANGLE_NORMAL_TR "Üçgen Başına (normal)"
 #define OPTION_VAL_PER_PIXEL_ACCURATE_TR "Piksel Başına (doğru, ancak en yavaş)"
 #define CORE_OPTION_NAME_GDROM_FAST_LOADING_LABEL_TR "GDROM Hızlı Yükleme (kusurlu)"
 #define CORE_OPTION_NAME_GDROM_FAST_LOADING_INFO_0_TR "GD-ROM yüklemesini hızlandırır."
 #define CORE_OPTION_NAME_MIPMAPPING_LABEL_TR NULL
-#define CORE_OPTION_NAME_FOG_LABEL_TR NULL
+#define CORE_OPTION_NAME_FOG_LABEL_TR "Sis Efektleri"
 #define CORE_OPTION_NAME_VOLUME_MODIFIER_ENABLE_LABEL_TR "Hacim Değiştirici"
-#define CORE_OPTION_NAME_VOLUME_MODIFIER_ENABLE_INFO_0_TR "Nesne gölgeleri çizmek için genellikle oyunlar tarafından kullanılan bir Dreamcast GPU özelliği. Bu normalde etkinleştirilmelidir - performansın etkisi ihmal edilebilir düzeyde genellikle minimum düzeydedir."
-#define CORE_OPTION_NAME_WIDESCREEN_HACK_LABEL_TR "Geniş ekran kesmesi (Yeniden Başlatma Gerektirir)"
-#define CORE_OPTION_NAME_WIDESCREEN_CHEATS_LABEL_TR NULL
-#define CORE_OPTION_NAME_WIDESCREEN_CHEATS_INFO_0_TR NULL
+#define CORE_OPTION_NAME_VOLUME_MODIFIER_ENABLE_INFO_0_TR "Genellikle oyunlar tarafından nesne gölgeleri çizmek için kullanılan bir Dreamcast GPU özelliği. Bu normalde etkinleştirilmelidir - performansa olumsuz etkisi yok denilebilecek düzeydedir."
+#define CORE_OPTION_NAME_WIDESCREEN_HACK_LABEL_TR "Geniş Ekran Geliştirmeleri (Yeniden Başlatılmalı)"
+#define CORE_OPTION_NAME_WIDESCREEN_CHEATS_LABEL_TR "Geniş Ekran Hileleri (Yeniden Başlatılmalı)"
+#define CORE_OPTION_NAME_WIDESCREEN_CHEATS_INFO_0_TR "Belirli oyunların geniş ekran biçiminde görüntülenmesine izin veren hileleri etkinleştirir."
 #define CORE_OPTION_NAME_CABLE_TYPE_LABEL_TR "Kablo Tipi"
-#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_TR NULL
+#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_TR "Çıkış sinyali türü. VGA önerilir, ancak bazı oyunlar bununla uyumlu olmayabilir."
 #define OPTION_VAL_TV_RGB_TR NULL
 #define OPTION_VAL_TV_COMPOSITE_TR NULL
 #define OPTION_VAL_VGA_RGB_TR NULL
@@ -55542,7 +57487,7 @@ struct retro_core_options_v2 options_sv = {
 #define OPTION_VAL_NTSC_TR NULL
 #define OPTION_VAL_PAL_TR "PAL (Dünya)"
 #define CORE_OPTION_NAME_FRAMERATE_LABEL_TR "Kare Hızı"
-#define CORE_OPTION_NAME_FRAMERATE_INFO_0_TR "Emülatörün ön uçla nasıl etkileşimde bulunduğunu etkiler. 'Tam Hız' - emülatör, bir kare oluşturulduğunda, kontrolü RetroArch'a geri döndürür. 'Normal' - emülatör, V-blank kesmesi her üretildiğinde kontrolü RetroArch'a döndürür. Çoğu durumda 'Tam Hız' kullanılmalıdır. 'Normal' bazı sistemlerde kare ilerleme hızını iyileştirebilir, ancak ekran statik olduğunda (örneğin, yükleme/duraklatma ekranları) yanıt vermeyen girişe neden olabilir."
+#define CORE_OPTION_NAME_FRAMERATE_INFO_0_TR NULL
 #define OPTION_VAL_FULLSPEED_TR "Tam Hız"
 #define OPTION_VAL_NORMAL_TR NULL
 #define CORE_OPTION_NAME_REGION_LABEL_TR "Bölge"
@@ -55556,10 +57501,10 @@ struct retro_core_options_v2 options_sv = {
 #define OPTION_VAL_FRENCH_TR "Fransızca"
 #define OPTION_VAL_SPANISH_TR "İspanyolca"
 #define OPTION_VAL_ITALIAN_TR "İtalyanca"
-#define CORE_OPTION_NAME_DIV_MATCHING_LABEL_TR NULL
-#define CORE_OPTION_NAME_DIV_MATCHING_INFO_0_TR NULL
-#define CORE_OPTION_NAME_FORCE_WINCE_LABEL_TR NULL
-#define CORE_OPTION_NAME_FORCE_WINCE_INFO_0_TR "Enable full MMU emulation and other settings for Windows CE games"
+#define CORE_OPTION_NAME_DIV_MATCHING_LABEL_TR "DIV Eşleştirme"
+#define CORE_OPTION_NAME_DIV_MATCHING_INFO_0_TR "Tamsayı bölümünü optimize edin"
+#define CORE_OPTION_NAME_FORCE_WINCE_LABEL_TR "Windows CE Kipine Zorla"
+#define CORE_OPTION_NAME_FORCE_WINCE_INFO_0_TR "Windows CE oyunları için tam MMU (Bellek Yönetim Birimi) öykünmesini ve diğer ayarları etkinleştirin."
 #define CORE_OPTION_NAME_ANALOG_STICK_DEADZONE_LABEL_TR "Analog Çubuğu Ölü Bölge"
 #define OPTION_VAL_0_TR "%0"
 #define OPTION_VAL_5_TR "%5"
@@ -55571,57 +57516,57 @@ struct retro_core_options_v2 options_sv = {
 #define CORE_OPTION_NAME_TRIGGER_DEADZONE_LABEL_TR "Tetik Ölü Bölge"
 #define CORE_OPTION_NAME_DIGITAL_TRIGGERS_LABEL_TR "Dijital Tetikleyiciler"
 #define CORE_OPTION_NAME_ENABLE_DSP_LABEL_TR "DSP'yi Etkinleştir"
-#define CORE_OPTION_NAME_ENABLE_DSP_INFO_0_TR "Dreamcast'in ses DSP'sinin (dijital sinyal işlemcisi) öykünmesini etkinleştirin. Üretilen sesin doğruluğunu arttırır, ancak performans gereksinimlerini artırır."
-#define CORE_OPTION_NAME_ANISOTROPIC_FILTERING_LABEL_TR NULL
+#define CORE_OPTION_NAME_ENABLE_DSP_INFO_0_TR "Dreamcast ses DSP (dijital sinyal işlemcisi) taklidini etkinleştirin. Üretilen sesin doğruluğunu artırır, ancak performans gereksinimlerini artırır."
+#define CORE_OPTION_NAME_ANISOTROPIC_FILTERING_LABEL_TR "Eşyönsüz Filtreleme"
 #define CORE_OPTION_NAME_ANISOTROPIC_FILTERING_INFO_0_TR NULL
 #define CORE_OPTION_NAME_PVR2_FILTERING_LABEL_TR NULL
 #define CORE_OPTION_NAME_PVR2_FILTERING_INFO_0_TR NULL
-#define CORE_OPTION_NAME_TEXUPSCALE_LABEL_TR "Doku Büyütme (xBRZ)"
-#define CORE_OPTION_NAME_TEXUPSCALE_INFO_0_TR NULL
+#define CORE_OPTION_NAME_TEXUPSCALE_LABEL_TR "Doku Yükseltme (xBRZ)"
+#define CORE_OPTION_NAME_TEXUPSCALE_INFO_0_TR "Elle çizilmiş 2B piksel sanatsal grafiklerini geliştirin. Yalnızca 2D piksel oyunlarla kullanılmalıdır."
 #define OPTION_VAL_2X_TR NULL
 #define OPTION_VAL_4X_TR NULL
 #define OPTION_VAL_6X_TR NULL
-#define CORE_OPTION_NAME_TEXUPSCALE_MAX_FILTERED_TEXTURE_SIZE_LABEL_TR "Doku Yükseltme Maks. Filtre boyutu"
-#define CORE_OPTION_NAME_ENABLE_RTTB_LABEL_TR "RTT'yi etkinleştirme (Dokuya Render'i) ara belleği"
-#define CORE_OPTION_NAME_RENDER_TO_TEXTURE_UPSCALING_LABEL_TR "Doku Yükseltme İşlemine Render"
+#define CORE_OPTION_NAME_TEXUPSCALE_MAX_FILTERED_TEXTURE_SIZE_LABEL_TR "Doku Yükseltme Azami Filtre Boyutu"
+#define CORE_OPTION_NAME_ENABLE_RTTB_LABEL_TR "RTT (Dokuya Dönüştür) Önbelleğini Etkinleştir"
+#define CORE_OPTION_NAME_RENDER_TO_TEXTURE_UPSCALING_LABEL_TR NULL
 #define OPTION_VAL_1X_TR NULL
 #define OPTION_VAL_3X_TR NULL
 #define OPTION_VAL_8X_TR NULL
-#define CORE_OPTION_NAME_THREADED_RENDERING_LABEL_TR "İşlem Parçacığı Renderlama (Yeniden Başlatma Gerektirir)"
-#define CORE_OPTION_NAME_THREADED_RENDERING_INFO_0_TR NULL
-#define CORE_OPTION_NAME_SYNCHRONOUS_RENDERING_LABEL_TR "Senkronize İşleme"
-#define CORE_OPTION_NAME_SYNCHRONOUS_RENDERING_INFO_0_TR NULL
+#define CORE_OPTION_NAME_THREADED_RENDERING_LABEL_TR "Baskın İşleme (Yeniden Başlatılmalı)"
+#define CORE_OPTION_NAME_THREADED_RENDERING_INFO_0_TR "GPU ve CPU'yu farklı iş parçacıklarında çalıştırır. Şiddetle tavsiye edilir."
+#define CORE_OPTION_NAME_SYNCHRONOUS_RENDERING_LABEL_TR "Eşzamanlı İşleme"
+#define CORE_OPTION_NAME_SYNCHRONOUS_RENDERING_INFO_0_TR "GPU'nun mevcut kareyi bırakmak yerine önceki kareyi oluşturmayı bitirmesini bekler. Not: Bu ayar yalnızca 'Baskın İşleme' etkinleştirildiğinde geçerlidir."
 #define CORE_OPTION_NAME_DELAY_FRAME_SWAPPING_LABEL_TR NULL
 #define CORE_OPTION_NAME_DELAY_FRAME_SWAPPING_INFO_0_TR NULL
 #define CORE_OPTION_NAME_FRAME_SKIPPING_LABEL_TR "Kare Atlama"
 #define CORE_OPTION_NAME_FRAME_SKIPPING_INFO_0_TR NULL
-#define CORE_OPTION_NAME_ENABLE_PURUPURU_LABEL_TR "Purupuru Paketi / Titreşim Paketi"
-#define CORE_OPTION_NAME_ENABLE_PURUPURU_INFO_0_TR "Denetleyici geri bildirimini etkinleştirir."
-#define CORE_OPTION_NAME_ALLOW_SERVICE_BUTTONS_LABEL_TR NULL
-#define CORE_OPTION_NAME_ALLOW_SERVICE_BUTTONS_INFO_0_TR "Kabin ayarlarına girmek için NAOMI'nin SERVİS düğmesini etkinleştirir."
-#define CORE_OPTION_NAME_ENABLE_NAOMI_15KHZ_DIPSWITCH_LABEL_TR "NAOMI 15KHz Dipswitch'i etkinleştir"
+#define CORE_OPTION_NAME_ENABLE_PURUPURU_LABEL_TR NULL
+#define CORE_OPTION_NAME_ENABLE_PURUPURU_INFO_0_TR NULL
+#define CORE_OPTION_NAME_ALLOW_SERVICE_BUTTONS_LABEL_TR "NAOMI Servis Düğmelerine İzin Ver"
+#define CORE_OPTION_NAME_ALLOW_SERVICE_BUTTONS_INFO_0_TR "Kabin ayarlarına girmek için NAOMI için SERVICE düğmesini etkinleştirir."
+#define CORE_OPTION_NAME_ENABLE_NAOMI_15KHZ_DIPSWITCH_LABEL_TR "NAOMI 15KHz DIP anahtarını etkinleştir"
 #define CORE_OPTION_NAME_ENABLE_NAOMI_15KHZ_DIPSWITCH_INFO_0_TR "Bu, 240p, 480i'de gösterimi zorlayabilir veya oyuna bağlı olarak hiçbir etkisi olmayabilir."
 #define CORE_OPTION_NAME_CUSTOM_TEXTURES_LABEL_TR "Özel Dokular Yükle"
-#define CORE_OPTION_NAME_DUMP_TEXTURES_LABEL_TR "Dokuları Göm"
-#define CORE_OPTION_NAME_PER_CONTENT_VMUS_LABEL_TR "Oyun Başına VMU'lar"
-#define CORE_OPTION_NAME_PER_CONTENT_VMUS_LABEL_CAT_TR NULL
-#define CORE_OPTION_NAME_PER_CONTENT_VMUS_INFO_0_TR "Devre dışı bırakıldığında, tüm oyunlar RetroArch'ın sistem dizininde bulunan 4 VMU kaydetme dosyasını (A1, B1, C1, D1) paylaşır. 'VMU A1' ayarı, RetroArch'ın başlattığı her oyun için kaydetme dizininde benzersiz bir VMU 'A1' dosyası oluşturur. 'Tüm VMU'lar' ayarı, başlatılan her oyun için 4 benzersiz VMU dosyası (A1, B1, C1, D1) oluşturur."
+#define CORE_OPTION_NAME_DUMP_TEXTURES_LABEL_TR "Dokuları Sakla"
+#define CORE_OPTION_NAME_PER_CONTENT_VMUS_LABEL_TR "Oyun Başına Görsel Bellek Birimleri/Sistemleri (VMU)"
+#define CORE_OPTION_NAME_PER_CONTENT_VMUS_LABEL_CAT_TR "Oyun Başına VMU"
+#define CORE_OPTION_NAME_PER_CONTENT_VMUS_INFO_0_TR "Devre dışı bırakıldığında, tüm oyunlar RetroArch sistem dizininde bulunan 4 VMU kayıt dosyasını (A1, B1, C1, D1) paylaşır. 'VMU A1' ayarı, başlatılan her oyun için RetroArch kayıt dizininde benzersiz bir VMU 'A1' dosyası oluşturur. 'Tüm VMU'' ayarı, başlatılan her oyun için 4 benzersiz VMU dosyası (A1, B1, C1, D1) oluşturur."
 #define OPTION_VAL_VMU_A1_TR NULL
-#define OPTION_VAL_ALL_VMUS_TR "Tüm VMU'lar"
+#define OPTION_VAL_ALL_VMUS_TR "Tüm VMU"
 #define CORE_OPTION_NAME_SHOW_VMU_SCREEN_SETTINGS_LABEL_TR NULL
-#define CORE_OPTION_NAME_SHOW_VMU_SCREEN_SETTINGS_LABEL_CAT_TR NULL
-#define CORE_OPTION_NAME_SHOW_VMU_SCREEN_SETTINGS_INFO_0_TR NULL
-#define CORE_OPTION_NAME_VMU1_SCREEN_DISPLAY_LABEL_TR "VMU Screen 1 Görsel"
-#define CORE_OPTION_NAME_VMU1_SCREEN_POSITION_LABEL_TR "VMU Screen 1 Pozisyon"
+#define CORE_OPTION_NAME_SHOW_VMU_SCREEN_SETTINGS_LABEL_CAT_TR "VMU Görüntü Ayarlarını Göster"
+#define CORE_OPTION_NAME_SHOW_VMU_SCREEN_SETTINGS_INFO_0_TR "Taklit edilmiş VMU LCD ekran görünürlüğünün, boyutunun, konumunun ve renginin yapılandırılmasını etkinleştirin. NOT: Bu ayarın etkili olması için Hızlı Menü değiştirilmesi gerekebilir."
+#define CORE_OPTION_NAME_VMU1_SCREEN_DISPLAY_LABEL_TR "VMU Ekranı 1 Görüntüle"
+#define CORE_OPTION_NAME_VMU1_SCREEN_POSITION_LABEL_TR "VMU Ekranı 1 Pozisyon"
 #define OPTION_VAL_UPPER_LEFT_TR "Sol Üst"
 #define OPTION_VAL_UPPER_RIGHT_TR "Sağ Üst"
 #define OPTION_VAL_LOWER_LEFT_TR "Sol Alt"
 #define OPTION_VAL_LOWER_RIGHT_TR "Sağ Alt"
-#define CORE_OPTION_NAME_VMU1_SCREEN_SIZE_MULT_LABEL_TR "VMU Screen 1 Boyut"
+#define CORE_OPTION_NAME_VMU1_SCREEN_SIZE_MULT_LABEL_TR "VMU Ekranı 1 Boyut"
 #define OPTION_VAL_5X_TR NULL
-#define CORE_OPTION_NAME_VMU1_PIXEL_ON_COLOR_LABEL_TR "VMU Screen 1 Piksel Varken Renk"
-#define OPTION_VAL_DEFAULT_OFF_01_TR "Varsayılan KAPALI"
+#define CORE_OPTION_NAME_VMU1_PIXEL_ON_COLOR_LABEL_TR "VMU Ekranı 1 Piksel Açık Renkli"
 #define OPTION_VAL_DEFAULT_ON_00_TR "Varsayılan AÇIK"
+#define OPTION_VAL_DEFAULT_OFF_01_TR "Varsayılan KAPALI"
 #define OPTION_VAL_BLACK_02_TR "Siyah"
 #define OPTION_VAL_BLUE_03_TR "Mavi"
 #define OPTION_VAL_LIGHT_BLUE_04_TR "Açık Mavi"
@@ -55639,17 +57584,18 @@ struct retro_core_options_v2 options_sv = {
 #define OPTION_VAL_LIGHT_PURPLE_2_16_TR "Açık Mor (2)"
 #define OPTION_VAL_LIGHT_GREEN_2_17_TR "Açık Yeşil (2)"
 #define OPTION_VAL_LIGHT_GREEN_3_18_TR "Açık Yeşil (3)"
-#define OPTION_VAL_LIGHT_CYAN_2_19_TR "Açık Cyan (2)"
+#define OPTION_VAL_LIGHT_CYAN_2_19_TR "Açık Camgöbeği (2)"
 #define OPTION_VAL_LIGHT_RED_2_20_TR "Açık Kırmızı (2)"
 #define OPTION_VAL_MAGENTA_21_TR "Eflatun"
-#define OPTION_VAL_LIGHT_ORANGE_22_TR NULL
-#define OPTION_VAL_ORANGE_23_TR NULL
-#define OPTION_VAL_LIGHT_PURPLE_3_24_TR NULL
-#define OPTION_VAL_LIGHT_YELLOW_25_TR NULL
-#define OPTION_VAL_LIGHT_YELLOW_2_26_TR NULL
-#define OPTION_VAL_WHITE_27_TR NULL
-#define CORE_OPTION_NAME_VMU1_PIXEL_OFF_COLOR_LABEL_TR "VMU Screen 1 Piksel Yokken Renk"
-#define CORE_OPTION_NAME_VMU1_SCREEN_OPACITY_LABEL_TR "VMU Screen 1 Opaklık"
+#define OPTION_VAL_LIGHT_PURPLE_3_22_TR NULL
+#define OPTION_VAL_LIGHT_ORANGE_23_TR NULL
+#define OPTION_VAL_ORANGE_24_TR NULL
+#define OPTION_VAL_LIGHT_PURPLE_4_25_TR NULL
+#define OPTION_VAL_LIGHT_YELLOW_26_TR NULL
+#define OPTION_VAL_LIGHT_YELLOW_2_27_TR NULL
+#define OPTION_VAL_WHITE_28_TR NULL
+#define CORE_OPTION_NAME_VMU1_PIXEL_OFF_COLOR_LABEL_TR "VMU Ekranı 1 Piksel Kapalı Renk"
+#define CORE_OPTION_NAME_VMU1_SCREEN_OPACITY_LABEL_TR "VMU Ekranı 1 Şeffaflığı"
 #define OPTION_VAL_40_TR "%40"
 #define OPTION_VAL_50_TR "%50"
 #define OPTION_VAL_60_TR "%60"
@@ -55657,30 +57603,30 @@ struct retro_core_options_v2 options_sv = {
 #define OPTION_VAL_80_TR "%80"
 #define OPTION_VAL_90_TR "%90"
 #define OPTION_VAL_100_TR "%100"
-#define CORE_OPTION_NAME_VMU2_SCREEN_DISPLAY_LABEL_TR "VMU Screen 2 Görsel"
-#define CORE_OPTION_NAME_VMU2_SCREEN_POSITION_LABEL_TR "VMU Screen 2 Pozisyon"
-#define CORE_OPTION_NAME_VMU2_SCREEN_SIZE_MULT_LABEL_TR "VMU Screen 2 Boyut"
-#define CORE_OPTION_NAME_VMU2_PIXEL_ON_COLOR_LABEL_TR "VMU Screen 2 Piksel Varken Renk"
-#define CORE_OPTION_NAME_VMU2_PIXEL_OFF_COLOR_LABEL_TR "VMU Screen 2 Piksel Yokken Renk"
-#define CORE_OPTION_NAME_VMU2_SCREEN_OPACITY_LABEL_TR "VMU Screen 2 Opaklık"
-#define CORE_OPTION_NAME_VMU3_SCREEN_DISPLAY_LABEL_TR "VMU Screen 3 Görsel"
-#define CORE_OPTION_NAME_VMU3_SCREEN_POSITION_LABEL_TR "VMU Screen 3 Pozisyon"
-#define CORE_OPTION_NAME_VMU3_SCREEN_SIZE_MULT_LABEL_TR "VMU Screen 3 Boyut"
-#define CORE_OPTION_NAME_VMU3_PIXEL_ON_COLOR_LABEL_TR "VMU Screen 3 Piksel Varken Renk"
-#define CORE_OPTION_NAME_VMU3_PIXEL_OFF_COLOR_LABEL_TR "VMU Screen 3 Piksel Yokken Renk"
-#define CORE_OPTION_NAME_VMU3_SCREEN_OPACITY_LABEL_TR "VMU Screen 3 Opaklık"
-#define CORE_OPTION_NAME_VMU4_SCREEN_DISPLAY_LABEL_TR "VMU Screen 4 Görsel"
-#define CORE_OPTION_NAME_VMU4_SCREEN_POSITION_LABEL_TR "VMU Screen 4 Pozisyon"
-#define CORE_OPTION_NAME_VMU4_SCREEN_SIZE_MULT_LABEL_TR "VMU Screen 4 Boyut"
-#define CORE_OPTION_NAME_VMU4_PIXEL_ON_COLOR_LABEL_TR "VMU Screen 4 Piksel Varken Renk"
-#define CORE_OPTION_NAME_VMU4_PIXEL_OFF_COLOR_LABEL_TR "VMU Screen 4 Piksel Yokken Renk"
-#define CORE_OPTION_NAME_VMU4_SCREEN_OPACITY_LABEL_TR "VMU Screen 4 Opaklık"
-#define CORE_OPTION_NAME_SHOW_LIGHTGUN_SETTINGS_LABEL_TR NULL
-#define CORE_OPTION_NAME_SHOW_LIGHTGUN_SETTINGS_INFO_0_TR NULL
-#define CORE_OPTION_NAME_LIGHTGUN1_CROSSHAIR_LABEL_TR "Gun Crosshair 1 Görsel"
-#define CORE_OPTION_NAME_LIGHTGUN2_CROSSHAIR_LABEL_TR "Gun Crosshair 2 Görsel"
-#define CORE_OPTION_NAME_LIGHTGUN3_CROSSHAIR_LABEL_TR "Gun Crosshair 3 Görsel"
-#define CORE_OPTION_NAME_LIGHTGUN4_CROSSHAIR_LABEL_TR "Gun Crosshair 4 Görsel"
+#define CORE_OPTION_NAME_VMU2_SCREEN_DISPLAY_LABEL_TR "VMU Ekranı 2 Görüntüle"
+#define CORE_OPTION_NAME_VMU2_SCREEN_POSITION_LABEL_TR "VMU Ekranı 2 Pozisyon"
+#define CORE_OPTION_NAME_VMU2_SCREEN_SIZE_MULT_LABEL_TR "VMU Ekranı 2 Boyut"
+#define CORE_OPTION_NAME_VMU2_PIXEL_ON_COLOR_LABEL_TR "VMU Ekranı 2 Piksel Açık Renkli"
+#define CORE_OPTION_NAME_VMU2_PIXEL_OFF_COLOR_LABEL_TR "VMU Ekranı 2 Piksel Kapalı Renk"
+#define CORE_OPTION_NAME_VMU2_SCREEN_OPACITY_LABEL_TR "VMU Ekranı 2 Şeffaflığı"
+#define CORE_OPTION_NAME_VMU3_SCREEN_DISPLAY_LABEL_TR "VMU Ekranı 3 Görüntüle"
+#define CORE_OPTION_NAME_VMU3_SCREEN_POSITION_LABEL_TR "VMU Ekranı 3 Pozisyon"
+#define CORE_OPTION_NAME_VMU3_SCREEN_SIZE_MULT_LABEL_TR "VMU Ekranı 3 Boyut"
+#define CORE_OPTION_NAME_VMU3_PIXEL_ON_COLOR_LABEL_TR "VMU Ekranı 3 Piksel Açık Renkli"
+#define CORE_OPTION_NAME_VMU3_PIXEL_OFF_COLOR_LABEL_TR "VMU Ekranı 3 Piksel Kapalı Renk"
+#define CORE_OPTION_NAME_VMU3_SCREEN_OPACITY_LABEL_TR "VMU Ekranı 3 Şeffaflığı"
+#define CORE_OPTION_NAME_VMU4_SCREEN_DISPLAY_LABEL_TR "VMU Ekranı 4 Görüntüle"
+#define CORE_OPTION_NAME_VMU4_SCREEN_POSITION_LABEL_TR "VMU Ekranı 4 Pozisyon"
+#define CORE_OPTION_NAME_VMU4_SCREEN_SIZE_MULT_LABEL_TR "VMU Ekranı 4 Boyut"
+#define CORE_OPTION_NAME_VMU4_PIXEL_ON_COLOR_LABEL_TR "VMU Ekranı 4 Piksel Açık Renkli"
+#define CORE_OPTION_NAME_VMU4_PIXEL_OFF_COLOR_LABEL_TR "VMU Ekranı 4 Piksel Kapalı Renk"
+#define CORE_OPTION_NAME_VMU4_SCREEN_OPACITY_LABEL_TR "VMU Ekranı 4 Şeffaflığı"
+#define CORE_OPTION_NAME_SHOW_LIGHTGUN_SETTINGS_LABEL_TR "Light Gun Ayarlarını Göster"
+#define CORE_OPTION_NAME_SHOW_LIGHTGUN_SETTINGS_INFO_0_TR "Light gun artı gösterge seçeneklerinin yapılandırılmasını etkinleştirin. NOT: Bu ayarın geçerli olması için Hızlı Menü değiştirilmesi gerekir."
+#define CORE_OPTION_NAME_LIGHTGUN1_CROSSHAIR_LABEL_TR "Silah Artı Göstergesi 1 Görüntüle"
+#define CORE_OPTION_NAME_LIGHTGUN2_CROSSHAIR_LABEL_TR "Silah Artı Göstergesi 2 Görüntüle"
+#define CORE_OPTION_NAME_LIGHTGUN3_CROSSHAIR_LABEL_TR "Silah Artı Göstergesi 3 Görüntüle"
+#define CORE_OPTION_NAME_LIGHTGUN4_CROSSHAIR_LABEL_TR "Silah Artı Göstergesi 4 Görüntüle"
 
 struct retro_core_option_v2_category option_cats_tr[] = {
    {
@@ -56457,8 +58403,8 @@ struct retro_core_option_v2_definition option_defs_tr[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_TR },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_TR },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_TR },
          { "BLACK 02",          OPTION_VAL_BLACK_02_TR },
          { "BLUE 03",           OPTION_VAL_BLUE_03_TR },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_TR },
@@ -56479,12 +58425,13 @@ struct retro_core_option_v2_definition option_defs_tr[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_TR },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_TR },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_TR },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_TR },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_TR },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_TR },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_TR },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_TR },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_TR },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_TR },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_TR },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_TR },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_TR },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_TR },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_TR },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_TR },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -56519,12 +58466,13 @@ struct retro_core_option_v2_definition option_defs_tr[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_TR },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_TR },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_TR },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_TR },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_TR },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_TR },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_TR },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_TR },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_TR },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_TR },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_TR },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_TR },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_TR },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_TR },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_TR },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_TR },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -56606,8 +58554,8 @@ struct retro_core_option_v2_definition option_defs_tr[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_TR },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_TR },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_TR },
          { "BLACK 02",          OPTION_VAL_BLACK_02_TR },
          { "BLUE 03",           OPTION_VAL_BLUE_03_TR },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_TR },
@@ -56628,12 +58576,13 @@ struct retro_core_option_v2_definition option_defs_tr[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_TR },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_TR },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_TR },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_TR },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_TR },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_TR },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_TR },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_TR },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_TR },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_TR },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_TR },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_TR },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_TR },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_TR },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_TR },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_TR },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -56668,12 +58617,13 @@ struct retro_core_option_v2_definition option_defs_tr[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_TR },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_TR },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_TR },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_TR },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_TR },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_TR },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_TR },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_TR },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_TR },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_TR },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_TR },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_TR },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_TR },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_TR },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_TR },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_TR },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -56755,8 +58705,8 @@ struct retro_core_option_v2_definition option_defs_tr[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_TR },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_TR },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_TR },
          { "BLACK 02",          OPTION_VAL_BLACK_02_TR },
          { "BLUE 03",           OPTION_VAL_BLUE_03_TR },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_TR },
@@ -56777,12 +58727,13 @@ struct retro_core_option_v2_definition option_defs_tr[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_TR },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_TR },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_TR },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_TR },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_TR },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_TR },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_TR },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_TR },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_TR },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_TR },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_TR },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_TR },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_TR },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_TR },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_TR },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_TR },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -56817,12 +58768,13 @@ struct retro_core_option_v2_definition option_defs_tr[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_TR },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_TR },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_TR },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_TR },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_TR },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_TR },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_TR },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_TR },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_TR },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_TR },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_TR },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_TR },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_TR },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_TR },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_TR },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_TR },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -56904,8 +58856,8 @@ struct retro_core_option_v2_definition option_defs_tr[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_TR },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_TR },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_TR },
          { "BLACK 02",          OPTION_VAL_BLACK_02_TR },
          { "BLUE 03",           OPTION_VAL_BLUE_03_TR },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_TR },
@@ -56926,12 +58878,13 @@ struct retro_core_option_v2_definition option_defs_tr[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_TR },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_TR },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_TR },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_TR },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_TR },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_TR },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_TR },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_TR },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_TR },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_TR },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_TR },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_TR },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_TR },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_TR },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_TR },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_TR },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -56966,12 +58919,13 @@ struct retro_core_option_v2_definition option_defs_tr[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_TR },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_TR },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_TR },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_TR },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_TR },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_TR },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_TR },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_TR },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_TR },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_TR },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_TR },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_TR },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_TR },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_TR },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_TR },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_TR },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -57021,7 +58975,7 @@ struct retro_core_option_v2_definition option_defs_tr[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_TR },
+         { "White",    OPTION_VAL_WHITE_28_TR },
          { "Red",      OPTION_VAL_RED_11_TR },
          { "Green",    OPTION_VAL_GREEN_05_TR },
          { "Blue",     OPTION_VAL_BLUE_03_TR },
@@ -57038,7 +58992,7 @@ struct retro_core_option_v2_definition option_defs_tr[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_TR },
+         { "White",    OPTION_VAL_WHITE_28_TR },
          { "Red",      OPTION_VAL_RED_11_TR },
          { "Green",    OPTION_VAL_GREEN_05_TR },
          { "Blue",     OPTION_VAL_BLUE_03_TR },
@@ -57055,7 +59009,7 @@ struct retro_core_option_v2_definition option_defs_tr[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_TR },
+         { "White",    OPTION_VAL_WHITE_28_TR },
          { "Red",      OPTION_VAL_RED_11_TR },
          { "Green",    OPTION_VAL_GREEN_05_TR },
          { "Blue",     OPTION_VAL_BLUE_03_TR },
@@ -57072,7 +59026,7 @@ struct retro_core_option_v2_definition option_defs_tr[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_TR },
+         { "White",    OPTION_VAL_WHITE_28_TR },
          { "Red",      OPTION_VAL_RED_11_TR },
          { "Green",    OPTION_VAL_GREEN_05_TR },
          { "Blue",     OPTION_VAL_BLUE_03_TR },
@@ -57089,13 +59043,13 @@ struct retro_core_options_v2 options_tr = {
 
 /* RETRO_LANGUAGE_UK */
 
-#define CATEGORY_VIDEO_LABEL_UK NULL
+#define CATEGORY_VIDEO_LABEL_UK "Відео"
 #define CATEGORY_VIDEO_INFO_0_UK NULL
-#define CATEGORY_INPUT_LABEL_UK NULL
+#define CATEGORY_INPUT_LABEL_UK "Ввід"
 #define CATEGORY_INPUT_INFO_0_UK NULL
 #define CATEGORY_VMU_LABEL_UK NULL
 #define CATEGORY_VMU_INFO_0_UK NULL
-#define CATEGORY_HACKS_LABEL_UK NULL
+#define CATEGORY_HACKS_LABEL_UK "Гаки емуляції"
 #define CATEGORY_HACKS_INFO_0_UK NULL
 #define CORE_OPTION_NAME_CPU_MODE_LABEL_UK NULL
 #define OPTION_VAL_DYNAMIC_RECOMPILER_UK NULL
@@ -57103,7 +59057,7 @@ struct retro_core_options_v2 options_tr = {
 #define CORE_OPTION_NAME_BOOT_TO_BIOS_LABEL_UK NULL
 #define CORE_OPTION_NAME_BOOT_TO_BIOS_INFO_0_UK NULL
 #define CORE_OPTION_NAME_SYSTEM_LABEL_UK NULL
-#define OPTION_VAL_AUTO_UK NULL
+#define OPTION_VAL_AUTO_UK "Авто"
 #define OPTION_VAL_DREAMCAST_UK NULL
 #define OPTION_VAL_NAOMI_UK NULL
 #define OPTION_VAL_ATOMISWAVE_UK NULL
@@ -57144,7 +59098,7 @@ struct retro_core_options_v2 options_tr = {
 #define OPTION_VAL_11520X8640_UK NULL
 #define OPTION_VAL_12160X9120_UK NULL
 #define OPTION_VAL_12800X9600_UK NULL
-#define CORE_OPTION_NAME_SCREEN_ROTATION_LABEL_UK NULL
+#define CORE_OPTION_NAME_SCREEN_ROTATION_LABEL_UK "Орієнтація екрану"
 #define OPTION_VAL_HORIZONTAL_UK NULL
 #define OPTION_VAL_VERTICAL_UK NULL
 #define CORE_OPTION_NAME_ALPHA_SORTING_LABEL_UK NULL
@@ -57161,7 +59115,7 @@ struct retro_core_options_v2 options_tr = {
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_LABEL_UK NULL
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_INFO_0_UK NULL
 #define CORE_OPTION_NAME_CABLE_TYPE_LABEL_UK NULL
-#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_UK NULL
+#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_UK "The output signal type. VGA is recommended, but some games might not be compatible with it."
 #define OPTION_VAL_TV_RGB_UK NULL
 #define OPTION_VAL_TV_COMPOSITE_UK NULL
 #define OPTION_VAL_VGA_RGB_UK NULL
@@ -57174,12 +59128,12 @@ struct retro_core_options_v2 options_tr = {
 #define CORE_OPTION_NAME_FRAMERATE_LABEL_UK NULL
 #define CORE_OPTION_NAME_FRAMERATE_INFO_0_UK NULL
 #define OPTION_VAL_FULLSPEED_UK NULL
-#define OPTION_VAL_NORMAL_UK NULL
-#define CORE_OPTION_NAME_REGION_LABEL_UK NULL
+#define OPTION_VAL_NORMAL_UK "Нормально"
+#define CORE_OPTION_NAME_REGION_LABEL_UK "Регіон"
 #define OPTION_VAL_JAPAN_UK NULL
 #define OPTION_VAL_USA_UK NULL
 #define OPTION_VAL_EUROPE_UK NULL
-#define CORE_OPTION_NAME_LANGUAGE_LABEL_UK NULL
+#define CORE_OPTION_NAME_LANGUAGE_LABEL_UK "Мова"
 #define OPTION_VAL_JAPANESE_UK NULL
 #define OPTION_VAL_ENGLISH_UK NULL
 #define OPTION_VAL_GERMAN_UK NULL
@@ -57250,21 +59204,21 @@ struct retro_core_options_v2 options_tr = {
 #define CORE_OPTION_NAME_VMU1_SCREEN_SIZE_MULT_LABEL_UK NULL
 #define OPTION_VAL_5X_UK NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_ON_COLOR_LABEL_UK NULL
-#define OPTION_VAL_DEFAULT_OFF_01_UK NULL
 #define OPTION_VAL_DEFAULT_ON_00_UK NULL
+#define OPTION_VAL_DEFAULT_OFF_01_UK NULL
 #define OPTION_VAL_BLACK_02_UK NULL
-#define OPTION_VAL_BLUE_03_UK NULL
+#define OPTION_VAL_BLUE_03_UK "Синій"
 #define OPTION_VAL_LIGHT_BLUE_04_UK NULL
-#define OPTION_VAL_GREEN_05_UK NULL
+#define OPTION_VAL_GREEN_05_UK "Зелений"
 #define OPTION_VAL_CYAN_06_UK NULL
 #define OPTION_VAL_CYAN_BLUE_07_UK NULL
 #define OPTION_VAL_LIGHT_GREEN_08_UK NULL
 #define OPTION_VAL_CYAN_GREEN_09_UK NULL
 #define OPTION_VAL_LIGHT_CYAN_10_UK NULL
-#define OPTION_VAL_RED_11_UK NULL
+#define OPTION_VAL_RED_11_UK "Червоний"
 #define OPTION_VAL_PURPLE_12_UK NULL
 #define OPTION_VAL_LIGHT_PURPLE_13_UK NULL
-#define OPTION_VAL_YELLOW_14_UK NULL
+#define OPTION_VAL_YELLOW_14_UK "Жовтий"
 #define OPTION_VAL_GRAY_15_UK NULL
 #define OPTION_VAL_LIGHT_PURPLE_2_16_UK NULL
 #define OPTION_VAL_LIGHT_GREEN_2_17_UK NULL
@@ -57272,12 +59226,13 @@ struct retro_core_options_v2 options_tr = {
 #define OPTION_VAL_LIGHT_CYAN_2_19_UK NULL
 #define OPTION_VAL_LIGHT_RED_2_20_UK NULL
 #define OPTION_VAL_MAGENTA_21_UK NULL
-#define OPTION_VAL_LIGHT_ORANGE_22_UK NULL
-#define OPTION_VAL_ORANGE_23_UK NULL
-#define OPTION_VAL_LIGHT_PURPLE_3_24_UK NULL
-#define OPTION_VAL_LIGHT_YELLOW_25_UK NULL
-#define OPTION_VAL_LIGHT_YELLOW_2_26_UK NULL
-#define OPTION_VAL_WHITE_27_UK NULL
+#define OPTION_VAL_LIGHT_PURPLE_3_22_UK NULL
+#define OPTION_VAL_LIGHT_ORANGE_23_UK NULL
+#define OPTION_VAL_ORANGE_24_UK NULL
+#define OPTION_VAL_LIGHT_PURPLE_4_25_UK NULL
+#define OPTION_VAL_LIGHT_YELLOW_26_UK NULL
+#define OPTION_VAL_LIGHT_YELLOW_2_27_UK NULL
+#define OPTION_VAL_WHITE_28_UK NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_OFF_COLOR_LABEL_UK NULL
 #define CORE_OPTION_NAME_VMU1_SCREEN_OPACITY_LABEL_UK NULL
 #define OPTION_VAL_40_UK NULL
@@ -58087,8 +60042,8 @@ struct retro_core_option_v2_definition option_defs_uk[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_UK },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_UK },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_UK },
          { "BLACK 02",          OPTION_VAL_BLACK_02_UK },
          { "BLUE 03",           OPTION_VAL_BLUE_03_UK },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_UK },
@@ -58109,12 +60064,13 @@ struct retro_core_option_v2_definition option_defs_uk[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_UK },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_UK },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_UK },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_UK },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_UK },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_UK },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_UK },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_UK },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_UK },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_UK },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_UK },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_UK },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_UK },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_UK },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_UK },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_UK },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -58149,12 +60105,13 @@ struct retro_core_option_v2_definition option_defs_uk[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_UK },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_UK },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_UK },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_UK },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_UK },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_UK },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_UK },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_UK },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_UK },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_UK },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_UK },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_UK },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_UK },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_UK },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_UK },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_UK },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -58236,8 +60193,8 @@ struct retro_core_option_v2_definition option_defs_uk[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_UK },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_UK },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_UK },
          { "BLACK 02",          OPTION_VAL_BLACK_02_UK },
          { "BLUE 03",           OPTION_VAL_BLUE_03_UK },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_UK },
@@ -58258,12 +60215,13 @@ struct retro_core_option_v2_definition option_defs_uk[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_UK },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_UK },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_UK },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_UK },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_UK },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_UK },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_UK },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_UK },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_UK },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_UK },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_UK },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_UK },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_UK },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_UK },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_UK },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_UK },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -58298,12 +60256,13 @@ struct retro_core_option_v2_definition option_defs_uk[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_UK },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_UK },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_UK },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_UK },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_UK },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_UK },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_UK },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_UK },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_UK },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_UK },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_UK },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_UK },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_UK },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_UK },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_UK },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_UK },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -58385,8 +60344,8 @@ struct retro_core_option_v2_definition option_defs_uk[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_UK },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_UK },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_UK },
          { "BLACK 02",          OPTION_VAL_BLACK_02_UK },
          { "BLUE 03",           OPTION_VAL_BLUE_03_UK },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_UK },
@@ -58407,12 +60366,13 @@ struct retro_core_option_v2_definition option_defs_uk[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_UK },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_UK },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_UK },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_UK },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_UK },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_UK },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_UK },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_UK },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_UK },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_UK },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_UK },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_UK },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_UK },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_UK },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_UK },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_UK },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -58447,12 +60407,13 @@ struct retro_core_option_v2_definition option_defs_uk[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_UK },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_UK },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_UK },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_UK },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_UK },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_UK },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_UK },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_UK },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_UK },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_UK },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_UK },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_UK },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_UK },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_UK },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_UK },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_UK },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -58534,8 +60495,8 @@ struct retro_core_option_v2_definition option_defs_uk[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_UK },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_UK },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_UK },
          { "BLACK 02",          OPTION_VAL_BLACK_02_UK },
          { "BLUE 03",           OPTION_VAL_BLUE_03_UK },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_UK },
@@ -58556,12 +60517,13 @@ struct retro_core_option_v2_definition option_defs_uk[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_UK },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_UK },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_UK },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_UK },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_UK },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_UK },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_UK },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_UK },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_UK },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_UK },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_UK },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_UK },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_UK },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_UK },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_UK },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_UK },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -58596,12 +60558,13 @@ struct retro_core_option_v2_definition option_defs_uk[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_UK },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_UK },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_UK },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_UK },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_UK },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_UK },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_UK },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_UK },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_UK },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_UK },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_UK },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_UK },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_UK },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_UK },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_UK },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_UK },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -58651,7 +60614,7 @@ struct retro_core_option_v2_definition option_defs_uk[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_UK },
+         { "White",    OPTION_VAL_WHITE_28_UK },
          { "Red",      OPTION_VAL_RED_11_UK },
          { "Green",    OPTION_VAL_GREEN_05_UK },
          { "Blue",     OPTION_VAL_BLUE_03_UK },
@@ -58668,7 +60631,7 @@ struct retro_core_option_v2_definition option_defs_uk[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_UK },
+         { "White",    OPTION_VAL_WHITE_28_UK },
          { "Red",      OPTION_VAL_RED_11_UK },
          { "Green",    OPTION_VAL_GREEN_05_UK },
          { "Blue",     OPTION_VAL_BLUE_03_UK },
@@ -58685,7 +60648,7 @@ struct retro_core_option_v2_definition option_defs_uk[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_UK },
+         { "White",    OPTION_VAL_WHITE_28_UK },
          { "Red",      OPTION_VAL_RED_11_UK },
          { "Green",    OPTION_VAL_GREEN_05_UK },
          { "Blue",     OPTION_VAL_BLUE_03_UK },
@@ -58702,7 +60665,7 @@ struct retro_core_option_v2_definition option_defs_uk[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_UK },
+         { "White",    OPTION_VAL_WHITE_28_UK },
          { "Red",      OPTION_VAL_RED_11_UK },
          { "Green",    OPTION_VAL_GREEN_05_UK },
          { "Blue",     OPTION_VAL_BLUE_03_UK },
@@ -58719,9 +60682,9 @@ struct retro_core_options_v2 options_uk = {
 
 /* RETRO_LANGUAGE_VN */
 
-#define CATEGORY_VIDEO_LABEL_VN NULL
+#define CATEGORY_VIDEO_LABEL_VN "Hình ảnh"
 #define CATEGORY_VIDEO_INFO_0_VN NULL
-#define CATEGORY_INPUT_LABEL_VN NULL
+#define CATEGORY_INPUT_LABEL_VN "Input Driver"
 #define CATEGORY_INPUT_INFO_0_VN NULL
 #define CATEGORY_VMU_LABEL_VN NULL
 #define CATEGORY_VMU_INFO_0_VN NULL
@@ -58733,7 +60696,7 @@ struct retro_core_options_v2 options_uk = {
 #define CORE_OPTION_NAME_BOOT_TO_BIOS_LABEL_VN NULL
 #define CORE_OPTION_NAME_BOOT_TO_BIOS_INFO_0_VN NULL
 #define CORE_OPTION_NAME_SYSTEM_LABEL_VN NULL
-#define OPTION_VAL_AUTO_VN NULL
+#define OPTION_VAL_AUTO_VN "Tự động"
 #define OPTION_VAL_DREAMCAST_VN NULL
 #define OPTION_VAL_NAOMI_VN NULL
 #define OPTION_VAL_ATOMISWAVE_VN NULL
@@ -58791,7 +60754,7 @@ struct retro_core_options_v2 options_uk = {
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_LABEL_VN NULL
 #define CORE_OPTION_NAME_WIDESCREEN_CHEATS_INFO_0_VN NULL
 #define CORE_OPTION_NAME_CABLE_TYPE_LABEL_VN NULL
-#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_VN NULL
+#define CORE_OPTION_NAME_CABLE_TYPE_INFO_0_VN "The output signal type. VGA is recommended, but some games might not be compatible with it."
 #define OPTION_VAL_TV_RGB_VN NULL
 #define OPTION_VAL_TV_COMPOSITE_VN NULL
 #define OPTION_VAL_VGA_RGB_VN NULL
@@ -58810,12 +60773,12 @@ struct retro_core_options_v2 options_uk = {
 #define OPTION_VAL_USA_VN NULL
 #define OPTION_VAL_EUROPE_VN NULL
 #define CORE_OPTION_NAME_LANGUAGE_LABEL_VN NULL
-#define OPTION_VAL_JAPANESE_VN NULL
-#define OPTION_VAL_ENGLISH_VN NULL
-#define OPTION_VAL_GERMAN_VN NULL
-#define OPTION_VAL_FRENCH_VN NULL
-#define OPTION_VAL_SPANISH_VN NULL
-#define OPTION_VAL_ITALIAN_VN NULL
+#define OPTION_VAL_JAPANESE_VN "Tiếng Nhật"
+#define OPTION_VAL_ENGLISH_VN "Tiếng Anh"
+#define OPTION_VAL_GERMAN_VN "Tiếng Đức"
+#define OPTION_VAL_FRENCH_VN "Tiếng Pháp"
+#define OPTION_VAL_SPANISH_VN "Tiếng Tây Ban Nha"
+#define OPTION_VAL_ITALIAN_VN "Tiếng Ý"
 #define CORE_OPTION_NAME_DIV_MATCHING_LABEL_VN NULL
 #define CORE_OPTION_NAME_DIV_MATCHING_INFO_0_VN NULL
 #define CORE_OPTION_NAME_FORCE_WINCE_LABEL_VN NULL
@@ -58880,8 +60843,8 @@ struct retro_core_options_v2 options_uk = {
 #define CORE_OPTION_NAME_VMU1_SCREEN_SIZE_MULT_LABEL_VN NULL
 #define OPTION_VAL_5X_VN NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_ON_COLOR_LABEL_VN NULL
-#define OPTION_VAL_DEFAULT_OFF_01_VN NULL
 #define OPTION_VAL_DEFAULT_ON_00_VN NULL
+#define OPTION_VAL_DEFAULT_OFF_01_VN NULL
 #define OPTION_VAL_BLACK_02_VN NULL
 #define OPTION_VAL_BLUE_03_VN NULL
 #define OPTION_VAL_LIGHT_BLUE_04_VN NULL
@@ -58902,12 +60865,13 @@ struct retro_core_options_v2 options_uk = {
 #define OPTION_VAL_LIGHT_CYAN_2_19_VN NULL
 #define OPTION_VAL_LIGHT_RED_2_20_VN NULL
 #define OPTION_VAL_MAGENTA_21_VN NULL
-#define OPTION_VAL_LIGHT_ORANGE_22_VN NULL
-#define OPTION_VAL_ORANGE_23_VN NULL
-#define OPTION_VAL_LIGHT_PURPLE_3_24_VN NULL
-#define OPTION_VAL_LIGHT_YELLOW_25_VN NULL
-#define OPTION_VAL_LIGHT_YELLOW_2_26_VN NULL
-#define OPTION_VAL_WHITE_27_VN NULL
+#define OPTION_VAL_LIGHT_PURPLE_3_22_VN NULL
+#define OPTION_VAL_LIGHT_ORANGE_23_VN NULL
+#define OPTION_VAL_ORANGE_24_VN NULL
+#define OPTION_VAL_LIGHT_PURPLE_4_25_VN NULL
+#define OPTION_VAL_LIGHT_YELLOW_26_VN NULL
+#define OPTION_VAL_LIGHT_YELLOW_2_27_VN NULL
+#define OPTION_VAL_WHITE_28_VN NULL
 #define CORE_OPTION_NAME_VMU1_PIXEL_OFF_COLOR_LABEL_VN NULL
 #define CORE_OPTION_NAME_VMU1_SCREEN_OPACITY_LABEL_VN NULL
 #define OPTION_VAL_40_VN NULL
@@ -59717,8 +61681,8 @@ struct retro_core_option_v2_definition option_defs_vn[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_VN },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_VN },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_VN },
          { "BLACK 02",          OPTION_VAL_BLACK_02_VN },
          { "BLUE 03",           OPTION_VAL_BLUE_03_VN },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_VN },
@@ -59739,12 +61703,13 @@ struct retro_core_option_v2_definition option_defs_vn[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_VN },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_VN },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_VN },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_VN },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_VN },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_VN },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_VN },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_VN },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_VN },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_VN },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_VN },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_VN },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_VN },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_VN },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_VN },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_VN },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -59779,12 +61744,13 @@ struct retro_core_option_v2_definition option_defs_vn[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_VN },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_VN },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_VN },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_VN },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_VN },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_VN },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_VN },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_VN },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_VN },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_VN },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_VN },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_VN },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_VN },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_VN },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_VN },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_VN },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -59866,8 +61832,8 @@ struct retro_core_option_v2_definition option_defs_vn[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_VN },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_VN },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_VN },
          { "BLACK 02",          OPTION_VAL_BLACK_02_VN },
          { "BLUE 03",           OPTION_VAL_BLUE_03_VN },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_VN },
@@ -59888,12 +61854,13 @@ struct retro_core_option_v2_definition option_defs_vn[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_VN },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_VN },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_VN },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_VN },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_VN },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_VN },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_VN },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_VN },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_VN },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_VN },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_VN },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_VN },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_VN },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_VN },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_VN },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_VN },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -59928,12 +61895,13 @@ struct retro_core_option_v2_definition option_defs_vn[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_VN },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_VN },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_VN },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_VN },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_VN },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_VN },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_VN },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_VN },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_VN },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_VN },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_VN },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_VN },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_VN },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_VN },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_VN },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_VN },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -60015,8 +61983,8 @@ struct retro_core_option_v2_definition option_defs_vn[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_VN },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_VN },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_VN },
          { "BLACK 02",          OPTION_VAL_BLACK_02_VN },
          { "BLUE 03",           OPTION_VAL_BLUE_03_VN },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_VN },
@@ -60037,12 +62005,13 @@ struct retro_core_option_v2_definition option_defs_vn[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_VN },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_VN },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_VN },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_VN },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_VN },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_VN },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_VN },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_VN },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_VN },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_VN },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_VN },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_VN },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_VN },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_VN },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_VN },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_VN },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -60077,12 +62046,13 @@ struct retro_core_option_v2_definition option_defs_vn[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_VN },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_VN },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_VN },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_VN },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_VN },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_VN },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_VN },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_VN },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_VN },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_VN },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_VN },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_VN },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_VN },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_VN },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_VN },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_VN },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -60164,8 +62134,8 @@ struct retro_core_option_v2_definition option_defs_vn[] = {
       NULL,
       "vmu",
       {
-         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_VN },
          { "DEFAULT_ON 00",  OPTION_VAL_DEFAULT_ON_00_VN },
+         { "DEFAULT_OFF 01", OPTION_VAL_DEFAULT_OFF_01_VN },
          { "BLACK 02",          OPTION_VAL_BLACK_02_VN },
          { "BLUE 03",           OPTION_VAL_BLUE_03_VN },
          { "LIGHT_BLUE 04",     OPTION_VAL_LIGHT_BLUE_04_VN },
@@ -60186,12 +62156,13 @@ struct retro_core_option_v2_definition option_defs_vn[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_VN },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_VN },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_VN },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_VN },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_VN },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_VN },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_VN },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_VN },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_VN },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_VN },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_VN },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_VN },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_VN },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_VN },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_VN },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_VN },
          { NULL, NULL },
       },
       "DEFAULT_ON 00",
@@ -60226,12 +62197,13 @@ struct retro_core_option_v2_definition option_defs_vn[] = {
          { "LIGHT_CYAN_2 19",   OPTION_VAL_LIGHT_CYAN_2_19_VN },
          { "LIGHT_RED_2 20",    OPTION_VAL_LIGHT_RED_2_20_VN },
          { "MAGENTA 21",        OPTION_VAL_MAGENTA_21_VN },
-         { "LIGHT_ORANGE 22",   OPTION_VAL_LIGHT_ORANGE_22_VN },
-         { "ORANGE 23",         OPTION_VAL_ORANGE_23_VN },
-         { "LIGHT_PURPLE_3 24", OPTION_VAL_LIGHT_PURPLE_3_24_VN },
-         { "LIGHT_YELLOW 25",   OPTION_VAL_LIGHT_YELLOW_25_VN },
-         { "LIGHT_YELLOW_2 26", OPTION_VAL_LIGHT_YELLOW_2_26_VN },
-         { "WHITE 27",          OPTION_VAL_WHITE_27_VN },
+         { "LIGHT_PURPLE_3 22",   OPTION_VAL_LIGHT_PURPLE_3_22_VN },
+         { "LIGHT_ORANGE 23",   OPTION_VAL_LIGHT_ORANGE_23_VN },
+         { "ORANGE 24",         OPTION_VAL_ORANGE_24_VN },
+         { "LIGHT_PURPLE_4 25", OPTION_VAL_LIGHT_PURPLE_4_25_VN },
+         { "LIGHT_YELLOW 26",   OPTION_VAL_LIGHT_YELLOW_26_VN },
+         { "LIGHT_YELLOW_2 27", OPTION_VAL_LIGHT_YELLOW_2_27_VN },
+         { "WHITE 28",          OPTION_VAL_WHITE_28_VN },
          { NULL, NULL },
       },
       "DEFAULT_OFF 01",
@@ -60281,7 +62253,7 @@ struct retro_core_option_v2_definition option_defs_vn[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_VN },
+         { "White",    OPTION_VAL_WHITE_28_VN },
          { "Red",      OPTION_VAL_RED_11_VN },
          { "Green",    OPTION_VAL_GREEN_05_VN },
          { "Blue",     OPTION_VAL_BLUE_03_VN },
@@ -60298,7 +62270,7 @@ struct retro_core_option_v2_definition option_defs_vn[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_VN },
+         { "White",    OPTION_VAL_WHITE_28_VN },
          { "Red",      OPTION_VAL_RED_11_VN },
          { "Green",    OPTION_VAL_GREEN_05_VN },
          { "Blue",     OPTION_VAL_BLUE_03_VN },
@@ -60315,7 +62287,7 @@ struct retro_core_option_v2_definition option_defs_vn[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_VN },
+         { "White",    OPTION_VAL_WHITE_28_VN },
          { "Red",      OPTION_VAL_RED_11_VN },
          { "Green",    OPTION_VAL_GREEN_05_VN },
          { "Blue",     OPTION_VAL_BLUE_03_VN },
@@ -60332,7 +62304,7 @@ struct retro_core_option_v2_definition option_defs_vn[] = {
       "input",
       {
          { "disabled", NULL },
-         { "White",    OPTION_VAL_WHITE_27_VN },
+         { "White",    OPTION_VAL_WHITE_28_VN },
          { "Red",      OPTION_VAL_RED_11_VN },
          { "Green",    OPTION_VAL_GREEN_05_VN },
          { "Blue",     OPTION_VAL_BLUE_03_VN },
